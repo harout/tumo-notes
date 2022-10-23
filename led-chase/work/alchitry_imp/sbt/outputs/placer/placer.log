@@ -6,7 +6,7 @@
 
 * Build Date:         Dec 10 2020 17:35:50
 
-* File Generated:     Oct 23 2022 12:41:38
+* File Generated:     Oct 23 2022 14:08:12
 
 * Purpose:            
 
@@ -41,7 +41,7 @@ Input Design Statistics
     Number of Carrys    	:	17
     Number of RAMs      	:	0
     Number of ROMs      	:	0
-    Number of IOs       	:	11
+    Number of IOs       	:	9
     Number of GBIOs     	:	1
     Number of GBs       	:	1
     Number of WarmBoot  	:	0
@@ -91,7 +91,7 @@ Device Utilization Summary after Packing
     LogicCells                  :	42/7680
     PLBs                        :	8/960
     BRAMs                       :	0/32
-    IOs and GBIOs               :	12/95
+    IOs and GBIOs               :	10/95
     PLLs                        :	0/2
 
 
@@ -104,7 +104,7 @@ Phase 5
 I2088: Phase 5, elapsed time : 0.1 (sec)
 
 Phase 6
-I2088: Phase 6, elapsed time : 9.7 (sec)
+I2088: Phase 6, elapsed time : 9.8 (sec)
 
 Final Design Statistics
     Number of LUTs      	:	41
@@ -113,7 +113,7 @@ Final Design Statistics
     Number of Carrys    	:	17
     Number of RAMs      	:	0
     Number of ROMs      	:	0
-    Number of IOs       	:	11
+    Number of IOs       	:	9
     Number of GBIOs     	:	1
     Number of GBs       	:	1
     Number of WarmBoot  	:	0
@@ -123,7 +123,7 @@ Device Utilization Summary
     LogicCells                  :	42/7680
     PLBs                        :	12/960
     BRAMs                       :	0/32
-    IOs and GBIOs               :	12/95
+    IOs and GBIOs               :	10/95
     PLLs                        :	0/2
 
 
@@ -148,5 +148,5 @@ Clock: clk_0 | Frequency: 213.36 MHz | Target: 100.00 MHz
 
 I2054: Placement of design completed successfully
 
-I2076: Placer run-time: 10.5 sec.
+I2076: Placer run-time: 10.6 sec.
 

@@ -4,6 +4,6 @@
     <src top="true">cu_top.luc</src>
     <component>reset_conditioner.luc</component>
     <src>clock_divider.luc</src>
-    <constraint lib="true">alchitry.acf</constraint>
+    <constraint>alchitry.acf</constraint>
   </files>
 </project>

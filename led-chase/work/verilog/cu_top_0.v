@@ -7,9 +7,7 @@
 module cu_top_0 (
     input clk,
     input rst_n,
-    output reg [7:0] led,
-    input usb_rx,
-    output reg usb_tx
+    output reg [7:0] led
   );
   
   
@@ -47,7 +45,6 @@ module cu_top_0 (
       end
     end
     led = M_position_q;
-    usb_tx = usb_rx;
   end
   
   always @(posedge clk) begin

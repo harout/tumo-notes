@@ -1769,17 +1769,9 @@ IO_Tile_33_2
  (16 14)  (1742 46)  (1742 46)  IOB_1 IO Functioning bit
 
 
-LogicTile_22_1
-
- (3 0)  (1147 16)  (1147 16)  routing T_22_1.sp12_h_r_0 <X> T_22_1.sp12_v_b_0
- (3 1)  (1147 17)  (1147 17)  routing T_22_1.sp12_h_r_0 <X> T_22_1.sp12_v_b_0
-
-
 IO_Tile_33_1
 
  (16 0)  (1742 16)  (1742 16)  IOB_0 IO Functioning bit
- (3 1)  (1729 17)  (1729 17)  IO control bit: BIORIGHT_REN_1
-
  (17 3)  (1743 19)  (1743 19)  IOB_0 IO Functioning bit
  (12 4)  (1738 20)  (1738 20)  routing T_33_1.lc_trk_g1_5 <X> T_33_1.wire_io_cluster/io_0/D_OUT_0
  (13 4)  (1739 20)  (1739 20)  routing T_33_1.lc_trk_g1_5 <X> T_33_1.wire_io_cluster/io_0/D_OUT_0
@@ -1787,13 +1779,9 @@ IO_Tile_33_1
  (13 5)  (1739 21)  (1739 21)  Enable bit of Mux _io_cluster/in_mux0_1 => lc_trk_g1_5 wire_io_cluster/io_0/D_OUT_0
  (2 6)  (1728 22)  (1728 22)  IO control bit: BIORIGHT_REN_0
 
- (3 6)  (1729 22)  (1729 22)  IO control bit: BIORIGHT_IE_1
-
- (16 8)  (1742 24)  (1742 24)  Enable bit of Mux _out_links/OutMuxc_2 => wire_io_cluster/io_1/D_IN_0 span12_horz_20
  (5 12)  (1731 28)  (1731 28)  routing T_33_1.span4_vert_b_5 <X> T_33_1.lc_trk_g1_5
  (7 12)  (1733 28)  (1733 28)  Enable bit of Mux _local_links/g1_mux_5 => span4_vert_b_5 lc_trk_g1_5
  (8 13)  (1734 29)  (1734 29)  routing T_33_1.span4_vert_b_5 <X> T_33_1.lc_trk_g1_5
- (17 13)  (1743 29)  (1743 29)  IOB_1 IO Functioning bit
 
 
 GlobalNetwork_0_0
@@ -1818,19 +1806,4 @@ IO_Tile_17_0
 
  (3 9)  (901 6)  (901 6)  IO control bit: GIODOWN0_IE_0
 
-
-
-IO_Tile_22_0
-
- (3 1)  (1171 14)  (1171 14)  IO control bit: BIODOWN_REN_1
-
- (4 8)  (1160 7)  (1160 7)  routing T_22_0.span12_vert_0 <X> T_22_0.lc_trk_g1_0
- (4 9)  (1160 6)  (1160 6)  routing T_22_0.span12_vert_0 <X> T_22_0.lc_trk_g1_0
- (5 9)  (1161 6)  (1161 6)  routing T_22_0.span12_vert_0 <X> T_22_0.lc_trk_g1_0
- (7 9)  (1163 6)  (1163 6)  Enable bit of Mux _local_links/g1_mux_0 => span12_vert_0 lc_trk_g1_0
- (12 10)  (1178 4)  (1178 4)  routing T_22_0.lc_trk_g1_0 <X> T_22_0.wire_io_cluster/io_1/D_OUT_0
- (16 10)  (1148 4)  (1148 4)  IOB_1 IO Functioning bit
- (13 11)  (1179 5)  (1179 5)  Enable bit of Mux _io_cluster/in_mux1_1 => lc_trk_g1_0 wire_io_cluster/io_1/D_OUT_0
- (17 13)  (1149 2)  (1149 2)  IOB_1 IO Functioning bit
- (16 14)  (1148 0)  (1148 0)  IOB_1 IO Functioning bit
 

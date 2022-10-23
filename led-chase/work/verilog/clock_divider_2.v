@@ -35,18 +35,18 @@ module clock_divider_2 (
   
   always @(posedge clk) begin
     if (rst == 1'b1) begin
-      M_count_q <= 1'h0;
+      M_slow_clock_value_q <= 1'h0;
     end else begin
-      M_count_q <= M_count_d;
+      M_slow_clock_value_q <= M_slow_clock_value_d;
     end
   end
   
   
   always @(posedge clk) begin
     if (rst == 1'b1) begin
-      M_slow_clock_value_q <= 1'h0;
+      M_count_q <= 1'h0;
     end else begin
-      M_slow_clock_value_q <= M_slow_clock_value_d;
+      M_count_q <= M_count_d;
     end
   end
   

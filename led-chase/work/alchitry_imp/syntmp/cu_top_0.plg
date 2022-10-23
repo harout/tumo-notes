@@ -5,7 +5,7 @@
 @P:  clk_0 - Requested Period : 10.000
 @P:  clk_0 - Slack : 0.537
 @P: cu_top_0 Part : ice40hx8kcb132
-@P: cu_top_0 I/O primitives : 12
+@P: cu_top_0 I/O primitives : 10
 @P: cu_top_0 I/O Register bits : 0
 @P: cu_top_0 Register bits (Non I/O) : 33 (0%)
 @P: cu_top_0 Total Luts : 34 (0%)

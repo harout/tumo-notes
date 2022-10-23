@@ -6,7 +6,7 @@
 
 * Build Date:         Dec 10 2020 17:24:17
 
-* File Generated:     Oct 23 2022 12:41:49
+* File Generated:     Oct 23 2022 14:08:24
 
 * Purpose:            General info of design implementation
 
@@ -30,7 +30,7 @@ Design statistics:
     FFs:                  33
     LUTs:                 41
     RAMs:                 0
-    IOBs:                 12
+    IOBs:                 10
     GBs:                  2
     PLLs:                 0
     Warm Boots:           0
@@ -47,8 +47,8 @@ Logic Resource Utilization:
     Block RAMs:                    0        out of   32        0%
     Warm Boots:                    0        out of   1         0%
     Pins:
-        Input Pins:                3        out of   95        3.15789%
-        Output Pins:               9        out of   95        9.47368%
+        Input Pins:                2        out of   95        2.10526%
+        Output Pins:               8        out of   95        8.42105%
         InOut Pins:                0        out of   95        0%
     Global Buffers:                2        out of   8         25%
     PLLs:                          0        out of   2         0%
@@ -56,9 +56,9 @@ Logic Resource Utilization:
 IO Bank Utilization:
 --------------------
     Bank 3: 0        out of   24        0%
-    Bank 1: 9        out of   25        36%
+    Bank 1: 8        out of   25        32%
     Bank 0: 0        out of   24        0%
-    Bank 2: 3        out of   22        13.6364%
+    Bank 2: 2        out of   22        9.09091%
 
 Detailed I/O Info:
 ------------------
@@ -67,7 +67,6 @@ Detailed I/O Info:
     ----------  ---------  -----------  -------  -------  -----------    -----------
     P7          Input      SB_LVCMOS    No       2        Simple Input   clk     
     P8          Input      SB_LVCMOS    No       2        Simple Input   rst_n   
-    P14         Input      SB_LVCMOS    No       1        Simple Input   usb_rx  
 
     Output Pins: 
     Pin Number  Direction  IO Standard  Pull Up  IO Bank  IO Function    Signal Name
@@ -78,7 +77,6 @@ Detailed I/O Info:
     K14         Output     SB_LVCMOS    No       1        Simple Output  led[3]  
     L12         Output     SB_LVCMOS    No       1        Simple Output  led[4]  
     L14         Output     SB_LVCMOS    No       1        Simple Output  led[5]  
-    M9          Output     SB_LVCMOS    No       2        Simple Output  usb_tx  
     M12         Output     SB_LVCMOS    No       1        Simple Output  led[6]  
     N14         Output     SB_LVCMOS    No       1        Simple Output  led[7]  
 

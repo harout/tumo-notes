@@ -101,5 +101,3 @@ set_io led_obuf[6] 33 1 0 # ICE_IO
 set_io led_obuf[7] 33 2 1 # ICE_IO
 set_io reset_cond.M_stage_q_RNIFG9D[3] 16 33 1 # ICE_GB
 set_io rst_n_ibuf 17 0 0 # ICE_IO
-set_io usb_rx_ibuf 33 1 1 # ICE_IO
-set_io usb_tx_obuf 22 0 1 # ICE_IO

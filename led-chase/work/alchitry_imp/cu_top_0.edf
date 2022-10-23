@@ -4,7 +4,7 @@
   (keywordMap (keywordLevel 0))
   (status
     (written
-      (timeStamp 2022 10 23 12 41 38)
+      (timeStamp 2022 10 23 14 8 11)
       (author "Synopsys, Inc.")
       (program "Synplify Pro" (version "L-2016.09L+ice40, mapper maplat, Build 1612R"))
      )
@@ -850,8 +850,6 @@
            (port (array (rename led "led[7:0]") 8) (direction OUTPUT))
            (port clk (direction INPUT))
            (port rst_n (direction INPUT))
-           (port usb_rx (direction INPUT))
-           (port usb_tx (direction OUTPUT))
          )
          (contents
           (instance clk_ibuf_gb_io (viewRef PRIM (cellRef SB_GB_IO (libraryRef sb_ice)))
@@ -890,10 +888,6 @@
            (property NEG_TRIGGER (string "0"))
            (property PIN_TYPE (string "000001"))
           )
-          (instance usb_rx_ibuf (viewRef PRIM (cellRef SB_IO (libraryRef sb_ice)))
-           (property NEG_TRIGGER (string "0"))
-           (property PIN_TYPE (string "000001"))
-          )
           (instance (rename led_obuf_0 "led_obuf[0]") (viewRef PRIM (cellRef SB_IO (libraryRef sb_ice)))
            (property NEG_TRIGGER (string "0"))
            (property PIN_TYPE (string "011001"))
@@ -923,10 +917,6 @@
            (property PIN_TYPE (string "011001"))
           )
           (instance (rename led_obuf_7 "led_obuf[7]") (viewRef PRIM (cellRef SB_IO (libraryRef sb_ice)))
-           (property NEG_TRIGGER (string "0"))
-           (property PIN_TYPE (string "011001"))
-          )
-          (instance usb_tx_obuf (viewRef PRIM (cellRef SB_IO (libraryRef sb_ice)))
            (property NEG_TRIGGER (string "0"))
            (property PIN_TYPE (string "011001"))
           )
@@ -982,14 +972,6 @@
           (net rst_n (joined
            (portRef PACKAGE_PIN (instanceRef rst_n_ibuf))
            (portRef rst_n)
-          ))
-          (net usb_rx_c (joined
-           (portRef D_IN_0 (instanceRef usb_rx_ibuf))
-           (portRef D_OUT_0 (instanceRef usb_tx_obuf))
-          ))
-          (net usb_rx (joined
-           (portRef PACKAGE_PIN (instanceRef usb_rx_ibuf))
-           (portRef usb_rx)
           ))
           (net (rename led_c_0 "led_c[0]") (joined
            (portRef Q (instanceRef M_position_q_ess_0))
@@ -1068,10 +1050,6 @@
           (net (rename led_7 "led[7]") (joined
            (portRef PACKAGE_PIN (instanceRef led_obuf_7))
            (portRef (member led 0))
-          ))
-          (net usb_tx (joined
-           (portRef PACKAGE_PIN (instanceRef usb_tx_obuf))
-           (portRef usb_tx)
           ))
           (net M_position_d8_4 (joined
            (portRef O (instanceRef M_position_q_ess_RNO_0_0))

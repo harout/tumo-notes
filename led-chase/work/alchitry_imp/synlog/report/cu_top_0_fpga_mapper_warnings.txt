@@ -1,5 +1,5 @@
 @W: FX1039 :"/home/tumo/fpga-workspace/led-chase/work/verilog/reset_conditioner_1.v":29:2:29:7|User-specified initial value defined for instance reset_cond.M_stage_q[3:0] is being ignored. 
-@W: FX1039 :"/home/tumo/fpga-workspace/led-chase/work/verilog/clock_divider_2.v":36:2:36:7|User-specified initial value defined for instance slow_counter.M_count_q[18:0] is being ignored. 
-@W: FX1039 :"/home/tumo/fpga-workspace/led-chase/work/verilog/clock_divider_2.v":45:2:45:7|User-specified initial value defined for instance slow_counter.M_slow_clock_value_q is being ignored. 
-@W: FX1039 :"/home/tumo/fpga-workspace/led-chase/work/verilog/cu_top_0.v":53:2:53:7|User-specified initial value defined for instance M_position_q[7:0] is being ignored. 
-@W: FX1039 :"/home/tumo/fpga-workspace/led-chase/work/verilog/cu_top_0.v":53:2:53:7|User-specified initial value defined for instance M_slow_counter_was_low_q is being ignored. 
+@W: FX1039 :"/home/tumo/fpga-workspace/led-chase/work/verilog/clock_divider_2.v":45:2:45:7|User-specified initial value defined for instance slow_counter.M_count_q[18:0] is being ignored. 
+@W: FX1039 :"/home/tumo/fpga-workspace/led-chase/work/verilog/clock_divider_2.v":36:2:36:7|User-specified initial value defined for instance slow_counter.M_slow_clock_value_q is being ignored. 
+@W: FX1039 :"/home/tumo/fpga-workspace/led-chase/work/verilog/cu_top_0.v":50:2:50:7|User-specified initial value defined for instance M_position_q[7:0] is being ignored. 
+@W: FX1039 :"/home/tumo/fpga-workspace/led-chase/work/verilog/cu_top_0.v":50:2:50:7|User-specified initial value defined for instance M_slow_counter_was_low_q is being ignored. 

@@ -6,7 +6,7 @@
 
 * Build Date:         Dec 10 2020 17:24:17
 
-* File Generated:     Oct 23 2022 12:41:49
+* File Generated:     Oct 23 2022 14:08:23
 
 * Purpose:            General info of design implementation
 
@@ -25,7 +25,7 @@ Size: 32 X 32
 Design: cu_top_0
 Used Logic Cell: 42/7680
 Used Logic Tile: 12/960
-Used IO Cell:    12/256
+Used IO Cell:    10/256
 Used Bram Cell For iCE40: 0/32
 Used PLL For iCE40: 0/2
 Ram Cascading Used: 0

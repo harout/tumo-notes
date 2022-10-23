@@ -11,7 +11,7 @@ Name      Total elements     Utilization     Notes
 --------------------------------------------------
 FLOPS     33                 100 %                
 ==================================================
-Total SEQUENTIAL ELEMENTS in the block cu_top_0:	33 (32.04 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block cu_top_0:	33 (32.67 % Utilization)
 
 
 COMBINATIONAL LOGIC
@@ -20,15 +20,15 @@ Name       Total elements     Utilization     Notes
 LUTS       34                 100 %                
 CARRYS     17                 100 %                
 ===================================================
-Total COMBINATIONAL LOGIC in the block cu_top_0:	51 (49.51 % Utilization)
+Total COMBINATIONAL LOGIC in the block cu_top_0:	51 (50.50 % Utilization)
 
 
 IO PADS
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-PADS     13                 100 %                
+PADS     11                 100 %                
 =================================================
-Total IO PADS in the block cu_top_0:	13 (12.62 % Utilization)
+Total IO PADS in the block cu_top_0:	11 (10.89 % Utilization)
 
 ---------------------------------------------------------------------
 ########   Utilization report for  cell:   clock_divider_2   ########
@@ -40,7 +40,7 @@ Name      Total elements     Utilization     Notes
 --------------------------------------------------
 FLOPS     20                 60.6 %               
 ==================================================
-Total SEQUENTIAL ELEMENTS in the block cu_top_0.clock_divider_2:	20 (19.42 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block cu_top_0.clock_divider_2:	20 (19.80 % Utilization)
 
 
 COMBINATIONAL LOGIC
@@ -49,7 +49,7 @@ Name       Total elements     Utilization     Notes
 LUTS       26                 76.5 %               
 CARRYS     17                 100 %                
 ===================================================
-Total COMBINATIONAL LOGIC in the block cu_top_0.clock_divider_2:	43 (41.75 % Utilization)
+Total COMBINATIONAL LOGIC in the block cu_top_0.clock_divider_2:	43 (42.57 % Utilization)
 
 -------------------------------------------------------------------------
 ########   Utilization report for  cell:   reset_conditioner_1   ########
@@ -61,7 +61,7 @@ Name      Total elements     Utilization     Notes
 --------------------------------------------------
 FLOPS     4                  12.1 %               
 ==================================================
-Total SEQUENTIAL ELEMENTS in the block cu_top_0.reset_conditioner_1:	4 (3.88 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block cu_top_0.reset_conditioner_1:	4 (3.96 % Utilization)
 
 
 COMBINATIONAL LOGIC
@@ -69,15 +69,15 @@ Name     Total elements     Utilization     Notes
 -------------------------------------------------
 LUTS     4                  11.8 %               
 =================================================
-Total COMBINATIONAL LOGIC in the block cu_top_0.reset_conditioner_1:	4 (3.88 % Utilization)
+Total COMBINATIONAL LOGIC in the block cu_top_0.reset_conditioner_1:	4 (3.96 % Utilization)
 
 
 IO PADS
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-PADS     1                  7.69 %               
+PADS     1                  9.09 %               
 =================================================
-Total IO PADS in the block cu_top_0.reset_conditioner_1:	1 (0.97 % Utilization)
+Total IO PADS in the block cu_top_0.reset_conditioner_1:	1 (0.99 % Utilization)
 
 
 ##### END OF AREA REPORT #####]
