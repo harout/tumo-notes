@@ -1,0 +1,15 @@
+/home/tumo/lscc/iCEcube2.2020.12/synpbase/bin/m_generic  -prodtype  synplify_pro   -encrypt  -pro  -rundir  /home/tumo/fpga-workspace/flash_leds/work/alchitry_imp   -part iCE40HX8K  -package CB132    -maxfan 10000 -RWCheckOnRam 0 -pipe -fixgatedclocks 1 -fixgeneratedclocks 1 -summaryfile /home/tumo/fpga-workspace/flash_leds/work/alchitry_imp/synlog/report/cu_top_0_fpga_mapper.xml  -flow mapping  -multisrs  -oedif  /home/tumo/fpga-workspace/flash_leds/work/alchitry_imp/cu_top_0.edf   -autoconstraint  -freq 1.000   -tcl  /home/tumo/fpga-workspace/flash_leds/work/constraint/merged_constraint.sdc  /home/tumo/fpga-workspace/flash_leds/work/alchitry_imp/synwork/cu_top_0_prem.srd  -sap  /home/tumo/fpga-workspace/flash_leds/work/alchitry_imp/cu_top_0.sap  -otap  /home/tumo/fpga-workspace/flash_leds/work/alchitry_imp/cu_top_0.tap  -omap  /home/tumo/fpga-workspace/flash_leds/work/alchitry_imp/cu_top_0.map  -devicelib  /home/tumo/lscc/iCEcube2.2020.12/synpbase/lib/generic/sb_ice40.v  -sap  /home/tumo/fpga-workspace/flash_leds/work/alchitry_imp/cu_top_0.sap  -ologparam  /home/tumo/fpga-workspace/flash_leds/work/alchitry_imp/syntmp/cu_top_0.plg  -osyn  /home/tumo/fpga-workspace/flash_leds/work/alchitry_imp/cu_top_0.srm  -prjdir  /home/tumo/fpga-workspace/flash_leds/work/  -prjname  alchitry_syn  -log  /home/tumo/fpga-workspace/flash_leds/work/alchitry_imp/synlog/cu_top_0_fpga_mapper.srr 
+rc:1 success:1 runtime:1
+file:/home/tumo/fpga-workspace/flash_leds/work/alchitry_imp/cu_top_0.edf|io:o|time:1666544534|size:54006|exec:0
+file:/home/tumo/fpga-workspace/flash_leds/work/constraint/merged_constraint.sdc|io:i|time:1666544531|size:76|exec:0
+file:/home/tumo/fpga-workspace/flash_leds/work/alchitry_imp/synwork/cu_top_0_prem.srd|io:i|time:1666544533|size:5531|exec:0
+file:/home/tumo/fpga-workspace/flash_leds/work/alchitry_imp/cu_top_0.sap|io:o|time:1666544533|size:554|exec:0
+file:/home/tumo/fpga-workspace/flash_leds/work/alchitry_imp/cu_top_0.tap|io:o|time:0|size:0|exec:0
+file:/home/tumo/fpga-workspace/flash_leds/work/alchitry_imp/cu_top_0.map|io:o|time:1666544534|size:27|exec:0
+file:/home/tumo/lscc/iCEcube2.2020.12/synpbase/lib/generic/sb_ice40.v|io:i|time:1664816694|size:220434|exec:0
+file:/home/tumo/fpga-workspace/flash_leds/work/alchitry_imp/cu_top_0.sap|io:o|time:1666544533|size:554|exec:0
+file:/home/tumo/fpga-workspace/flash_leds/work/alchitry_imp/syntmp/cu_top_0.plg|io:o|time:1666544534|size:430|exec:0
+file:/home/tumo/fpga-workspace/flash_leds/work/alchitry_imp/cu_top_0.srm|io:o|time:1666544534|size:10185|exec:0
+file:/home/tumo/fpga-workspace/flash_leds/work/alchitry_imp/synlog/cu_top_0_fpga_mapper.srr|io:o|time:1666544534|size:15754|exec:0
+file:/home/tumo/lscc/iCEcube2.2020.12/synpbase/linux_a_64/m_generic|io:i|time:1664816696|size:32925640|exec:1
+file:/home/tumo/lscc/iCEcube2.2020.12/synpbase/bin/m_generic|io:i|time:1664984014|size:347|exec:1

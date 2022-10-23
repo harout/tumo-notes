@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="led-chase" board="Alchitry Cu" language="Lucid" version="3">
+  <files>
+    <src top="true">cu_top.luc</src>
+    <component>reset_conditioner.luc</component>
+    <src>clock_divider.luc</src>
+    <constraint lib="true">alchitry.acf</constraint>
+  </files>
+</project>

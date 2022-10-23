@@ -1,0 +1,74 @@
+ble_pack reset_cond.M_stage_q_1_LC_16_25_0 { reset_cond.M_stage_q_RNO[1], reset_cond.M_stage_q[1] }
+ble_pack reset_cond.M_stage_q_0_LC_16_25_2 { reset_cond.M_stage_q_RNO[0], reset_cond.M_stage_q[0] }
+ble_pack reset_cond.M_stage_q_3_LC_16_25_3 { reset_cond.M_stage_q_RNO[3], reset_cond.M_stage_q[3] }
+ble_pack reset_cond.M_stage_q_2_LC_16_25_7 { reset_cond.M_stage_q_RNO[2], reset_cond.M_stage_q[2] }
+clb_pack LT_16_25 { reset_cond.M_stage_q_1_LC_16_25_0, reset_cond.M_stage_q_0_LC_16_25_2, reset_cond.M_stage_q_3_LC_16_25_3, reset_cond.M_stage_q_2_LC_16_25_7 }
+set_location LT_16_25 16 25
+ble_pack slow_clock.M_count_q_RNIUN08_3_LC_17_22_0 { slow_clock.M_count_q_RNIUN08[3] }
+ble_pack slow_clock.M_count_q_9_LC_17_22_1 { slow_clock.M_count_q_RNO[9], slow_clock.M_count_q[9] }
+clb_pack LT_17_22 { slow_clock.M_count_q_RNIUN08_3_LC_17_22_0, slow_clock.M_count_q_9_LC_17_22_1 }
+set_location LT_17_22 17 22
+ble_pack slow_clock.M_count_q_12_LC_17_23_1 { slow_clock.M_count_q_RNO[12], slow_clock.M_count_q[12] }
+ble_pack slow_clock.M_count_q_0_LC_17_23_4 { slow_clock.M_count_q_RNO[0], slow_clock.M_count_q[0] }
+ble_pack slow_clock.M_count_q_7_LC_17_23_5 { slow_clock.M_count_q_RNO[7], slow_clock.M_count_q[7] }
+ble_pack slow_clock.M_count_q_1_LC_17_23_7 { slow_clock.M_count_q_RNO[1], slow_clock.M_count_q[1] }
+clb_pack LT_17_23 { slow_clock.M_count_q_12_LC_17_23_1, slow_clock.M_count_q_0_LC_17_23_4, slow_clock.M_count_q_7_LC_17_23_5, slow_clock.M_count_q_1_LC_17_23_7 }
+set_location LT_17_23 17 23
+ble_pack slow_clock.M_count_q_RNI0R28_7_LC_17_24_1 { slow_clock.M_count_q_RNI0R28[7] }
+ble_pack slow_clock.M_count_q_RNIN6F01_1_LC_17_24_2 { slow_clock.M_count_q_RNIN6F01[1] }
+ble_pack slow_clock.M_slow_clock_value_q_LC_17_24_3 { slow_clock.M_slow_clock_value_q_RNO, slow_clock.M_slow_clock_value_q }
+ble_pack slow_clock.M_count_q_RNIKV38_16_LC_17_24_5 { slow_clock.M_count_q_RNIKV38[16] }
+ble_pack slow_clock.M_count_q_RNIMI48_1_LC_17_24_7 { slow_clock.M_count_q_RNIMI48[1] }
+clb_pack LT_17_24 { slow_clock.M_count_q_RNI0R28_7_LC_17_24_1, slow_clock.M_count_q_RNIN6F01_1_LC_17_24_2, slow_clock.M_slow_clock_value_q_LC_17_24_3, slow_clock.M_count_q_RNIKV38_16_LC_17_24_5, slow_clock.M_count_q_RNIMI48_1_LC_17_24_7 }
+set_location LT_17_24 17 24
+ble_pack slow_clock.M_count_q_RNI3178_23_LC_17_25_0 { slow_clock.M_count_q_RNI3178[23] }
+ble_pack slow_clock.M_count_q_15_LC_17_25_1 { slow_clock.M_count_q_RNO[15], slow_clock.M_count_q[15] }
+ble_pack slow_clock.M_count_q_RNIVC24_13_LC_17_25_2 { slow_clock.M_count_q_RNIVC24[13] }
+ble_pack slow_clock.M_count_q_RNI3Q7G_8_LC_17_25_3 { slow_clock.M_count_q_RNI3Q7G[8] }
+ble_pack slow_clock.M_count_q_19_LC_17_25_4 { slow_clock.M_count_q_RNO[19], slow_clock.M_count_q[19] }
+ble_pack slow_clock.M_count_q_20_LC_17_25_5 { slow_clock.M_count_q_RNO[20], slow_clock.M_count_q[20] }
+ble_pack slow_clock.M_count_q_10_LC_17_25_6 { slow_clock.M_count_q_RNO[10], slow_clock.M_count_q[10] }
+clb_pack LT_17_25 { slow_clock.M_count_q_RNI3178_23_LC_17_25_0, slow_clock.M_count_q_15_LC_17_25_1, slow_clock.M_count_q_RNIVC24_13_LC_17_25_2, slow_clock.M_count_q_RNI3Q7G_8_LC_17_25_3, slow_clock.M_count_q_19_LC_17_25_4, slow_clock.M_count_q_20_LC_17_25_5, slow_clock.M_count_q_10_LC_17_25_6 }
+set_location LT_17_25 17 25
+ble_pack slow_clock.un1_M_count_d_1_cry_1_c_LC_18_23_0 { slow_clock.un1_M_count_d_1_cry_1_c }
+ble_pack slow_clock.M_count_q_2_LC_18_23_1 { slow_clock.M_count_q_RNO[2], slow_clock.M_count_q[2], slow_clock.un1_M_count_d_1_cry_2_c }
+ble_pack slow_clock.M_count_q_3_LC_18_23_2 { slow_clock.M_count_q_RNO[3], slow_clock.M_count_q[3], slow_clock.un1_M_count_d_1_cry_3_c }
+ble_pack slow_clock.M_count_q_4_LC_18_23_3 { slow_clock.M_count_q_RNO[4], slow_clock.M_count_q[4], slow_clock.un1_M_count_d_1_cry_4_c }
+ble_pack slow_clock.M_count_q_5_LC_18_23_4 { slow_clock.M_count_q_RNO[5], slow_clock.M_count_q[5], slow_clock.un1_M_count_d_1_cry_5_c }
+ble_pack slow_clock.M_count_q_6_LC_18_23_5 { slow_clock.M_count_q_RNO[6], slow_clock.M_count_q[6], slow_clock.un1_M_count_d_1_cry_6_c }
+ble_pack slow_clock.un1_M_count_d_1_cry_6_THRU_LUT4_0_LC_18_23_6 { slow_clock.un1_M_count_d_1_cry_6_THRU_LUT4_0, slow_clock.un1_M_count_d_1_cry_7_c }
+ble_pack slow_clock.M_count_q_8_LC_18_23_7 { slow_clock.M_count_q_RNO[8], slow_clock.M_count_q[8], slow_clock.un1_M_count_d_1_cry_8_c }
+clb_pack LT_18_23 { slow_clock.un1_M_count_d_1_cry_1_c_LC_18_23_0, slow_clock.M_count_q_2_LC_18_23_1, slow_clock.M_count_q_3_LC_18_23_2, slow_clock.M_count_q_4_LC_18_23_3, slow_clock.M_count_q_5_LC_18_23_4, slow_clock.M_count_q_6_LC_18_23_5, slow_clock.un1_M_count_d_1_cry_6_THRU_LUT4_0_LC_18_23_6, slow_clock.M_count_q_8_LC_18_23_7 }
+set_location LT_18_23 18 23
+ble_pack slow_clock.un1_M_count_d_1_cry_8_THRU_LUT4_0_LC_18_24_0 { slow_clock.un1_M_count_d_1_cry_8_THRU_LUT4_0, slow_clock.un1_M_count_d_1_cry_9_c }
+ble_pack slow_clock.un1_M_count_d_1_cry_9_THRU_LUT4_0_LC_18_24_1 { slow_clock.un1_M_count_d_1_cry_9_THRU_LUT4_0, slow_clock.un1_M_count_d_1_cry_10_c }
+ble_pack slow_clock.M_count_q_11_LC_18_24_2 { slow_clock.M_count_q_RNO[11], slow_clock.M_count_q[11], slow_clock.un1_M_count_d_1_cry_11_c }
+ble_pack slow_clock.un1_M_count_d_1_cry_11_THRU_LUT4_0_LC_18_24_3 { slow_clock.un1_M_count_d_1_cry_11_THRU_LUT4_0, slow_clock.un1_M_count_d_1_cry_12_c }
+ble_pack slow_clock.M_count_q_13_LC_18_24_4 { slow_clock.M_count_q_RNO[13], slow_clock.M_count_q[13], slow_clock.un1_M_count_d_1_cry_13_c }
+ble_pack slow_clock.M_count_q_14_LC_18_24_5 { slow_clock.M_count_q_RNO[14], slow_clock.M_count_q[14], slow_clock.un1_M_count_d_1_cry_14_c }
+ble_pack slow_clock.un1_M_count_d_1_cry_14_THRU_LUT4_0_LC_18_24_6 { slow_clock.un1_M_count_d_1_cry_14_THRU_LUT4_0, slow_clock.un1_M_count_d_1_cry_15_c }
+ble_pack slow_clock.M_count_q_16_LC_18_24_7 { slow_clock.M_count_q_RNO[16], slow_clock.M_count_q[16], slow_clock.un1_M_count_d_1_cry_16_c }
+clb_pack LT_18_24 { slow_clock.un1_M_count_d_1_cry_8_THRU_LUT4_0_LC_18_24_0, slow_clock.un1_M_count_d_1_cry_9_THRU_LUT4_0_LC_18_24_1, slow_clock.M_count_q_11_LC_18_24_2, slow_clock.un1_M_count_d_1_cry_11_THRU_LUT4_0_LC_18_24_3, slow_clock.M_count_q_13_LC_18_24_4, slow_clock.M_count_q_14_LC_18_24_5, slow_clock.un1_M_count_d_1_cry_14_THRU_LUT4_0_LC_18_24_6, slow_clock.M_count_q_16_LC_18_24_7 }
+set_location LT_18_24 18 24
+ble_pack slow_clock.M_count_q_17_LC_18_25_0 { slow_clock.M_count_q_RNO[17], slow_clock.M_count_q[17], slow_clock.un1_M_count_d_1_cry_17_c }
+ble_pack slow_clock.M_count_q_18_LC_18_25_1 { slow_clock.M_count_q_RNO[18], slow_clock.M_count_q[18], slow_clock.un1_M_count_d_1_cry_18_c }
+ble_pack slow_clock.un1_M_count_d_1_cry_18_THRU_LUT4_0_LC_18_25_2 { slow_clock.un1_M_count_d_1_cry_18_THRU_LUT4_0, slow_clock.un1_M_count_d_1_cry_19_c }
+ble_pack slow_clock.un1_M_count_d_1_cry_19_THRU_LUT4_0_LC_18_25_3 { slow_clock.un1_M_count_d_1_cry_19_THRU_LUT4_0, slow_clock.un1_M_count_d_1_cry_20_c }
+ble_pack slow_clock.M_count_q_21_LC_18_25_4 { slow_clock.M_count_q_RNO[21], slow_clock.M_count_q[21], slow_clock.un1_M_count_d_1_cry_21_c }
+ble_pack slow_clock.M_count_q_22_LC_18_25_5 { slow_clock.M_count_q_RNO[22], slow_clock.M_count_q[22], slow_clock.un1_M_count_d_1_cry_22_c }
+ble_pack slow_clock.M_count_q_23_LC_18_25_6 { slow_clock.M_count_q_RNO[23], slow_clock.M_count_q[23] }
+clb_pack LT_18_25 { slow_clock.M_count_q_17_LC_18_25_0, slow_clock.M_count_q_18_LC_18_25_1, slow_clock.un1_M_count_d_1_cry_18_THRU_LUT4_0_LC_18_25_2, slow_clock.un1_M_count_d_1_cry_19_THRU_LUT4_0_LC_18_25_3, slow_clock.M_count_q_21_LC_18_25_4, slow_clock.M_count_q_22_LC_18_25_5, slow_clock.M_count_q_23_LC_18_25_6 }
+set_location LT_18_25 18 25
+set_location reset_cond.M_stage_q_RNIFG9D[3] 16 33
+set_io usb_tx M9
+set_io usb_rx P14
+set_io rst_n P8
+set_io led[7] N14
+set_io led[6] M12
+set_io led[5] L14
+set_io led[4] L12
+set_io led[3] K14
+set_io led[2] K12
+set_io led[1] K11
+set_io led[0] J11
+set_io clk P7

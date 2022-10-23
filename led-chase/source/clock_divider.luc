@@ -1,0 +1,24 @@
+module clock_divider 
+    #(
+      DIVIDE_BY = 2 : DIVIDE_BY > 0
+    )
+    (
+      input clk,  // clock
+      input rst,  // reset
+      output out
+    )
+{
+
+  dff count[$clog2(DIVIDE_BY)](#INIT(0), .clk(clk), .rst(rst)); 
+  dff slow_clock_value(#INIT(0), .clk(clk), .rst(rst));
+  
+  always {
+    count.d = count.q + 1;
+    if (count.q == DIVIDE_BY){
+      count.d = 0;
+      slow_clock_value.d = ~slow_clock_value.q;
+    }
+    
+    out = slow_clock_value.q;  
+  }
+}

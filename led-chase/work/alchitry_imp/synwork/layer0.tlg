@@ -1,0 +1,7 @@
+Selecting top level module cu_top_0
+@N: CG364 :"/home/tumo/fpga-workspace/led-chase/work/verilog/reset_conditioner_1.v":11:7:11:25|Synthesizing module reset_conditioner_1 in library work.
+
+@N: CG364 :"/home/tumo/fpga-workspace/led-chase/work/verilog/clock_divider_2.v":11:7:11:21|Synthesizing module clock_divider_2 in library work.
+
+@N: CG364 :"/home/tumo/fpga-workspace/led-chase/work/verilog/cu_top_0.v":7:7:7:14|Synthesizing module cu_top_0 in library work.
+

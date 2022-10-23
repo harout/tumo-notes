@@ -1,0 +1,111 @@
+set_location IN_MUX_bfv_18_23_0_ 18 23 0 #ICE_CARRY_IN_MUX
+set_location IN_MUX_bfv_18_24_0_ 18 24 0 #ICE_CARRY_IN_MUX
+set_location IN_MUX_bfv_18_25_0_ 18 25 0 #ICE_CARRY_IN_MUX
+set_location slow_clock.un1_M_count_d_1_cry_9_THRU_LUT4_0 18 24 1 #SB_LUT4
+set_location slow_clock.un1_M_count_d_1_cry_8_THRU_LUT4_0 18 24 0 #SB_LUT4
+set_location slow_clock.un1_M_count_d_1_cry_6_THRU_LUT4_0 18 23 6 #SB_LUT4
+set_location slow_clock.un1_M_count_d_1_cry_19_THRU_LUT4_0 18 25 3 #SB_LUT4
+set_location slow_clock.un1_M_count_d_1_cry_18_THRU_LUT4_0 18 25 2 #SB_LUT4
+set_location slow_clock.un1_M_count_d_1_cry_14_THRU_LUT4_0 18 24 6 #SB_LUT4
+set_location slow_clock.un1_M_count_d_1_cry_11_THRU_LUT4_0 18 24 3 #SB_LUT4
+set_location slow_clock.un1_M_count_d_1_cry_9_c 18 24 0 #SB_CARRY
+set_location slow_clock.un1_M_count_d_1_cry_8_c 18 23 7 #SB_CARRY
+set_location slow_clock.un1_M_count_d_1_cry_7_c 18 23 6 #SB_CARRY
+set_location slow_clock.un1_M_count_d_1_cry_6_c 18 23 5 #SB_CARRY
+set_location slow_clock.un1_M_count_d_1_cry_5_c 18 23 4 #SB_CARRY
+set_location slow_clock.un1_M_count_d_1_cry_4_c 18 23 3 #SB_CARRY
+set_location slow_clock.un1_M_count_d_1_cry_3_c 18 23 2 #SB_CARRY
+set_location slow_clock.un1_M_count_d_1_cry_2_c 18 23 1 #SB_CARRY
+set_location slow_clock.un1_M_count_d_1_cry_22_c 18 25 5 #SB_CARRY
+set_location slow_clock.un1_M_count_d_1_cry_21_c 18 25 4 #SB_CARRY
+set_location slow_clock.un1_M_count_d_1_cry_20_c 18 25 3 #SB_CARRY
+set_location slow_clock.un1_M_count_d_1_cry_1_c 18 23 0 #SB_CARRY
+set_location slow_clock.un1_M_count_d_1_cry_19_c 18 25 2 #SB_CARRY
+set_location slow_clock.un1_M_count_d_1_cry_18_c 18 25 1 #SB_CARRY
+set_location slow_clock.un1_M_count_d_1_cry_17_c 18 25 0 #SB_CARRY
+set_location slow_clock.un1_M_count_d_1_cry_16_c 18 24 7 #SB_CARRY
+set_location slow_clock.un1_M_count_d_1_cry_15_c 18 24 6 #SB_CARRY
+set_location slow_clock.un1_M_count_d_1_cry_14_c 18 24 5 #SB_CARRY
+set_location slow_clock.un1_M_count_d_1_cry_13_c 18 24 4 #SB_CARRY
+set_location slow_clock.un1_M_count_d_1_cry_12_c 18 24 3 #SB_CARRY
+set_location slow_clock.un1_M_count_d_1_cry_11_c 18 24 2 #SB_CARRY
+set_location slow_clock.un1_M_count_d_1_cry_10_c 18 24 1 #SB_CARRY
+set_location slow_clock.M_slow_clock_value_q_RNO 17 24 3 #SB_LUT4
+set_location slow_clock.M_slow_clock_value_q 17 24 3 #SB_DFF
+set_location slow_clock.M_count_q_RNO[9] 17 22 1 #SB_LUT4
+set_location slow_clock.M_count_q_RNO[8] 18 23 7 #SB_LUT4
+set_location slow_clock.M_count_q_RNO[7] 17 23 5 #SB_LUT4
+set_location slow_clock.M_count_q_RNO[6] 18 23 5 #SB_LUT4
+set_location slow_clock.M_count_q_RNO[5] 18 23 4 #SB_LUT4
+set_location slow_clock.M_count_q_RNO[4] 18 23 3 #SB_LUT4
+set_location slow_clock.M_count_q_RNO[3] 18 23 2 #SB_LUT4
+set_location slow_clock.M_count_q_RNO[23] 18 25 6 #SB_LUT4
+set_location slow_clock.M_count_q_RNO[22] 18 25 5 #SB_LUT4
+set_location slow_clock.M_count_q_RNO[21] 18 25 4 #SB_LUT4
+set_location slow_clock.M_count_q_RNO[20] 17 25 5 #SB_LUT4
+set_location slow_clock.M_count_q_RNO[2] 18 23 1 #SB_LUT4
+set_location slow_clock.M_count_q_RNO[19] 17 25 4 #SB_LUT4
+set_location slow_clock.M_count_q_RNO[18] 18 25 1 #SB_LUT4
+set_location slow_clock.M_count_q_RNO[17] 18 25 0 #SB_LUT4
+set_location slow_clock.M_count_q_RNO[16] 18 24 7 #SB_LUT4
+set_location slow_clock.M_count_q_RNO[15] 17 25 1 #SB_LUT4
+set_location slow_clock.M_count_q_RNO[14] 18 24 5 #SB_LUT4
+set_location slow_clock.M_count_q_RNO[13] 18 24 4 #SB_LUT4
+set_location slow_clock.M_count_q_RNO[12] 17 23 1 #SB_LUT4
+set_location slow_clock.M_count_q_RNO[11] 18 24 2 #SB_LUT4
+set_location slow_clock.M_count_q_RNO[10] 17 25 6 #SB_LUT4
+set_location slow_clock.M_count_q_RNO[1] 17 23 7 #SB_LUT4
+set_location slow_clock.M_count_q_RNO[0] 17 23 4 #SB_LUT4
+set_location slow_clock.M_count_q_RNIVC24[13] 17 25 2 #SB_LUT4
+set_location slow_clock.M_count_q_RNIUN08[3] 17 22 0 #SB_LUT4
+set_location slow_clock.M_count_q_RNIN6F01[1] 17 24 2 #SB_LUT4
+set_location slow_clock.M_count_q_RNIMI48[1] 17 24 7 #SB_LUT4
+set_location slow_clock.M_count_q_RNIKV38[16] 17 24 5 #SB_LUT4
+set_location slow_clock.M_count_q_RNI3Q7G[8] 17 25 3 #SB_LUT4
+set_location slow_clock.M_count_q_RNI3178[23] 17 25 0 #SB_LUT4
+set_location slow_clock.M_count_q_RNI0R28[7] 17 24 1 #SB_LUT4
+set_location slow_clock.M_count_q[9] 17 22 1 #SB_DFFSR
+set_location slow_clock.M_count_q[8] 18 23 7 #SB_DFFSR
+set_location slow_clock.M_count_q[7] 17 23 5 #SB_DFFSR
+set_location slow_clock.M_count_q[6] 18 23 5 #SB_DFFSR
+set_location slow_clock.M_count_q[5] 18 23 4 #SB_DFFSR
+set_location slow_clock.M_count_q[4] 18 23 3 #SB_DFFSR
+set_location slow_clock.M_count_q[3] 18 23 2 #SB_DFFSR
+set_location slow_clock.M_count_q[23] 18 25 6 #SB_DFFSR
+set_location slow_clock.M_count_q[22] 18 25 5 #SB_DFFSR
+set_location slow_clock.M_count_q[21] 18 25 4 #SB_DFFSR
+set_location slow_clock.M_count_q[20] 17 25 5 #SB_DFFSR
+set_location slow_clock.M_count_q[2] 18 23 1 #SB_DFFSR
+set_location slow_clock.M_count_q[19] 17 25 4 #SB_DFFSR
+set_location slow_clock.M_count_q[18] 18 25 1 #SB_DFFSR
+set_location slow_clock.M_count_q[17] 18 25 0 #SB_DFFSR
+set_location slow_clock.M_count_q[16] 18 24 7 #SB_DFFSR
+set_location slow_clock.M_count_q[15] 17 25 1 #SB_DFFSR
+set_location slow_clock.M_count_q[14] 18 24 5 #SB_DFFSR
+set_location slow_clock.M_count_q[13] 18 24 4 #SB_DFFSR
+set_location slow_clock.M_count_q[12] 17 23 1 #SB_DFFSR
+set_location slow_clock.M_count_q[11] 18 24 2 #SB_DFFSR
+set_location slow_clock.M_count_q[10] 17 25 6 #SB_DFFSR
+set_location slow_clock.M_count_q[1] 17 23 7 #SB_DFFSR
+set_location slow_clock.M_count_q[0] 17 23 4 #SB_DFFSR
+set_location reset_cond.M_stage_q_RNO[3] 16 25 3 #SB_LUT4
+set_location reset_cond.M_stage_q_RNO[2] 16 25 7 #SB_LUT4
+set_location reset_cond.M_stage_q_RNO[1] 16 25 0 #SB_LUT4
+set_location reset_cond.M_stage_q_RNO[0] 16 25 2 #SB_LUT4
+set_location reset_cond.M_stage_q[3] 16 25 3 #SB_DFF
+set_location reset_cond.M_stage_q[2] 16 25 7 #SB_DFF
+set_location reset_cond.M_stage_q[1] 16 25 0 #SB_DFF
+set_location reset_cond.M_stage_q[0] 16 25 2 #SB_DFF
+set_location GND -1 -1 -1 #GND
+set_io usb_tx M9
+set_io usb_rx P14
+set_io rst_n P8
+set_io led[7] N14
+set_io led[6] M12
+set_io led[5] L14
+set_io led[4] L12
+set_io led[3] K14
+set_io led[2] K12
+set_io led[1] K11
+set_io led[0] J11
+set_io clk P7

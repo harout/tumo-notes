@@ -1,0 +1,52 @@
+ble_pack slow_clock.un1_M_count_d_1_cry_1_c_LC_44 {slow_clock.un1_M_count_d_1_cry_1_c}
+ble_pack slow_clock.M_count_q[2]_LC_24 {slow_clock.M_count_q[2], slow_clock.un1_M_count_d_1_cry_2_c, slow_clock.M_count_q_RNO[2]}
+ble_pack slow_clock.M_count_q[3]_LC_29 {slow_clock.M_count_q[3], slow_clock.un1_M_count_d_1_cry_3_c, slow_clock.M_count_q_RNO[3]}
+ble_pack slow_clock.M_count_q[4]_LC_30 {slow_clock.M_count_q[4], slow_clock.un1_M_count_d_1_cry_4_c, slow_clock.M_count_q_RNO[4]}
+ble_pack slow_clock.M_count_q[5]_LC_31 {slow_clock.M_count_q[5], slow_clock.un1_M_count_d_1_cry_5_c, slow_clock.M_count_q_RNO[5]}
+ble_pack slow_clock.M_count_q[6]_LC_32 {slow_clock.M_count_q[6], slow_clock.un1_M_count_d_1_cry_6_c, slow_clock.M_count_q_RNO[6]}
+ble_pack slow_clock.un1_M_count_d_1_cry_6_THRU_LUT4_0_LC_41 {slow_clock.un1_M_count_d_1_cry_7_c, slow_clock.un1_M_count_d_1_cry_6_THRU_LUT4_0}
+ble_pack slow_clock.M_count_q[8]_LC_34 {slow_clock.M_count_q[8], slow_clock.un1_M_count_d_1_cry_8_c, slow_clock.M_count_q_RNO[8]}
+clb_pack PLB_0 {slow_clock.un1_M_count_d_1_cry_1_c_LC_44, slow_clock.M_count_q[2]_LC_24, slow_clock.M_count_q[3]_LC_29, slow_clock.M_count_q[4]_LC_30, slow_clock.M_count_q[5]_LC_31, slow_clock.M_count_q[6]_LC_32, slow_clock.un1_M_count_d_1_cry_6_THRU_LUT4_0_LC_41, slow_clock.M_count_q[8]_LC_34}
+ble_pack slow_clock.un1_M_count_d_1_cry_8_THRU_LUT4_0_LC_42 {slow_clock.un1_M_count_d_1_cry_9_c, slow_clock.un1_M_count_d_1_cry_8_THRU_LUT4_0}
+ble_pack slow_clock.un1_M_count_d_1_cry_9_THRU_LUT4_0_LC_43 {slow_clock.un1_M_count_d_1_cry_10_c, slow_clock.un1_M_count_d_1_cry_9_THRU_LUT4_0}
+ble_pack slow_clock.M_count_q[11]_LC_15 {slow_clock.M_count_q[11], slow_clock.un1_M_count_d_1_cry_11_c, slow_clock.M_count_q_RNO[11]}
+ble_pack slow_clock.un1_M_count_d_1_cry_11_THRU_LUT4_0_LC_37 {slow_clock.un1_M_count_d_1_cry_12_c, slow_clock.un1_M_count_d_1_cry_11_THRU_LUT4_0}
+ble_pack slow_clock.M_count_q[13]_LC_17 {slow_clock.M_count_q[13], slow_clock.un1_M_count_d_1_cry_13_c, slow_clock.M_count_q_RNO[13]}
+ble_pack slow_clock.M_count_q[14]_LC_18 {slow_clock.M_count_q[14], slow_clock.un1_M_count_d_1_cry_14_c, slow_clock.M_count_q_RNO[14]}
+ble_pack slow_clock.un1_M_count_d_1_cry_14_THRU_LUT4_0_LC_38 {slow_clock.un1_M_count_d_1_cry_15_c, slow_clock.un1_M_count_d_1_cry_14_THRU_LUT4_0}
+ble_pack slow_clock.M_count_q[16]_LC_20 {slow_clock.M_count_q[16], slow_clock.un1_M_count_d_1_cry_16_c, slow_clock.M_count_q_RNO[16]}
+clb_pack PLB_1 {slow_clock.un1_M_count_d_1_cry_8_THRU_LUT4_0_LC_42, slow_clock.un1_M_count_d_1_cry_9_THRU_LUT4_0_LC_43, slow_clock.M_count_q[11]_LC_15, slow_clock.un1_M_count_d_1_cry_11_THRU_LUT4_0_LC_37, slow_clock.M_count_q[13]_LC_17, slow_clock.M_count_q[14]_LC_18, slow_clock.un1_M_count_d_1_cry_14_THRU_LUT4_0_LC_38, slow_clock.M_count_q[16]_LC_20}
+ble_pack slow_clock.M_count_q[17]_LC_21 {slow_clock.M_count_q[17], slow_clock.un1_M_count_d_1_cry_17_c, slow_clock.M_count_q_RNO[17]}
+ble_pack slow_clock.M_count_q[18]_LC_22 {slow_clock.M_count_q[18], slow_clock.un1_M_count_d_1_cry_18_c, slow_clock.M_count_q_RNO[18]}
+ble_pack slow_clock.un1_M_count_d_1_cry_18_THRU_LUT4_0_LC_39 {slow_clock.un1_M_count_d_1_cry_19_c, slow_clock.un1_M_count_d_1_cry_18_THRU_LUT4_0}
+ble_pack slow_clock.un1_M_count_d_1_cry_19_THRU_LUT4_0_LC_40 {slow_clock.un1_M_count_d_1_cry_20_c, slow_clock.un1_M_count_d_1_cry_19_THRU_LUT4_0}
+ble_pack slow_clock.M_count_q[21]_LC_26 {slow_clock.M_count_q[21], slow_clock.un1_M_count_d_1_cry_21_c, slow_clock.M_count_q_RNO[21]}
+ble_pack slow_clock.M_count_q[22]_LC_27 {slow_clock.M_count_q[22], slow_clock.un1_M_count_d_1_cry_22_c, slow_clock.M_count_q_RNO[22]}
+ble_pack slow_clock.M_count_q[23]_LC_28 {slow_clock.M_count_q[23], slow_clock.M_count_q_RNO[23]}
+clb_pack PLB_2 {slow_clock.M_count_q[17]_LC_21, slow_clock.M_count_q[18]_LC_22, slow_clock.un1_M_count_d_1_cry_18_THRU_LUT4_0_LC_39, slow_clock.un1_M_count_d_1_cry_19_THRU_LUT4_0_LC_40, slow_clock.M_count_q[21]_LC_26, slow_clock.M_count_q[22]_LC_27, slow_clock.M_count_q[23]_LC_28}
+ble_pack slow_clock.M_count_q_RNI0R28[7]_LC_4 {slow_clock.M_count_q_RNI0R28[7]}
+ble_pack slow_clock.M_count_q_RNIN6F01[1]_LC_9 {slow_clock.M_count_q_RNIN6F01[1]}
+ble_pack slow_clock.M_count_q_RNIMI48[1]_LC_8 {slow_clock.M_count_q_RNIMI48[1]}
+ble_pack slow_clock.M_count_q[1]_LC_13 {slow_clock.M_count_q[1], slow_clock.M_count_q_RNO[1]}
+ble_pack slow_clock.M_count_q[0]_LC_12 {slow_clock.M_count_q[0], slow_clock.M_count_q_RNO[0]}
+ble_pack slow_clock.M_count_q[7]_LC_33 {slow_clock.M_count_q[7], slow_clock.M_count_q_RNO[7]}
+ble_pack slow_clock.M_count_q_RNIKV38[16]_LC_7 {slow_clock.M_count_q_RNIKV38[16]}
+clb_pack PLB_3 {slow_clock.M_count_q_RNI0R28[7]_LC_4, slow_clock.M_count_q_RNIN6F01[1]_LC_9, slow_clock.M_count_q_RNIMI48[1]_LC_8, slow_clock.M_count_q[1]_LC_13, slow_clock.M_count_q[0]_LC_12, slow_clock.M_count_q[7]_LC_33, slow_clock.M_count_q_RNIKV38[16]_LC_7}
+ble_pack slow_clock.M_count_q_RNI3178[23]_LC_5 {slow_clock.M_count_q_RNI3178[23]}
+ble_pack slow_clock.M_count_q[15]_LC_19 {slow_clock.M_count_q[15], slow_clock.M_count_q_RNO[15]}
+ble_pack slow_clock.M_count_q[19]_LC_23 {slow_clock.M_count_q[19], slow_clock.M_count_q_RNO[19]}
+ble_pack slow_clock.M_count_q_RNI3Q7G[8]_LC_6 {slow_clock.M_count_q_RNI3Q7G[8]}
+ble_pack slow_clock.M_count_q_RNIVC24[13]_LC_11 {slow_clock.M_count_q_RNIVC24[13]}
+ble_pack slow_clock.M_count_q[20]_LC_25 {slow_clock.M_count_q[20], slow_clock.M_count_q_RNO[20]}
+ble_pack slow_clock.M_count_q[10]_LC_14 {slow_clock.M_count_q[10], slow_clock.M_count_q_RNO[10]}
+ble_pack slow_clock.M_count_q[12]_LC_16 {slow_clock.M_count_q[12], slow_clock.M_count_q_RNO[12]}
+clb_pack PLB_4 {slow_clock.M_count_q_RNI3178[23]_LC_5, slow_clock.M_count_q[15]_LC_19, slow_clock.M_count_q[19]_LC_23, slow_clock.M_count_q_RNI3Q7G[8]_LC_6, slow_clock.M_count_q_RNIVC24[13]_LC_11, slow_clock.M_count_q[20]_LC_25, slow_clock.M_count_q[10]_LC_14, slow_clock.M_count_q[12]_LC_16}
+ble_pack slow_clock.M_count_q_RNIUN08[3]_LC_10 {slow_clock.M_count_q_RNIUN08[3]}
+ble_pack slow_clock.M_count_q[9]_LC_35 {slow_clock.M_count_q[9], slow_clock.M_count_q_RNO[9]}
+clb_pack PLB_5 {slow_clock.M_count_q_RNIUN08[3]_LC_10, slow_clock.M_count_q[9]_LC_35}
+ble_pack slow_clock.M_slow_clock_value_q_LC_36 {slow_clock.M_slow_clock_value_q, slow_clock.M_slow_clock_value_q_RNO}
+ble_pack reset_cond.M_stage_q[3]_LC_3 {reset_cond.M_stage_q[3], reset_cond.M_stage_q_RNO[3]}
+ble_pack reset_cond.M_stage_q[2]_LC_2 {reset_cond.M_stage_q[2], reset_cond.M_stage_q_RNO[2]}
+ble_pack reset_cond.M_stage_q[1]_LC_1 {reset_cond.M_stage_q[1], reset_cond.M_stage_q_RNO[1]}
+ble_pack reset_cond.M_stage_q[0]_LC_0 {reset_cond.M_stage_q[0], reset_cond.M_stage_q_RNO[0]}
+clb_pack PLB_6 {slow_clock.M_slow_clock_value_q_LC_36, reset_cond.M_stage_q[3]_LC_3, reset_cond.M_stage_q[2]_LC_2, reset_cond.M_stage_q[1]_LC_1, reset_cond.M_stage_q[0]_LC_0}

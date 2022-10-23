@@ -1,0 +1,5 @@
+[VIC]
+slow_clock.M_count_d7_14_cascade_=ltout:in2
+slow_clock.M_count_d7_20_cascade_=ltout:in2
+slow_clock.M_count_d7_21_cascade_=ltout:in3
+slow_clock.M_count_d7_9_cascade_=ltout:in0
