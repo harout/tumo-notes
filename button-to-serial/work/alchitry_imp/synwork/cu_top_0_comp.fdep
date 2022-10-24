@@ -1,0 +1,40 @@
+#OPTIONS:"|-layerid|0|-orig_srs|/home/tumo/fpga-workspace/button-to-serial/work/alchitry_imp/synwork/cu_top_0_comp.srs|-prodtype|synplify_pro|-primux|-fixsmult|-infer_seqShift|-ice|-sdff_counter|-nram|-divnmod|-nostructver|-I|/home/tumo/fpga-workspace/button-to-serial/work/|-I|/home/tumo/lscc/iCEcube2.2020.12/synpbase/lib|-v2001|-devicelib|/home/tumo/lscc/iCEcube2.2020.12/synpbase/lib/generic/sb_ice40.v|-encrypt|-pro|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work"
+#CUR:"/home/tumo/lscc/iCEcube2.2020.12/synpbase/linux_a_64/c_ver":1664816695
+#CUR:"/home/tumo/lscc/iCEcube2.2020.12/synpbase/lib/generic/sb_ice40.v":1664816694
+#CUR:"/home/tumo/lscc/iCEcube2.2020.12/synpbase/lib/vlog/hypermods.v":1664816694
+#CUR:"/home/tumo/lscc/iCEcube2.2020.12/synpbase/lib/vlog/umr_capim.v":1664816694
+#CUR:"/home/tumo/lscc/iCEcube2.2020.12/synpbase/lib/vlog/scemi_objects.v":1664816694
+#CUR:"/home/tumo/lscc/iCEcube2.2020.12/synpbase/lib/vlog/scemi_pipes.svh":1664816694
+#CUR:"/home/tumo/fpga-workspace/button-to-serial/work/verilog/cu_top_0.v":1666574109
+#CUR:"/home/tumo/fpga-workspace/button-to-serial/work/verilog/reset_conditioner_1.v":1666574109
+#CUR:"/home/tumo/fpga-workspace/button-to-serial/work/verilog/button_conditioner_2.v":1666574109
+#CUR:"/home/tumo/fpga-workspace/button-to-serial/work/verilog/edge_detector_3.v":1666574109
+#CUR:"/home/tumo/fpga-workspace/button-to-serial/work/verilog/uart_tx_4.v":1666574109
+#CUR:"/home/tumo/fpga-workspace/button-to-serial/work/verilog/pipeline_5.v":1666574109
+0			"/home/tumo/fpga-workspace/button-to-serial/work/verilog/cu_top_0.v" verilog
+1			"/home/tumo/fpga-workspace/button-to-serial/work/verilog/reset_conditioner_1.v" verilog
+2			"/home/tumo/fpga-workspace/button-to-serial/work/verilog/button_conditioner_2.v" verilog
+3			"/home/tumo/fpga-workspace/button-to-serial/work/verilog/edge_detector_3.v" verilog
+4			"/home/tumo/fpga-workspace/button-to-serial/work/verilog/uart_tx_4.v" verilog
+5			"/home/tumo/fpga-workspace/button-to-serial/work/verilog/pipeline_5.v" verilog
+#Dependency Lists(Uses List)
+0 4 3 2 1
+1 -1
+2 5
+3 -1
+4 -1
+5 -1
+#Dependency Lists(Users Of)
+0 -1
+1 0
+2 0
+3 0
+4 0
+5 2
+#Design Unit to File Association
+module work pipeline_5 5
+module work cu_top_0 0
+module work uart_tx_4 4
+module work edge_detector_3 3
+module work button_conditioner_2 2
+module work reset_conditioner_1 1

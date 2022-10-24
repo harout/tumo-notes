@@ -1,0 +1,4 @@
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+@N: BN225 |Writing default property annotation file /home/tumo/fpga-workspace/button-to-serial/work/alchitry_imp/cu_top_0.sap.
+@N: MO225 :"/home/tumo/fpga-workspace/button-to-serial/work/verilog/uart_tx_4.v":99:2:99:7|There are no possible illegal states for state machine M_state_q[3:0] (in view: work.uart_tx_4(verilog)); safe FSM implementation is not required.

@@ -1,0 +1,114 @@
+ble_pack btn_cond.M_ctr_q[0]_LC_28 {btn_cond.M_ctr_q[0], btn_cond.un1_M_ctr_q_cry_0_c, btn_cond.M_ctr_q_RNO[0]}
+ble_pack btn_cond.M_ctr_q[1]_LC_29 {btn_cond.M_ctr_q[1], btn_cond.un1_M_ctr_q_cry_1_c, btn_cond.M_ctr_q_RNO[1]}
+ble_pack btn_cond.M_ctr_q[2]_LC_40 {btn_cond.M_ctr_q[2], btn_cond.un1_M_ctr_q_cry_2_c, btn_cond.M_ctr_q_RNO[2]}
+ble_pack btn_cond.M_ctr_q[3]_LC_41 {btn_cond.M_ctr_q[3], btn_cond.un1_M_ctr_q_cry_3_c, btn_cond.M_ctr_q_RNO[3]}
+ble_pack btn_cond.M_ctr_q[4]_LC_42 {btn_cond.M_ctr_q[4], btn_cond.un1_M_ctr_q_cry_4_c, btn_cond.M_ctr_q_RNO[4]}
+ble_pack btn_cond.M_ctr_q[5]_LC_43 {btn_cond.M_ctr_q[5], btn_cond.un1_M_ctr_q_cry_5_c, btn_cond.M_ctr_q_RNO[5]}
+ble_pack btn_cond.M_ctr_q[6]_LC_44 {btn_cond.M_ctr_q[6], btn_cond.un1_M_ctr_q_cry_6_c, btn_cond.M_ctr_q_RNO[6]}
+ble_pack btn_cond.M_ctr_q[7]_LC_45 {btn_cond.M_ctr_q[7], btn_cond.un1_M_ctr_q_cry_7_c, btn_cond.M_ctr_q_RNO[7]}
+clb_pack PLB_0 {btn_cond.M_ctr_q[0]_LC_28, btn_cond.M_ctr_q[1]_LC_29, btn_cond.M_ctr_q[2]_LC_40, btn_cond.M_ctr_q[3]_LC_41, btn_cond.M_ctr_q[4]_LC_42, btn_cond.M_ctr_q[5]_LC_43, btn_cond.M_ctr_q[6]_LC_44, btn_cond.M_ctr_q[7]_LC_45}
+ble_pack btn_cond.M_ctr_q[8]_LC_46 {btn_cond.M_ctr_q[8], btn_cond.un1_M_ctr_q_cry_8_c, btn_cond.M_ctr_q_RNO[8]}
+ble_pack btn_cond.M_ctr_q[9]_LC_47 {btn_cond.M_ctr_q[9], btn_cond.un1_M_ctr_q_cry_9_c, btn_cond.M_ctr_q_RNO[9]}
+ble_pack btn_cond.M_ctr_q[10]_LC_30 {btn_cond.M_ctr_q[10], btn_cond.un1_M_ctr_q_cry_10_c, btn_cond.M_ctr_q_RNO[10]}
+ble_pack btn_cond.M_ctr_q[11]_LC_31 {btn_cond.M_ctr_q[11], btn_cond.un1_M_ctr_q_cry_11_c, btn_cond.M_ctr_q_RNO[11]}
+ble_pack btn_cond.M_ctr_q[12]_LC_32 {btn_cond.M_ctr_q[12], btn_cond.un1_M_ctr_q_cry_12_c, btn_cond.M_ctr_q_RNO[12]}
+ble_pack btn_cond.M_ctr_q[13]_LC_33 {btn_cond.M_ctr_q[13], btn_cond.un1_M_ctr_q_cry_13_c, btn_cond.M_ctr_q_RNO[13]}
+ble_pack btn_cond.M_ctr_q[14]_LC_34 {btn_cond.M_ctr_q[14], btn_cond.un1_M_ctr_q_cry_14_c, btn_cond.M_ctr_q_RNO[14]}
+ble_pack btn_cond.M_ctr_q[15]_LC_35 {btn_cond.M_ctr_q[15], btn_cond.un1_M_ctr_q_cry_15_c, btn_cond.M_ctr_q_RNO[15]}
+clb_pack PLB_1 {btn_cond.M_ctr_q[8]_LC_46, btn_cond.M_ctr_q[9]_LC_47, btn_cond.M_ctr_q[10]_LC_30, btn_cond.M_ctr_q[11]_LC_31, btn_cond.M_ctr_q[12]_LC_32, btn_cond.M_ctr_q[13]_LC_33, btn_cond.M_ctr_q[14]_LC_34, btn_cond.M_ctr_q[15]_LC_35}
+ble_pack btn_cond.M_ctr_q[16]_LC_36 {btn_cond.M_ctr_q[16], btn_cond.un1_M_ctr_q_cry_16_c, btn_cond.M_ctr_q_RNO[16]}
+ble_pack btn_cond.M_ctr_q[17]_LC_37 {btn_cond.M_ctr_q[17], btn_cond.un1_M_ctr_q_cry_17_c, btn_cond.M_ctr_q_RNO[17]}
+ble_pack btn_cond.M_ctr_q[18]_LC_38 {btn_cond.M_ctr_q[18], btn_cond.un1_M_ctr_q_cry_18_c, btn_cond.M_ctr_q_RNO[18]}
+ble_pack btn_cond.M_ctr_q[19]_LC_39 {btn_cond.M_ctr_q[19], btn_cond.M_ctr_q_RNO[19]}
+clb_pack PLB_2 {btn_cond.M_ctr_q[16]_LC_36, btn_cond.M_ctr_q[17]_LC_37, btn_cond.M_ctr_q[18]_LC_38, btn_cond.M_ctr_q[19]_LC_39}
+ble_pack uart_tx.M_ctr_q[0]_LC_66 {uart_tx.M_ctr_q[0], uart_tx.un1_M_ctr_q_3_cry_0_c, uart_tx.M_ctr_q_RNO[0]}
+ble_pack uart_tx.M_ctr_q[1]_LC_70 {uart_tx.M_ctr_q[1], uart_tx.un1_M_ctr_q_3_cry_1_c, uart_tx.M_ctr_q_RNO[1]}
+ble_pack uart_tx.M_ctr_q_RNO_0[2]_LC_67 {uart_tx.un1_M_ctr_q_3_cry_2_c, uart_tx.M_ctr_q_RNO_0[2]}
+ble_pack uart_tx.M_ctr_q[3]_LC_72 {uart_tx.M_ctr_q[3], uart_tx.un1_M_ctr_q_3_cry_3_c, uart_tx.M_ctr_q_RNO[3]}
+ble_pack uart_tx.M_ctr_q[4]_LC_73 {uart_tx.M_ctr_q[4], uart_tx.un1_M_ctr_q_3_cry_4_c, uart_tx.M_ctr_q_RNO[4]}
+ble_pack uart_tx.M_ctr_q_RNO_0[5]_LC_68 {uart_tx.un1_M_ctr_q_3_cry_5_c, uart_tx.M_ctr_q_RNO_0[5]}
+ble_pack uart_tx.M_ctr_q_RNO_0[6]_LC_69 {uart_tx.M_ctr_q_RNO_0[6]}
+clb_pack PLB_3 {uart_tx.M_ctr_q[0]_LC_66, uart_tx.M_ctr_q[1]_LC_70, uart_tx.M_ctr_q_RNO_0[2]_LC_67, uart_tx.M_ctr_q[3]_LC_72, uart_tx.M_ctr_q[4]_LC_73, uart_tx.M_ctr_q_RNO_0[5]_LC_68, uart_tx.M_ctr_q_RNO_0[6]_LC_69}
+ble_pack M_count_q_RNI0H5P2[1]_LC_0 {M_count_q_RNI0H5P2[1]}
+ble_pack M_count_q[2]_LC_8 {M_count_q[2], M_count_q_RNO[2]}
+ble_pack M_count_q[3]_LC_9 {M_count_q[3], M_count_q_RNO[3]}
+ble_pack click_dtct.M_last_q_RNIUTK51_1_LC_53 {click_dtct.M_last_q_RNIUTK51_1}
+ble_pack click_dtct.M_last_q_RNIE6EK8_LC_49 {click_dtct.M_last_q_RNIE6EK8}
+ble_pack M_count_q_RNIGFD24[4]_LC_3 {M_count_q_RNIGFD24[4]}
+ble_pack M_count_q[5]_LC_11 {M_count_q[5], M_count_q_RNO[5]}
+ble_pack M_count_q[6]_LC_12 {M_count_q[6], M_count_q_RNO[6]}
+clb_pack PLB_4 {M_count_q_RNI0H5P2[1]_LC_0, M_count_q[2]_LC_8, M_count_q[3]_LC_9, click_dtct.M_last_q_RNIUTK51_1_LC_53, click_dtct.M_last_q_RNIE6EK8_LC_49, M_count_q_RNIGFD24[4]_LC_3, M_count_q[5]_LC_11, M_count_q[6]_LC_12}
+ble_pack M_count_q_RNIF6FD2[1]_LC_2 {M_count_q_RNIF6FD2[1]}
+ble_pack M_count_q_RNITRFR[3]_LC_4 {M_count_q_RNITRFR[3]}
+ble_pack M_count_q[0]_LC_5 {M_count_q[0], M_count_q_RNO[0]}
+ble_pack click_dtct.M_last_q_RNIUTK51_0_LC_52 {click_dtct.M_last_q_RNIUTK51_0}
+ble_pack M_count_q[4]_LC_10 {M_count_q[4], M_count_q_RNO[4]}
+ble_pack M_count_q[1]_LC_7 {M_count_q[1], M_count_q_RNO[1]}
+ble_pack btn_cond.M_ctr_q_RNIKBLL[10]_LC_21 {btn_cond.M_ctr_q_RNIKBLL[10]}
+ble_pack btn_cond.M_ctr_q_RNICJ341[19]_LC_18 {btn_cond.M_ctr_q_RNICJ341[19]}
+clb_pack PLB_5 {M_count_q_RNIF6FD2[1]_LC_2, M_count_q_RNITRFR[3]_LC_4, M_count_q[0]_LC_5, click_dtct.M_last_q_RNIUTK51_0_LC_52, M_count_q[4]_LC_10, M_count_q[1]_LC_7, btn_cond.M_ctr_q_RNIKBLL[10]_LC_21, btn_cond.M_ctr_q_RNICJ341[19]_LC_18}
+ble_pack btn_cond.M_ctr_q_RNIA1N2_0[19]_LC_14 {btn_cond.M_ctr_q_RNIA1N2_0[19]}
+ble_pack btn_cond.M_ctr_q_RNICJ341[14]_LC_17 {btn_cond.M_ctr_q_RNICJ341[14]}
+ble_pack btn_cond.M_ctr_q_RNIMKT9[14]_LC_22 {btn_cond.M_ctr_q_RNIMKT9[14]}
+ble_pack btn_cond.M_ctr_q_RNIB6B1[12]_LC_16 {btn_cond.M_ctr_q_RNIB6B1[12]}
+ble_pack btn_cond.M_ctr_q_RNIS377_0[10]_LC_24 {btn_cond.M_ctr_q_RNIS377_0[10]}
+ble_pack btn_cond.M_ctr_q_RNIE6NB_0[0]_LC_20 {btn_cond.M_ctr_q_RNIE6NB_0[0]}
+clb_pack PLB_6 {btn_cond.M_ctr_q_RNIA1N2_0[19]_LC_14, btn_cond.M_ctr_q_RNICJ341[14]_LC_17, btn_cond.M_ctr_q_RNIMKT9[14]_LC_22, btn_cond.M_ctr_q_RNIB6B1[12]_LC_16, btn_cond.M_ctr_q_RNIS377_0[10]_LC_24, btn_cond.M_ctr_q_RNIE6NB_0[0]_LC_20}
+ble_pack btn_cond.M_ctr_q_RNIA1N2[19]_LC_15 {btn_cond.M_ctr_q_RNIA1N2[19]}
+ble_pack click_dtct.M_last_q_RNIUTK51_LC_51 {click_dtct.M_last_q_RNIUTK51}
+ble_pack M_count_q[7]_LC_13 {M_count_q[7], M_count_q_RNO[7]}
+ble_pack M_count_q_RNO_0[7]_LC_6 {M_count_q_RNO_0[7]}
+ble_pack btn_cond.M_ctr_q_RNIE6NB[0]_LC_19 {btn_cond.M_ctr_q_RNIE6NB[0]}
+ble_pack click_dtct.M_last_q_RNIJC4S1_LC_50 {click_dtct.M_last_q_RNIJC4S1}
+ble_pack uart_tx.M_state_q_RNILEFM_1[1]_LC_78 {uart_tx.M_state_q_RNILEFM_1[1]}
+clb_pack PLB_7 {btn_cond.M_ctr_q_RNIA1N2[19]_LC_15, click_dtct.M_last_q_RNIUTK51_LC_51, M_count_q[7]_LC_13, M_count_q_RNO_0[7]_LC_6, btn_cond.M_ctr_q_RNIE6NB[0]_LC_19, click_dtct.M_last_q_RNIJC4S1_LC_50, uart_tx.M_state_q_RNILEFM_1[1]_LC_78}
+ble_pack btn_cond.M_ctr_q_RNIQGM2[12]_LC_23 {btn_cond.M_ctr_q_RNIQGM2[12]}
+ble_pack btn_cond.M_ctr_q_RNIS377[10]_LC_25 {btn_cond.M_ctr_q_RNIS377[10]}
+ble_pack btn_cond.M_ctr_q_RNIUMNB_0[4]_LC_26 {btn_cond.M_ctr_q_RNIUMNB_0[4]}
+ble_pack btn_cond.M_ctr_q_RNIUMNB[4]_LC_27 {btn_cond.M_ctr_q_RNIUMNB[4]}
+ble_pack uart_tx.M_bitCtr_q_RNIP5AF3[0]_LC_58 {uart_tx.M_bitCtr_q_RNIP5AF3[0]}
+ble_pack uart_tx.M_bitCtr_q[1]_LC_62 {uart_tx.M_bitCtr_q[1], uart_tx.M_bitCtr_q_RNO[1]}
+ble_pack uart_tx.M_bitCtr_q[2]_LC_63 {uart_tx.M_bitCtr_q[2], uart_tx.M_bitCtr_q_RNO[2]}
+ble_pack uart_tx.M_bitCtr_q_RNITT1L[1]_LC_59 {uart_tx.M_bitCtr_q_RNITT1L[1]}
+clb_pack PLB_8 {btn_cond.M_ctr_q_RNIQGM2[12]_LC_23, btn_cond.M_ctr_q_RNIS377[10]_LC_25, btn_cond.M_ctr_q_RNIUMNB_0[4]_LC_26, btn_cond.M_ctr_q_RNIUMNB[4]_LC_27, uart_tx.M_bitCtr_q_RNIP5AF3[0]_LC_58, uart_tx.M_bitCtr_q[1]_LC_62, uart_tx.M_bitCtr_q[2]_LC_63, uart_tx.M_bitCtr_q_RNITT1L[1]_LC_59}
+ble_pack uart_tx.M_bitCtr_q_RNIUE4P3[2]_LC_60 {uart_tx.M_bitCtr_q_RNIUE4P3[2]}
+ble_pack uart_tx.M_ctr_q_RNI3KTJ2[6]_LC_64 {uart_tx.M_ctr_q_RNI3KTJ2[6]}
+ble_pack uart_tx.M_ctr_q_RNIGGUF1[0]_LC_65 {uart_tx.M_ctr_q_RNIGGUF1[0]}
+ble_pack uart_tx.M_state_q_RNITA5V2[0]_LC_79 {uart_tx.M_state_q_RNITA5V2[0]}
+ble_pack uart_tx.M_ctr_q[2]_LC_71 {uart_tx.M_ctr_q[2], uart_tx.M_ctr_q_RNO[2]}
+ble_pack uart_tx.M_ctr_q[5]_LC_74 {uart_tx.M_ctr_q[5], uart_tx.M_ctr_q_RNO[5]}
+ble_pack uart_tx.M_ctr_q[6]_LC_75 {uart_tx.M_ctr_q[6], uart_tx.M_ctr_q_RNO[6]}
+ble_pack uart_tx.M_state_q_RNILEFM_0[1]_LC_76 {uart_tx.M_state_q_RNILEFM_0[1]}
+clb_pack PLB_9 {uart_tx.M_bitCtr_q_RNIUE4P3[2]_LC_60, uart_tx.M_ctr_q_RNI3KTJ2[6]_LC_64, uart_tx.M_ctr_q_RNIGGUF1[0]_LC_65, uart_tx.M_state_q_RNITA5V2[0]_LC_79, uart_tx.M_ctr_q[2]_LC_71, uart_tx.M_ctr_q[5]_LC_74, uart_tx.M_ctr_q[6]_LC_75, uart_tx.M_state_q_RNILEFM_0[1]_LC_76}
+ble_pack uart_tx.M_state_q[0]_LC_80 {uart_tx.M_state_q[0], uart_tx.M_state_q_RNO[0]}
+ble_pack uart_tx.M_state_q_RNILEFM[1]_LC_77 {uart_tx.M_state_q_RNILEFM[1]}
+ble_pack uart_tx.M_state_q[1]_LC_81 {uart_tx.M_state_q[1], uart_tx.M_state_q_RNO[1]}
+ble_pack uart_tx.M_bitCtr_q[0]_LC_61 {uart_tx.M_bitCtr_q[0], uart_tx.M_bitCtr_q_RNO[0]}
+ble_pack uart_tx.M_txReg_q_RNO_3_LC_86 {uart_tx.M_txReg_q_RNO_3}
+ble_pack uart_tx.M_txReg_q_RNO_0_LC_83 {uart_tx.M_txReg_q_RNO_0}
+ble_pack uart_tx.M_txReg_q_RNO_4_LC_87 {uart_tx.M_txReg_q_RNO_4}
+ble_pack uart_tx.M_txReg_q_RNO_5_LC_88 {uart_tx.M_txReg_q_RNO_5}
+clb_pack PLB_10 {uart_tx.M_state_q[0]_LC_80, uart_tx.M_state_q_RNILEFM[1]_LC_77, uart_tx.M_state_q[1]_LC_81, uart_tx.M_bitCtr_q[0]_LC_61, uart_tx.M_txReg_q_RNO_3_LC_86, uart_tx.M_txReg_q_RNO_0_LC_83, uart_tx.M_txReg_q_RNO_4_LC_87, uart_tx.M_txReg_q_RNO_5_LC_88}
+ble_pack uart_tx.M_txReg_q_LC_82 {uart_tx.M_txReg_q, uart_tx.M_txReg_q_RNO}
+ble_pack uart_tx.M_txReg_q_RNO_1_LC_84 {uart_tx.M_txReg_q_RNO_1}
+ble_pack uart_tx.M_txReg_q_RNO_2_LC_85 {uart_tx.M_txReg_q_RNO_2}
+ble_pack M_count_q_RNI2B741[0]_LC_1 {M_count_q_RNI2B741[0]}
+ble_pack btn_cond.sync.M_pipe_q_RNIJLM5[1]_LC_48 {btn_cond.sync.M_pipe_q_RNIJLM5[1]}
+clb_pack PLB_11 {uart_tx.M_txReg_q_LC_82, uart_tx.M_txReg_q_RNO_1_LC_84, uart_tx.M_txReg_q_RNO_2_LC_85, M_count_q_RNI2B741[0]_LC_1, btn_cond.sync.M_pipe_q_RNIJLM5[1]_LC_48}
+ble_pack click_dtct.M_last_q_LC_89 {click_dtct.M_last_q, btn_cond.M_ctr_q_RNICJ341_19_click_dtct.M_last_q_REP_LUT4_0}
+ble_pack reset_cond.M_stage_q[1]_LC_55 {reset_cond.M_stage_q[1], reset_cond.M_stage_q_RNO[1]}
+ble_pack reset_cond.M_stage_q[2]_LC_56 {reset_cond.M_stage_q[2], reset_cond.M_stage_q_RNO[2]}
+ble_pack reset_cond.M_stage_q[3]_LC_57 {reset_cond.M_stage_q[3], reset_cond.M_stage_q_RNO[3]}
+ble_pack reset_cond.M_stage_q[0]_LC_54 {reset_cond.M_stage_q[0], reset_cond.M_stage_q_RNO[0]}
+ble_pack btn_cond.sync.M_pipe_q[0]_LC_90 {btn_cond.sync.M_pipe_q[0], btn_cond.sync.M_pipe_q_0_THRU_LUT4_0}
+ble_pack btn_cond.sync.M_pipe_q[1]_LC_91 {btn_cond.sync.M_pipe_q[1], btn_cond.sync.M_pipe_q_1_THRU_LUT4_0}
+clb_pack PLB_12 {click_dtct.M_last_q_LC_89, reset_cond.M_stage_q[1]_LC_55, reset_cond.M_stage_q[2]_LC_56, reset_cond.M_stage_q[3]_LC_57, reset_cond.M_stage_q[0]_LC_54, btn_cond.sync.M_pipe_q[0]_LC_90, btn_cond.sync.M_pipe_q[1]_LC_91}
+ble_pack uart_tx.M_savedData_q[0]_LC_92 {uart_tx.M_savedData_q[0], uart_tx.M_savedData_q_0_THRU_LUT4_0}
+ble_pack uart_tx.M_savedData_q[1]_LC_93 {uart_tx.M_savedData_q[1], uart_tx.M_savedData_q_1_THRU_LUT4_0}
+ble_pack uart_tx.M_savedData_q[2]_LC_94 {uart_tx.M_savedData_q[2], uart_tx.M_savedData_q_2_THRU_LUT4_0}
+ble_pack uart_tx.M_savedData_q[3]_LC_95 {uart_tx.M_savedData_q[3], uart_tx.M_savedData_q_3_THRU_LUT4_0}
+ble_pack uart_tx.M_savedData_q[4]_LC_96 {uart_tx.M_savedData_q[4], uart_tx.M_savedData_q_4_THRU_LUT4_0}
+ble_pack uart_tx.M_savedData_q[5]_LC_97 {uart_tx.M_savedData_q[5], uart_tx.M_savedData_q_5_THRU_LUT4_0}
+ble_pack uart_tx.M_savedData_q[6]_LC_98 {uart_tx.M_savedData_q[6], uart_tx.M_savedData_q_6_THRU_LUT4_0}
+ble_pack uart_tx.M_savedData_q[7]_LC_99 {uart_tx.M_savedData_q[7], uart_tx.M_savedData_q_7_THRU_LUT4_0}
+clb_pack PLB_13 {uart_tx.M_savedData_q[0]_LC_92, uart_tx.M_savedData_q[1]_LC_93, uart_tx.M_savedData_q[2]_LC_94, uart_tx.M_savedData_q[3]_LC_95, uart_tx.M_savedData_q[4]_LC_96, uart_tx.M_savedData_q[5]_LC_97, uart_tx.M_savedData_q[6]_LC_98, uart_tx.M_savedData_q[7]_LC_99}

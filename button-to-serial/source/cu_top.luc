@@ -1,0 +1,44 @@
+module cu_top (
+    input clk,              // 100MHz clock
+    input rst_n,            // reset button (active low)
+    output led [8],         // 8 user controllable LEDs
+    output usb_tx,           // USB->Serial output
+    input trigger
+  ) {
+  
+  sig rst;                  // reset signal
+  
+  .clk(clk) {
+    // The reset conditioner is used to synchronize the reset signal to the FPGA
+    // clock. This ensures the entire FPGA comes out of reset at the same time.
+    reset_conditioner reset_cond;
+    button_conditioner btn_cond;
+    edge_detector click_dtct;
+    
+    .rst(rst) {  
+      uart_tx uart_tx(#BAUD(1000000), #CLK_FREQ(100000000));
+      dff count[8](#INIT(0)); 
+    }
+  }
+  
+  always {
+    reset_cond.in = ~rst_n; // input raw inverted reset signal
+    rst = reset_cond.out;   // conditioned reset
+    
+    btn_cond.in = trigger;
+    click_dtct.in = btn_cond.out;
+    
+    led = 8h00;
+    usb_tx = uart_tx.tx;
+    uart_tx.data = 0;
+    uart_tx.new_data = 0;
+    
+    uart_tx.block = 0;
+    if (!uart_tx.busy && click_dtct.out) {
+      count.d = count.q + 1;
+      uart_tx.new_data = 1;
+      uart_tx.data = count.q;
+      led = count.q;
+    }   
+  }
+}

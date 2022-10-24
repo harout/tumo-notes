@@ -1,0 +1,14 @@
+/home/tumo/lscc/iCEcube2.2020.12/synpbase/bin/m_generic  -prodtype  synplify_pro   -encrypt  -pro  -rundir  /home/tumo/fpga-workspace/dip-to-led/work/alchitry_imp   -part iCE40HX8K  -package CB132    -maxfan 10000 -RWCheckOnRam 0 -pipe -fixgatedclocks 1 -fixgeneratedclocks 1 -summaryfile /home/tumo/fpga-workspace/dip-to-led/work/alchitry_imp/synlog/report/cu_top_0_premap.xml  -oedif  /home/tumo/fpga-workspace/dip-to-led/work/alchitry_imp/cu_top_0.edf  -conchk_prepass  /home/tumo/fpga-workspace/dip-to-led/work/alchitry_imp/cu_top_0_cck.rpt   -autoconstraint  -freq 1.000   -tcl  /home/tumo/fpga-workspace/dip-to-led/work/constraint/merged_constraint.sdc  /home/tumo/fpga-workspace/dip-to-led/work/alchitry_imp/synwork/cu_top_0_mult.srs  -flow prepass  -gcc_prepass  -osrd  /home/tumo/fpga-workspace/dip-to-led/work/alchitry_imp/synwork/cu_top_0_prem.srd  -qsap  /home/tumo/fpga-workspace/dip-to-led/work/alchitry_imp/cu_top_0.sap  -devicelib  /home/tumo/lscc/iCEcube2.2020.12/synpbase/lib/generic/sb_ice40.v  -ologparam  /home/tumo/fpga-workspace/dip-to-led/work/alchitry_imp/syntmp/cu_top_0.plg  -osyn  /home/tumo/fpga-workspace/dip-to-led/work/alchitry_imp/synwork/cu_top_0_prem.srd  -prjdir  /home/tumo/fpga-workspace/dip-to-led/work/  -prjname  alchitry_syn  -log  /home/tumo/fpga-workspace/dip-to-led/work/alchitry_imp/synlog/cu_top_0_premap.srr 
+rc:0 success:1 runtime:0
+file:/home/tumo/fpga-workspace/dip-to-led/work/alchitry_imp/cu_top_0.edf|io:o|time:0|size:0|exec:0
+file:/home/tumo/fpga-workspace/dip-to-led/work/alchitry_imp/cu_top_0_cck.rpt|io:o|time:1666560789|size:2165|exec:0
+file:/home/tumo/fpga-workspace/dip-to-led/work/constraint/merged_constraint.sdc|io:i|time:1666560787|size:76|exec:0
+file:/home/tumo/fpga-workspace/dip-to-led/work/alchitry_imp/synwork/cu_top_0_mult.srs|io:i|time:1666560789|size:1186|exec:0
+file:/home/tumo/fpga-workspace/dip-to-led/work/alchitry_imp/synwork/cu_top_0_prem.srd|io:o|time:1666560789|size:1675|exec:0
+file:/home/tumo/fpga-workspace/dip-to-led/work/alchitry_imp/cu_top_0.sap|io:o|time:1666560789|size:117|exec:0
+file:/home/tumo/lscc/iCEcube2.2020.12/synpbase/lib/generic/sb_ice40.v|io:i|time:1664816694|size:220434|exec:0
+file:/home/tumo/fpga-workspace/dip-to-led/work/alchitry_imp/syntmp/cu_top_0.plg|io:o|time:1666560789|size:0|exec:0
+file:/home/tumo/fpga-workspace/dip-to-led/work/alchitry_imp/synwork/cu_top_0_prem.srd|io:o|time:1666560789|size:1675|exec:0
+file:/home/tumo/fpga-workspace/dip-to-led/work/alchitry_imp/synlog/cu_top_0_premap.srr|io:o|time:1666560789|size:3070|exec:0
+file:/home/tumo/lscc/iCEcube2.2020.12/synpbase/linux_a_64/m_generic|io:i|time:1664816696|size:32925640|exec:1
+file:/home/tumo/lscc/iCEcube2.2020.12/synpbase/bin/m_generic|io:i|time:1664984014|size:347|exec:1

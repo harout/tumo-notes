@@ -1,0 +1,2 @@
+@W: CL168 :"/home/tumo/fpga-workspace/dip-to-led/work/verilog/cu_top_0.v":20:22:20:31|Removing instance reset_cond because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+

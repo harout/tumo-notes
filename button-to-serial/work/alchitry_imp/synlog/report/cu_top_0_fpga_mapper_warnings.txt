@@ -1,0 +1,9 @@
+@W: FX1039 :"/home/tumo/fpga-workspace/button-to-serial/work/verilog/reset_conditioner_1.v":29:2:29:7|User-specified initial value defined for instance reset_cond.M_stage_q[3:0] is being ignored. 
+@W: FX1039 :"/home/tumo/fpga-workspace/button-to-serial/work/verilog/button_conditioner_2.v":46:2:46:7|User-specified initial value defined for instance btn_cond.M_ctr_q[19:0] is being ignored. 
+@W: FX1039 :"/home/tumo/fpga-workspace/button-to-serial/work/verilog/pipeline_5.v":34:2:34:7|User-specified initial value defined for instance btn_cond.sync.M_pipe_q[1:0] is being ignored. 
+@W: FX1039 :"/home/tumo/fpga-workspace/button-to-serial/work/verilog/uart_tx_4.v":99:2:99:7|User-specified initial value defined for instance uart_tx.M_txReg_q is being ignored. 
+@W: FX1039 :"/home/tumo/fpga-workspace/button-to-serial/work/verilog/uart_tx_4.v":99:2:99:7|User-specified initial value defined for instance uart_tx.M_ctr_q[6:0] is being ignored. 
+@W: FX1039 :"/home/tumo/fpga-workspace/button-to-serial/work/verilog/uart_tx_4.v":99:2:99:7|User-specified initial value defined for instance uart_tx.M_bitCtr_q[2:0] is being ignored. 
+@W: FX1039 :"/home/tumo/fpga-workspace/button-to-serial/work/verilog/uart_tx_4.v":99:2:99:7|User-specified initial value defined for instance uart_tx.M_savedData_q[7:0] is being ignored. 
+@W: FX1039 :"/home/tumo/fpga-workspace/button-to-serial/work/verilog/cu_top_0.v":75:2:75:7|User-specified initial value defined for instance M_count_q[7:0] is being ignored. 
+@W: FX1039 :"/home/tumo/fpga-workspace/button-to-serial/work/verilog/edge_detector_3.v":41:2:41:7|User-specified initial value defined for instance click_dtct.M_last_q is being ignored. 

@@ -1,0 +1,153 @@
+#### START OF AREA REPORT #####[
+
+Part:			ICE40HX8KCB132 (Lattice)
+
+------------------------------------------------------------------------
+########   Utilization report for  Top level view:   cu_top_0   ########
+========================================================================
+
+SEQUENTIAL ELEMENTS
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+FLOPS     56                 100 %                
+==================================================
+Total SEQUENTIAL ELEMENTS in the block cu_top_0:	56 (28.72 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+LUTS       89                 100 %                
+CARRYS     25                 100 %                
+===================================================
+Total COMBINATIONAL LOGIC in the block cu_top_0:	114 (58.46 % Utilization)
+
+
+IO PADS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+PADS     13                 100 %                
+=================================================
+Total IO PADS in the block cu_top_0:	13 (6.67 % Utilization)
+
+--------------------------------------------------------------------------
+########   Utilization report for  cell:   button_conditioner_2   ########
+Instance path:   cu_top_0.button_conditioner_2                            
+==========================================================================
+
+SEQUENTIAL ELEMENTS
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+FLOPS     22                 39.3 %               
+==================================================
+Total SEQUENTIAL ELEMENTS in the block cu_top_0.button_conditioner_2:	22 (11.28 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+LUTS       35                 39.3 %               
+CARRYS     19                 76 %                 
+===================================================
+Total COMBINATIONAL LOGIC in the block cu_top_0.button_conditioner_2:	54 (27.69 % Utilization)
+
+
+IO PADS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+PADS     1                  7.69 %               
+=================================================
+Total IO PADS in the block cu_top_0.button_conditioner_2:	1 (0.51 % Utilization)
+
+----------------------------------------------------------------
+########   Utilization report for  cell:   pipeline_5   ########
+Instance path:   button_conditioner_2.pipeline_5                
+================================================================
+
+SEQUENTIAL ELEMENTS
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+FLOPS     2                  3.57 %               
+==================================================
+Total SEQUENTIAL ELEMENTS in the block button_conditioner_2.pipeline_5:	2 (1.03 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+LUTS     1                  1.12 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block button_conditioner_2.pipeline_5:	1 (0.51 % Utilization)
+
+
+IO PADS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+PADS     1                  7.69 %               
+=================================================
+Total IO PADS in the block button_conditioner_2.pipeline_5:	1 (0.51 % Utilization)
+
+---------------------------------------------------------------------
+########   Utilization report for  cell:   edge_detector_3   ########
+Instance path:   cu_top_0.edge_detector_3                            
+=====================================================================
+
+SEQUENTIAL ELEMENTS
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+FLOPS     1                  1.79 %               
+==================================================
+Total SEQUENTIAL ELEMENTS in the block cu_top_0.edge_detector_3:	1 (0.51 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+LUTS     5                  5.62 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block cu_top_0.edge_detector_3:	5 (2.56 % Utilization)
+
+-------------------------------------------------------------------------
+########   Utilization report for  cell:   reset_conditioner_1   ########
+Instance path:   cu_top_0.reset_conditioner_1                            
+=========================================================================
+
+SEQUENTIAL ELEMENTS
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+FLOPS     4                  7.14 %               
+==================================================
+Total SEQUENTIAL ELEMENTS in the block cu_top_0.reset_conditioner_1:	4 (2.05 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+LUTS     4                  4.49 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block cu_top_0.reset_conditioner_1:	4 (2.05 % Utilization)
+
+---------------------------------------------------------------
+########   Utilization report for  cell:   uart_tx_4   ########
+Instance path:   cu_top_0.uart_tx_4                            
+===============================================================
+
+SEQUENTIAL ELEMENTS
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+FLOPS     21                 37.5 %               
+==================================================
+Total SEQUENTIAL ELEMENTS in the block cu_top_0.uart_tx_4:	21 (10.77 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+LUTS       31                 34.8 %               
+CARRYS     6                  24 %                 
+===================================================
+Total COMBINATIONAL LOGIC in the block cu_top_0.uart_tx_4:	37 (18.97 % Utilization)
+
+
+##### END OF AREA REPORT #####]
+

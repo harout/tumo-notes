@@ -1,0 +1,16 @@
+OUTPUT led[7] 	 location (33, 2, 1) 	 N14 	 
+OUTPUT led[6] 	 location (33, 1, 0) 	 M12 	 
+OUTPUT led[5] 	 location (33, 3, 1) 	 L14 	 
+OUTPUT led[4] 	 location (33, 2, 0) 	 L12 	 
+OUTPUT led[3] 	 location (33, 5, 0) 	 K14 	 
+OUTPUT led[2] 	 location (33, 4, 0) 	 K12 	 
+OUTPUT led[1] 	 location (33, 4, 1) 	 K11 	 
+OUTPUT led[0] 	 location (33, 6, 0) 	 J11 	 
+INPUT  dip_switch[7] 	 location (10, 33, 1) 	 A5 	 
+INPUT  dip_switch[6] 	 location (9, 33, 0) 	 D5 	 
+INPUT  dip_switch[5] 	 location (0, 22, 1) 	 D4 	 
+INPUT  dip_switch[4] 	 location (0, 21, 1) 	 F4 	 
+INPUT  dip_switch[3] 	 location (0, 20, 1) 	 H4 	 
+INPUT  dip_switch[2] 	 location (0, 16, 1) 	 H1 	 
+INPUT  dip_switch[1] 	 location (0, 11, 1) 	 K3 	 
+INPUT  dip_switch[0] 	 location (0, 4, 1) 	 N1 	 

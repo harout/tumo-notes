@@ -1,0 +1,103 @@
+* ******************************************************************************
+
+* iCEcube Report
+
+* Version:            2020.12.27943
+
+* Build Date:         Dec 10 2020 17:24:17
+
+* File Generated:     Oct 23 2022 14:33:12
+
+* Purpose:            General info of design implementation
+
+* Copyright (C) 2006-2010 by Lattice Semiconductor Corp. All rights reserved.
+
+* ******************************************************************************
+
+Synthesis/Placement Summary:
+----------------------------
+    Status:  Successful
+    Runtime: 0 seconds
+
+Device Info:
+------------
+    Device Family: iCE40
+    Device:        iCE40HX8K
+    Package:       CB132
+
+Design statistics:
+------------------
+    FFs:                  0
+    LUTs:                 0
+    RAMs:                 0
+    IOBs:                 16
+    GBs:                  0
+    PLLs:                 0
+    Warm Boots:           0
+
+Logic Resource Utilization:
+---------------------------
+    Total Logic Cells: 0/7680
+        Combinational Logic Cells: 0        out of   7680      0%
+        Sequential Logic Cells:    0        out of   7680      0%
+        Logic Tiles:               0        out of   960       0%
+    Registers: 
+        Logic Registers:           0        out of   7680      0%
+        IO Registers:              0        out of   1280      0
+    Block RAMs:                    0        out of   32        0%
+    Warm Boots:                    0        out of   1         0%
+    Pins:
+        Input Pins:                8        out of   95        8.42105%
+        Output Pins:               8        out of   95        8.42105%
+        InOut Pins:                0        out of   95        0%
+    Global Buffers:                0        out of   8         0%
+    PLLs:                          0        out of   2         0%
+
+IO Bank Utilization:
+--------------------
+    Bank 3: 6        out of   24        25%
+    Bank 1: 8        out of   25        32%
+    Bank 0: 2        out of   24        8.33333%
+    Bank 2: 0        out of   22        0%
+
+Detailed I/O Info:
+------------------
+    Input Pins: 
+    Pin Number  Direction  IO Standard  Pull Up  IO Bank  IO Function    Signal Name    
+    ----------  ---------  -----------  -------  -------  -----------    -----------    
+    A5          Input      SB_LVCMOS    No       0        Simple Input   dip_switch[7]  
+    D4          Input      SB_LVCMOS    No       3        Simple Input   dip_switch[5]  
+    D5          Input      SB_LVCMOS    No       0        Simple Input   dip_switch[6]  
+    F4          Input      SB_LVCMOS    No       3        Simple Input   dip_switch[4]  
+    H1          Input      SB_LVCMOS    No       3        Simple Input   dip_switch[2]  
+    H4          Input      SB_LVCMOS    No       3        Simple Input   dip_switch[3]  
+    K3          Input      SB_LVCMOS    No       3        Simple Input   dip_switch[1]  
+    N1          Input      SB_LVCMOS    No       3        Simple Input   dip_switch[0]  
+
+    Output Pins: 
+    Pin Number  Direction  IO Standard  Pull Up  IO Bank  IO Function    Signal Name    
+    ----------  ---------  -----------  -------  -------  -----------    -----------    
+    J11         Output     SB_LVCMOS    No       1        Simple Output  led[0]         
+    K11         Output     SB_LVCMOS    No       1        Simple Output  led[1]         
+    K12         Output     SB_LVCMOS    No       1        Simple Output  led[2]         
+    K14         Output     SB_LVCMOS    No       1        Simple Output  led[3]         
+    L12         Output     SB_LVCMOS    No       1        Simple Output  led[4]         
+    L14         Output     SB_LVCMOS    No       1        Simple Output  led[5]         
+    M12         Output     SB_LVCMOS    No       1        Simple Output  led[6]         
+    N14         Output     SB_LVCMOS    No       1        Simple Output  led[7]         
+
+
+
+Router Summary:
+---------------
+    Status:  Successful
+    Runtime: 10 seconds
+
+Routing Resource Utilization:
+-----------------------------
+              Local line of tile       24 out of 146184      0.0164177%
+                          Span 4       18 out of  29696      0.0606142%
+                         Span 12       34 out of   5632      0.603693%
+      Vertical Inter-LUT Connect        0 out of   6720      0%
+
+

@@ -1,0 +1,22 @@
+pin clk CLOCK;
+clock clk 100MHz;
+
+pin rst_n RESET;
+
+pin led[0] LED0;
+pin led[1] LED1;
+pin led[2] LED2;
+pin led[3] LED3;
+pin led[4] LED4;
+pin led[5] LED5;
+pin led[6] LED6;
+pin led[7] LED7;
+
+pin dip_switch[0] A48;
+pin dip_switch[1] A45;
+pin dip_switch[2] A42;
+pin dip_switch[3] A39;
+pin dip_switch[4] A36;
+pin dip_switch[5] A33;
+pin dip_switch[6] A30;
+pin dip_switch[7] A27;

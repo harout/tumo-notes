@@ -1,0 +1,21 @@
+Selecting top level module cu_top_0
+@N: CG364 :"/home/tumo/fpga-workspace/button-to-serial/work/verilog/reset_conditioner_1.v":11:7:11:25|Synthesizing module reset_conditioner_1 in library work.
+
+@N: CG364 :"/home/tumo/fpga-workspace/button-to-serial/work/verilog/pipeline_5.v":11:7:11:16|Synthesizing module pipeline_5 in library work.
+
+@N: CG364 :"/home/tumo/fpga-workspace/button-to-serial/work/verilog/button_conditioner_2.v":13:7:13:26|Synthesizing module button_conditioner_2 in library work.
+
+@N: CG364 :"/home/tumo/fpga-workspace/button-to-serial/work/verilog/edge_detector_3.v":12:7:12:21|Synthesizing module edge_detector_3 in library work.
+
+@N: CG364 :"/home/tumo/fpga-workspace/button-to-serial/work/verilog/uart_tx_4.v":12:7:12:15|Synthesizing module uart_tx_4 in library work.
+
+@N: CG364 :"/home/tumo/fpga-workspace/button-to-serial/work/verilog/cu_top_0.v":7:7:7:14|Synthesizing module cu_top_0 in library work.
+
+@N: CL201 :"/home/tumo/fpga-workspace/button-to-serial/work/verilog/uart_tx_4.v":99:2:99:7|Trying to extract state machine for register M_state_q.
+Extracted state machine for register M_state_q
+State machine has 4 reachable states with original encodings of:
+   00
+   01
+   10
+   11
+@W: CL249 :"/home/tumo/fpga-workspace/button-to-serial/work/verilog/uart_tx_4.v":99:2:99:7|Initial value is not supported on state machine M_state_q

@@ -1,0 +1,159 @@
+ble_pack M_count_q_RNI2B741_0_LC_13_23_3 { M_count_q_RNI2B741[0] }
+clb_pack LT_13_23 { M_count_q_RNI2B741_0_LC_13_23_3 }
+set_location LT_13_23 13 23
+ble_pack M_count_q_RNI0H5P2_1_LC_13_24_0 { M_count_q_RNI0H5P2[1] }
+ble_pack M_count_q_2_LC_13_24_1 { M_count_q_RNO[2], M_count_q[2] }
+ble_pack M_count_q_5_LC_13_24_3 { M_count_q_RNO[5], M_count_q[5] }
+ble_pack M_count_q_3_LC_13_24_4 { M_count_q_RNO[3], M_count_q[3] }
+ble_pack click_dtct.M_last_q_RNIUTK51_1_LC_13_24_5 { click_dtct.M_last_q_RNIUTK51_1 }
+ble_pack M_count_q_RNIGFD24_4_LC_13_24_6 { M_count_q_RNIGFD24[4] }
+ble_pack M_count_q_6_LC_13_24_7 { M_count_q_RNO[6], M_count_q[6] }
+clb_pack LT_13_24 { M_count_q_RNI0H5P2_1_LC_13_24_0, M_count_q_2_LC_13_24_1, M_count_q_5_LC_13_24_3, M_count_q_3_LC_13_24_4, click_dtct.M_last_q_RNIUTK51_1_LC_13_24_5, M_count_q_RNIGFD24_4_LC_13_24_6, M_count_q_6_LC_13_24_7 }
+set_location LT_13_24 13 24
+ble_pack click_dtct.M_last_q_RNIUTK51_LC_13_25_1 { click_dtct.M_last_q_RNIUTK51 }
+ble_pack M_count_q_7_LC_13_25_2 { M_count_q_RNO[7], M_count_q[7] }
+clb_pack LT_13_25 { click_dtct.M_last_q_RNIUTK51_LC_13_25_1, M_count_q_7_LC_13_25_2 }
+set_location LT_13_25 13 25
+ble_pack reset_cond.M_stage_q_3_LC_14_21_0 { reset_cond.M_stage_q_RNO[3], reset_cond.M_stage_q[3] }
+clb_pack LT_14_21 { reset_cond.M_stage_q_3_LC_14_21_0 }
+set_location LT_14_21 14 21
+ble_pack uart_tx.M_ctr_q_5_LC_14_22_0 { uart_tx.M_ctr_q_RNO[5], uart_tx.M_ctr_q[5] }
+ble_pack uart_tx.M_state_q_RNILEFM_0_1_LC_14_22_1 { uart_tx.M_state_q_RNILEFM_0[1] }
+ble_pack uart_tx.M_ctr_q_2_LC_14_22_2 { uart_tx.M_ctr_q_RNO[2], uart_tx.M_ctr_q[2] }
+ble_pack uart_tx.M_state_q_1_LC_14_22_3 { uart_tx.M_state_q_RNO[1], uart_tx.M_state_q[1] }
+ble_pack uart_tx.M_state_q_RNILEFM_1_LC_14_22_4 { uart_tx.M_state_q_RNILEFM[1] }
+ble_pack uart_tx.M_ctr_q_RNIGGUF1_0_LC_14_22_5 { uart_tx.M_ctr_q_RNIGGUF1[0] }
+ble_pack uart_tx.M_ctr_q_RNI3KTJ2_6_LC_14_22_6 { uart_tx.M_ctr_q_RNI3KTJ2[6] }
+ble_pack uart_tx.M_bitCtr_q_0_LC_14_22_7 { uart_tx.M_bitCtr_q_RNO[0], uart_tx.M_bitCtr_q[0] }
+clb_pack LT_14_22 { uart_tx.M_ctr_q_5_LC_14_22_0, uart_tx.M_state_q_RNILEFM_0_1_LC_14_22_1, uart_tx.M_ctr_q_2_LC_14_22_2, uart_tx.M_state_q_1_LC_14_22_3, uart_tx.M_state_q_RNILEFM_1_LC_14_22_4, uart_tx.M_ctr_q_RNIGGUF1_0_LC_14_22_5, uart_tx.M_ctr_q_RNI3KTJ2_6_LC_14_22_6, uart_tx.M_bitCtr_q_0_LC_14_22_7 }
+set_location LT_14_22 14 22
+ble_pack uart_tx.M_bitCtr_q_RNIP5AF3_0_LC_14_23_0 { uart_tx.M_bitCtr_q_RNIP5AF3[0] }
+ble_pack uart_tx.M_bitCtr_q_1_LC_14_23_1 { uart_tx.M_bitCtr_q_RNO[1], uart_tx.M_bitCtr_q[1] }
+ble_pack uart_tx.M_state_q_RNITA5V2_0_LC_14_23_2 { uart_tx.M_state_q_RNITA5V2[0] }
+ble_pack click_dtct.M_last_q_RNIE6EK8_LC_14_23_3 { click_dtct.M_last_q_RNIE6EK8 }
+ble_pack uart_tx.M_state_q_0_LC_14_23_4 { uart_tx.M_state_q_RNO[0], uart_tx.M_state_q[0] }
+ble_pack uart_tx.M_bitCtr_q_RNITT1L_1_LC_14_23_5 { uart_tx.M_bitCtr_q_RNITT1L[1] }
+ble_pack uart_tx.M_bitCtr_q_RNIUE4P3_2_LC_14_23_6 { uart_tx.M_bitCtr_q_RNIUE4P3[2] }
+ble_pack uart_tx.M_state_q_RNILEFM_1_1_LC_14_23_7 { uart_tx.M_state_q_RNILEFM_1[1] }
+clb_pack LT_14_23 { uart_tx.M_bitCtr_q_RNIP5AF3_0_LC_14_23_0, uart_tx.M_bitCtr_q_1_LC_14_23_1, uart_tx.M_state_q_RNITA5V2_0_LC_14_23_2, click_dtct.M_last_q_RNIE6EK8_LC_14_23_3, uart_tx.M_state_q_0_LC_14_23_4, uart_tx.M_bitCtr_q_RNITT1L_1_LC_14_23_5, uart_tx.M_bitCtr_q_RNIUE4P3_2_LC_14_23_6, uart_tx.M_state_q_RNILEFM_1_1_LC_14_23_7 }
+set_location LT_14_23 14 23
+ble_pack M_count_q_0_LC_14_24_1 { M_count_q_RNO[0], M_count_q[0] }
+ble_pack M_count_q_RNITRFR_3_LC_14_24_2 { M_count_q_RNITRFR[3] }
+ble_pack M_count_q_RNIF6FD2_1_LC_14_24_3 { M_count_q_RNIF6FD2[1] }
+ble_pack M_count_q_4_LC_14_24_4 { M_count_q_RNO[4], M_count_q[4] }
+ble_pack M_count_q_1_LC_14_24_5 { M_count_q_RNO[1], M_count_q[1] }
+clb_pack LT_14_24 { M_count_q_0_LC_14_24_1, M_count_q_RNITRFR_3_LC_14_24_2, M_count_q_RNIF6FD2_1_LC_14_24_3, M_count_q_4_LC_14_24_4, M_count_q_1_LC_14_24_5 }
+set_location LT_14_24 14 24
+ble_pack btn_cond.M_ctr_q_RNIUMNB_4_LC_14_25_1 { btn_cond.M_ctr_q_RNIUMNB[4] }
+ble_pack M_count_q_RNO_0_7_LC_14_25_2 { M_count_q_RNO_0[7] }
+ble_pack btn_cond.M_ctr_q_RNIE6NB_0_LC_14_25_3 { btn_cond.M_ctr_q_RNIE6NB[0] }
+ble_pack btn_cond.M_ctr_q_RNIQGM2_12_LC_14_25_4 { btn_cond.M_ctr_q_RNIQGM2[12] }
+ble_pack btn_cond.M_ctr_q_RNIKBLL_10_LC_14_25_5 { btn_cond.M_ctr_q_RNIKBLL[10] }
+ble_pack click_dtct.M_last_q_RNIUTK51_0_LC_14_25_6 { click_dtct.M_last_q_RNIUTK51_0 }
+ble_pack click_dtct.M_last_q_LC_14_25_7 { btn_cond.M_ctr_q_RNICJ341_19_click_dtct.M_last_q_REP_LUT4_0, click_dtct.M_last_q }
+clb_pack LT_14_25 { btn_cond.M_ctr_q_RNIUMNB_4_LC_14_25_1, M_count_q_RNO_0_7_LC_14_25_2, btn_cond.M_ctr_q_RNIE6NB_0_LC_14_25_3, btn_cond.M_ctr_q_RNIQGM2_12_LC_14_25_4, btn_cond.M_ctr_q_RNIKBLL_10_LC_14_25_5, click_dtct.M_last_q_RNIUTK51_0_LC_14_25_6, click_dtct.M_last_q_LC_14_25_7 }
+set_location LT_14_25 14 25
+ble_pack btn_cond.M_ctr_q_RNIA1N2_19_LC_14_26_1 { btn_cond.M_ctr_q_RNIA1N2[19] }
+ble_pack btn_cond.M_ctr_q_RNIS377_10_LC_14_26_4 { btn_cond.M_ctr_q_RNIS377[10] }
+clb_pack LT_14_26 { btn_cond.M_ctr_q_RNIA1N2_19_LC_14_26_1, btn_cond.M_ctr_q_RNIS377_10_LC_14_26_4 }
+set_location LT_14_26 14 26
+ble_pack reset_cond.M_stage_q_0_LC_15_21_3 { reset_cond.M_stage_q_RNO[0], reset_cond.M_stage_q[0] }
+ble_pack reset_cond.M_stage_q_2_LC_15_21_4 { reset_cond.M_stage_q_RNO[2], reset_cond.M_stage_q[2] }
+ble_pack reset_cond.M_stage_q_1_LC_15_21_5 { reset_cond.M_stage_q_RNO[1], reset_cond.M_stage_q[1] }
+clb_pack LT_15_21 { reset_cond.M_stage_q_0_LC_15_21_3, reset_cond.M_stage_q_2_LC_15_21_4, reset_cond.M_stage_q_1_LC_15_21_5 }
+set_location LT_15_21 15 21
+ble_pack uart_tx.M_ctr_q_0_LC_15_22_0 { uart_tx.M_ctr_q_RNO[0], uart_tx.M_ctr_q[0], uart_tx.un1_M_ctr_q_3_cry_0_c }
+ble_pack uart_tx.M_ctr_q_1_LC_15_22_1 { uart_tx.M_ctr_q_RNO[1], uart_tx.M_ctr_q[1], uart_tx.un1_M_ctr_q_3_cry_1_c }
+ble_pack uart_tx.M_ctr_q_RNO_0_2_LC_15_22_2 { uart_tx.M_ctr_q_RNO_0[2], uart_tx.un1_M_ctr_q_3_cry_2_c }
+ble_pack uart_tx.M_ctr_q_3_LC_15_22_3 { uart_tx.M_ctr_q_RNO[3], uart_tx.M_ctr_q[3], uart_tx.un1_M_ctr_q_3_cry_3_c }
+ble_pack uart_tx.M_ctr_q_4_LC_15_22_4 { uart_tx.M_ctr_q_RNO[4], uart_tx.M_ctr_q[4], uart_tx.un1_M_ctr_q_3_cry_4_c }
+ble_pack uart_tx.M_ctr_q_RNO_0_5_LC_15_22_5 { uart_tx.M_ctr_q_RNO_0[5], uart_tx.un1_M_ctr_q_3_cry_5_c }
+ble_pack uart_tx.M_ctr_q_RNO_0_6_LC_15_22_6 { uart_tx.M_ctr_q_RNO_0[6] }
+ble_pack uart_tx.M_ctr_q_6_LC_15_22_7 { uart_tx.M_ctr_q_RNO[6], uart_tx.M_ctr_q[6] }
+clb_pack LT_15_22 { uart_tx.M_ctr_q_0_LC_15_22_0, uart_tx.M_ctr_q_1_LC_15_22_1, uart_tx.M_ctr_q_RNO_0_2_LC_15_22_2, uart_tx.M_ctr_q_3_LC_15_22_3, uart_tx.M_ctr_q_4_LC_15_22_4, uart_tx.M_ctr_q_RNO_0_5_LC_15_22_5, uart_tx.M_ctr_q_RNO_0_6_LC_15_22_6, uart_tx.M_ctr_q_6_LC_15_22_7 }
+set_location LT_15_22 15 22
+ble_pack uart_tx.M_bitCtr_q_2_LC_15_23_0 { uart_tx.M_bitCtr_q_RNO[2], uart_tx.M_bitCtr_q[2] }
+ble_pack uart_tx.M_txReg_q_RNO_2_LC_15_23_1 { uart_tx.M_txReg_q_RNO_2 }
+ble_pack uart_tx.M_txReg_q_RNO_4_LC_15_23_2 { uart_tx.M_txReg_q_RNO_4 }
+ble_pack uart_tx.M_txReg_q_RNO_3_LC_15_23_3 { uart_tx.M_txReg_q_RNO_3 }
+ble_pack uart_tx.M_txReg_q_RNO_0_LC_15_23_4 { uart_tx.M_txReg_q_RNO_0 }
+ble_pack uart_tx.M_txReg_q_RNO_1_LC_15_23_6 { uart_tx.M_txReg_q_RNO_1 }
+ble_pack uart_tx.M_txReg_q_RNO_5_LC_15_23_7 { uart_tx.M_txReg_q_RNO_5 }
+clb_pack LT_15_23 { uart_tx.M_bitCtr_q_2_LC_15_23_0, uart_tx.M_txReg_q_RNO_2_LC_15_23_1, uart_tx.M_txReg_q_RNO_4_LC_15_23_2, uart_tx.M_txReg_q_RNO_3_LC_15_23_3, uart_tx.M_txReg_q_RNO_0_LC_15_23_4, uart_tx.M_txReg_q_RNO_1_LC_15_23_6, uart_tx.M_txReg_q_RNO_5_LC_15_23_7 }
+set_location LT_15_23 15 23
+ble_pack btn_cond.M_ctr_q_RNICJ341_19_LC_15_24_1 { btn_cond.M_ctr_q_RNICJ341[19] }
+ble_pack click_dtct.M_last_q_RNIJC4S1_LC_15_24_2 { click_dtct.M_last_q_RNIJC4S1 }
+clb_pack LT_15_24 { btn_cond.M_ctr_q_RNICJ341_19_LC_15_24_1, click_dtct.M_last_q_RNIJC4S1_LC_15_24_2 }
+set_location LT_15_24 15 24
+ble_pack btn_cond.M_ctr_q_0_LC_15_25_0 { btn_cond.M_ctr_q_RNO[0], btn_cond.M_ctr_q[0], btn_cond.un1_M_ctr_q_cry_0_c }
+ble_pack btn_cond.M_ctr_q_1_LC_15_25_1 { btn_cond.M_ctr_q_RNO[1], btn_cond.M_ctr_q[1], btn_cond.un1_M_ctr_q_cry_1_c }
+ble_pack btn_cond.M_ctr_q_2_LC_15_25_2 { btn_cond.M_ctr_q_RNO[2], btn_cond.M_ctr_q[2], btn_cond.un1_M_ctr_q_cry_2_c }
+ble_pack btn_cond.M_ctr_q_3_LC_15_25_3 { btn_cond.M_ctr_q_RNO[3], btn_cond.M_ctr_q[3], btn_cond.un1_M_ctr_q_cry_3_c }
+ble_pack btn_cond.M_ctr_q_4_LC_15_25_4 { btn_cond.M_ctr_q_RNO[4], btn_cond.M_ctr_q[4], btn_cond.un1_M_ctr_q_cry_4_c }
+ble_pack btn_cond.M_ctr_q_5_LC_15_25_5 { btn_cond.M_ctr_q_RNO[5], btn_cond.M_ctr_q[5], btn_cond.un1_M_ctr_q_cry_5_c }
+ble_pack btn_cond.M_ctr_q_6_LC_15_25_6 { btn_cond.M_ctr_q_RNO[6], btn_cond.M_ctr_q[6], btn_cond.un1_M_ctr_q_cry_6_c }
+ble_pack btn_cond.M_ctr_q_7_LC_15_25_7 { btn_cond.M_ctr_q_RNO[7], btn_cond.M_ctr_q[7], btn_cond.un1_M_ctr_q_cry_7_c }
+clb_pack LT_15_25 { btn_cond.M_ctr_q_0_LC_15_25_0, btn_cond.M_ctr_q_1_LC_15_25_1, btn_cond.M_ctr_q_2_LC_15_25_2, btn_cond.M_ctr_q_3_LC_15_25_3, btn_cond.M_ctr_q_4_LC_15_25_4, btn_cond.M_ctr_q_5_LC_15_25_5, btn_cond.M_ctr_q_6_LC_15_25_6, btn_cond.M_ctr_q_7_LC_15_25_7 }
+set_location LT_15_25 15 25
+ble_pack btn_cond.M_ctr_q_8_LC_15_26_0 { btn_cond.M_ctr_q_RNO[8], btn_cond.M_ctr_q[8], btn_cond.un1_M_ctr_q_cry_8_c }
+ble_pack btn_cond.M_ctr_q_9_LC_15_26_1 { btn_cond.M_ctr_q_RNO[9], btn_cond.M_ctr_q[9], btn_cond.un1_M_ctr_q_cry_9_c }
+ble_pack btn_cond.M_ctr_q_10_LC_15_26_2 { btn_cond.M_ctr_q_RNO[10], btn_cond.M_ctr_q[10], btn_cond.un1_M_ctr_q_cry_10_c }
+ble_pack btn_cond.M_ctr_q_11_LC_15_26_3 { btn_cond.M_ctr_q_RNO[11], btn_cond.M_ctr_q[11], btn_cond.un1_M_ctr_q_cry_11_c }
+ble_pack btn_cond.M_ctr_q_12_LC_15_26_4 { btn_cond.M_ctr_q_RNO[12], btn_cond.M_ctr_q[12], btn_cond.un1_M_ctr_q_cry_12_c }
+ble_pack btn_cond.M_ctr_q_13_LC_15_26_5 { btn_cond.M_ctr_q_RNO[13], btn_cond.M_ctr_q[13], btn_cond.un1_M_ctr_q_cry_13_c }
+ble_pack btn_cond.M_ctr_q_14_LC_15_26_6 { btn_cond.M_ctr_q_RNO[14], btn_cond.M_ctr_q[14], btn_cond.un1_M_ctr_q_cry_14_c }
+ble_pack btn_cond.M_ctr_q_15_LC_15_26_7 { btn_cond.M_ctr_q_RNO[15], btn_cond.M_ctr_q[15], btn_cond.un1_M_ctr_q_cry_15_c }
+clb_pack LT_15_26 { btn_cond.M_ctr_q_8_LC_15_26_0, btn_cond.M_ctr_q_9_LC_15_26_1, btn_cond.M_ctr_q_10_LC_15_26_2, btn_cond.M_ctr_q_11_LC_15_26_3, btn_cond.M_ctr_q_12_LC_15_26_4, btn_cond.M_ctr_q_13_LC_15_26_5, btn_cond.M_ctr_q_14_LC_15_26_6, btn_cond.M_ctr_q_15_LC_15_26_7 }
+set_location LT_15_26 15 26
+ble_pack btn_cond.M_ctr_q_16_LC_15_27_0 { btn_cond.M_ctr_q_RNO[16], btn_cond.M_ctr_q[16], btn_cond.un1_M_ctr_q_cry_16_c }
+ble_pack btn_cond.M_ctr_q_17_LC_15_27_1 { btn_cond.M_ctr_q_RNO[17], btn_cond.M_ctr_q[17], btn_cond.un1_M_ctr_q_cry_17_c }
+ble_pack btn_cond.M_ctr_q_18_LC_15_27_2 { btn_cond.M_ctr_q_RNO[18], btn_cond.M_ctr_q[18], btn_cond.un1_M_ctr_q_cry_18_c }
+ble_pack btn_cond.M_ctr_q_19_LC_15_27_3 { btn_cond.M_ctr_q_RNO[19], btn_cond.M_ctr_q[19] }
+clb_pack LT_15_27 { btn_cond.M_ctr_q_16_LC_15_27_0, btn_cond.M_ctr_q_17_LC_15_27_1, btn_cond.M_ctr_q_18_LC_15_27_2, btn_cond.M_ctr_q_19_LC_15_27_3 }
+set_location LT_15_27 15 27
+ble_pack uart_tx.M_txReg_q_LC_16_22_3 { uart_tx.M_txReg_q_RNO, uart_tx.M_txReg_q }
+clb_pack LT_16_22 { uart_tx.M_txReg_q_LC_16_22_3 }
+set_location LT_16_22 16 22
+ble_pack uart_tx.M_savedData_q_0_LC_16_23_0 { uart_tx.M_savedData_q_0_THRU_LUT4_0, uart_tx.M_savedData_q[0] }
+ble_pack uart_tx.M_savedData_q_6_LC_16_23_1 { uart_tx.M_savedData_q_6_THRU_LUT4_0, uart_tx.M_savedData_q[6] }
+ble_pack uart_tx.M_savedData_q_4_LC_16_23_4 { uart_tx.M_savedData_q_4_THRU_LUT4_0, uart_tx.M_savedData_q[4] }
+ble_pack uart_tx.M_savedData_q_7_LC_16_23_7 { uart_tx.M_savedData_q_7_THRU_LUT4_0, uart_tx.M_savedData_q[7] }
+clb_pack LT_16_23 { uart_tx.M_savedData_q_0_LC_16_23_0, uart_tx.M_savedData_q_6_LC_16_23_1, uart_tx.M_savedData_q_4_LC_16_23_4, uart_tx.M_savedData_q_7_LC_16_23_7 }
+set_location LT_16_23 16 23
+ble_pack uart_tx.M_savedData_q_2_LC_16_24_0 { uart_tx.M_savedData_q_2_THRU_LUT4_0, uart_tx.M_savedData_q[2] }
+ble_pack uart_tx.M_savedData_q_3_LC_16_24_1 { uart_tx.M_savedData_q_3_THRU_LUT4_0, uart_tx.M_savedData_q[3] }
+ble_pack uart_tx.M_savedData_q_1_LC_16_24_3 { uart_tx.M_savedData_q_1_THRU_LUT4_0, uart_tx.M_savedData_q[1] }
+ble_pack uart_tx.M_savedData_q_5_LC_16_24_7 { uart_tx.M_savedData_q_5_THRU_LUT4_0, uart_tx.M_savedData_q[5] }
+clb_pack LT_16_24 { uart_tx.M_savedData_q_2_LC_16_24_0, uart_tx.M_savedData_q_3_LC_16_24_1, uart_tx.M_savedData_q_1_LC_16_24_3, uart_tx.M_savedData_q_5_LC_16_24_7 }
+set_location LT_16_24 16 24
+ble_pack btn_cond.M_ctr_q_RNIUMNB_0_4_LC_16_25_0 { btn_cond.M_ctr_q_RNIUMNB_0[4] }
+ble_pack btn_cond.M_ctr_q_RNIS377_0_10_LC_16_25_2 { btn_cond.M_ctr_q_RNIS377_0[10] }
+ble_pack btn_cond.M_ctr_q_RNIMKT9_14_LC_16_25_3 { btn_cond.M_ctr_q_RNIMKT9[14] }
+ble_pack btn_cond.M_ctr_q_RNICJ341_14_LC_16_25_4 { btn_cond.M_ctr_q_RNICJ341[14] }
+ble_pack btn_cond.M_ctr_q_RNIE6NB_0_0_LC_16_25_5 { btn_cond.M_ctr_q_RNIE6NB_0[0] }
+ble_pack btn_cond.M_ctr_q_RNIB6B1_12_LC_16_25_7 { btn_cond.M_ctr_q_RNIB6B1[12] }
+clb_pack LT_16_25 { btn_cond.M_ctr_q_RNIUMNB_0_4_LC_16_25_0, btn_cond.M_ctr_q_RNIS377_0_10_LC_16_25_2, btn_cond.M_ctr_q_RNIMKT9_14_LC_16_25_3, btn_cond.M_ctr_q_RNICJ341_14_LC_16_25_4, btn_cond.M_ctr_q_RNIE6NB_0_0_LC_16_25_5, btn_cond.M_ctr_q_RNIB6B1_12_LC_16_25_7 }
+set_location LT_16_25 16 25
+ble_pack btn_cond.M_ctr_q_RNIA1N2_0_19_LC_16_26_2 { btn_cond.M_ctr_q_RNIA1N2_0[19] }
+clb_pack LT_16_26 { btn_cond.M_ctr_q_RNIA1N2_0_19_LC_16_26_2 }
+set_location LT_16_26 16 26
+ble_pack btn_cond.sync.M_pipe_q_1_LC_16_31_4 { btn_cond.sync.M_pipe_q_1_THRU_LUT4_0, btn_cond.sync.M_pipe_q[1] }
+ble_pack btn_cond.sync.M_pipe_q_0_LC_16_31_5 { btn_cond.sync.M_pipe_q_0_THRU_LUT4_0, btn_cond.sync.M_pipe_q[0] }
+clb_pack LT_16_31 { btn_cond.sync.M_pipe_q_1_LC_16_31_4, btn_cond.sync.M_pipe_q_0_LC_16_31_5 }
+set_location LT_16_31 16 31
+ble_pack btn_cond.sync.M_pipe_q_RNIJLM5_1_LC_16_32_6 { btn_cond.sync.M_pipe_q_RNIJLM5[1] }
+clb_pack LT_16_32 { btn_cond.sync.M_pipe_q_RNIJLM5_1_LC_16_32_6 }
+set_location LT_16_32 16 32
+set_location btn_cond.sync.M_pipe_q_RNIJLM5_0[1] 16 33
+set_io usb_tx M9
+set_io trigger N1
+set_io rst_n P8
+set_io led[7] N14
+set_io led[6] M12
+set_io led[5] L14
+set_io led[4] L12
+set_io led[3] K14
+set_io led[2] K12
+set_io led[1] K11
+set_io led[0] J11
+set_io clk P7

@@ -1,0 +1,2 @@
+@W: CL249 :"/home/tumo/fpga-workspace/button-to-serial/work/verilog/uart_tx_4.v":99:2:99:7|Initial value is not supported on state machine M_state_q
+

@@ -1,0 +1,8 @@
+Selecting top level module cu_top_0
+@N: CG364 :"/home/tumo/fpga-workspace/dip-to-led/work/verilog/reset_conditioner_1.v":11:7:11:25|Synthesizing module reset_conditioner_1 in library work.
+
+@N: CG364 :"/home/tumo/fpga-workspace/dip-to-led/work/verilog/cu_top_0.v":7:7:7:14|Synthesizing module cu_top_0 in library work.
+
+@W: CL168 :"/home/tumo/fpga-workspace/dip-to-led/work/verilog/cu_top_0.v":20:22:20:31|Removing instance reset_cond because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@N: CL159 :"/home/tumo/fpga-workspace/dip-to-led/work/verilog/cu_top_0.v":8:10:8:12|Input clk is unused.
+@N: CL159 :"/home/tumo/fpga-workspace/dip-to-led/work/verilog/cu_top_0.v":9:10:9:14|Input rst_n is unused.

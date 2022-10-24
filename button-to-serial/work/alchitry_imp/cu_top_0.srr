@@ -1,0 +1,938 @@
+#Build: Synplify Pro L-2016.09L+ice40, Build 077R, Dec  2 2016
+#install: /home/tumo/lscc/iCEcube2.2020.12/synpbase
+#OS: Linux 
+#Hostname: tumo-VivoBook-ASUSLaptop-E410KA-E410KA
+
+# Sun Oct 23 18:15:09 2022
+
+#Implementation: alchitry_imp
+
+Synopsys HDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys Verilog Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Running on host :tumo-VivoBook-ASUSLaptop-E410KA-E410KA
+@I::"/home/tumo/lscc/iCEcube2.2020.12/synpbase/lib/generic/sb_ice40.v" (library work)
+@I::"/home/tumo/lscc/iCEcube2.2020.12/synpbase/lib/vlog/hypermods.v" (library __hyper__lib__)
+@I::"/home/tumo/lscc/iCEcube2.2020.12/synpbase/lib/vlog/umr_capim.v" (library snps_haps)
+@I::"/home/tumo/lscc/iCEcube2.2020.12/synpbase/lib/vlog/scemi_objects.v" (library snps_haps)
+@I::"/home/tumo/lscc/iCEcube2.2020.12/synpbase/lib/vlog/scemi_pipes.svh" (library snps_haps)
+@I::"/home/tumo/fpga-workspace/button-to-serial/work/verilog/cu_top_0.v" (library work)
+@I::"/home/tumo/fpga-workspace/button-to-serial/work/verilog/reset_conditioner_1.v" (library work)
+@I::"/home/tumo/fpga-workspace/button-to-serial/work/verilog/button_conditioner_2.v" (library work)
+@I::"/home/tumo/fpga-workspace/button-to-serial/work/verilog/edge_detector_3.v" (library work)
+@I::"/home/tumo/fpga-workspace/button-to-serial/work/verilog/uart_tx_4.v" (library work)
+@I::"/home/tumo/fpga-workspace/button-to-serial/work/verilog/pipeline_5.v" (library work)
+Verilog syntax check successful!
+Selecting top level module cu_top_0
+@N: CG364 :"/home/tumo/fpga-workspace/button-to-serial/work/verilog/reset_conditioner_1.v":11:7:11:25|Synthesizing module reset_conditioner_1 in library work.
+
+@N: CG364 :"/home/tumo/fpga-workspace/button-to-serial/work/verilog/pipeline_5.v":11:7:11:16|Synthesizing module pipeline_5 in library work.
+
+@N: CG364 :"/home/tumo/fpga-workspace/button-to-serial/work/verilog/button_conditioner_2.v":13:7:13:26|Synthesizing module button_conditioner_2 in library work.
+
+@N: CG364 :"/home/tumo/fpga-workspace/button-to-serial/work/verilog/edge_detector_3.v":12:7:12:21|Synthesizing module edge_detector_3 in library work.
+
+@N: CG364 :"/home/tumo/fpga-workspace/button-to-serial/work/verilog/uart_tx_4.v":12:7:12:15|Synthesizing module uart_tx_4 in library work.
+
+@N: CG364 :"/home/tumo/fpga-workspace/button-to-serial/work/verilog/cu_top_0.v":7:7:7:14|Synthesizing module cu_top_0 in library work.
+
+@N: CL201 :"/home/tumo/fpga-workspace/button-to-serial/work/verilog/uart_tx_4.v":99:2:99:7|Trying to extract state machine for register M_state_q.
+Extracted state machine for register M_state_q
+State machine has 4 reachable states with original encodings of:
+   00
+   01
+   10
+   11
+@W: CL249 :"/home/tumo/fpga-workspace/button-to-serial/work/verilog/uart_tx_4.v":99:2:99:7|Initial value is not supported on state machine M_state_q
+
+At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 70MB peak: 71MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Sun Oct 23 18:15:09 2022
+
+###########################################################]
+Synopsys Netlist Linker, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+@N: NF107 :"/home/tumo/fpga-workspace/button-to-serial/work/verilog/cu_top_0.v":7:7:7:14|Selected library: work cell: cu_top_0 view verilog as top level
+@N: NF107 :"/home/tumo/fpga-workspace/button-to-serial/work/verilog/cu_top_0.v":7:7:7:14|Selected library: work cell: cu_top_0 view verilog as top level
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Sun Oct 23 18:15:09 2022
+
+###########################################################]
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 3MB peak: 4MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Sun Oct 23 18:15:09 2022
+
+###########################################################]
+Synopsys Netlist Linker, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+@N: NF107 :"/home/tumo/fpga-workspace/button-to-serial/work/verilog/cu_top_0.v":7:7:7:14|Selected library: work cell: cu_top_0 view verilog as top level
+@N: NF107 :"/home/tumo/fpga-workspace/button-to-serial/work/verilog/cu_top_0.v":7:7:7:14|Selected library: work cell: cu_top_0 view verilog as top level
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Sun Oct 23 18:15:11 2022
+
+###########################################################]
+Pre-mapping Report
+
+# Sun Oct 23 18:15:11 2022
+
+Synopsys Lattice Technology Pre-mapping, Version maplat, Build 1612R, Built Dec  5 2016 09:30:53
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version L-2016.09L+ice40
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 98MB peak: 99MB)
+
+Reading constraint file: /home/tumo/fpga-workspace/button-to-serial/work/constraint/merged_constraint.sdc
+@L: /home/tumo/fpga-workspace/button-to-serial/work/alchitry_imp/cu_top_0_scck.rpt 
+Printing clock  summary report in "/home/tumo/fpga-workspace/button-to-serial/work/alchitry_imp/cu_top_0_scck.rpt" file 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 101MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 101MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 101MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 103MB)
+
+
+ICG Latch Removal Summary:
+Number of ICG latches removed:	0
+Number of ICG latches not removed:	0
+syn_allowed_resources : blockrams=32  set on top level netlist cu_top_0
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+
+
+Clock Summary
+*****************
+
+Start     Requested     Requested     Clock        Clock                Clock
+Clock     Frequency     Period        Type         Group                Load 
+-----------------------------------------------------------------------------
+clk_0     100.0 MHz     10.000        declared     default_clkgroup     58   
+=============================================================================
+
+Finished Pre Mapping Phase.
+@N: BN225 |Writing default property annotation file /home/tumo/fpga-workspace/button-to-serial/work/alchitry_imp/cu_top_0.sap.
+
+Starting constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+Encoding state machine M_state_q[3:0] (in view: work.uart_tx_4(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+@N: MO225 :"/home/tumo/fpga-workspace/button-to-serial/work/verilog/uart_tx_4.v":99:2:99:7|There are no possible illegal states for state machine M_state_q[3:0] (in view: work.uart_tx_4(verilog)); safe FSM implementation is not required.
+None
+None
+
+Finished constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 47MB peak: 133MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Sun Oct 23 18:15:11 2022
+
+###########################################################]
+Map & Optimize Report
+
+# Sun Oct 23 18:15:11 2022
+
+Synopsys Lattice Technology Mapper, Version maplat, Build 1612R, Built Dec  5 2016 09:30:53
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version L-2016.09L+ice40
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 98MB peak: 99MB)
+
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 98MB peak: 100MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 98MB peak: 100MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 102MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 130MB peak: 132MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+@N: MT204 |Auto Constrain mode is disabled because clocks are defined in the SDC file
+
+            clk_0
+
+@W: FX1039 :"/home/tumo/fpga-workspace/button-to-serial/work/verilog/reset_conditioner_1.v":29:2:29:7|User-specified initial value defined for instance reset_cond.M_stage_q[3:0] is being ignored. 
+@W: FX1039 :"/home/tumo/fpga-workspace/button-to-serial/work/verilog/button_conditioner_2.v":46:2:46:7|User-specified initial value defined for instance btn_cond.M_ctr_q[19:0] is being ignored. 
+@W: FX1039 :"/home/tumo/fpga-workspace/button-to-serial/work/verilog/pipeline_5.v":34:2:34:7|User-specified initial value defined for instance btn_cond.sync.M_pipe_q[1:0] is being ignored. 
+@W: FX1039 :"/home/tumo/fpga-workspace/button-to-serial/work/verilog/uart_tx_4.v":99:2:99:7|User-specified initial value defined for instance uart_tx.M_txReg_q is being ignored. 
+@W: FX1039 :"/home/tumo/fpga-workspace/button-to-serial/work/verilog/uart_tx_4.v":99:2:99:7|User-specified initial value defined for instance uart_tx.M_ctr_q[6:0] is being ignored. 
+@W: FX1039 :"/home/tumo/fpga-workspace/button-to-serial/work/verilog/uart_tx_4.v":99:2:99:7|User-specified initial value defined for instance uart_tx.M_bitCtr_q[2:0] is being ignored. 
+@W: FX1039 :"/home/tumo/fpga-workspace/button-to-serial/work/verilog/uart_tx_4.v":99:2:99:7|User-specified initial value defined for instance uart_tx.M_savedData_q[7:0] is being ignored. 
+@W: FX1039 :"/home/tumo/fpga-workspace/button-to-serial/work/verilog/cu_top_0.v":75:2:75:7|User-specified initial value defined for instance M_count_q[7:0] is being ignored. 
+@W: FX1039 :"/home/tumo/fpga-workspace/button-to-serial/work/verilog/edge_detector_3.v":41:2:41:7|User-specified initial value defined for instance click_dtct.M_last_q is being ignored. 
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 130MB peak: 132MB)
+
+Encoding state machine M_state_q[3:0] (in view: work.uart_tx_4(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+@N: MO225 :"/home/tumo/fpga-workspace/button-to-serial/work/verilog/uart_tx_4.v":99:2:99:7|There are no possible illegal states for state machine M_state_q[3:0] (in view: work.uart_tx_4(verilog)); safe FSM implementation is not required.
+
+Starting factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 132MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 132MB)
+
+
+Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 132MB)
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 132MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 132MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 132MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 132MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 132MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 132MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:00s		     1.33ns		  88 /        56
+   2		0h:00m:00s		     1.33ns		  87 /        56
+   3		0h:00m:00s		     1.65ns		  87 /        56
+@N: FX1016 :"/home/tumo/fpga-workspace/button-to-serial/work/verilog/cu_top_0.v":8:10:8:12|SB_GB_IO inserted on the port clk.
+@N: FX1017 :|SB_GB inserted on the net btn_cond.M_sync_out_i[0].
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 132MB)
+
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 132MB)
+
+
+
+@S |Clock Optimization Summary
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+1 non-gated/non-generated clock tree(s) driving 56 clock pin(s) of sequential element(s)
+0 gated/generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+0 instances converted, 0 sequential instances remain driven by gated/generated clocks
+
+=========================== Non-Gated/Non-Generated Clocks ============================
+Clock Tree ID     Driving Element     Drive Element Type     Fanout     Sample Instance
+---------------------------------------------------------------------------------------
+@K:CKID0001       clk_ibuf_gb_io      SB_GB_IO               56         M_count_q[0]   
+=======================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 106MB peak: 132MB)
+
+Writing Analyst data base /home/tumo/fpga-workspace/button-to-serial/work/alchitry_imp/synwork/cu_top_0_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 132MB)
+
+Writing EDIF Netlist and constraint files
+@N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
+@N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
+@N: FX1056 |Writing EDF file: /home/tumo/fpga-workspace/button-to-serial/work/alchitry_imp/cu_top_0.edf
+L-2016.09L+ice40
+
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 134MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:01s; Memory used current: 132MB peak: 134MB)
+
+@N: MT615 |Found clock clk_0 with period 10.00ns 
+
+
+##### START OF TIMING REPORT #####[
+# Timing Report written on Sun Oct 23 18:15:12 2022
+#
+
+
+Top view:               cu_top_0
+Requested Frequency:    100.0 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    /home/tumo/fpga-workspace/button-to-serial/work/constraint/merged_constraint.sdc
+                       
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: -1.893
+
+                   Requested     Estimated     Requested     Estimated                Clock        Clock           
+Starting Clock     Frequency     Frequency     Period        Period        Slack      Type         Group           
+-------------------------------------------------------------------------------------------------------------------
+clk_0              100.0 MHz     84.1 MHz      10.000        11.893        -1.893     declared     default_clkgroup
+===================================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks            |    rise  to  rise    |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+---------------------------------------------------------------------------------------------------------
+Starting  Ending  |  constraint  slack   |  constraint  slack  |  constraint  slack  |  constraint  slack
+---------------------------------------------------------------------------------------------------------
+clk_0     clk_0   |  10.000      -1.893  |  No paths    -      |  No paths    -      |  No paths    -    
+=========================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: clk_0
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                         Starting                                           Arrival           
+Instance                 Reference     Type         Pin     Net             Time        Slack 
+                         Clock                                                                
+----------------------------------------------------------------------------------------------
+btn_cond.M_ctr_q[12]     clk_0         SB_DFFSR     Q       M_ctr_q[12]     0.540       -1.893
+btn_cond.M_ctr_q[13]     clk_0         SB_DFFSR     Q       M_ctr_q[13]     0.540       -1.844
+btn_cond.M_ctr_q[8]      clk_0         SB_DFFSR     Q       M_ctr_q[8]      0.540       -1.830
+btn_cond.M_ctr_q[9]      clk_0         SB_DFFSR     Q       M_ctr_q[9]      0.540       -1.781
+btn_cond.M_ctr_q[10]     clk_0         SB_DFFSR     Q       M_ctr_q[10]     0.540       -1.760
+btn_cond.M_ctr_q[11]     clk_0         SB_DFFSR     Q       M_ctr_q[11]     0.540       -1.696
+btn_cond.M_ctr_q[4]      clk_0         SB_DFFSR     Q       M_ctr_q[4]      0.540       -1.227
+btn_cond.M_ctr_q[14]     clk_0         SB_DFFSR     Q       M_ctr_q[14]     0.540       -1.227
+btn_cond.M_ctr_q[5]      clk_0         SB_DFFSR     Q       M_ctr_q[5]      0.540       -1.178
+btn_cond.M_ctr_q[15]     clk_0         SB_DFFSR     Q       M_ctr_q[15]     0.540       -1.164
+==============================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                         Starting                                                Required           
+Instance                 Reference     Type         Pin     Net                  Time         Slack 
+                         Clock                                                                      
+----------------------------------------------------------------------------------------------------
+btn_cond.M_ctr_q[19]     clk_0         SB_DFFSR     D       M_ctr_q_RNO[19]      9.895        -1.893
+btn_cond.M_ctr_q[18]     clk_0         SB_DFFSR     D       M_ctr_q_RNO[18]      9.895        -1.753
+btn_cond.M_ctr_q[17]     clk_0         SB_DFFSR     D       M_ctr_q_RNO[17]      9.895        -1.612
+btn_cond.M_ctr_q[16]     clk_0         SB_DFFSR     D       M_ctr_q_RNO[16]      9.895        -1.472
+btn_cond.M_ctr_q[15]     clk_0         SB_DFFSR     D       M_ctr_q_RNO[15]      9.895        -1.332
+uart_tx.M_state_q[0]     clk_0         SB_DFF       D       M_state_q_nss[0]     9.895        -1.297
+M_count_q[2]             clk_0         SB_DFFSR     D       M_count_q_RNO[2]     9.895        -1.269
+M_count_q[5]             clk_0         SB_DFFSR     D       M_count_q_RNO[5]     9.895        -1.269
+M_count_q[7]             clk_0         SB_DFFSR     D       M_count_q_RNO[7]     9.895        -1.269
+M_count_q[3]             clk_0         SB_DFFSR     D       M_count_q_RNO[3]     9.895        -1.206
+====================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.000
+    - Setup time:                            0.105
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.895
+
+    - Propagation time:                      11.788
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -1.893
+
+    Number of logic level(s):                23
+    Starting point:                          btn_cond.M_ctr_q[12] / Q
+    Ending point:                            btn_cond.M_ctr_q[19] / D
+    The start point is clocked by            clk_0 [rising] on pin C
+    The end   point is clocked by            clk_0 [rising] on pin C
+
+Instance / Net                                 Pin      Pin               Arrival     No. of    
+Name                              Type         Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------------
+btn_cond.M_ctr_q[12]              SB_DFFSR     Q        Out     0.540     0.540       -         
+M_ctr_q[12]                       Net          -        -       1.599     -           4         
+btn_cond.M_ctr_q_RNIB6B1[12]      SB_LUT4      I0       In      -         2.139       -         
+btn_cond.M_ctr_q_RNIB6B1[12]      SB_LUT4      O        Out     0.449     2.588       -         
+g0_5                              Net          -        -       1.371     -           1         
+btn_cond.M_ctr_q_RNIMKT9[14]      SB_LUT4      I2       In      -         3.959       -         
+btn_cond.M_ctr_q_RNIMKT9[14]      SB_LUT4      O        Out     0.379     4.338       -         
+g0_16                             Net          -        -       1.371     -           1         
+btn_cond.M_ctr_q_RNICJ341[14]     SB_LUT4      I3       In      -         5.708       -         
+btn_cond.M_ctr_q_RNICJ341[14]     SB_LUT4      O        Out     0.316     6.024       -         
+M_btn_cond_out_i[0]               Net          -        -       0.905     -           2         
+btn_cond.un1_M_ctr_q_cry_0_c      SB_CARRY     CI       In      -         6.929       -         
+btn_cond.un1_M_ctr_q_cry_0_c      SB_CARRY     CO       Out     0.126     7.055       -         
+un1_M_ctr_q_cry_0                 Net          -        -       0.014     -           2         
+btn_cond.un1_M_ctr_q_cry_1_c      SB_CARRY     CI       In      -         7.069       -         
+btn_cond.un1_M_ctr_q_cry_1_c      SB_CARRY     CO       Out     0.126     7.196       -         
+un1_M_ctr_q_cry_1                 Net          -        -       0.014     -           2         
+btn_cond.un1_M_ctr_q_cry_2_c      SB_CARRY     CI       In      -         7.210       -         
+btn_cond.un1_M_ctr_q_cry_2_c      SB_CARRY     CO       Out     0.126     7.336       -         
+un1_M_ctr_q_cry_2                 Net          -        -       0.014     -           2         
+btn_cond.un1_M_ctr_q_cry_3_c      SB_CARRY     CI       In      -         7.350       -         
+btn_cond.un1_M_ctr_q_cry_3_c      SB_CARRY     CO       Out     0.126     7.476       -         
+un1_M_ctr_q_cry_3                 Net          -        -       0.014     -           2         
+btn_cond.un1_M_ctr_q_cry_4_c      SB_CARRY     CI       In      -         7.490       -         
+btn_cond.un1_M_ctr_q_cry_4_c      SB_CARRY     CO       Out     0.126     7.616       -         
+un1_M_ctr_q_cry_4                 Net          -        -       0.014     -           2         
+btn_cond.un1_M_ctr_q_cry_5_c      SB_CARRY     CI       In      -         7.630       -         
+btn_cond.un1_M_ctr_q_cry_5_c      SB_CARRY     CO       Out     0.126     7.756       -         
+un1_M_ctr_q_cry_5                 Net          -        -       0.014     -           2         
+btn_cond.un1_M_ctr_q_cry_6_c      SB_CARRY     CI       In      -         7.770       -         
+btn_cond.un1_M_ctr_q_cry_6_c      SB_CARRY     CO       Out     0.126     7.897       -         
+un1_M_ctr_q_cry_6                 Net          -        -       0.014     -           2         
+btn_cond.un1_M_ctr_q_cry_7_c      SB_CARRY     CI       In      -         7.911       -         
+btn_cond.un1_M_ctr_q_cry_7_c      SB_CARRY     CO       Out     0.126     8.037       -         
+un1_M_ctr_q_cry_7                 Net          -        -       0.014     -           2         
+btn_cond.un1_M_ctr_q_cry_8_c      SB_CARRY     CI       In      -         8.051       -         
+btn_cond.un1_M_ctr_q_cry_8_c      SB_CARRY     CO       Out     0.126     8.177       -         
+un1_M_ctr_q_cry_8                 Net          -        -       0.014     -           2         
+btn_cond.un1_M_ctr_q_cry_9_c      SB_CARRY     CI       In      -         8.191       -         
+btn_cond.un1_M_ctr_q_cry_9_c      SB_CARRY     CO       Out     0.126     8.317       -         
+un1_M_ctr_q_cry_9                 Net          -        -       0.014     -           2         
+btn_cond.un1_M_ctr_q_cry_10_c     SB_CARRY     CI       In      -         8.331       -         
+btn_cond.un1_M_ctr_q_cry_10_c     SB_CARRY     CO       Out     0.126     8.457       -         
+un1_M_ctr_q_cry_10                Net          -        -       0.014     -           2         
+btn_cond.un1_M_ctr_q_cry_11_c     SB_CARRY     CI       In      -         8.471       -         
+btn_cond.un1_M_ctr_q_cry_11_c     SB_CARRY     CO       Out     0.126     8.598       -         
+un1_M_ctr_q_cry_11                Net          -        -       0.014     -           2         
+btn_cond.un1_M_ctr_q_cry_12_c     SB_CARRY     CI       In      -         8.612       -         
+btn_cond.un1_M_ctr_q_cry_12_c     SB_CARRY     CO       Out     0.126     8.738       -         
+un1_M_ctr_q_cry_12                Net          -        -       0.014     -           2         
+btn_cond.un1_M_ctr_q_cry_13_c     SB_CARRY     CI       In      -         8.752       -         
+btn_cond.un1_M_ctr_q_cry_13_c     SB_CARRY     CO       Out     0.126     8.878       -         
+un1_M_ctr_q_cry_13                Net          -        -       0.014     -           2         
+btn_cond.un1_M_ctr_q_cry_14_c     SB_CARRY     CI       In      -         8.892       -         
+btn_cond.un1_M_ctr_q_cry_14_c     SB_CARRY     CO       Out     0.126     9.018       -         
+un1_M_ctr_q_cry_14                Net          -        -       0.014     -           2         
+btn_cond.un1_M_ctr_q_cry_15_c     SB_CARRY     CI       In      -         9.032       -         
+btn_cond.un1_M_ctr_q_cry_15_c     SB_CARRY     CO       Out     0.126     9.158       -         
+un1_M_ctr_q_cry_15                Net          -        -       0.014     -           2         
+btn_cond.un1_M_ctr_q_cry_16_c     SB_CARRY     CI       In      -         9.172       -         
+btn_cond.un1_M_ctr_q_cry_16_c     SB_CARRY     CO       Out     0.126     9.299       -         
+un1_M_ctr_q_cry_16                Net          -        -       0.014     -           2         
+btn_cond.un1_M_ctr_q_cry_17_c     SB_CARRY     CI       In      -         9.312       -         
+btn_cond.un1_M_ctr_q_cry_17_c     SB_CARRY     CO       Out     0.126     9.439       -         
+un1_M_ctr_q_cry_17                Net          -        -       0.014     -           2         
+btn_cond.un1_M_ctr_q_cry_18_c     SB_CARRY     CI       In      -         9.453       -         
+btn_cond.un1_M_ctr_q_cry_18_c     SB_CARRY     CO       Out     0.126     9.579       -         
+un1_M_ctr_q_cry_18                Net          -        -       0.386     -           1         
+btn_cond.M_ctr_q_RNO[19]          SB_LUT4      I3       In      -         9.965       -         
+btn_cond.M_ctr_q_RNO[19]          SB_LUT4      O        Out     0.316     10.280      -         
+M_ctr_q_RNO[19]                   Net          -        -       1.507     -           1         
+btn_cond.M_ctr_q[19]              SB_DFFSR     D        In      -         11.788      -         
+================================================================================================
+Total path delay (propagation time + setup) of 11.893 is 4.502(37.9%) logic and 7.391(62.1%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 2: 
+      Requested Period:                      10.000
+    - Setup time:                            0.105
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.895
+
+    - Propagation time:                      11.738
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -1.844
+
+    Number of logic level(s):                23
+    Starting point:                          btn_cond.M_ctr_q[13] / Q
+    Ending point:                            btn_cond.M_ctr_q[19] / D
+    The start point is clocked by            clk_0 [rising] on pin C
+    The end   point is clocked by            clk_0 [rising] on pin C
+
+Instance / Net                                 Pin      Pin               Arrival     No. of    
+Name                              Type         Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------------
+btn_cond.M_ctr_q[13]              SB_DFFSR     Q        Out     0.540     0.540       -         
+M_ctr_q[13]                       Net          -        -       1.599     -           4         
+btn_cond.M_ctr_q_RNIB6B1[12]      SB_LUT4      I1       In      -         2.139       -         
+btn_cond.M_ctr_q_RNIB6B1[12]      SB_LUT4      O        Out     0.400     2.539       -         
+g0_5                              Net          -        -       1.371     -           1         
+btn_cond.M_ctr_q_RNIMKT9[14]      SB_LUT4      I2       In      -         3.910       -         
+btn_cond.M_ctr_q_RNIMKT9[14]      SB_LUT4      O        Out     0.379     4.288       -         
+g0_16                             Net          -        -       1.371     -           1         
+btn_cond.M_ctr_q_RNICJ341[14]     SB_LUT4      I3       In      -         5.659       -         
+btn_cond.M_ctr_q_RNICJ341[14]     SB_LUT4      O        Out     0.316     5.975       -         
+M_btn_cond_out_i[0]               Net          -        -       0.905     -           2         
+btn_cond.un1_M_ctr_q_cry_0_c      SB_CARRY     CI       In      -         6.880       -         
+btn_cond.un1_M_ctr_q_cry_0_c      SB_CARRY     CO       Out     0.126     7.006       -         
+un1_M_ctr_q_cry_0                 Net          -        -       0.014     -           2         
+btn_cond.un1_M_ctr_q_cry_1_c      SB_CARRY     CI       In      -         7.020       -         
+btn_cond.un1_M_ctr_q_cry_1_c      SB_CARRY     CO       Out     0.126     7.146       -         
+un1_M_ctr_q_cry_1                 Net          -        -       0.014     -           2         
+btn_cond.un1_M_ctr_q_cry_2_c      SB_CARRY     CI       In      -         7.160       -         
+btn_cond.un1_M_ctr_q_cry_2_c      SB_CARRY     CO       Out     0.126     7.287       -         
+un1_M_ctr_q_cry_2                 Net          -        -       0.014     -           2         
+btn_cond.un1_M_ctr_q_cry_3_c      SB_CARRY     CI       In      -         7.301       -         
+btn_cond.un1_M_ctr_q_cry_3_c      SB_CARRY     CO       Out     0.126     7.427       -         
+un1_M_ctr_q_cry_3                 Net          -        -       0.014     -           2         
+btn_cond.un1_M_ctr_q_cry_4_c      SB_CARRY     CI       In      -         7.441       -         
+btn_cond.un1_M_ctr_q_cry_4_c      SB_CARRY     CO       Out     0.126     7.567       -         
+un1_M_ctr_q_cry_4                 Net          -        -       0.014     -           2         
+btn_cond.un1_M_ctr_q_cry_5_c      SB_CARRY     CI       In      -         7.581       -         
+btn_cond.un1_M_ctr_q_cry_5_c      SB_CARRY     CO       Out     0.126     7.707       -         
+un1_M_ctr_q_cry_5                 Net          -        -       0.014     -           2         
+btn_cond.un1_M_ctr_q_cry_6_c      SB_CARRY     CI       In      -         7.721       -         
+btn_cond.un1_M_ctr_q_cry_6_c      SB_CARRY     CO       Out     0.126     7.847       -         
+un1_M_ctr_q_cry_6                 Net          -        -       0.014     -           2         
+btn_cond.un1_M_ctr_q_cry_7_c      SB_CARRY     CI       In      -         7.861       -         
+btn_cond.un1_M_ctr_q_cry_7_c      SB_CARRY     CO       Out     0.126     7.988       -         
+un1_M_ctr_q_cry_7                 Net          -        -       0.014     -           2         
+btn_cond.un1_M_ctr_q_cry_8_c      SB_CARRY     CI       In      -         8.002       -         
+btn_cond.un1_M_ctr_q_cry_8_c      SB_CARRY     CO       Out     0.126     8.128       -         
+un1_M_ctr_q_cry_8                 Net          -        -       0.014     -           2         
+btn_cond.un1_M_ctr_q_cry_9_c      SB_CARRY     CI       In      -         8.142       -         
+btn_cond.un1_M_ctr_q_cry_9_c      SB_CARRY     CO       Out     0.126     8.268       -         
+un1_M_ctr_q_cry_9                 Net          -        -       0.014     -           2         
+btn_cond.un1_M_ctr_q_cry_10_c     SB_CARRY     CI       In      -         8.282       -         
+btn_cond.un1_M_ctr_q_cry_10_c     SB_CARRY     CO       Out     0.126     8.408       -         
+un1_M_ctr_q_cry_10                Net          -        -       0.014     -           2         
+btn_cond.un1_M_ctr_q_cry_11_c     SB_CARRY     CI       In      -         8.422       -         
+btn_cond.un1_M_ctr_q_cry_11_c     SB_CARRY     CO       Out     0.126     8.548       -         
+un1_M_ctr_q_cry_11                Net          -        -       0.014     -           2         
+btn_cond.un1_M_ctr_q_cry_12_c     SB_CARRY     CI       In      -         8.562       -         
+btn_cond.un1_M_ctr_q_cry_12_c     SB_CARRY     CO       Out     0.126     8.689       -         
+un1_M_ctr_q_cry_12                Net          -        -       0.014     -           2         
+btn_cond.un1_M_ctr_q_cry_13_c     SB_CARRY     CI       In      -         8.703       -         
+btn_cond.un1_M_ctr_q_cry_13_c     SB_CARRY     CO       Out     0.126     8.829       -         
+un1_M_ctr_q_cry_13                Net          -        -       0.014     -           2         
+btn_cond.un1_M_ctr_q_cry_14_c     SB_CARRY     CI       In      -         8.843       -         
+btn_cond.un1_M_ctr_q_cry_14_c     SB_CARRY     CO       Out     0.126     8.969       -         
+un1_M_ctr_q_cry_14                Net          -        -       0.014     -           2         
+btn_cond.un1_M_ctr_q_cry_15_c     SB_CARRY     CI       In      -         8.983       -         
+btn_cond.un1_M_ctr_q_cry_15_c     SB_CARRY     CO       Out     0.126     9.109       -         
+un1_M_ctr_q_cry_15                Net          -        -       0.014     -           2         
+btn_cond.un1_M_ctr_q_cry_16_c     SB_CARRY     CI       In      -         9.123       -         
+btn_cond.un1_M_ctr_q_cry_16_c     SB_CARRY     CO       Out     0.126     9.249       -         
+un1_M_ctr_q_cry_16                Net          -        -       0.014     -           2         
+btn_cond.un1_M_ctr_q_cry_17_c     SB_CARRY     CI       In      -         9.263       -         
+btn_cond.un1_M_ctr_q_cry_17_c     SB_CARRY     CO       Out     0.126     9.390       -         
+un1_M_ctr_q_cry_17                Net          -        -       0.014     -           2         
+btn_cond.un1_M_ctr_q_cry_18_c     SB_CARRY     CI       In      -         9.404       -         
+btn_cond.un1_M_ctr_q_cry_18_c     SB_CARRY     CO       Out     0.126     9.530       -         
+un1_M_ctr_q_cry_18                Net          -        -       0.386     -           1         
+btn_cond.M_ctr_q_RNO[19]          SB_LUT4      I3       In      -         9.916       -         
+btn_cond.M_ctr_q_RNO[19]          SB_LUT4      O        Out     0.316     10.231      -         
+M_ctr_q_RNO[19]                   Net          -        -       1.507     -           1         
+btn_cond.M_ctr_q[19]              SB_DFFSR     D        In      -         11.738      -         
+================================================================================================
+Total path delay (propagation time + setup) of 11.844 is 4.453(37.6%) logic and 7.391(62.4%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 3: 
+      Requested Period:                      10.000
+    - Setup time:                            0.105
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.895
+
+    - Propagation time:                      11.724
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -1.830
+
+    Number of logic level(s):                23
+    Starting point:                          btn_cond.M_ctr_q[8] / Q
+    Ending point:                            btn_cond.M_ctr_q[19] / D
+    The start point is clocked by            clk_0 [rising] on pin C
+    The end   point is clocked by            clk_0 [rising] on pin C
+
+Instance / Net                                  Pin      Pin               Arrival     No. of    
+Name                               Type         Name     Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------------------
+btn_cond.M_ctr_q[8]                SB_DFFSR     Q        Out     0.540     0.540       -         
+M_ctr_q[8]                         Net          -        -       1.599     -           4         
+btn_cond.M_ctr_q_RNIS377_0[10]     SB_LUT4      I0       In      -         2.139       -         
+btn_cond.M_ctr_q_RNIS377_0[10]     SB_LUT4      O        Out     0.449     2.588       -         
+g0_13                              Net          -        -       1.371     -           1         
+btn_cond.M_ctr_q_RNIMKT9[14]       SB_LUT4      I3       In      -         3.959       -         
+btn_cond.M_ctr_q_RNIMKT9[14]       SB_LUT4      O        Out     0.316     4.274       -         
+g0_16                              Net          -        -       1.371     -           1         
+btn_cond.M_ctr_q_RNICJ341[14]      SB_LUT4      I3       In      -         5.645       -         
+btn_cond.M_ctr_q_RNICJ341[14]      SB_LUT4      O        Out     0.316     5.961       -         
+M_btn_cond_out_i[0]                Net          -        -       0.905     -           2         
+btn_cond.un1_M_ctr_q_cry_0_c       SB_CARRY     CI       In      -         6.866       -         
+btn_cond.un1_M_ctr_q_cry_0_c       SB_CARRY     CO       Out     0.126     6.992       -         
+un1_M_ctr_q_cry_0                  Net          -        -       0.014     -           2         
+btn_cond.un1_M_ctr_q_cry_1_c       SB_CARRY     CI       In      -         7.006       -         
+btn_cond.un1_M_ctr_q_cry_1_c       SB_CARRY     CO       Out     0.126     7.132       -         
+un1_M_ctr_q_cry_1                  Net          -        -       0.014     -           2         
+btn_cond.un1_M_ctr_q_cry_2_c       SB_CARRY     CI       In      -         7.146       -         
+btn_cond.un1_M_ctr_q_cry_2_c       SB_CARRY     CO       Out     0.126     7.273       -         
+un1_M_ctr_q_cry_2                  Net          -        -       0.014     -           2         
+btn_cond.un1_M_ctr_q_cry_3_c       SB_CARRY     CI       In      -         7.287       -         
+btn_cond.un1_M_ctr_q_cry_3_c       SB_CARRY     CO       Out     0.126     7.413       -         
+un1_M_ctr_q_cry_3                  Net          -        -       0.014     -           2         
+btn_cond.un1_M_ctr_q_cry_4_c       SB_CARRY     CI       In      -         7.427       -         
+btn_cond.un1_M_ctr_q_cry_4_c       SB_CARRY     CO       Out     0.126     7.553       -         
+un1_M_ctr_q_cry_4                  Net          -        -       0.014     -           2         
+btn_cond.un1_M_ctr_q_cry_5_c       SB_CARRY     CI       In      -         7.567       -         
+btn_cond.un1_M_ctr_q_cry_5_c       SB_CARRY     CO       Out     0.126     7.693       -         
+un1_M_ctr_q_cry_5                  Net          -        -       0.014     -           2         
+btn_cond.un1_M_ctr_q_cry_6_c       SB_CARRY     CI       In      -         7.707       -         
+btn_cond.un1_M_ctr_q_cry_6_c       SB_CARRY     CO       Out     0.126     7.833       -         
+un1_M_ctr_q_cry_6                  Net          -        -       0.014     -           2         
+btn_cond.un1_M_ctr_q_cry_7_c       SB_CARRY     CI       In      -         7.847       -         
+btn_cond.un1_M_ctr_q_cry_7_c       SB_CARRY     CO       Out     0.126     7.974       -         
+un1_M_ctr_q_cry_7                  Net          -        -       0.014     -           2         
+btn_cond.un1_M_ctr_q_cry_8_c       SB_CARRY     CI       In      -         7.988       -         
+btn_cond.un1_M_ctr_q_cry_8_c       SB_CARRY     CO       Out     0.126     8.114       -         
+un1_M_ctr_q_cry_8                  Net          -        -       0.014     -           2         
+btn_cond.un1_M_ctr_q_cry_9_c       SB_CARRY     CI       In      -         8.128       -         
+btn_cond.un1_M_ctr_q_cry_9_c       SB_CARRY     CO       Out     0.126     8.254       -         
+un1_M_ctr_q_cry_9                  Net          -        -       0.014     -           2         
+btn_cond.un1_M_ctr_q_cry_10_c      SB_CARRY     CI       In      -         8.268       -         
+btn_cond.un1_M_ctr_q_cry_10_c      SB_CARRY     CO       Out     0.126     8.394       -         
+un1_M_ctr_q_cry_10                 Net          -        -       0.014     -           2         
+btn_cond.un1_M_ctr_q_cry_11_c      SB_CARRY     CI       In      -         8.408       -         
+btn_cond.un1_M_ctr_q_cry_11_c      SB_CARRY     CO       Out     0.126     8.534       -         
+un1_M_ctr_q_cry_11                 Net          -        -       0.014     -           2         
+btn_cond.un1_M_ctr_q_cry_12_c      SB_CARRY     CI       In      -         8.548       -         
+btn_cond.un1_M_ctr_q_cry_12_c      SB_CARRY     CO       Out     0.126     8.675       -         
+un1_M_ctr_q_cry_12                 Net          -        -       0.014     -           2         
+btn_cond.un1_M_ctr_q_cry_13_c      SB_CARRY     CI       In      -         8.689       -         
+btn_cond.un1_M_ctr_q_cry_13_c      SB_CARRY     CO       Out     0.126     8.815       -         
+un1_M_ctr_q_cry_13                 Net          -        -       0.014     -           2         
+btn_cond.un1_M_ctr_q_cry_14_c      SB_CARRY     CI       In      -         8.829       -         
+btn_cond.un1_M_ctr_q_cry_14_c      SB_CARRY     CO       Out     0.126     8.955       -         
+un1_M_ctr_q_cry_14                 Net          -        -       0.014     -           2         
+btn_cond.un1_M_ctr_q_cry_15_c      SB_CARRY     CI       In      -         8.969       -         
+btn_cond.un1_M_ctr_q_cry_15_c      SB_CARRY     CO       Out     0.126     9.095       -         
+un1_M_ctr_q_cry_15                 Net          -        -       0.014     -           2         
+btn_cond.un1_M_ctr_q_cry_16_c      SB_CARRY     CI       In      -         9.109       -         
+btn_cond.un1_M_ctr_q_cry_16_c      SB_CARRY     CO       Out     0.126     9.235       -         
+un1_M_ctr_q_cry_16                 Net          -        -       0.014     -           2         
+btn_cond.un1_M_ctr_q_cry_17_c      SB_CARRY     CI       In      -         9.249       -         
+btn_cond.un1_M_ctr_q_cry_17_c      SB_CARRY     CO       Out     0.126     9.376       -         
+un1_M_ctr_q_cry_17                 Net          -        -       0.014     -           2         
+btn_cond.un1_M_ctr_q_cry_18_c      SB_CARRY     CI       In      -         9.390       -         
+btn_cond.un1_M_ctr_q_cry_18_c      SB_CARRY     CO       Out     0.126     9.516       -         
+un1_M_ctr_q_cry_18                 Net          -        -       0.386     -           1         
+btn_cond.M_ctr_q_RNO[19]           SB_LUT4      I3       In      -         9.902       -         
+btn_cond.M_ctr_q_RNO[19]           SB_LUT4      O        Out     0.316     10.217      -         
+M_ctr_q_RNO[19]                    Net          -        -       1.507     -           1         
+btn_cond.M_ctr_q[19]               SB_DFFSR     D        In      -         11.724      -         
+=================================================================================================
+Total path delay (propagation time + setup) of 11.830 is 4.439(37.5%) logic and 7.391(62.5%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 4: 
+      Requested Period:                      10.000
+    - Setup time:                            0.105
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.895
+
+    - Propagation time:                      11.675
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -1.780
+
+    Number of logic level(s):                23
+    Starting point:                          btn_cond.M_ctr_q[9] / Q
+    Ending point:                            btn_cond.M_ctr_q[19] / D
+    The start point is clocked by            clk_0 [rising] on pin C
+    The end   point is clocked by            clk_0 [rising] on pin C
+
+Instance / Net                                  Pin      Pin               Arrival     No. of    
+Name                               Type         Name     Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------------------
+btn_cond.M_ctr_q[9]                SB_DFFSR     Q        Out     0.540     0.540       -         
+M_ctr_q[9]                         Net          -        -       1.599     -           4         
+btn_cond.M_ctr_q_RNIS377_0[10]     SB_LUT4      I1       In      -         2.139       -         
+btn_cond.M_ctr_q_RNIS377_0[10]     SB_LUT4      O        Out     0.400     2.539       -         
+g0_13                              Net          -        -       1.371     -           1         
+btn_cond.M_ctr_q_RNIMKT9[14]       SB_LUT4      I3       In      -         3.910       -         
+btn_cond.M_ctr_q_RNIMKT9[14]       SB_LUT4      O        Out     0.316     4.225       -         
+g0_16                              Net          -        -       1.371     -           1         
+btn_cond.M_ctr_q_RNICJ341[14]      SB_LUT4      I3       In      -         5.596       -         
+btn_cond.M_ctr_q_RNICJ341[14]      SB_LUT4      O        Out     0.316     5.912       -         
+M_btn_cond_out_i[0]                Net          -        -       0.905     -           2         
+btn_cond.un1_M_ctr_q_cry_0_c       SB_CARRY     CI       In      -         6.817       -         
+btn_cond.un1_M_ctr_q_cry_0_c       SB_CARRY     CO       Out     0.126     6.943       -         
+un1_M_ctr_q_cry_0                  Net          -        -       0.014     -           2         
+btn_cond.un1_M_ctr_q_cry_1_c       SB_CARRY     CI       In      -         6.957       -         
+btn_cond.un1_M_ctr_q_cry_1_c       SB_CARRY     CO       Out     0.126     7.083       -         
+un1_M_ctr_q_cry_1                  Net          -        -       0.014     -           2         
+btn_cond.un1_M_ctr_q_cry_2_c       SB_CARRY     CI       In      -         7.097       -         
+btn_cond.un1_M_ctr_q_cry_2_c       SB_CARRY     CO       Out     0.126     7.224       -         
+un1_M_ctr_q_cry_2                  Net          -        -       0.014     -           2         
+btn_cond.un1_M_ctr_q_cry_3_c       SB_CARRY     CI       In      -         7.238       -         
+btn_cond.un1_M_ctr_q_cry_3_c       SB_CARRY     CO       Out     0.126     7.364       -         
+un1_M_ctr_q_cry_3                  Net          -        -       0.014     -           2         
+btn_cond.un1_M_ctr_q_cry_4_c       SB_CARRY     CI       In      -         7.378       -         
+btn_cond.un1_M_ctr_q_cry_4_c       SB_CARRY     CO       Out     0.126     7.504       -         
+un1_M_ctr_q_cry_4                  Net          -        -       0.014     -           2         
+btn_cond.un1_M_ctr_q_cry_5_c       SB_CARRY     CI       In      -         7.518       -         
+btn_cond.un1_M_ctr_q_cry_5_c       SB_CARRY     CO       Out     0.126     7.644       -         
+un1_M_ctr_q_cry_5                  Net          -        -       0.014     -           2         
+btn_cond.un1_M_ctr_q_cry_6_c       SB_CARRY     CI       In      -         7.658       -         
+btn_cond.un1_M_ctr_q_cry_6_c       SB_CARRY     CO       Out     0.126     7.784       -         
+un1_M_ctr_q_cry_6                  Net          -        -       0.014     -           2         
+btn_cond.un1_M_ctr_q_cry_7_c       SB_CARRY     CI       In      -         7.798       -         
+btn_cond.un1_M_ctr_q_cry_7_c       SB_CARRY     CO       Out     0.126     7.925       -         
+un1_M_ctr_q_cry_7                  Net          -        -       0.014     -           2         
+btn_cond.un1_M_ctr_q_cry_8_c       SB_CARRY     CI       In      -         7.939       -         
+btn_cond.un1_M_ctr_q_cry_8_c       SB_CARRY     CO       Out     0.126     8.065       -         
+un1_M_ctr_q_cry_8                  Net          -        -       0.014     -           2         
+btn_cond.un1_M_ctr_q_cry_9_c       SB_CARRY     CI       In      -         8.079       -         
+btn_cond.un1_M_ctr_q_cry_9_c       SB_CARRY     CO       Out     0.126     8.205       -         
+un1_M_ctr_q_cry_9                  Net          -        -       0.014     -           2         
+btn_cond.un1_M_ctr_q_cry_10_c      SB_CARRY     CI       In      -         8.219       -         
+btn_cond.un1_M_ctr_q_cry_10_c      SB_CARRY     CO       Out     0.126     8.345       -         
+un1_M_ctr_q_cry_10                 Net          -        -       0.014     -           2         
+btn_cond.un1_M_ctr_q_cry_11_c      SB_CARRY     CI       In      -         8.359       -         
+btn_cond.un1_M_ctr_q_cry_11_c      SB_CARRY     CO       Out     0.126     8.485       -         
+un1_M_ctr_q_cry_11                 Net          -        -       0.014     -           2         
+btn_cond.un1_M_ctr_q_cry_12_c      SB_CARRY     CI       In      -         8.499       -         
+btn_cond.un1_M_ctr_q_cry_12_c      SB_CARRY     CO       Out     0.126     8.626       -         
+un1_M_ctr_q_cry_12                 Net          -        -       0.014     -           2         
+btn_cond.un1_M_ctr_q_cry_13_c      SB_CARRY     CI       In      -         8.639       -         
+btn_cond.un1_M_ctr_q_cry_13_c      SB_CARRY     CO       Out     0.126     8.766       -         
+un1_M_ctr_q_cry_13                 Net          -        -       0.014     -           2         
+btn_cond.un1_M_ctr_q_cry_14_c      SB_CARRY     CI       In      -         8.780       -         
+btn_cond.un1_M_ctr_q_cry_14_c      SB_CARRY     CO       Out     0.126     8.906       -         
+un1_M_ctr_q_cry_14                 Net          -        -       0.014     -           2         
+btn_cond.un1_M_ctr_q_cry_15_c      SB_CARRY     CI       In      -         8.920       -         
+btn_cond.un1_M_ctr_q_cry_15_c      SB_CARRY     CO       Out     0.126     9.046       -         
+un1_M_ctr_q_cry_15                 Net          -        -       0.014     -           2         
+btn_cond.un1_M_ctr_q_cry_16_c      SB_CARRY     CI       In      -         9.060       -         
+btn_cond.un1_M_ctr_q_cry_16_c      SB_CARRY     CO       Out     0.126     9.186       -         
+un1_M_ctr_q_cry_16                 Net          -        -       0.014     -           2         
+btn_cond.un1_M_ctr_q_cry_17_c      SB_CARRY     CI       In      -         9.200       -         
+btn_cond.un1_M_ctr_q_cry_17_c      SB_CARRY     CO       Out     0.126     9.327       -         
+un1_M_ctr_q_cry_17                 Net          -        -       0.014     -           2         
+btn_cond.un1_M_ctr_q_cry_18_c      SB_CARRY     CI       In      -         9.341       -         
+btn_cond.un1_M_ctr_q_cry_18_c      SB_CARRY     CO       Out     0.126     9.467       -         
+un1_M_ctr_q_cry_18                 Net          -        -       0.386     -           1         
+btn_cond.M_ctr_q_RNO[19]           SB_LUT4      I3       In      -         9.853       -         
+btn_cond.M_ctr_q_RNO[19]           SB_LUT4      O        Out     0.316     10.168      -         
+M_ctr_q_RNO[19]                    Net          -        -       1.507     -           1         
+btn_cond.M_ctr_q[19]               SB_DFFSR     D        In      -         11.675      -         
+=================================================================================================
+Total path delay (propagation time + setup) of 11.780 is 4.389(37.3%) logic and 7.391(62.7%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 5: 
+      Requested Period:                      10.000
+    - Setup time:                            0.105
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.895
+
+    - Propagation time:                      11.654
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -1.760
+
+    Number of logic level(s):                23
+    Starting point:                          btn_cond.M_ctr_q[10] / Q
+    Ending point:                            btn_cond.M_ctr_q[19] / D
+    The start point is clocked by            clk_0 [rising] on pin C
+    The end   point is clocked by            clk_0 [rising] on pin C
+
+Instance / Net                                  Pin      Pin               Arrival     No. of    
+Name                               Type         Name     Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------------------
+btn_cond.M_ctr_q[10]               SB_DFFSR     Q        Out     0.540     0.540       -         
+M_ctr_q[10]                        Net          -        -       1.599     -           4         
+btn_cond.M_ctr_q_RNIS377_0[10]     SB_LUT4      I2       In      -         2.139       -         
+btn_cond.M_ctr_q_RNIS377_0[10]     SB_LUT4      O        Out     0.379     2.518       -         
+g0_13                              Net          -        -       1.371     -           1         
+btn_cond.M_ctr_q_RNIMKT9[14]       SB_LUT4      I3       In      -         3.889       -         
+btn_cond.M_ctr_q_RNIMKT9[14]       SB_LUT4      O        Out     0.316     4.204       -         
+g0_16                              Net          -        -       1.371     -           1         
+btn_cond.M_ctr_q_RNICJ341[14]      SB_LUT4      I3       In      -         5.575       -         
+btn_cond.M_ctr_q_RNICJ341[14]      SB_LUT4      O        Out     0.316     5.891       -         
+M_btn_cond_out_i[0]                Net          -        -       0.905     -           2         
+btn_cond.un1_M_ctr_q_cry_0_c       SB_CARRY     CI       In      -         6.796       -         
+btn_cond.un1_M_ctr_q_cry_0_c       SB_CARRY     CO       Out     0.126     6.922       -         
+un1_M_ctr_q_cry_0                  Net          -        -       0.014     -           2         
+btn_cond.un1_M_ctr_q_cry_1_c       SB_CARRY     CI       In      -         6.936       -         
+btn_cond.un1_M_ctr_q_cry_1_c       SB_CARRY     CO       Out     0.126     7.062       -         
+un1_M_ctr_q_cry_1                  Net          -        -       0.014     -           2         
+btn_cond.un1_M_ctr_q_cry_2_c       SB_CARRY     CI       In      -         7.076       -         
+btn_cond.un1_M_ctr_q_cry_2_c       SB_CARRY     CO       Out     0.126     7.203       -         
+un1_M_ctr_q_cry_2                  Net          -        -       0.014     -           2         
+btn_cond.un1_M_ctr_q_cry_3_c       SB_CARRY     CI       In      -         7.216       -         
+btn_cond.un1_M_ctr_q_cry_3_c       SB_CARRY     CO       Out     0.126     7.343       -         
+un1_M_ctr_q_cry_3                  Net          -        -       0.014     -           2         
+btn_cond.un1_M_ctr_q_cry_4_c       SB_CARRY     CI       In      -         7.357       -         
+btn_cond.un1_M_ctr_q_cry_4_c       SB_CARRY     CO       Out     0.126     7.483       -         
+un1_M_ctr_q_cry_4                  Net          -        -       0.014     -           2         
+btn_cond.un1_M_ctr_q_cry_5_c       SB_CARRY     CI       In      -         7.497       -         
+btn_cond.un1_M_ctr_q_cry_5_c       SB_CARRY     CO       Out     0.126     7.623       -         
+un1_M_ctr_q_cry_5                  Net          -        -       0.014     -           2         
+btn_cond.un1_M_ctr_q_cry_6_c       SB_CARRY     CI       In      -         7.637       -         
+btn_cond.un1_M_ctr_q_cry_6_c       SB_CARRY     CO       Out     0.126     7.763       -         
+un1_M_ctr_q_cry_6                  Net          -        -       0.014     -           2         
+btn_cond.un1_M_ctr_q_cry_7_c       SB_CARRY     CI       In      -         7.777       -         
+btn_cond.un1_M_ctr_q_cry_7_c       SB_CARRY     CO       Out     0.126     7.904       -         
+un1_M_ctr_q_cry_7                  Net          -        -       0.014     -           2         
+btn_cond.un1_M_ctr_q_cry_8_c       SB_CARRY     CI       In      -         7.918       -         
+btn_cond.un1_M_ctr_q_cry_8_c       SB_CARRY     CO       Out     0.126     8.044       -         
+un1_M_ctr_q_cry_8                  Net          -        -       0.014     -           2         
+btn_cond.un1_M_ctr_q_cry_9_c       SB_CARRY     CI       In      -         8.058       -         
+btn_cond.un1_M_ctr_q_cry_9_c       SB_CARRY     CO       Out     0.126     8.184       -         
+un1_M_ctr_q_cry_9                  Net          -        -       0.014     -           2         
+btn_cond.un1_M_ctr_q_cry_10_c      SB_CARRY     CI       In      -         8.198       -         
+btn_cond.un1_M_ctr_q_cry_10_c      SB_CARRY     CO       Out     0.126     8.324       -         
+un1_M_ctr_q_cry_10                 Net          -        -       0.014     -           2         
+btn_cond.un1_M_ctr_q_cry_11_c      SB_CARRY     CI       In      -         8.338       -         
+btn_cond.un1_M_ctr_q_cry_11_c      SB_CARRY     CO       Out     0.126     8.464       -         
+un1_M_ctr_q_cry_11                 Net          -        -       0.014     -           2         
+btn_cond.un1_M_ctr_q_cry_12_c      SB_CARRY     CI       In      -         8.478       -         
+btn_cond.un1_M_ctr_q_cry_12_c      SB_CARRY     CO       Out     0.126     8.604       -         
+un1_M_ctr_q_cry_12                 Net          -        -       0.014     -           2         
+btn_cond.un1_M_ctr_q_cry_13_c      SB_CARRY     CI       In      -         8.619       -         
+btn_cond.un1_M_ctr_q_cry_13_c      SB_CARRY     CO       Out     0.126     8.745       -         
+un1_M_ctr_q_cry_13                 Net          -        -       0.014     -           2         
+btn_cond.un1_M_ctr_q_cry_14_c      SB_CARRY     CI       In      -         8.759       -         
+btn_cond.un1_M_ctr_q_cry_14_c      SB_CARRY     CO       Out     0.126     8.885       -         
+un1_M_ctr_q_cry_14                 Net          -        -       0.014     -           2         
+btn_cond.un1_M_ctr_q_cry_15_c      SB_CARRY     CI       In      -         8.899       -         
+btn_cond.un1_M_ctr_q_cry_15_c      SB_CARRY     CO       Out     0.126     9.025       -         
+un1_M_ctr_q_cry_15                 Net          -        -       0.014     -           2         
+btn_cond.un1_M_ctr_q_cry_16_c      SB_CARRY     CI       In      -         9.039       -         
+btn_cond.un1_M_ctr_q_cry_16_c      SB_CARRY     CO       Out     0.126     9.165       -         
+un1_M_ctr_q_cry_16                 Net          -        -       0.014     -           2         
+btn_cond.un1_M_ctr_q_cry_17_c      SB_CARRY     CI       In      -         9.179       -         
+btn_cond.un1_M_ctr_q_cry_17_c      SB_CARRY     CO       Out     0.126     9.306       -         
+un1_M_ctr_q_cry_17                 Net          -        -       0.014     -           2         
+btn_cond.un1_M_ctr_q_cry_18_c      SB_CARRY     CI       In      -         9.319       -         
+btn_cond.un1_M_ctr_q_cry_18_c      SB_CARRY     CO       Out     0.126     9.446       -         
+un1_M_ctr_q_cry_18                 Net          -        -       0.386     -           1         
+btn_cond.M_ctr_q_RNO[19]           SB_LUT4      I3       In      -         9.832       -         
+btn_cond.M_ctr_q_RNO[19]           SB_LUT4      O        Out     0.316     10.147      -         
+M_ctr_q_RNO[19]                    Net          -        -       1.507     -           1         
+btn_cond.M_ctr_q[19]               SB_DFFSR     D        In      -         11.654      -         
+=================================================================================================
+Total path delay (propagation time + setup) of 11.760 is 4.368(37.1%) logic and 7.391(62.9%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+None
+
+Finished final timing analysis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 132MB peak: 134MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 132MB peak: 134MB)
+
+---------------------------------------
+Resource Usage Report for cu_top_0 
+
+Mapping to part: ice40hx8kcb132
+Cell usage:
+GND             5 uses
+SB_CARRY        25 uses
+SB_DFF          19 uses
+SB_DFFE         8 uses
+SB_DFFSR        28 uses
+SB_DFFSS        1 use
+SB_GB           1 use
+VCC             5 uses
+SB_LUT4         89 uses
+
+I/O ports: 12
+I/O primitives: 12
+SB_GB_IO       1 use
+SB_IO          11 uses
+
+I/O Register bits:                  0
+Register bits not including I/Os:   56 (0%)
+Total load per clock:
+   clk_0: 1
+
+@S |Mapping Summary:
+Total  LUTs: 89 (1%)
+
+Distribution of All Consumed LUTs = LUT4 
+Distribution of All Consumed Luts 89 = 89 
+
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 26MB peak: 134MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Sun Oct 23 18:15:12 2022
+
+###########################################################]

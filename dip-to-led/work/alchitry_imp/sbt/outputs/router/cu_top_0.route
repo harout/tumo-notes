@@ -1,0 +1,124 @@
+* ******************************************************************************
+
+* iCEcube Router
+
+* Version:            2020.12.27943
+
+* Build Date:         Dec 10 2020 17:31:43
+
+* File Generated:     Oct 23 2022 14:33:23
+
+* Purpose:            Detailed routing info for each net
+
+* Copyright (C) 2006-2010 by Lattice Semiconductor Corp. All rights reserved.
+
+* ******************************************************************************
+
+Net : led_c_7
+T_10_33_wire_io_cluster/io_1/D_IN_0
+T_10_27_sp12_v_t_23
+T_10_15_sp12_v_t_23
+T_10_3_sp12_v_t_23
+T_11_3_sp12_h_l_0
+T_23_3_sp12_h_l_0
+T_28_3_sp4_h_l_7
+T_31_0_span4_vert_25
+T_31_0_span4_horz_r_0
+T_33_2_lc_trk_g1_0
+T_33_2_wire_io_cluster/io_1/D_OUT_0
+
+End 
+
+Net : led_c_6
+T_9_33_wire_io_cluster/io_0/D_IN_0
+T_9_25_sp12_v_t_23
+T_9_13_sp12_v_t_23
+T_9_1_sp12_v_t_23
+T_10_1_sp12_h_l_0
+T_22_1_sp12_h_l_0
+T_33_1_lc_trk_g1_7
+T_33_1_wire_io_cluster/io_0/D_OUT_0
+
+End 
+
+Net : led_c_5
+T_0_22_wire_io_cluster/io_1/D_IN_0
+T_0_22_span12_horz_12
+T_6_10_sp12_v_t_23
+T_7_10_sp12_h_l_0
+T_19_10_sp12_h_l_0
+T_30_0_span12_vert_19
+T_30_0_span4_vert_43
+T_30_0_span4_horz_r_3
+T_33_3_lc_trk_g0_3
+T_33_3_wire_io_cluster/io_1/D_OUT_0
+
+End 
+
+Net : led_c_4
+T_0_21_wire_io_cluster/io_1/D_IN_0
+T_0_21_span12_horz_12
+T_6_9_sp12_v_t_23
+T_7_9_sp12_h_l_0
+T_19_9_sp12_h_l_0
+T_26_9_sp4_h_l_9
+T_30_9_sp4_h_l_0
+T_33_5_span4_vert_t_14
+T_33_1_span4_vert_t_14
+T_33_2_lc_trk_g0_6
+T_33_2_wire_io_cluster/io_0/D_OUT_0
+
+End 
+
+Net : led_c_3
+T_0_20_wire_io_cluster/io_1/D_IN_0
+T_0_20_span12_horz_12
+T_6_8_sp12_v_t_23
+T_7_8_sp12_h_l_0
+T_19_8_sp12_h_l_0
+T_26_8_sp4_h_l_9
+T_30_8_sp4_h_l_0
+T_33_4_span4_vert_t_14
+T_33_5_lc_trk_g0_6
+T_33_5_wire_io_cluster/io_0/D_OUT_0
+
+End 
+
+Net : led_c_2
+T_0_16_wire_io_cluster/io_1/D_IN_0
+T_0_16_span12_horz_4
+T_10_4_sp12_v_t_23
+T_11_4_sp12_h_l_0
+T_23_4_sp12_h_l_0
+T_33_4_lc_trk_g0_4
+T_33_4_wire_io_cluster/io_0/D_OUT_0
+
+End 
+
+Net : led_c_1
+T_0_11_wire_io_cluster/io_1/D_IN_0
+T_0_11_span12_horz_12
+T_7_11_sp12_h_l_0
+T_19_11_sp12_h_l_0
+T_26_11_sp4_h_l_9
+T_30_11_sp4_h_l_0
+T_33_7_span4_vert_t_14
+T_33_3_span4_vert_t_14
+T_33_4_lc_trk_g1_6
+T_33_4_wire_io_cluster/io_1/D_OUT_0
+
+End 
+
+Net : led_c_0
+T_0_4_wire_io_cluster/io_1/D_IN_0
+T_0_4_span12_horz_12
+T_7_4_sp12_h_l_0
+T_19_4_sp12_h_l_0
+T_30_4_sp12_v_t_23
+T_30_6_sp4_v_t_43
+T_31_6_sp4_h_l_6
+T_33_6_lc_trk_g0_6
+T_33_6_wire_io_cluster/io_0/D_OUT_0
+
+End 
+

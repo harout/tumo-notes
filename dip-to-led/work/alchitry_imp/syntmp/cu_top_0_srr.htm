@@ -1,0 +1,346 @@
+<html><body><samp><pre>
+<!@TC:1666560787>
+#Build: Synplify Pro L-2016.09L+ice40, Build 077R, Dec  2 2016
+#install: /home/tumo/lscc/iCEcube2.2020.12/synpbase
+#OS: Linux 
+#Hostname: tumo-VivoBook-ASUSLaptop-E410KA-E410KA
+
+# Sun Oct 23 14:33:07 2022
+
+#Implementation: alchitry_imp
+
+<a name=compilerReport1></a>Synopsys HDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016</a>
+@N: : <!@TM:1666560787> | Running in 64-bit mode 
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+<a name=compilerReport2></a>Synopsys Verilog Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016</a>
+@N: : <!@TM:1666560787> | Running in 64-bit mode 
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Running on host :tumo-VivoBook-ASUSLaptop-E410KA-E410KA
+@I::"/home/tumo/lscc/iCEcube2.2020.12/synpbase/lib/generic/sb_ice40.v" (library work)
+@I::"/home/tumo/lscc/iCEcube2.2020.12/synpbase/lib/vlog/hypermods.v" (library __hyper__lib__)
+@I::"/home/tumo/lscc/iCEcube2.2020.12/synpbase/lib/vlog/umr_capim.v" (library snps_haps)
+@I::"/home/tumo/lscc/iCEcube2.2020.12/synpbase/lib/vlog/scemi_objects.v" (library snps_haps)
+@I::"/home/tumo/lscc/iCEcube2.2020.12/synpbase/lib/vlog/scemi_pipes.svh" (library snps_haps)
+@I::"/home/tumo/fpga-workspace/dip-to-led/work/verilog/cu_top_0.v" (library work)
+@I::"/home/tumo/fpga-workspace/dip-to-led/work/verilog/reset_conditioner_1.v" (library work)
+Verilog syntax check successful!
+Selecting top level module cu_top_0
+@N:<a href="@N:CG364:@XP_HELP">CG364</a> : <a href="/home/tumo/fpga-workspace/dip-to-led/work/verilog/reset_conditioner_1.v:11:7:11:26:@N:CG364:@XP_MSG">reset_conditioner_1.v(11)</a><!@TM:1666560787> | Synthesizing module reset_conditioner_1 in library work.
+
+@N:<a href="@N:CG364:@XP_HELP">CG364</a> : <a href="/home/tumo/fpga-workspace/dip-to-led/work/verilog/cu_top_0.v:7:7:7:15:@N:CG364:@XP_MSG">cu_top_0.v(7)</a><!@TM:1666560787> | Synthesizing module cu_top_0 in library work.
+
+<font color=#A52A2A>@W:<a href="@W:CL168:@XP_HELP">CL168</a> : <a href="/home/tumo/fpga-workspace/dip-to-led/work/verilog/cu_top_0.v:20:22:20:32:@W:CL168:@XP_MSG">cu_top_0.v(20)</a><!@TM:1666560787> | Removing instance reset_cond because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.</font>
+@N:<a href="@N:CL159:@XP_HELP">CL159</a> : <a href="/home/tumo/fpga-workspace/dip-to-led/work/verilog/cu_top_0.v:8:10:8:13:@N:CL159:@XP_MSG">cu_top_0.v(8)</a><!@TM:1666560787> | Input clk is unused.
+@N:<a href="@N:CL159:@XP_HELP">CL159</a> : <a href="/home/tumo/fpga-workspace/dip-to-led/work/verilog/cu_top_0.v:9:10:9:15:@N:CL159:@XP_MSG">cu_top_0.v(9)</a><!@TM:1666560787> | Input rst_n is unused.
+
+At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 69MB peak: 70MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Sun Oct 23 14:33:07 2022
+
+###########################################################]
+<a name=compilerReport3></a>Synopsys Netlist Linker, version comp2016q3p1, Build 141R, built Dec  5 2016</a>
+@N: : <!@TM:1666560787> | Running in 64-bit mode 
+@N:<a href="@N:NF107:@XP_HELP">NF107</a> : <a href="/home/tumo/fpga-workspace/dip-to-led/work/verilog/cu_top_0.v:7:7:7:15:@N:NF107:@XP_MSG">cu_top_0.v(7)</a><!@TM:1666560787> | Selected library: work cell: cu_top_0 view verilog as top level
+@N:<a href="@N:NF107:@XP_HELP">NF107</a> : <a href="/home/tumo/fpga-workspace/dip-to-led/work/verilog/cu_top_0.v:7:7:7:15:@N:NF107:@XP_MSG">cu_top_0.v(7)</a><!@TM:1666560787> | Selected library: work cell: cu_top_0 view verilog as top level
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 67MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Sun Oct 23 14:33:07 2022
+
+###########################################################]
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 3MB peak: 3MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Sun Oct 23 14:33:07 2022
+
+###########################################################]
+<a name=compilerReport4></a>Synopsys Netlist Linker, version comp2016q3p1, Build 141R, built Dec  5 2016</a>
+@N: : <!@TM:1666560789> | Running in 64-bit mode 
+@N:<a href="@N:NF107:@XP_HELP">NF107</a> : <a href="/home/tumo/fpga-workspace/dip-to-led/work/verilog/cu_top_0.v:7:7:7:15:@N:NF107:@XP_MSG">cu_top_0.v(7)</a><!@TM:1666560789> | Selected library: work cell: cu_top_0 view verilog as top level
+@N:<a href="@N:NF107:@XP_HELP">NF107</a> : <a href="/home/tumo/fpga-workspace/dip-to-led/work/verilog/cu_top_0.v:7:7:7:15:@N:NF107:@XP_MSG">cu_top_0.v(7)</a><!@TM:1666560789> | Selected library: work cell: cu_top_0 view verilog as top level
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 67MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Sun Oct 23 14:33:09 2022
+
+###########################################################]
+Pre-mapping Report
+
+# Sun Oct 23 14:33:09 2022
+
+<a name=mapperReport5></a>Synopsys Lattice Technology Pre-mapping, Version maplat, Build 1612R, Built Dec  5 2016 09:30:53</a>
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version L-2016.09L+ice40
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 98MB peak: 99MB)
+
+Reading constraint file: /home/tumo/fpga-workspace/dip-to-led/work/constraint/merged_constraint.sdc
+Linked File: <a href="/home/tumo/fpga-workspace/dip-to-led/work/alchitry_imp/cu_top_0_scck.rpt:@XP_FILE">cu_top_0_scck.rpt</a>
+Printing clock  summary report in "/home/tumo/fpga-workspace/dip-to-led/work/alchitry_imp/cu_top_0_scck.rpt" file 
+@N:<a href="@N:MF248:@XP_HELP">MF248</a> : <!@TM:1666560789> | Running in 64-bit mode. 
+@N:<a href="@N:MF666:@XP_HELP">MF666</a> : <!@TM:1666560789> | Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.) 
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 101MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 101MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 101MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 102MB)
+
+
+ICG Latch Removal Summary:
+Number of ICG latches removed:	0
+Number of ICG latches not removed:	0
+syn_allowed_resources : blockrams=32  set on top level netlist cu_top_0
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+
+
+<a name=mapperReport6></a>Clock Summary</a>
+*****************
+
+Start     Requested     Requested     Clock        Clock                Clock
+Clock     Frequency     Period        Type         Group                Load 
+-----------------------------------------------------------------------------
+clk_0     100.0 MHz     10.000        declared     default_clkgroup     0    
+=============================================================================
+
+Finished Pre Mapping Phase.
+@N:<a href="@N:BN225:@XP_HELP">BN225</a> : <!@TM:1666560789> | Writing default property annotation file /home/tumo/fpga-workspace/dip-to-led/work/alchitry_imp/cu_top_0.sap. 
+
+Starting constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+None
+None
+
+Finished constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 46MB peak: 133MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Sun Oct 23 14:33:09 2022
+
+###########################################################]
+Map & Optimize Report
+
+# Sun Oct 23 14:33:09 2022
+
+<a name=mapperReport7></a>Synopsys Lattice Technology Mapper, Version maplat, Build 1612R, Built Dec  5 2016 09:30:53</a>
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version L-2016.09L+ice40
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 98MB peak: 99MB)
+
+@N:<a href="@N:MF248:@XP_HELP">MF248</a> : <!@TM:1666560790> | Running in 64-bit mode. 
+@N:<a href="@N:MF666:@XP_HELP">MF666</a> : <!@TM:1666560790> | Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.) 
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 98MB peak: 100MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 98MB peak: 100MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 102MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 130MB peak: 133MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+@N:<a href="@N:MT204:@XP_HELP">MT204</a> : <!@TM:1666560790> | Auto Constrain mode is disabled because clocks are defined in the SDC file 
+
+            clk_0
+
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 130MB peak: 133MB)
+
+
+Starting factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 130MB peak: 133MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 130MB peak: 133MB)
+
+
+Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 130MB peak: 133MB)
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 130MB peak: 133MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 130MB peak: 133MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 130MB peak: 133MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 130MB peak: 133MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 130MB peak: 133MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 130MB peak: 133MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 130MB peak: 133MB)
+
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 130MB peak: 133MB)
+
+
+
+@S |Clock Optimization Summary
+
+
+<a name=clockReport8></a>#### START OF CLOCK OPTIMIZATION REPORT #####[</a>
+
+0 non-gated/non-generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+0 gated/generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+0 instances converted, 0 sequential instances remain driven by gated/generated clocks
+
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 105MB peak: 133MB)
+
+Writing Analyst data base /home/tumo/fpga-workspace/dip-to-led/work/alchitry_imp/synwork/cu_top_0_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 129MB peak: 133MB)
+
+Writing EDIF Netlist and constraint files
+@N:<a href="@N:BW103:@XP_HELP">BW103</a> : <!@TM:1666560790> | The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns. 
+@N:<a href="@N:BW107:@XP_HELP">BW107</a> : <!@TM:1666560790> | Synopsys Constraint File capacitance units using default value of 1pF  
+@N:<a href="@N:FX1056:@XP_HELP">FX1056</a> : <!@TM:1666560790> | Writing EDF file: /home/tumo/fpga-workspace/dip-to-led/work/alchitry_imp/cu_top_0.edf 
+L-2016.09L+ice40
+
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 130MB peak: 133MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+@N:<a href="@N:MT615:@XP_HELP">MT615</a> : <!@TM:1666560790> | Found clock clk_0 with period 10.00ns  
+
+
+<a name=timingReport9></a>##### START OF TIMING REPORT #####[</a>
+# Timing Report written on Sun Oct 23 14:33:10 2022
+#
+
+
+Top view:               cu_top_0
+Requested Frequency:    100.0 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    /home/tumo/fpga-workspace/dip-to-led/work/constraint/merged_constraint.sdc
+                       
+@N:<a href="@N:MT320:@XP_HELP">MT320</a> : <!@TM:1666560790> | This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report. 
+
+@N:<a href="@N:MT322:@XP_HELP">MT322</a> : <!@TM:1666560790> | Clock constraints include only register-to-register paths associated with each individual clock. 
+
+
+
+<a name=performanceSummary10></a>Performance Summary</a>
+*******************
+
+
+Worst slack in design: NA
+
+                   Requested     Estimated     Requested     Estimated               Clock        Clock           
+Starting Clock     Frequency     Frequency     Period        Period        Slack     Type         Group           
+------------------------------------------------------------------------------------------------------------------
+clk_0              100.0 MHz     NA            10.000        NA            NA        declared     default_clkgroup
+==================================================================================================================
+@N:<a href="@N:MT582:@XP_HELP">MT582</a> : <!@TM:1666560790> | Estimated period and frequency not reported for given clock unless the clock has at least one timing path which is not a false or a max delay path and that does not have excessive slack 
+
+
+
+
+
+<a name=clockRelationships11></a>Clock Relationships</a>
+*******************
+
+Clocks            |    rise  to  rise   |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+--------------------------------------------------------------------------------------------------------
+Starting  Ending  |  constraint  slack  |  constraint  slack  |  constraint  slack  |  constraint  slack
+--------------------------------------------------------------------------------------------------------
+========================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+<a name=interfaceInfo12></a>Interface Information </a>
+*********************
+
+No IO constraint found
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+None
+
+Finished final timing analysis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+---------------------------------------
+<a name=resourceUsage13></a>Resource Usage Report for cu_top_0 </a>
+
+Mapping to part: ice40hx8kcb132
+Cell usage:
+SB_LUT4         0 uses
+
+I/O ports: 18
+I/O primitives: 16
+SB_IO          16 uses
+
+I/O Register bits:                  0
+Register bits not including I/Os:   0 (0%)
+Total load per clock:
+
+@S |Mapping Summary:
+Total  LUTs: 0 (0%)
+
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 26MB peak: 133MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Sun Oct 23 14:33:10 2022
+
+###########################################################]
+
+</pre></samp></body></html>
