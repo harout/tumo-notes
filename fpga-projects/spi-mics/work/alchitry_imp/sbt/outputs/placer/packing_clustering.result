@@ -1,0 +1,350 @@
+ble_pack uart_tx.M_ctr_q_RNO_0[0]_LC_249 {uart_tx.un1_M_ctr_q_3_cry_0_c, uart_tx.M_ctr_q_RNO_0[0]}
+ble_pack uart_tx.M_ctr_q[1]_LC_252 {uart_tx.M_ctr_q[1], uart_tx.un1_M_ctr_q_3_cry_1_c, uart_tx.M_ctr_q_RNO[1]}
+ble_pack uart_tx.M_ctr_q[2]_LC_253 {uart_tx.M_ctr_q[2], uart_tx.un1_M_ctr_q_3_cry_2_c, uart_tx.M_ctr_q_RNO[2]}
+ble_pack uart_tx.M_ctr_q_RNO_0[3]_LC_250 {uart_tx.un1_M_ctr_q_3_cry_3_c, uart_tx.M_ctr_q_RNO_0[3]}
+ble_pack uart_tx.M_ctr_q_RNO_0[4]_LC_251 {uart_tx.M_ctr_q_RNO_0[4]}
+clb_pack PLB_0 {uart_tx.M_ctr_q_RNO_0[0]_LC_249, uart_tx.M_ctr_q[1]_LC_252, uart_tx.M_ctr_q[2]_LC_253, uart_tx.M_ctr_q_RNO_0[3]_LC_250, uart_tx.M_ctr_q_RNO_0[4]_LC_251}
+ble_pack adcs.un1_M_main_clock_count_d_1_cry_1_c_LC_295 {adcs.un1_M_main_clock_count_d_1_cry_1_c}
+ble_pack adcs.M_main_clock_count_q[2]_LC_13 {adcs.M_main_clock_count_q[2], adcs.un1_M_main_clock_count_d_1_cry_2_c, adcs.M_main_clock_count_q_RNO[2]}
+ble_pack adcs.un1_M_main_clock_count_d_1_cry_2_THRU_LUT4_0_LC_279 {adcs.un1_M_main_clock_count_d_1_cry_3_c, adcs.un1_M_main_clock_count_d_1_cry_2_THRU_LUT4_0}
+ble_pack adcs.un1_M_main_clock_count_d_1_cry_3_THRU_LUT4_0_LC_280 {adcs.un1_M_main_clock_count_d_1_cry_4_c, adcs.un1_M_main_clock_count_d_1_cry_3_THRU_LUT4_0}
+ble_pack adcs.un1_M_main_clock_count_d_1_cry_4_THRU_LUT4_0_LC_281 {adcs.un1_M_main_clock_count_d_1_cry_5_c, adcs.un1_M_main_clock_count_d_1_cry_4_THRU_LUT4_0}
+ble_pack adcs.M_main_clock_count_q[6]_LC_17 {adcs.M_main_clock_count_q[6], adcs.M_main_clock_count_q_RNO[6]}
+clb_pack PLB_1 {adcs.un1_M_main_clock_count_d_1_cry_1_c_LC_295, adcs.M_main_clock_count_q[2]_LC_13, adcs.un1_M_main_clock_count_d_1_cry_2_THRU_LUT4_0_LC_279, adcs.un1_M_main_clock_count_d_1_cry_3_THRU_LUT4_0_LC_280, adcs.un1_M_main_clock_count_d_1_cry_4_THRU_LUT4_0_LC_281, adcs.M_main_clock_count_q[6]_LC_17}
+ble_pack slow_clock.un1_M_count_d_1_cry_1_c_LC_296 {slow_clock.un1_M_count_d_1_cry_1_c}
+ble_pack slow_clock.M_count_q[2]_LC_194 {slow_clock.M_count_q[2], slow_clock.un1_M_count_d_1_cry_2_c, slow_clock.M_count_q_RNO[2]}
+ble_pack slow_clock.M_count_q[3]_LC_198 {slow_clock.M_count_q[3], slow_clock.un1_M_count_d_1_cry_3_c, slow_clock.M_count_q_RNO[3]}
+ble_pack slow_clock.M_count_q[4]_LC_199 {slow_clock.M_count_q[4], slow_clock.un1_M_count_d_1_cry_4_c, slow_clock.M_count_q_RNO[4]}
+ble_pack slow_clock.M_count_q[5]_LC_200 {slow_clock.M_count_q[5], slow_clock.un1_M_count_d_1_cry_5_c, slow_clock.M_count_q_RNO[5]}
+ble_pack slow_clock.M_count_q_RNO_0[6]_LC_180 {slow_clock.un1_M_count_d_1_cry_6_c, slow_clock.M_count_q_RNO_0[6]}
+ble_pack slow_clock.M_count_q[7]_LC_202 {slow_clock.M_count_q[7], slow_clock.un1_M_count_d_1_cry_7_c, slow_clock.M_count_q_RNO[7]}
+ble_pack slow_clock.M_count_q_RNO_0[8]_LC_181 {slow_clock.un1_M_count_d_1_cry_8_c, slow_clock.M_count_q_RNO_0[8]}
+clb_pack PLB_2 {slow_clock.un1_M_count_d_1_cry_1_c_LC_296, slow_clock.M_count_q[2]_LC_194, slow_clock.M_count_q[3]_LC_198, slow_clock.M_count_q[4]_LC_199, slow_clock.M_count_q[5]_LC_200, slow_clock.M_count_q_RNO_0[6]_LC_180, slow_clock.M_count_q[7]_LC_202, slow_clock.M_count_q_RNO_0[8]_LC_181}
+ble_pack slow_clock.M_count_q_RNO_0[9]_LC_182 {slow_clock.un1_M_count_d_1_cry_9_c, slow_clock.M_count_q_RNO_0[9]}
+ble_pack slow_clock.M_count_q[10]_LC_184 {slow_clock.M_count_q[10], slow_clock.un1_M_count_d_1_cry_10_c, slow_clock.M_count_q_RNO[10]}
+ble_pack slow_clock.M_count_q_RNO_0[11]_LC_175 {slow_clock.un1_M_count_d_1_cry_11_c, slow_clock.M_count_q_RNO_0[11]}
+ble_pack slow_clock.M_count_q[12]_LC_186 {slow_clock.M_count_q[12], slow_clock.un1_M_count_d_1_cry_12_c, slow_clock.M_count_q_RNO[12]}
+ble_pack slow_clock.M_count_q[13]_LC_187 {slow_clock.M_count_q[13], slow_clock.un1_M_count_d_1_cry_13_c, slow_clock.M_count_q_RNO[13]}
+ble_pack slow_clock.M_count_q_RNO_0[14]_LC_176 {slow_clock.un1_M_count_d_1_cry_14_c, slow_clock.M_count_q_RNO_0[14]}
+ble_pack slow_clock.M_count_q[15]_LC_189 {slow_clock.M_count_q[15], slow_clock.un1_M_count_d_1_cry_15_c, slow_clock.M_count_q_RNO[15]}
+ble_pack slow_clock.M_count_q[16]_LC_190 {slow_clock.M_count_q[16], slow_clock.un1_M_count_d_1_cry_16_c, slow_clock.M_count_q_RNO[16]}
+clb_pack PLB_3 {slow_clock.M_count_q_RNO_0[9]_LC_182, slow_clock.M_count_q[10]_LC_184, slow_clock.M_count_q_RNO_0[11]_LC_175, slow_clock.M_count_q[12]_LC_186, slow_clock.M_count_q[13]_LC_187, slow_clock.M_count_q_RNO_0[14]_LC_176, slow_clock.M_count_q[15]_LC_189, slow_clock.M_count_q[16]_LC_190}
+ble_pack slow_clock.M_count_q[17]_LC_191 {slow_clock.M_count_q[17], slow_clock.un1_M_count_d_1_cry_17_c, slow_clock.M_count_q_RNO[17]}
+ble_pack slow_clock.M_count_q_RNO_0[18]_LC_177 {slow_clock.un1_M_count_d_1_cry_18_c, slow_clock.M_count_q_RNO_0[18]}
+ble_pack slow_clock.M_count_q_RNO_0[19]_LC_178 {slow_clock.un1_M_count_d_1_cry_19_c, slow_clock.M_count_q_RNO_0[19]}
+ble_pack slow_clock.M_count_q[20]_LC_195 {slow_clock.M_count_q[20], slow_clock.un1_M_count_d_1_cry_20_c, slow_clock.M_count_q_RNO[20]}
+ble_pack slow_clock.M_count_q[21]_LC_196 {slow_clock.M_count_q[21], slow_clock.un1_M_count_d_1_cry_21_c, slow_clock.M_count_q_RNO[21]}
+ble_pack slow_clock.M_count_q_RNO_0[22]_LC_179 {slow_clock.M_count_q_RNO_0[22]}
+clb_pack PLB_4 {slow_clock.M_count_q[17]_LC_191, slow_clock.M_count_q_RNO_0[18]_LC_177, slow_clock.M_count_q_RNO_0[19]_LC_178, slow_clock.M_count_q[20]_LC_195, slow_clock.M_count_q[21]_LC_196, slow_clock.M_count_q_RNO_0[22]_LC_179}
+ble_pack slower_clock.M_count_d7_0_c_LC_297 {slower_clock.M_count_d7_0_c}
+ble_pack slower_clock.M_count_d7_1_c_LC_298 {slower_clock.M_count_d7_1_c}
+ble_pack slower_clock.M_count_d7_2_c_LC_299 {slower_clock.M_count_d7_2_c}
+ble_pack slower_clock.M_count_d7_3_c_LC_300 {slower_clock.M_count_d7_3_c}
+ble_pack slower_clock.M_count_d7_4_c_LC_301 {slower_clock.M_count_d7_4_c}
+ble_pack slower_clock.M_count_d7_5_c_LC_302 {slower_clock.M_count_d7_5_c}
+ble_pack slower_clock.M_count_d7_6_c_LC_303 {slower_clock.M_count_d7_6_c}
+ble_pack slower_clock.M_count_d7_THRU_LUT4_0_LC_282 {slower_clock.M_count_d7_THRU_LUT4_0}
+clb_pack PLB_5 {slower_clock.M_count_d7_0_c_LC_297, slower_clock.M_count_d7_1_c_LC_298, slower_clock.M_count_d7_2_c_LC_299, slower_clock.M_count_d7_3_c_LC_300, slower_clock.M_count_d7_4_c_LC_301, slower_clock.M_count_d7_5_c_LC_302, slower_clock.M_count_d7_6_c_LC_303, slower_clock.M_count_d7_THRU_LUT4_0_LC_282}
+ble_pack slower_clock.un1_M_count_d_1_cry_1_c_LC_304 {slower_clock.un1_M_count_d_1_cry_1_c}
+ble_pack slower_clock.M_count_q[2]_LC_225 {slower_clock.M_count_q[2], slower_clock.un1_M_count_d_1_cry_2_c, slower_clock.M_count_q_RNO[2]}
+ble_pack slower_clock.M_count_q[3]_LC_234 {slower_clock.M_count_q[3], slower_clock.un1_M_count_d_1_cry_3_c, slower_clock.M_count_q_RNO[3]}
+ble_pack slower_clock.M_count_q[4]_LC_235 {slower_clock.M_count_q[4], slower_clock.un1_M_count_d_1_cry_4_c, slower_clock.M_count_q_RNO[4]}
+ble_pack slower_clock.M_count_q[5]_LC_236 {slower_clock.M_count_q[5], slower_clock.un1_M_count_d_1_cry_5_c, slower_clock.M_count_q_RNO[5]}
+ble_pack slower_clock.M_count_q[6]_LC_237 {slower_clock.M_count_q[6], slower_clock.un1_M_count_d_1_cry_6_c, slower_clock.M_count_q_RNO[6]}
+ble_pack slower_clock.M_count_q[7]_LC_238 {slower_clock.M_count_q[7], slower_clock.un1_M_count_d_1_cry_7_c, slower_clock.M_count_q_RNO[7]}
+ble_pack slower_clock.M_count_q[8]_LC_239 {slower_clock.M_count_q[8], slower_clock.un1_M_count_d_1_cry_8_c, slower_clock.M_count_q_RNO[8]}
+clb_pack PLB_6 {slower_clock.un1_M_count_d_1_cry_1_c_LC_304, slower_clock.M_count_q[2]_LC_225, slower_clock.M_count_q[3]_LC_234, slower_clock.M_count_q[4]_LC_235, slower_clock.M_count_q[5]_LC_236, slower_clock.M_count_q[6]_LC_237, slower_clock.M_count_q[7]_LC_238, slower_clock.M_count_q[8]_LC_239}
+ble_pack slower_clock.un1_M_count_d_1_cry_8_THRU_LUT4_0_LC_293 {slower_clock.un1_M_count_d_1_cry_9_c, slower_clock.un1_M_count_d_1_cry_8_THRU_LUT4_0}
+ble_pack slower_clock.M_count_q[10]_LC_215 {slower_clock.M_count_q[10], slower_clock.un1_M_count_d_1_cry_10_c, slower_clock.M_count_q_RNO[10]}
+ble_pack slower_clock.M_count_q[11]_LC_216 {slower_clock.M_count_q[11], slower_clock.un1_M_count_d_1_cry_11_c, slower_clock.M_count_q_RNO[11]}
+ble_pack slower_clock.M_count_q[12]_LC_217 {slower_clock.M_count_q[12], slower_clock.un1_M_count_d_1_cry_12_c, slower_clock.M_count_q_RNO[12]}
+ble_pack slower_clock.M_count_q[13]_LC_218 {slower_clock.M_count_q[13], slower_clock.un1_M_count_d_1_cry_13_c, slower_clock.M_count_q_RNO[13]}
+ble_pack slower_clock.un1_M_count_d_1_cry_13_THRU_LUT4_0_LC_283 {slower_clock.un1_M_count_d_1_cry_14_c, slower_clock.un1_M_count_d_1_cry_13_THRU_LUT4_0}
+ble_pack slower_clock.un1_M_count_d_1_cry_14_THRU_LUT4_0_LC_284 {slower_clock.un1_M_count_d_1_cry_15_c, slower_clock.un1_M_count_d_1_cry_14_THRU_LUT4_0}
+ble_pack slower_clock.un1_M_count_d_1_cry_15_THRU_LUT4_0_LC_285 {slower_clock.un1_M_count_d_1_cry_16_c, slower_clock.un1_M_count_d_1_cry_15_THRU_LUT4_0}
+clb_pack PLB_7 {slower_clock.un1_M_count_d_1_cry_8_THRU_LUT4_0_LC_293, slower_clock.M_count_q[10]_LC_215, slower_clock.M_count_q[11]_LC_216, slower_clock.M_count_q[12]_LC_217, slower_clock.M_count_q[13]_LC_218, slower_clock.un1_M_count_d_1_cry_13_THRU_LUT4_0_LC_283, slower_clock.un1_M_count_d_1_cry_14_THRU_LUT4_0_LC_284, slower_clock.un1_M_count_d_1_cry_15_THRU_LUT4_0_LC_285}
+ble_pack slower_clock.un1_M_count_d_1_cry_16_THRU_LUT4_0_LC_286 {slower_clock.un1_M_count_d_1_cry_17_c, slower_clock.un1_M_count_d_1_cry_16_THRU_LUT4_0}
+ble_pack slower_clock.M_count_q[18]_LC_223 {slower_clock.M_count_q[18], slower_clock.un1_M_count_d_1_cry_18_c, slower_clock.M_count_q_RNO[18]}
+ble_pack slower_clock.un1_M_count_d_1_cry_18_THRU_LUT4_0_LC_287 {slower_clock.un1_M_count_d_1_cry_19_c, slower_clock.un1_M_count_d_1_cry_18_THRU_LUT4_0}
+ble_pack slower_clock.M_count_q[20]_LC_226 {slower_clock.M_count_q[20], slower_clock.un1_M_count_d_1_cry_20_c, slower_clock.M_count_q_RNO[20]}
+ble_pack slower_clock.un1_M_count_d_1_cry_20_THRU_LUT4_0_LC_288 {slower_clock.un1_M_count_d_1_cry_21_c, slower_clock.un1_M_count_d_1_cry_20_THRU_LUT4_0}
+ble_pack slower_clock.un1_M_count_d_1_cry_21_THRU_LUT4_0_LC_289 {slower_clock.un1_M_count_d_1_cry_22_c, slower_clock.un1_M_count_d_1_cry_21_THRU_LUT4_0}
+ble_pack slower_clock.un1_M_count_d_1_cry_22_THRU_LUT4_0_LC_290 {slower_clock.un1_M_count_d_1_cry_23_c, slower_clock.un1_M_count_d_1_cry_22_THRU_LUT4_0}
+ble_pack slower_clock.un1_M_count_d_1_cry_23_THRU_LUT4_0_LC_291 {slower_clock.un1_M_count_d_1_cry_24_c, slower_clock.un1_M_count_d_1_cry_23_THRU_LUT4_0}
+clb_pack PLB_8 {slower_clock.un1_M_count_d_1_cry_16_THRU_LUT4_0_LC_286, slower_clock.M_count_q[18]_LC_223, slower_clock.un1_M_count_d_1_cry_18_THRU_LUT4_0_LC_287, slower_clock.M_count_q[20]_LC_226, slower_clock.un1_M_count_d_1_cry_20_THRU_LUT4_0_LC_288, slower_clock.un1_M_count_d_1_cry_21_THRU_LUT4_0_LC_289, slower_clock.un1_M_count_d_1_cry_22_THRU_LUT4_0_LC_290, slower_clock.un1_M_count_d_1_cry_23_THRU_LUT4_0_LC_291}
+ble_pack slower_clock.un1_M_count_d_1_cry_24_THRU_LUT4_0_LC_292 {slower_clock.un1_M_count_d_1_cry_25_c, slower_clock.un1_M_count_d_1_cry_24_THRU_LUT4_0}
+ble_pack slower_clock.M_count_q[26]_LC_232 {slower_clock.M_count_q[26], slower_clock.un1_M_count_d_1_cry_26_c, slower_clock.M_count_q_RNO[26]}
+ble_pack slower_clock.M_count_q[27]_LC_233 {slower_clock.M_count_q[27], slower_clock.M_count_q_RNO[27]}
+clb_pack PLB_9 {slower_clock.un1_M_count_d_1_cry_24_THRU_LUT4_0_LC_292, slower_clock.M_count_q[26]_LC_232, slower_clock.M_count_q[27]_LC_233}
+ble_pack un1_M_samples_until_sync_byte_q_1_cry_0_c_LC_305 {un1_M_samples_until_sync_byte_q_1_cry_0_c}
+ble_pack M_samples_until_sync_byte_q_RNO_0[1]_LC_3 {un1_M_samples_until_sync_byte_q_1_cry_1_c, M_samples_until_sync_byte_q_RNO_0[1]}
+ble_pack un1_M_samples_until_sync_byte_q_1_cry_1_c_RNIEM801_LC_272 {un1_M_samples_until_sync_byte_q_1_cry_2_c, un1_M_samples_until_sync_byte_q_1_cry_1_c_RNIEM801}
+ble_pack M_samples_until_sync_byte_q_RNO_0[3]_LC_4 {un1_M_samples_until_sync_byte_q_1_cry_3_c, M_samples_until_sync_byte_q_RNO_0[3]}
+ble_pack un1_M_samples_until_sync_byte_q_1_cry_3_c_RNIISA01_LC_273 {un1_M_samples_until_sync_byte_q_1_cry_4_c, un1_M_samples_until_sync_byte_q_1_cry_3_c_RNIISA01}
+ble_pack M_samples_until_sync_byte_q[5]_LC_7 {M_samples_until_sync_byte_q[5], M_samples_until_sync_byte_q_RNO[5]}
+clb_pack PLB_10 {un1_M_samples_until_sync_byte_q_1_cry_0_c_LC_305, M_samples_until_sync_byte_q_RNO_0[1]_LC_3, un1_M_samples_until_sync_byte_q_1_cry_1_c_RNIEM801_LC_272, M_samples_until_sync_byte_q_RNO_0[3]_LC_4, un1_M_samples_until_sync_byte_q_1_cry_3_c_RNIISA01_LC_273, M_samples_until_sync_byte_q[5]_LC_7}
+ble_pack M_read_fifo_requested_q_RNIE5OM1_LC_0 {M_read_fifo_requested_q_RNIE5OM1}
+ble_pack sample_fifo.SUM_0_o2[0]_LC_142 {sample_fifo.SUM_0_o2[0]}
+ble_pack uart_tx.M_state_q_RNILEFM_1[1]_LC_258 {uart_tx.M_state_q_RNILEFM_1[1]}
+ble_pack uart_tx.M_state_q[1]_LC_261 {uart_tx.M_state_q[1], uart_tx.M_state_q_RNO[1]}
+ble_pack uart_tx.M_state_q[0]_LC_259 {uart_tx.M_state_q[0], uart_tx.M_state_q_RNO[0]}
+ble_pack uart_tx.M_state_q_RNO_0[0]_LC_260 {uart_tx.M_state_q_RNO_0[0]}
+ble_pack uart_tx.M_state_q_RNO_2[0]_LC_263 {uart_tx.M_state_q_RNO_2[0]}
+ble_pack uart_tx.M_ctr_q_RNIK4UR1[4]_LC_247 {uart_tx.M_ctr_q_RNIK4UR1[4]}
+clb_pack PLB_11 {M_read_fifo_requested_q_RNIE5OM1_LC_0, sample_fifo.SUM_0_o2[0]_LC_142, uart_tx.M_state_q_RNILEFM_1[1]_LC_258, uart_tx.M_state_q[1]_LC_261, uart_tx.M_state_q[0]_LC_259, uart_tx.M_state_q_RNO_0[0]_LC_260, uart_tx.M_state_q_RNO_2[0]_LC_263, uart_tx.M_ctr_q_RNIK4UR1[4]_LC_247}
+ble_pack adcs.M_main_clock_count_q_RNI2VPQ[6]_LC_9 {adcs.M_main_clock_count_q_RNI2VPQ[6]}
+ble_pack adcs.M_main_clock_count_q[5]_LC_16 {adcs.M_main_clock_count_q[5], adcs.M_main_clock_count_q_RNO[5]}
+ble_pack adcs.M_spi_cycle_q_RNI0MKH1[0]_LC_81 {adcs.M_spi_cycle_q_RNI0MKH1[0]}
+ble_pack adcs.M_spi_cycle_q_RNI92CK1[1]_LC_86 {adcs.M_spi_cycle_q_RNI92CK1[1]}
+ble_pack adcs.M_main_clock_count_q_RNIMB3K[3]_LC_10 {adcs.M_main_clock_count_q_RNIMB3K[3]}
+ble_pack adcs.M_main_clock_count_q[0]_LC_11 {adcs.M_main_clock_count_q[0], adcs.M_main_clock_count_q_RNO[0]}
+ble_pack adcs.M_main_clock_count_q[3]_LC_14 {adcs.M_main_clock_count_q[3], adcs.M_main_clock_count_q_RNO[3]}
+ble_pack adcs.M_main_clock_count_q[4]_LC_15 {adcs.M_main_clock_count_q[4], adcs.M_main_clock_count_q_RNO[4]}
+clb_pack PLB_12 {adcs.M_main_clock_count_q_RNI2VPQ[6]_LC_9, adcs.M_main_clock_count_q[5]_LC_16, adcs.M_spi_cycle_q_RNI0MKH1[0]_LC_81, adcs.M_spi_cycle_q_RNI92CK1[1]_LC_86, adcs.M_main_clock_count_q_RNIMB3K[3]_LC_10, adcs.M_main_clock_count_q[0]_LC_11, adcs.M_main_clock_count_q[3]_LC_14, adcs.M_main_clock_count_q[4]_LC_15}
+ble_pack adcs.M_samples_q_RNID7JH2[8]_LC_24 {adcs.M_samples_q_RNID7JH2[8]}
+ble_pack adcs.M_spi_cycle_q_RNIE71G1[4]_LC_87 {adcs.M_spi_cycle_q_RNIE71G1[4]}
+ble_pack adcs.M_samples_q_RNI1JNK1[10]_LC_18 {adcs.M_samples_q_RNI1JNK1[10]}
+ble_pack adcs.M_samples_q_RNI2KNK1[11]_LC_19 {adcs.M_samples_q_RNI2KNK1[11]}
+ble_pack adcs.M_samples_q_RNI3LNK1[12]_LC_20 {adcs.M_samples_q_RNI3LNK1[12]}
+ble_pack adcs.M_samples_q_RNI4MNK1[13]_LC_21 {adcs.M_samples_q_RNI4MNK1[13]}
+ble_pack adcs.M_samples_q_RNI5NNK1[14]_LC_22 {adcs.M_samples_q_RNI5NNK1[14]}
+ble_pack adcs.M_samples_q_RNI5OOK1[23]_LC_23 {adcs.M_samples_q_RNI5OOK1[23]}
+clb_pack PLB_13 {adcs.M_samples_q_RNID7JH2[8]_LC_24, adcs.M_spi_cycle_q_RNIE71G1[4]_LC_87, adcs.M_samples_q_RNI1JNK1[10]_LC_18, adcs.M_samples_q_RNI2KNK1[11]_LC_19, adcs.M_samples_q_RNI3LNK1[12]_LC_20, adcs.M_samples_q_RNI4MNK1[13]_LC_21, adcs.M_samples_q_RNI5NNK1[14]_LC_22, adcs.M_samples_q_RNI5OOK1[23]_LC_23}
+ble_pack adcs.M_samples_q_RNIHM8S[23]_LC_25 {adcs.M_samples_q_RNIHM8S[23]}
+ble_pack adcs.M_samples_q_esr_RNIDOIB3[16]_LC_45 {adcs.M_samples_q_esr_RNIDOIB3[16]}
+ble_pack adcs.M_samples_q_esr_RNICLEN[17]_LC_42 {adcs.M_samples_q_esr_RNICLEN[17]}
+ble_pack adcs.M_samples_q_esr[17]_LC_66 {adcs.M_samples_q_esr[17], adcs.M_samples_q_esr_RNO[17]}
+ble_pack adcs.M_spi_cycle_q_RNIIFIO_0[1]_LC_94 {adcs.M_spi_cycle_q_RNIIFIO_0[1]}
+ble_pack adcs.M_samples_q_esr[1]_LC_63 {adcs.M_samples_q_esr[1], adcs.M_samples_q_esr_RNO[1]}
+ble_pack adcs.M_spi_cycle_q_RNIHNE5_0[1]_LC_89 {adcs.M_spi_cycle_q_RNIHNE5_0[1]}
+ble_pack adcs.M_samples_q_esr_RNO_0[15]_LC_58 {adcs.M_samples_q_esr_RNO_0[15]}
+clb_pack PLB_14 {adcs.M_samples_q_RNIHM8S[23]_LC_25, adcs.M_samples_q_esr_RNIDOIB3[16]_LC_45, adcs.M_samples_q_esr_RNICLEN[17]_LC_42, adcs.M_samples_q_esr[17]_LC_66, adcs.M_spi_cycle_q_RNIIFIO_0[1]_LC_94, adcs.M_samples_q_esr[1]_LC_63, adcs.M_spi_cycle_q_RNIHNE5_0[1]_LC_89, adcs.M_samples_q_esr_RNO_0[15]_LC_58}
+ble_pack adcs.M_samples_q_RNILNPI[10]_LC_26 {adcs.M_samples_q_RNILNPI[10]}
+ble_pack adcs.M_samples_q[10]_LC_29 {adcs.M_samples_q[10], adcs.M_samples_q_RNO[10]}
+ble_pack adcs.M_spi_cycle_q_RNIFT441[4]_LC_88 {adcs.M_spi_cycle_q_RNIFT441[4]}
+ble_pack adcs.M_samples_q[12]_LC_31 {adcs.M_samples_q[12], adcs.M_samples_q_RNO[12]}
+ble_pack adcs.M_samples_q[13]_LC_32 {adcs.M_samples_q[13], adcs.M_samples_q_RNO[13]}
+ble_pack adcs.M_samples_q[14]_LC_33 {adcs.M_samples_q[14], adcs.M_samples_q_RNO[14]}
+ble_pack adcs.M_samples_q[8]_LC_35 {adcs.M_samples_q[8], adcs.M_samples_q_RNO[8]}
+ble_pack adcs.M_samples_q[11]_LC_30 {adcs.M_samples_q[11], adcs.M_samples_q_RNO[11]}
+clb_pack PLB_15 {adcs.M_samples_q_RNILNPI[10]_LC_26, adcs.M_samples_q[10]_LC_29, adcs.M_spi_cycle_q_RNIFT441[4]_LC_88, adcs.M_samples_q[12]_LC_31, adcs.M_samples_q[13]_LC_32, adcs.M_samples_q[14]_LC_33, adcs.M_samples_q[8]_LC_35, adcs.M_samples_q[11]_LC_30}
+ble_pack adcs.M_samples_q_esr_RNI2F974[0]_LC_39 {adcs.M_samples_q_esr_RNI2F974[0]}
+ble_pack adcs.M_samples_q_esr_RNID4N01[7]_LC_43 {adcs.M_samples_q_esr_RNID4N01[7]}
+ble_pack adcs.M_samples_q_esr_RNIS5KB1[1]_LC_52 {adcs.M_samples_q_esr_RNIS5KB1[1]}
+ble_pack adcs.M_samples_q_esr[7]_LC_275 {adcs.M_samples_q_esr[7], adcs.M_samples_q_esr_7_THRU_LUT4_0}
+ble_pack adcs.M_samples_q_esr_RNI0CUQ1[7]_LC_37 {adcs.M_samples_q_esr_RNI0CUQ1[7]}
+ble_pack adcs.M_samples_q_esr_RNIQ5UQ1[1]_LC_50 {adcs.M_samples_q_esr_RNIQ5UQ1[1]}
+ble_pack adcs.M_samples_q_esr_RNIR6UQ1[2]_LC_51 {adcs.M_samples_q_esr_RNIR6UQ1[2]}
+ble_pack adcs.M_samples_q_esr_RNIS7UQ1[3]_LC_53 {adcs.M_samples_q_esr_RNIS7UQ1[3]}
+clb_pack PLB_16 {adcs.M_samples_q_esr_RNI2F974[0]_LC_39, adcs.M_samples_q_esr_RNID4N01[7]_LC_43, adcs.M_samples_q_esr_RNIS5KB1[1]_LC_52, adcs.M_samples_q_esr[7]_LC_275, adcs.M_samples_q_esr_RNI0CUQ1[7]_LC_37, adcs.M_samples_q_esr_RNIQ5UQ1[1]_LC_50, adcs.M_samples_q_esr_RNIR6UQ1[2]_LC_51, adcs.M_samples_q_esr_RNIS7UQ1[3]_LC_53}
+ble_pack adcs.M_samples_q_esr_RNO_0[6]_LC_61 {adcs.M_samples_q_esr_RNO_0[6]}
+ble_pack adcs.M_samples_q_esr[6]_LC_76 {adcs.M_samples_q_esr[6], adcs.M_samples_q_esr_RNO[6]}
+ble_pack adcs.M_spi_cycle_q_RNII2LD_0[4]_LC_91 {adcs.M_spi_cycle_q_RNII2LD_0[4]}
+ble_pack adcs.M_samples_q_esr_RNO_0[7]_LC_62 {adcs.M_samples_q_esr_RNO_0[7]}
+ble_pack adcs.M_samples_q_esr_RNO[7]_LC_77 {adcs.M_samples_q_esr_RNO[7]}
+ble_pack adcs.M_spi_cycle_q_RNIJPE5[3]_LC_101 {adcs.M_spi_cycle_q_RNIJPE5[3]}
+ble_pack adcs.M_spi_cycle_q_RNIR468_0[1]_LC_104 {adcs.M_spi_cycle_q_RNIR468_0[1]}
+ble_pack adcs.M_spi_cycle_q_RNI6JTA[3]_LC_85 {adcs.M_spi_cycle_q_RNI6JTA[3]}
+clb_pack PLB_17 {adcs.M_samples_q_esr_RNO_0[6]_LC_61, adcs.M_samples_q_esr[6]_LC_76, adcs.M_spi_cycle_q_RNII2LD_0[4]_LC_91, adcs.M_samples_q_esr_RNO_0[7]_LC_62, adcs.M_samples_q_esr_RNO[7]_LC_77, adcs.M_spi_cycle_q_RNIJPE5[3]_LC_101, adcs.M_spi_cycle_q_RNIR468_0[1]_LC_104, adcs.M_spi_cycle_q_RNI6JTA[3]_LC_85}
+ble_pack adcs.M_spi_cycle_q_RNII2LD_1[4]_LC_92 {adcs.M_spi_cycle_q_RNII2LD_1[4]}
+ble_pack adcs.M_spi_cycle_q_RNI6JTA_0[3]_LC_84 {adcs.M_spi_cycle_q_RNI6JTA_0[3]}
+ble_pack adcs.M_spi_cycle_q_RNI45AR[4]_LC_83 {adcs.M_spi_cycle_q_RNI45AR[4]}
+ble_pack adcs.M_spi_cycle_q[4]_LC_109 {adcs.M_spi_cycle_q[4], adcs.M_spi_cycle_q_RNO[4]}
+ble_pack adcs.M_spi_cycle_q_RNII2LD[4]_LC_93 {adcs.M_spi_cycle_q_RNII2LD[4]}
+ble_pack adcs.M_spi_cycle_q_RNILRE5[3]_LC_103 {adcs.M_spi_cycle_q_RNILRE5[3]}
+ble_pack adcs.M_spi_cycle_q[3]_LC_108 {adcs.M_spi_cycle_q[3], adcs.M_spi_cycle_q_RNO[3]}
+ble_pack adcs.M_spi_cycle_q[2]_LC_107 {adcs.M_spi_cycle_q[2], adcs.M_spi_cycle_q_RNO[2]}
+clb_pack PLB_18 {adcs.M_spi_cycle_q_RNII2LD_1[4]_LC_92, adcs.M_spi_cycle_q_RNI6JTA_0[3]_LC_84, adcs.M_spi_cycle_q_RNI45AR[4]_LC_83, adcs.M_spi_cycle_q[4]_LC_109, adcs.M_spi_cycle_q_RNII2LD[4]_LC_93, adcs.M_spi_cycle_q_RNILRE5[3]_LC_103, adcs.M_spi_cycle_q[3]_LC_108, adcs.M_spi_cycle_q[2]_LC_107}
+ble_pack sample_fifo.M_send_sync_byte_d_0_sqmuxa_i_i_a3_LC_120 {sample_fifo.M_send_sync_byte_d_0_sqmuxa_i_i_a3}
+ble_pack M_samples_until_sync_byte_q[0]_LC_78 {M_samples_until_sync_byte_q[0], adcs.M_samples_until_sync_byte_q_0_0_a2[0]}
+ble_pack M_samples_until_sync_byte_q[1]_LC_5 {M_samples_until_sync_byte_q[1], M_samples_until_sync_byte_q_RNO[1]}
+ble_pack sample_fifo.M_send_sync_byte_d_0_sqmuxa_i_i_a3_3_LC_121 {sample_fifo.M_send_sync_byte_d_0_sqmuxa_i_i_a3_3}
+ble_pack M_samples_until_sync_byte_q[3]_LC_6 {M_samples_until_sync_byte_q[3], M_samples_until_sync_byte_q_RNO[3]}
+ble_pack M_samples_until_sync_byte_q[2]_LC_79 {M_samples_until_sync_byte_q[2], adcs.M_samples_until_sync_byte_q_0_0_a2[2]}
+ble_pack M_samples_until_sync_byte_q[4]_LC_80 {M_samples_until_sync_byte_q[4], adcs.M_samples_until_sync_byte_q_0_0_a2[4]}
+ble_pack sample_fifo.M_raddr_q_RNIGO19[0]_LC_116 {sample_fifo.M_raddr_q_RNIGO19[0]}
+clb_pack PLB_19 {sample_fifo.M_send_sync_byte_d_0_sqmuxa_i_i_a3_LC_120, M_samples_until_sync_byte_q[0]_LC_78, M_samples_until_sync_byte_q[1]_LC_5, sample_fifo.M_send_sync_byte_d_0_sqmuxa_i_i_a3_3_LC_121, M_samples_until_sync_byte_q[3]_LC_6, M_samples_until_sync_byte_q[2]_LC_79, M_samples_until_sync_byte_q[4]_LC_80, sample_fifo.M_raddr_q_RNIGO19[0]_LC_116}
+ble_pack sample_fifo.M_waddr_delay_q_RNI4OIH[0]_LC_131 {sample_fifo.M_waddr_delay_q_RNI4OIH[0]}
+ble_pack sample_fifo.M_waddr_delay_q_RNITL46[1]_LC_135 {sample_fifo.M_waddr_delay_q_RNITL46[1]}
+ble_pack sample_fifo.M_waddr_delay_q_RNIO99C[0]_LC_134 {sample_fifo.M_waddr_delay_q_RNIO99C[0]}
+ble_pack sample_fifo.M_raddr_q[1]_LC_118 {sample_fifo.M_raddr_q[1], sample_fifo.M_raddr_q_RNO[1]}
+ble_pack sample_fifo.M_raddr_q_RNIF36H[1]_LC_115 {sample_fifo.M_raddr_q_RNIF36H[1]}
+ble_pack sample_fifo.M_raddr_q[0]_LC_117 {sample_fifo.M_raddr_q[0], sample_fifo.M_raddr_q_RNO[0]}
+ble_pack sample_fifo.M_waddr_delay_q[1]_LC_278 {sample_fifo.M_waddr_delay_q[1], sample_fifo.M_waddr_delay_q_1_THRU_LUT4_0}
+ble_pack sample_fifo.M_waddr_delay_q_RNI4OIH[1]_LC_132 {sample_fifo.M_waddr_delay_q_RNI4OIH[1]}
+clb_pack PLB_20 {sample_fifo.M_waddr_delay_q_RNI4OIH[0]_LC_131, sample_fifo.M_waddr_delay_q_RNITL46[1]_LC_135, sample_fifo.M_waddr_delay_q_RNIO99C[0]_LC_134, sample_fifo.M_raddr_q[1]_LC_118, sample_fifo.M_raddr_q_RNIF36H[1]_LC_115, sample_fifo.M_raddr_q[0]_LC_117, sample_fifo.M_waddr_delay_q[1]_LC_278, sample_fifo.M_waddr_delay_q_RNI4OIH[1]_LC_132}
+ble_pack M_read_fifo_requested_q_LC_133 {M_read_fifo_requested_q, sample_fifo.M_waddr_delay_q_RNI6F132[0]}
+ble_pack sample_fifo.M_read_fifo_requested_d_2_sqmuxa_0_a3_0_LC_119 {sample_fifo.M_read_fifo_requested_d_2_sqmuxa_0_a3_0}
+ble_pack GB_BUFFER_M_reset_cond_out_g_0_THRU_LUT4_0_LC_294 {GB_BUFFER_M_reset_cond_out_g_0_THRU_LUT4_0}
+ble_pack adcs.M_samples_q_esr_RNO[15]_LC_64 {adcs.M_samples_q_esr_RNO[15]}
+ble_pack sample_fifo.M_uart_tx_new_data_0_sqmuxa_1_i_i_o2_LC_130 {sample_fifo.M_uart_tx_new_data_0_sqmuxa_1_i_i_o2}
+ble_pack sample_fifo.N_175_i_LC_141 {sample_fifo.N_175_i}
+ble_pack uart_tx.M_bitCtr_q[1]_LC_244 {uart_tx.M_bitCtr_q[1], uart_tx.M_bitCtr_q_RNO[1]}
+ble_pack uart_tx.M_bitCtr_q_RNIAMAN2[0]_LC_242 {uart_tx.M_bitCtr_q_RNIAMAN2[0]}
+clb_pack PLB_21 {M_read_fifo_requested_q_LC_133, sample_fifo.M_read_fifo_requested_d_2_sqmuxa_0_a3_0_LC_119, GB_BUFFER_M_reset_cond_out_g_0_THRU_LUT4_0_LC_294, adcs.M_samples_q_esr_RNO[15]_LC_64, sample_fifo.M_uart_tx_new_data_0_sqmuxa_1_i_i_o2_LC_130, sample_fifo.N_175_i_LC_141, uart_tx.M_bitCtr_q[1]_LC_244, uart_tx.M_bitCtr_q_RNIAMAN2[0]_LC_242}
+ble_pack sample_fifo.M_waddr_q[0]_LC_136 {sample_fifo.M_waddr_q[0], sample_fifo.M_waddr_q_RNO[0]}
+ble_pack sample_fifo.M_waddr_q_RNO_1[0]_LC_139 {sample_fifo.M_waddr_q_RNO_1[0]}
+ble_pack sample_fifo.M_waddr_q_RNO_0[0]_LC_137 {sample_fifo.M_waddr_q_RNO_0[0]}
+ble_pack sample_fifo.M_waddr_q_RNO_2[0]_LC_140 {sample_fifo.M_waddr_q_RNO_2[0]}
+ble_pack sample_fifo.M_waddr_q[1]_LC_138 {sample_fifo.M_waddr_q[1], sample_fifo.M_waddr_q_RNO[1]}
+ble_pack adcs.M_samples_q_RNIP35H1[9]_LC_27 {adcs.M_samples_q_RNIP35H1[9]}
+ble_pack adcs.M_samples_q_esr_RNIB8SN1[20]_LC_40 {adcs.M_samples_q_esr_RNIB8SN1[20]}
+ble_pack adcs.M_samples_q_esr_RNIC9SN1[21]_LC_41 {adcs.M_samples_q_esr_RNIC9SN1[21]}
+clb_pack PLB_22 {sample_fifo.M_waddr_q[0]_LC_136, sample_fifo.M_waddr_q_RNO_1[0]_LC_139, sample_fifo.M_waddr_q_RNO_0[0]_LC_137, sample_fifo.M_waddr_q_RNO_2[0]_LC_140, sample_fifo.M_waddr_q[1]_LC_138, adcs.M_samples_q_RNIP35H1[9]_LC_27, adcs.M_samples_q_esr_RNIB8SN1[20]_LC_40, adcs.M_samples_q_esr_RNIC9SN1[21]_LC_41}
+ble_pack M_samples_buffer_q_esr[7]_LC_143 {M_samples_buffer_q_esr[7], sample_fifo.ram.mem_mem_0_0_RNI0Q5P1}
+ble_pack M_samples_buffer_q_esr[15]_LC_158 {M_samples_buffer_q_esr[15], sample_fifo.ram.mem_mem_0_0_RNIVP6P1}
+ble_pack M_samples_buffer_q_esr[23]_LC_166 {M_samples_buffer_q_esr[23], sample_fifo.ram.mem_mem_0_1_RNIG5JI1_6}
+ble_pack M_samples_buffer_q_esr[16]_LC_159 {M_samples_buffer_q_esr[16], sample_fifo.ram.mem_mem_0_1_RNIG5JI1}
+ble_pack M_samples_buffer_q_esr[8]_LC_144 {M_samples_buffer_q_esr[8], sample_fifo.ram.mem_mem_0_0_RNI1R5P1}
+ble_pack M_samples_buffer_q_esr[0]_LC_148 {M_samples_buffer_q_esr[0], sample_fifo.ram.mem_mem_0_0_RNIIB8K1}
+ble_pack M_samples_buffer_q_esr[17]_LC_160 {M_samples_buffer_q_esr[17], sample_fifo.ram.mem_mem_0_1_RNIG5JI1_0}
+ble_pack M_samples_buffer_q_esr[9]_LC_145 {M_samples_buffer_q_esr[9], sample_fifo.ram.mem_mem_0_0_RNI2S5P1}
+clb_pack PLB_23 {M_samples_buffer_q_esr[7]_LC_143, M_samples_buffer_q_esr[15]_LC_158, M_samples_buffer_q_esr[23]_LC_166, M_samples_buffer_q_esr[16]_LC_159, M_samples_buffer_q_esr[8]_LC_144, M_samples_buffer_q_esr[0]_LC_148, M_samples_buffer_q_esr[17]_LC_160, M_samples_buffer_q_esr[9]_LC_145}
+ble_pack M_samples_buffer_q_esr[10]_LC_146 {M_samples_buffer_q_esr[10], sample_fifo.ram.mem_mem_0_0_RNI3T5P1}
+ble_pack M_samples_buffer_q_esr[2]_LC_150 {M_samples_buffer_q_esr[2], sample_fifo.ram.mem_mem_0_0_RNIRK5P1}
+ble_pack M_samples_buffer_q_esr[18]_LC_161 {M_samples_buffer_q_esr[18], sample_fifo.ram.mem_mem_0_1_RNIG5JI1_1}
+ble_pack M_samples_buffer_q_esr[19]_LC_162 {M_samples_buffer_q_esr[19], sample_fifo.ram.mem_mem_0_1_RNIG5JI1_2}
+ble_pack M_samples_buffer_q_esr[11]_LC_147 {M_samples_buffer_q_esr[11], sample_fifo.ram.mem_mem_0_0_RNI4U5P1}
+ble_pack M_samples_buffer_q_esr[3]_LC_151 {M_samples_buffer_q_esr[3], sample_fifo.ram.mem_mem_0_0_RNISL5P1}
+ble_pack M_samples_buffer_q_esr[20]_LC_163 {M_samples_buffer_q_esr[20], sample_fifo.ram.mem_mem_0_1_RNIG5JI1_3}
+ble_pack M_samples_buffer_q_esr[12]_LC_152 {M_samples_buffer_q_esr[12], sample_fifo.ram.mem_mem_0_0_RNISM6P1}
+clb_pack PLB_24 {M_samples_buffer_q_esr[10]_LC_146, M_samples_buffer_q_esr[2]_LC_150, M_samples_buffer_q_esr[18]_LC_161, M_samples_buffer_q_esr[19]_LC_162, M_samples_buffer_q_esr[11]_LC_147, M_samples_buffer_q_esr[3]_LC_151, M_samples_buffer_q_esr[20]_LC_163, M_samples_buffer_q_esr[12]_LC_152}
+ble_pack M_samples_buffer_q_esr[1]_LC_149 {M_samples_buffer_q_esr[1], sample_fifo.ram.mem_mem_0_0_RNIJC8K1}
+ble_pack M_samples_buffer_q_esr[21]_LC_164 {M_samples_buffer_q_esr[21], sample_fifo.ram.mem_mem_0_1_RNIG5JI1_4}
+ble_pack M_samples_buffer_q_esr[13]_LC_154 {M_samples_buffer_q_esr[13], sample_fifo.ram.mem_mem_0_0_RNITN6P1}
+ble_pack M_samples_buffer_q_esr[5]_LC_155 {M_samples_buffer_q_esr[5], sample_fifo.ram.mem_mem_0_0_RNIUN5P1}
+ble_pack M_samples_buffer_q_esr[22]_LC_165 {M_samples_buffer_q_esr[22], sample_fifo.ram.mem_mem_0_1_RNIG5JI1_5}
+ble_pack M_samples_buffer_q_esr[14]_LC_156 {M_samples_buffer_q_esr[14], sample_fifo.ram.mem_mem_0_0_RNIUO6P1}
+ble_pack M_samples_buffer_q_esr[6]_LC_157 {M_samples_buffer_q_esr[6], sample_fifo.ram.mem_mem_0_0_RNIVO5P1}
+ble_pack M_samples_buffer_q_esr[4]_LC_153 {M_samples_buffer_q_esr[4], sample_fifo.ram.mem_mem_0_0_RNITM5P1}
+clb_pack PLB_25 {M_samples_buffer_q_esr[1]_LC_149, M_samples_buffer_q_esr[21]_LC_164, M_samples_buffer_q_esr[13]_LC_154, M_samples_buffer_q_esr[5]_LC_155, M_samples_buffer_q_esr[22]_LC_165, M_samples_buffer_q_esr[14]_LC_156, M_samples_buffer_q_esr[6]_LC_157, M_samples_buffer_q_esr[4]_LC_153}
+ble_pack slow_clock.M_count_q_RNI4V28[8]_LC_167 {slow_clock.M_count_q_RNI4V28[8]}
+ble_pack slow_clock.M_count_q_RNI8GFU[8]_LC_168 {slow_clock.M_count_q_RNI8GFU[8]}
+ble_pack slow_clock.M_count_q_RNIGK26[16]_LC_169 {slow_clock.M_count_q_RNIGK26[16]}
+ble_pack slow_clock.M_count_q[0]_LC_174 {slow_clock.M_count_q[0], slow_clock.M_count_q_RNO[0]}
+ble_pack slow_clock.M_count_q[8]_LC_203 {slow_clock.M_count_q[8], slow_clock.M_count_q_RNO[8]}
+ble_pack slow_clock.M_count_q[9]_LC_204 {slow_clock.M_count_q[9], slow_clock.M_count_q_RNO[9]}
+ble_pack slow_clock.M_count_q[11]_LC_185 {slow_clock.M_count_q[11], slow_clock.M_count_q_RNO[11]}
+ble_pack slow_clock.M_count_q[14]_LC_188 {slow_clock.M_count_q[14], slow_clock.M_count_q_RNO[14]}
+clb_pack PLB_26 {slow_clock.M_count_q_RNI4V28[8]_LC_167, slow_clock.M_count_q_RNI8GFU[8]_LC_168, slow_clock.M_count_q_RNIGK26[16]_LC_169, slow_clock.M_count_q[0]_LC_174, slow_clock.M_count_q[8]_LC_203, slow_clock.M_count_q[9]_LC_204, slow_clock.M_count_q[11]_LC_185, slow_clock.M_count_q[14]_LC_188}
+ble_pack slow_clock.M_count_q_RNIKG48[1]_LC_170 {slow_clock.M_count_q_RNIKG48[1]}
+ble_pack slow_clock.M_count_q[1]_LC_183 {slow_clock.M_count_q[1], slow_clock.M_count_q_RNO[1]}
+ble_pack slow_clock.M_count_q[18]_LC_192 {slow_clock.M_count_q[18], slow_clock.M_count_q_RNO[18]}
+ble_pack slow_clock.M_count_q_RNIQ658[22]_LC_171 {slow_clock.M_count_q_RNIQ658[22]}
+ble_pack slow_clock.M_count_q[19]_LC_193 {slow_clock.M_count_q[19], slow_clock.M_count_q_RNO[19]}
+ble_pack slow_clock.M_count_q[22]_LC_197 {slow_clock.M_count_q[22], slow_clock.M_count_q_RNO[22]}
+ble_pack slow_clock.M_count_q[6]_LC_201 {slow_clock.M_count_q[6], slow_clock.M_count_q_RNO[6]}
+ble_pack slow_clock.M_count_q_RNIUN08[3]_LC_173 {slow_clock.M_count_q_RNIUN08[3]}
+clb_pack PLB_27 {slow_clock.M_count_q_RNIKG48[1]_LC_170, slow_clock.M_count_q[1]_LC_183, slow_clock.M_count_q[18]_LC_192, slow_clock.M_count_q_RNIQ658[22]_LC_171, slow_clock.M_count_q[19]_LC_193, slow_clock.M_count_q[22]_LC_197, slow_clock.M_count_q[6]_LC_201, slow_clock.M_count_q_RNIUN08[3]_LC_173}
+ble_pack slow_clock.M_count_q_RNIQL48[10]_LC_172 {slow_clock.M_count_q_RNIQL48[10]}
+ble_pack slower_clock.M_count_d7_0_c_RNO_LC_206 {slower_clock.M_count_d7_0_c_RNO}
+ble_pack slower_clock.M_count_q[9]_LC_240 {slower_clock.M_count_q[9], slower_clock.M_count_q_RNO[9]}
+ble_pack slower_clock.M_count_q[14]_LC_219 {slower_clock.M_count_q[14], slower_clock.M_count_q_RNO[14]}
+ble_pack slower_clock.M_count_q[15]_LC_220 {slower_clock.M_count_q[15], slower_clock.M_count_q_RNO[15]}
+ble_pack slower_clock.M_count_q[16]_LC_221 {slower_clock.M_count_q[16], slower_clock.M_count_q_RNO[16]}
+ble_pack slower_clock.M_count_q[0]_LC_213 {slower_clock.M_count_q[0], slower_clock.M_count_q_RNO[0]}
+ble_pack slower_clock.M_count_d7_3_c_RNO_LC_209 {slower_clock.M_count_d7_3_c_RNO}
+clb_pack PLB_28 {slow_clock.M_count_q_RNIQL48[10]_LC_172, slower_clock.M_count_d7_0_c_RNO_LC_206, slower_clock.M_count_q[9]_LC_240, slower_clock.M_count_q[14]_LC_219, slower_clock.M_count_q[15]_LC_220, slower_clock.M_count_q[16]_LC_221, slower_clock.M_count_q[0]_LC_213, slower_clock.M_count_d7_3_c_RNO_LC_209}
+ble_pack slower_clock.M_count_d7_1_c_RNO_LC_207 {slower_clock.M_count_d7_1_c_RNO}
+ble_pack slower_clock.M_count_q[17]_LC_222 {slower_clock.M_count_q[17], slower_clock.M_count_q_RNO[17]}
+ble_pack slower_clock.M_count_q[19]_LC_224 {slower_clock.M_count_q[19], slower_clock.M_count_q_RNO[19]}
+ble_pack slower_clock.M_count_q[21]_LC_227 {slower_clock.M_count_q[21], slower_clock.M_count_q_RNO[21]}
+ble_pack slower_clock.M_count_q[22]_LC_228 {slower_clock.M_count_q[22], slower_clock.M_count_q_RNO[22]}
+ble_pack slower_clock.M_count_q[23]_LC_229 {slower_clock.M_count_q[23], slower_clock.M_count_q_RNO[23]}
+ble_pack slower_clock.M_count_d7_2_c_RNO_LC_208 {slower_clock.M_count_d7_2_c_RNO}
+ble_pack slower_clock.M_count_q[24]_LC_230 {slower_clock.M_count_q[24], slower_clock.M_count_q_RNO[24]}
+clb_pack PLB_29 {slower_clock.M_count_d7_1_c_RNO_LC_207, slower_clock.M_count_q[17]_LC_222, slower_clock.M_count_q[19]_LC_224, slower_clock.M_count_q[21]_LC_227, slower_clock.M_count_q[22]_LC_228, slower_clock.M_count_q[23]_LC_229, slower_clock.M_count_d7_2_c_RNO_LC_208, slower_clock.M_count_q[24]_LC_230}
+ble_pack slower_clock.M_count_d7_4_c_RNO_LC_210 {slower_clock.M_count_d7_4_c_RNO}
+ble_pack slower_clock.M_count_d7_5_c_RNO_LC_211 {slower_clock.M_count_d7_5_c_RNO}
+ble_pack slower_clock.M_count_q[1]_LC_214 {slower_clock.M_count_q[1], slower_clock.M_count_q_RNO[1]}
+ble_pack slower_clock.M_count_d7_6_c_RNO_LC_212 {slower_clock.M_count_d7_6_c_RNO}
+ble_pack uart_tx.M_state_q_RNO_1[0]_LC_262 {uart_tx.M_state_q_RNO_1[0]}
+ble_pack uart_tx.M_state_q_RNO_3[0]_LC_264 {uart_tx.M_state_q_RNO_3[0]}
+ble_pack uart_tx.M_state_q_RNILEFM[1]_LC_257 {uart_tx.M_state_q_RNILEFM[1]}
+ble_pack uart_tx.M_state_q_RNILEFM_0[1]_LC_256 {uart_tx.M_state_q_RNILEFM_0[1]}
+clb_pack PLB_30 {slower_clock.M_count_d7_4_c_RNO_LC_210, slower_clock.M_count_d7_5_c_RNO_LC_211, slower_clock.M_count_q[1]_LC_214, slower_clock.M_count_d7_6_c_RNO_LC_212, uart_tx.M_state_q_RNO_1[0]_LC_262, uart_tx.M_state_q_RNO_3[0]_LC_264, uart_tx.M_state_q_RNILEFM[1]_LC_257, uart_tx.M_state_q_RNILEFM_0[1]_LC_256}
+ble_pack uart_tx.M_ctr_q[0]_LC_248 {uart_tx.M_ctr_q[0], uart_tx.M_ctr_q_RNO[0]}
+ble_pack uart_tx.M_ctr_q_RNI66VN[0]_LC_246 {uart_tx.M_ctr_q_RNI66VN[0]}
+ble_pack uart_tx.M_ctr_q[3]_LC_254 {uart_tx.M_ctr_q[3], uart_tx.M_ctr_q_RNO[3]}
+ble_pack uart_tx.M_ctr_q[4]_LC_255 {uart_tx.M_ctr_q[4], uart_tx.M_ctr_q_RNO[4]}
+ble_pack uart_tx.M_bitCtr_q[0]_LC_243 {uart_tx.M_bitCtr_q[0], uart_tx.M_bitCtr_q_RNO[0]}
+ble_pack uart_tx.M_txReg_q_RNO_3_LC_269 {uart_tx.M_txReg_q_RNO_3}
+ble_pack uart_tx.M_txReg_q_RNO_0_LC_266 {uart_tx.M_txReg_q_RNO_0}
+ble_pack uart_tx.M_txReg_q_RNO_4_LC_270 {uart_tx.M_txReg_q_RNO_4}
+clb_pack PLB_31 {uart_tx.M_ctr_q[0]_LC_248, uart_tx.M_ctr_q_RNI66VN[0]_LC_246, uart_tx.M_ctr_q[3]_LC_254, uart_tx.M_ctr_q[4]_LC_255, uart_tx.M_bitCtr_q[0]_LC_243, uart_tx.M_txReg_q_RNO_3_LC_269, uart_tx.M_txReg_q_RNO_0_LC_266, uart_tx.M_txReg_q_RNO_4_LC_270}
+ble_pack M_samples_to_send_q[0]_LC_1 {M_samples_to_send_q[0], M_samples_to_send_q_RNO[0]}
+ble_pack M_samples_to_send_q[1]_LC_2 {M_samples_to_send_q[1], M_samples_to_send_q_RNO[1]}
+ble_pack adcs.M_samples_q_RNO_0[23]_LC_28 {adcs.M_samples_q_RNO_0[23]}
+ble_pack adcs.M_samples_q[23]_LC_34 {adcs.M_samples_q[23], adcs.M_samples_q_RNO[23]}
+ble_pack adcs.M_spi_cycle_q_RNIR468[1]_LC_105 {adcs.M_spi_cycle_q_RNIR468[1]}
+ble_pack adcs.M_spi_cycle_q[0]_LC_276 {adcs.M_spi_cycle_q[0], adcs.M_spi_cycle_q_RNI0MKH1_0_adcs.M_spi_cycle_q_0_REP_LUT4_0}
+ble_pack adcs.M_spi_cycle_q[1]_LC_106 {adcs.M_spi_cycle_q[1], adcs.M_spi_cycle_q_RNO[1]}
+ble_pack adcs.M_spi_cycle_q_RNIKQE5[4]_LC_102 {adcs.M_spi_cycle_q_RNIKQE5[4]}
+clb_pack PLB_32 {M_samples_to_send_q[0]_LC_1, M_samples_to_send_q[1]_LC_2, adcs.M_samples_q_RNO_0[23]_LC_28, adcs.M_samples_q[23]_LC_34, adcs.M_spi_cycle_q_RNIR468[1]_LC_105, adcs.M_spi_cycle_q[0]_LC_276, adcs.M_spi_cycle_q[1]_LC_106, adcs.M_spi_cycle_q_RNIKQE5[4]_LC_102}
+ble_pack adcs.M_samples_q[9]_LC_36 {adcs.M_samples_q[9], adcs.M_samples_q_RNO[9]}
+ble_pack adcs.M_samples_q_esr_RNI0DKD[15]_LC_38 {adcs.M_samples_q_esr_RNI0DKD[15]}
+ble_pack adcs.M_spi_cycle_q_RNI3BOI[4]_LC_82 {adcs.M_spi_cycle_q_RNI3BOI[4]}
+ble_pack adcs.M_samples_q_esr_RNIFBRN1[15]_LC_46 {adcs.M_samples_q_esr_RNIFBRN1[15]}
+ble_pack adcs.M_samples_q_esr_RNIDASN1[22]_LC_44 {adcs.M_samples_q_esr_RNIDASN1[22]}
+ble_pack adcs.M_samples_q_esr_RNIHDRN1[17]_LC_47 {adcs.M_samples_q_esr_RNIHDRN1[17]}
+ble_pack adcs.M_samples_q_esr_RNIIERN1[18]_LC_48 {adcs.M_samples_q_esr_RNIIERN1[18]}
+ble_pack adcs.M_samples_q_esr_RNIJFRN1[19]_LC_49 {adcs.M_samples_q_esr_RNIJFRN1[19]}
+clb_pack PLB_33 {adcs.M_samples_q[9]_LC_36, adcs.M_samples_q_esr_RNI0DKD[15]_LC_38, adcs.M_spi_cycle_q_RNI3BOI[4]_LC_82, adcs.M_samples_q_esr_RNIFBRN1[15]_LC_46, adcs.M_samples_q_esr_RNIDASN1[22]_LC_44, adcs.M_samples_q_esr_RNIHDRN1[17]_LC_47, adcs.M_samples_q_esr_RNIIERN1[18]_LC_48, adcs.M_samples_q_esr_RNIJFRN1[19]_LC_49}
+ble_pack adcs.M_samples_q_esr[0]_LC_57 {adcs.M_samples_q_esr[0], adcs.M_samples_q_esr_RNO[0]}
+ble_pack adcs.M_spi_cycle_q_RNIIFIO[1]_LC_95 {adcs.M_spi_cycle_q_RNIIFIO[1]}
+ble_pack adcs.M_samples_q_esr[16]_LC_65 {adcs.M_samples_q_esr[16], adcs.M_samples_q_esr_RNO[16]}
+ble_pack adcs.M_samples_q_esr[18]_LC_67 {adcs.M_samples_q_esr[18], adcs.M_samples_q_esr_RNO[18]}
+ble_pack adcs.M_spi_cycle_q_RNIIFIO_1[1]_LC_96 {adcs.M_spi_cycle_q_RNIIFIO_1[1]}
+ble_pack adcs.M_samples_q_esr[2]_LC_69 {adcs.M_samples_q_esr[2], adcs.M_samples_q_esr_RNO[2]}
+ble_pack adcs.M_samples_q_esr[19]_LC_68 {adcs.M_samples_q_esr[19], adcs.M_samples_q_esr_RNO[19]}
+ble_pack adcs.M_spi_cycle_q_RNIIFIO_2[1]_LC_97 {adcs.M_spi_cycle_q_RNIIFIO_2[1]}
+clb_pack PLB_34 {adcs.M_samples_q_esr[0]_LC_57, adcs.M_spi_cycle_q_RNIIFIO[1]_LC_95, adcs.M_samples_q_esr[16]_LC_65, adcs.M_samples_q_esr[18]_LC_67, adcs.M_spi_cycle_q_RNIIFIO_1[1]_LC_96, adcs.M_samples_q_esr[2]_LC_69, adcs.M_samples_q_esr[19]_LC_68, adcs.M_spi_cycle_q_RNIIFIO_2[1]_LC_97}
+ble_pack adcs.M_samples_q_esr_RNO_0[4]_LC_59 {adcs.M_samples_q_esr_RNO_0[4]}
+ble_pack adcs.M_samples_q_esr[4]_LC_74 {adcs.M_samples_q_esr[4], adcs.M_samples_q_esr_RNO[4]}
+ble_pack adcs.M_samples_q_esr[3]_LC_73 {adcs.M_samples_q_esr[3], adcs.M_samples_q_esr_RNO[3]}
+ble_pack adcs.M_samples_q_esr[5]_LC_75 {adcs.M_samples_q_esr[5], adcs.M_samples_q_esr_RNO[5]}
+ble_pack adcs.M_samples_q_esr_RNO_0[5]_LC_60 {adcs.M_samples_q_esr_RNO_0[5]}
+ble_pack adcs.M_spi_cycle_q_RNIIFIO_3[1]_LC_98 {adcs.M_spi_cycle_q_RNIIFIO_3[1]}
+ble_pack adcs.M_samples_q_esr[20]_LC_70 {adcs.M_samples_q_esr[20], adcs.M_samples_q_esr_RNO[20]}
+ble_pack adcs.M_samples_q_esr[21]_LC_71 {adcs.M_samples_q_esr[21], adcs.M_samples_q_esr_RNO[21]}
+clb_pack PLB_35 {adcs.M_samples_q_esr_RNO_0[4]_LC_59, adcs.M_samples_q_esr[4]_LC_74, adcs.M_samples_q_esr[3]_LC_73, adcs.M_samples_q_esr[5]_LC_75, adcs.M_samples_q_esr_RNO_0[5]_LC_60, adcs.M_spi_cycle_q_RNIIFIO_3[1]_LC_98, adcs.M_samples_q_esr[20]_LC_70, adcs.M_samples_q_esr[21]_LC_71}
+ble_pack adcs.M_samples_q_esr[22]_LC_72 {adcs.M_samples_q_esr[22], adcs.M_samples_q_esr_RNO[22]}
+ble_pack adcs.M_spi_cycle_q_RNIIFIO_5[1]_LC_100 {adcs.M_spi_cycle_q_RNIIFIO_5[1]}
+ble_pack adcs.M_spi_cycle_q_RNIIFIO_4[1]_LC_99 {adcs.M_spi_cycle_q_RNIIFIO_4[1]}
+ble_pack uart_tx.M_txReg_q_RNO_1_LC_267 {uart_tx.M_txReg_q_RNO_1}
+ble_pack uart_tx.M_txReg_q_RNO_2_LC_268 {uart_tx.M_txReg_q_RNO_2}
+ble_pack uart_tx.M_txReg_q_RNO_5_LC_271 {uart_tx.M_txReg_q_RNO_5}
+ble_pack adcs.M_samples_q_esr_RNIT8UQ1[4]_LC_54 {adcs.M_samples_q_esr_RNIT8UQ1[4]}
+ble_pack adcs.M_samples_q_esr_RNIU9UQ1[5]_LC_55 {adcs.M_samples_q_esr_RNIU9UQ1[5]}
+clb_pack PLB_36 {adcs.M_samples_q_esr[22]_LC_72, adcs.M_spi_cycle_q_RNIIFIO_5[1]_LC_100, adcs.M_spi_cycle_q_RNIIFIO_4[1]_LC_99, uart_tx.M_txReg_q_RNO_1_LC_267, uart_tx.M_txReg_q_RNO_2_LC_268, uart_tx.M_txReg_q_RNO_5_LC_271, adcs.M_samples_q_esr_RNIT8UQ1[4]_LC_54, adcs.M_samples_q_esr_RNIU9UQ1[5]_LC_55}
+ble_pack slow_clock.M_divided_clock_q_LC_205 {slow_clock.M_divided_clock_q, slow_clock.M_divided_clock_q_RNO}
+ble_pack M_send_sync_byte_q_LC_8 {M_send_sync_byte_q, M_send_sync_byte_q_RNO}
+ble_pack adcs.M_samples_q_esr_RNIVAUQ1[6]_LC_56 {adcs.M_samples_q_esr_RNIVAUQ1[6]}
+ble_pack adcs.M_spi_cycle_q_RNIHNE5[1]_LC_90 {adcs.M_spi_cycle_q_RNIHNE5[1]}
+ble_pack adcs.M_spi_cycle_q_rep0_i[0]_LC_110 {adcs.M_spi_cycle_q_rep0_i[0], adcs.M_spi_cycle_q_rep0_i_RNO[0]}
+ble_pack slower_clock.M_divided_clock_q_LC_241 {slower_clock.M_divided_clock_q, slower_clock.M_divided_clock_q_RNO}
+ble_pack sample_fifo.M_waddr_delay_q[0]_LC_277 {sample_fifo.M_waddr_delay_q[0], sample_fifo.M_waddr_delay_q_0_THRU_LUT4_0}
+ble_pack LC_306 {CONSTANT_ONE_LUT4}
+clb_pack PLB_37 {slow_clock.M_divided_clock_q_LC_205, M_send_sync_byte_q_LC_8, adcs.M_samples_q_esr_RNIVAUQ1[6]_LC_56, adcs.M_spi_cycle_q_RNIHNE5[1]_LC_90, adcs.M_spi_cycle_q_rep0_i[0]_LC_110, slower_clock.M_divided_clock_q_LC_241, sample_fifo.M_waddr_delay_q[0]_LC_277, LC_306}
+ble_pack uart_tx.M_bitCtr_q[2]_LC_245 {uart_tx.M_bitCtr_q[2], uart_tx.M_bitCtr_q_RNO[2]}
+ble_pack reset_cond.M_stage_q[1]_LC_112 {reset_cond.M_stage_q[1], reset_cond.M_stage_q_RNO[1]}
+ble_pack reset_cond.M_stage_q[2]_LC_113 {reset_cond.M_stage_q[2], reset_cond.M_stage_q_RNO[2]}
+ble_pack reset_cond.M_stage_q[3]_LC_114 {reset_cond.M_stage_q[3], reset_cond.M_stage_q_RNO[3]}
+ble_pack reset_cond.M_stage_q[0]_LC_111 {reset_cond.M_stage_q[0], reset_cond.M_stage_q_RNO[0]}
+clb_pack PLB_38 {uart_tx.M_bitCtr_q[2]_LC_245, reset_cond.M_stage_q[1]_LC_112, reset_cond.M_stage_q[2]_LC_113, reset_cond.M_stage_q[3]_LC_114, reset_cond.M_stage_q[0]_LC_111}
+ble_pack uart_tx.M_txReg_q_LC_265 {uart_tx.M_txReg_q, uart_tx.M_txReg_q_RNO}
+clb_pack PLB_39 {uart_tx.M_txReg_q_LC_265}
+ble_pack uart_tx.M_savedData_q[0]_LC_122 {uart_tx.M_savedData_q[0], sample_fifo.M_uart_tx_data_0_i[0]}
+ble_pack uart_tx.M_savedData_q[1]_LC_123 {uart_tx.M_savedData_q[1], sample_fifo.M_uart_tx_data_0_i[1]}
+ble_pack uart_tx.M_savedData_q[2]_LC_124 {uart_tx.M_savedData_q[2], sample_fifo.M_uart_tx_data_0_i[2]}
+ble_pack uart_tx.M_savedData_q[3]_LC_125 {uart_tx.M_savedData_q[3], sample_fifo.M_uart_tx_data_0_i[3]}
+ble_pack uart_tx.M_savedData_q[4]_LC_126 {uart_tx.M_savedData_q[4], sample_fifo.M_uart_tx_data_0_i[4]}
+ble_pack uart_tx.M_savedData_q[5]_LC_127 {uart_tx.M_savedData_q[5], sample_fifo.M_uart_tx_data_0_i[5]}
+ble_pack uart_tx.M_savedData_q[6]_LC_128 {uart_tx.M_savedData_q[6], sample_fifo.M_uart_tx_data_0_i[6]}
+ble_pack uart_tx.M_savedData_q[7]_LC_129 {uart_tx.M_savedData_q[7], sample_fifo.M_uart_tx_data_0_i[7]}
+clb_pack PLB_40 {uart_tx.M_savedData_q[0]_LC_122, uart_tx.M_savedData_q[1]_LC_123, uart_tx.M_savedData_q[2]_LC_124, uart_tx.M_savedData_q[3]_LC_125, uart_tx.M_savedData_q[4]_LC_126, uart_tx.M_savedData_q[5]_LC_127, uart_tx.M_savedData_q[6]_LC_128, uart_tx.M_savedData_q[7]_LC_129}
+ble_pack slower_clock.M_count_q[25]_LC_231 {slower_clock.M_count_q[25], slower_clock.M_count_q_RNO[25]}
+ble_pack adcs.M_main_clock_count_q[1]_LC_12 {adcs.M_main_clock_count_q[1], adcs.M_main_clock_count_q_RNO[1]}
+clb_pack PLB_41 {slower_clock.M_count_q[25]_LC_231, adcs.M_main_clock_count_q[1]_LC_12}
+ble_pack adcs.M_samples_q_esr[15]_LC_274 {adcs.M_samples_q_esr[15], adcs.M_samples_q_esr_15_THRU_LUT4_0}
+clb_pack PLB_42 {adcs.M_samples_q_esr[15]_LC_274}

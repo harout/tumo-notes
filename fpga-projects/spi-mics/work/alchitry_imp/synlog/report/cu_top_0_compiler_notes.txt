@@ -1,0 +1,23 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N: CG364 :"/home/tumo/fpga-workspace/serialtest/work/verilog/reset_conditioner_1.v":11:7:11:25|Synthesizing module reset_conditioner_1 in library work.
+@N: CG364 :"/home/tumo/fpga-workspace/serialtest/work/verilog/pipeline_9.v":11:7:11:16|Synthesizing module pipeline_9 in library work.
+@N: CG364 :"/home/tumo/fpga-workspace/serialtest/work/verilog/button_conditioner_2.v":13:7:13:26|Synthesizing module button_conditioner_2 in library work.
+@N: CG364 :"/home/tumo/fpga-workspace/serialtest/work/verilog/edge_detector_3.v":12:7:12:21|Synthesizing module edge_detector_3 in library work.
+@N: CG364 :"/home/tumo/fpga-workspace/serialtest/work/verilog/uart_tx_4.v":12:7:12:15|Synthesizing module uart_tx_4 in library work.
+@N: CG364 :"/home/tumo/fpga-workspace/serialtest/work/verilog/clock_divider_5.v":11:7:11:21|Synthesizing module clock_divider_5 in library work.
+@N: CG364 :"/home/tumo/fpga-workspace/serialtest/work/verilog/clock_divider_6.v":11:7:11:21|Synthesizing module clock_divider_6 in library work.
+@N: CG364 :"/home/tumo/fpga-workspace/serialtest/work/verilog/simple_dual_ram_10.v":48:7:48:24|Synthesizing module simple_dual_ram_10 in library work.
+@N: CL134 :"/home/tumo/fpga-workspace/serialtest/work/verilog/simple_dual_ram_10.v":67:2:67:7|Found RAM mem, depth=4, width=24
+@N: CG364 :"/home/tumo/fpga-workspace/serialtest/work/verilog/fifo_7.v":12:7:12:12|Synthesizing module fifo_7 in library work.
+@N: CG364 :"/home/tumo/fpga-workspace/serialtest/work/verilog/mcp3002array_8.v":13:7:13:20|Synthesizing module mcp3002array_8 in library work.
+@N: CG364 :"/home/tumo/fpga-workspace/serialtest/work/verilog/cu_top_0.v":7:7:7:14|Synthesizing module cu_top_0 in library work.
+@N: CL189 :"/home/tumo/fpga-workspace/serialtest/work/verilog/cu_top_0.v":171:2:171:7|Register bit M_samples_until_sync_byte_q[7] is always 0.
+@N: CL189 :"/home/tumo/fpga-workspace/serialtest/work/verilog/cu_top_0.v":171:2:171:7|Register bit M_samples_to_send_q[2] is always 0.
+@N: CL189 :"/home/tumo/fpga-workspace/serialtest/work/verilog/cu_top_0.v":171:2:171:7|Register bit M_samples_until_sync_byte_q[6] is always 0.
+@N: CL159 :"/home/tumo/fpga-workspace/serialtest/work/verilog/cu_top_0.v":12:10:12:20|Input inc_btn_raw is unused.
+@N: CL201 :"/home/tumo/fpga-workspace/serialtest/work/verilog/uart_tx_4.v":99:2:99:7|Trying to extract state machine for register M_state_q.
+@N|Running in 64-bit mode
+@N: NF107 :"/home/tumo/fpga-workspace/serialtest/work/verilog/cu_top_0.v":7:7:7:14|Selected library: work cell: cu_top_0 view verilog as top level
+@N: NF107 :"/home/tumo/fpga-workspace/serialtest/work/verilog/cu_top_0.v":7:7:7:14|Selected library: work cell: cu_top_0 view verilog as top level
+

@@ -1,0 +1,21 @@
+@W: FX1039 :"/home/tumo/fpga-workspace/serialtest/work/verilog/reset_conditioner_1.v":29:2:29:7|User-specified initial value defined for instance reset_cond.M_stage_q[3:0] is being ignored. 
+@W: FX1039 :"/home/tumo/fpga-workspace/serialtest/work/verilog/uart_tx_4.v":99:2:99:7|User-specified initial value defined for instance uart_tx.M_txReg_q is being ignored. 
+@W: FX1039 :"/home/tumo/fpga-workspace/serialtest/work/verilog/uart_tx_4.v":99:2:99:7|User-specified initial value defined for instance uart_tx.M_ctr_q[4:0] is being ignored. 
+@W: FX1039 :"/home/tumo/fpga-workspace/serialtest/work/verilog/uart_tx_4.v":99:2:99:7|User-specified initial value defined for instance uart_tx.M_bitCtr_q[2:0] is being ignored. 
+@W: FX1039 :"/home/tumo/fpga-workspace/serialtest/work/verilog/uart_tx_4.v":99:2:99:7|User-specified initial value defined for instance uart_tx.M_savedData_q[7:0] is being ignored. 
+@W: FX1039 :"/home/tumo/fpga-workspace/serialtest/work/verilog/clock_divider_5.v":35:2:35:7|User-specified initial value defined for instance slow_clock.M_count_q[22:0] is being ignored. 
+@W: FX1039 :"/home/tumo/fpga-workspace/serialtest/work/verilog/clock_divider_5.v":35:2:35:7|User-specified initial value defined for instance slow_clock.M_divided_clock_q is being ignored. 
+@W: FX1039 :"/home/tumo/fpga-workspace/serialtest/work/verilog/clock_divider_6.v":35:2:35:7|User-specified initial value defined for instance slower_clock.M_count_q[27:0] is being ignored. 
+@W: FX1039 :"/home/tumo/fpga-workspace/serialtest/work/verilog/clock_divider_6.v":35:2:35:7|User-specified initial value defined for instance slower_clock.M_divided_clock_q is being ignored. 
+@W: FX1039 :"/home/tumo/fpga-workspace/serialtest/work/verilog/mcp3002array_8.v":71:2:71:7|User-specified initial value defined for instance adcs.M_samples_q[23:0] is being ignored. 
+@W: FX1039 :"/home/tumo/fpga-workspace/serialtest/work/verilog/mcp3002array_8.v":71:2:71:7|User-specified initial value defined for instance adcs.M_main_clock_count_q[6:0] is being ignored. 
+@W: FX1039 :"/home/tumo/fpga-workspace/serialtest/work/verilog/mcp3002array_8.v":71:2:71:7|User-specified initial value defined for instance adcs.M_spi_cycle_q[4:0] is being ignored. 
+@W: FX1039 :"/home/tumo/fpga-workspace/serialtest/work/verilog/cu_top_0.v":171:2:171:7|User-specified initial value defined for instance M_samples_to_send_q[1:0] is being ignored. 
+@W: FX1039 :"/home/tumo/fpga-workspace/serialtest/work/verilog/cu_top_0.v":171:2:171:7|User-specified initial value defined for instance M_samples_until_sync_byte_q[5:0] is being ignored. 
+@W: FX1039 :"/home/tumo/fpga-workspace/serialtest/work/verilog/cu_top_0.v":171:2:171:7|User-specified initial value defined for instance M_samples_buffer_q[23:0] is being ignored. 
+@W: FX1039 :"/home/tumo/fpga-workspace/serialtest/work/verilog/cu_top_0.v":171:2:171:7|User-specified initial value defined for instance M_read_fifo_requested_q is being ignored. 
+@W: FX1039 :"/home/tumo/fpga-workspace/serialtest/work/verilog/cu_top_0.v":171:2:171:7|User-specified initial value defined for instance M_send_sync_byte_q is being ignored. 
+@W: FX1039 :"/home/tumo/fpga-workspace/serialtest/work/verilog/fifo_7.v":83:2:83:7|User-specified initial value defined for instance sample_fifo.M_waddr_delay_q[1:0] is being ignored. 
+@W: FX1039 :"/home/tumo/fpga-workspace/serialtest/work/verilog/fifo_7.v":83:2:83:7|User-specified initial value defined for instance sample_fifo.M_waddr_q[1:0] is being ignored. 
+@W: FX1039 :"/home/tumo/fpga-workspace/serialtest/work/verilog/fifo_7.v":83:2:83:7|User-specified initial value defined for instance sample_fifo.M_raddr_q[1:0] is being ignored. 
+@W: FX107 :"/home/tumo/fpga-workspace/serialtest/work/verilog/simple_dual_ram_10.v":67:2:67:7|RAM sample_fifo.ram.mem[23:0] (in view: work.cu_top_0(verilog)) does not have a read/write conflict check. Possible simulation mismatch. To resolve a read/write conflict, either set syn_ramstyle = rw_check, or enable the "Read Write Check on RAM" Implementation Option. For more information, search for "read/write conflict check" in Online Help.

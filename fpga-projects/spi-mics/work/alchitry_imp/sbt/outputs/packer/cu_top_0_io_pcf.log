@@ -1,0 +1,17 @@
+OUTPUT usb_tx 	 location (22, 0, 1) 	 M9 	 
+INPUT  rst_n 	 location (17, 0, 0) 	 P8 	 
+OUTPUT led[7] 	 location (33, 2, 1) 	 N14 	 
+OUTPUT led[6] 	 location (33, 1, 0) 	 M12 	 
+OUTPUT led[5] 	 location (33, 3, 1) 	 L14 	 
+OUTPUT led[4] 	 location (33, 2, 0) 	 L12 	 
+OUTPUT led[3] 	 location (33, 5, 0) 	 K14 	 
+OUTPUT led[2] 	 location (33, 4, 0) 	 K12 	 
+OUTPUT led[1] 	 location (33, 4, 1) 	 K11 	 
+OUTPUT led[0] 	 location (33, 6, 0) 	 J11 	 
+INPUT  clk 	 location (16, 0, 1) 	 P7 	 
+OUTPUT adc_data_out 	 location (0, 25, 0) 	 E1 	 
+OUTPUT adc_clock 	 location (0, 25, 1) 	 D1 	 
+OUTPUT adc_chip_select 	 location (3, 33, 1) 	 A3 	 
+INPUT  adc[2] 	 location (0, 17, 0) 	 G1 	 
+INPUT  adc[1] 	 location (0, 18, 1) 	 J3 	 
+INPUT  adc[0] 	 location (0, 18, 0) 	 J1 	 

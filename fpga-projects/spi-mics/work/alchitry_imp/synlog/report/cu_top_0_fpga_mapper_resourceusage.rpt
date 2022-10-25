@@ -1,0 +1,35 @@
+---------------------------------------
+Resource Usage Report for cu_top_0 
+
+Mapping to part: ice40hx8kcb132
+Cell usage:
+GND             7 uses
+SB_CARRY        68 uses
+SB_DFF          23 uses
+SB_DFFE         8 uses
+SB_DFFESR       40 uses
+SB_DFFSR        80 uses
+SB_DFFSS        2 uses
+SB_GB           3 uses
+SB_RAM256x16    2 uses
+VCC             7 uses
+SB_LUT4         274 uses
+
+I/O ports: 18
+I/O primitives: 17
+SB_GB_IO       1 use
+SB_IO          16 uses
+
+I/O Register bits:                  0
+Register bits not including I/Os:   153 (1%)
+
+RAM/ROM usage summary
+Block Rams : 2 of 32 (6%)
+
+
+@S |Mapping Summary:
+Total  LUTs: 274 (3%)
+
+Distribution of All Consumed LUTs = LUT4 
+Distribution of All Consumed Luts 274 = 274 
+

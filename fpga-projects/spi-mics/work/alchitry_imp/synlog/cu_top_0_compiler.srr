@@ -1,0 +1,110 @@
+Synopsys HDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys Verilog Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Running on host :tumo-VivoBook-ASUSLaptop-E410KA-E410KA
+@I::"/home/tumo/lscc/iCEcube2.2020.12/synpbase/lib/generic/sb_ice40.v" (library work)
+@I::"/home/tumo/lscc/iCEcube2.2020.12/synpbase/lib/vlog/hypermods.v" (library __hyper__lib__)
+@I::"/home/tumo/lscc/iCEcube2.2020.12/synpbase/lib/vlog/umr_capim.v" (library snps_haps)
+@I::"/home/tumo/lscc/iCEcube2.2020.12/synpbase/lib/vlog/scemi_objects.v" (library snps_haps)
+@I::"/home/tumo/lscc/iCEcube2.2020.12/synpbase/lib/vlog/scemi_pipes.svh" (library snps_haps)
+@I::"/home/tumo/fpga-workspace/serialtest/work/verilog/cu_top_0.v" (library work)
+@I::"/home/tumo/fpga-workspace/serialtest/work/verilog/reset_conditioner_1.v" (library work)
+@I::"/home/tumo/fpga-workspace/serialtest/work/verilog/button_conditioner_2.v" (library work)
+@I::"/home/tumo/fpga-workspace/serialtest/work/verilog/edge_detector_3.v" (library work)
+@I::"/home/tumo/fpga-workspace/serialtest/work/verilog/uart_tx_4.v" (library work)
+@I::"/home/tumo/fpga-workspace/serialtest/work/verilog/clock_divider_5.v" (library work)
+@I::"/home/tumo/fpga-workspace/serialtest/work/verilog/clock_divider_6.v" (library work)
+@I::"/home/tumo/fpga-workspace/serialtest/work/verilog/fifo_7.v" (library work)
+@I::"/home/tumo/fpga-workspace/serialtest/work/verilog/mcp3002array_8.v" (library work)
+@I::"/home/tumo/fpga-workspace/serialtest/work/verilog/pipeline_9.v" (library work)
+@I::"/home/tumo/fpga-workspace/serialtest/work/verilog/simple_dual_ram_10.v" (library work)
+Verilog syntax check successful!
+Selecting top level module cu_top_0
+@N: CG364 :"/home/tumo/fpga-workspace/serialtest/work/verilog/reset_conditioner_1.v":11:7:11:25|Synthesizing module reset_conditioner_1 in library work.
+
+@N: CG364 :"/home/tumo/fpga-workspace/serialtest/work/verilog/pipeline_9.v":11:7:11:16|Synthesizing module pipeline_9 in library work.
+
+@N: CG364 :"/home/tumo/fpga-workspace/serialtest/work/verilog/button_conditioner_2.v":13:7:13:26|Synthesizing module button_conditioner_2 in library work.
+
+@N: CG364 :"/home/tumo/fpga-workspace/serialtest/work/verilog/edge_detector_3.v":12:7:12:21|Synthesizing module edge_detector_3 in library work.
+
+@N: CG364 :"/home/tumo/fpga-workspace/serialtest/work/verilog/uart_tx_4.v":12:7:12:15|Synthesizing module uart_tx_4 in library work.
+
+@N: CG364 :"/home/tumo/fpga-workspace/serialtest/work/verilog/clock_divider_5.v":11:7:11:21|Synthesizing module clock_divider_5 in library work.
+
+@N: CG364 :"/home/tumo/fpga-workspace/serialtest/work/verilog/clock_divider_6.v":11:7:11:21|Synthesizing module clock_divider_6 in library work.
+
+@N: CG364 :"/home/tumo/fpga-workspace/serialtest/work/verilog/simple_dual_ram_10.v":48:7:48:24|Synthesizing module simple_dual_ram_10 in library work.
+
+	SIZE=5'b11000
+	DEPTH=3'b100
+   Generated name = simple_dual_ram_10_24_4
+
+@N: CL134 :"/home/tumo/fpga-workspace/serialtest/work/verilog/simple_dual_ram_10.v":67:2:67:7|Found RAM mem, depth=4, width=24
+@N: CG364 :"/home/tumo/fpga-workspace/serialtest/work/verilog/fifo_7.v":12:7:12:12|Synthesizing module fifo_7 in library work.
+
+@N: CG364 :"/home/tumo/fpga-workspace/serialtest/work/verilog/mcp3002array_8.v":13:7:13:20|Synthesizing module mcp3002array_8 in library work.
+
+@N: CG364 :"/home/tumo/fpga-workspace/serialtest/work/verilog/cu_top_0.v":7:7:7:14|Synthesizing module cu_top_0 in library work.
+
+@W: CG134 :"/home/tumo/fpga-workspace/serialtest/work/verilog/cu_top_0.v":10:21:10:23|No assignment to bit 2 of led
+@W: CG134 :"/home/tumo/fpga-workspace/serialtest/work/verilog/cu_top_0.v":10:21:10:23|No assignment to bit 3 of led
+@W: CG134 :"/home/tumo/fpga-workspace/serialtest/work/verilog/cu_top_0.v":10:21:10:23|No assignment to bit 4 of led
+@W: CG134 :"/home/tumo/fpga-workspace/serialtest/work/verilog/cu_top_0.v":10:21:10:23|No assignment to bit 5 of led
+@W: CG134 :"/home/tumo/fpga-workspace/serialtest/work/verilog/cu_top_0.v":10:21:10:23|No assignment to bit 6 of led
+@W: CL168 :"/home/tumo/fpga-workspace/serialtest/work/verilog/cu_top_0.v":43:18:43:34|Removing instance button_press_dtct because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"/home/tumo/fpga-workspace/serialtest/work/verilog/cu_top_0.v":37:23:37:30|Removing instance btn_cond because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL169 :"/home/tumo/fpga-workspace/serialtest/work/verilog/cu_top_0.v":171:2:171:7|Pruning unused register M_increment_counter_q[7:0]. Make sure that there are no unused intermediate registers.
+@N: CL189 :"/home/tumo/fpga-workspace/serialtest/work/verilog/cu_top_0.v":171:2:171:7|Register bit M_samples_until_sync_byte_q[7] is always 0.
+@N: CL189 :"/home/tumo/fpga-workspace/serialtest/work/verilog/cu_top_0.v":171:2:171:7|Register bit M_samples_to_send_q[2] is always 0.
+@W: CL260 :"/home/tumo/fpga-workspace/serialtest/work/verilog/cu_top_0.v":171:2:171:7|Pruning register bit 2 of M_samples_to_send_q[2:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"/home/tumo/fpga-workspace/serialtest/work/verilog/cu_top_0.v":171:2:171:7|Pruning register bit 7 of M_samples_until_sync_byte_q[7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@N: CL189 :"/home/tumo/fpga-workspace/serialtest/work/verilog/cu_top_0.v":171:2:171:7|Register bit M_samples_until_sync_byte_q[6] is always 0.
+@W: CL260 :"/home/tumo/fpga-workspace/serialtest/work/verilog/cu_top_0.v":171:2:171:7|Pruning register bit 6 of M_samples_until_sync_byte_q[6:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL157 :"/home/tumo/fpga-workspace/serialtest/work/verilog/cu_top_0.v":10:21:10:23|*Output led has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the output.
+@N: CL159 :"/home/tumo/fpga-workspace/serialtest/work/verilog/cu_top_0.v":12:10:12:20|Input inc_btn_raw is unused.
+@N: CL201 :"/home/tumo/fpga-workspace/serialtest/work/verilog/uart_tx_4.v":99:2:99:7|Trying to extract state machine for register M_state_q.
+Extracted state machine for register M_state_q
+State machine has 4 reachable states with original encodings of:
+   00
+   01
+   10
+   11
+@W: CL249 :"/home/tumo/fpga-workspace/serialtest/work/verilog/uart_tx_4.v":99:2:99:7|Initial value is not supported on state machine M_state_q
+
+At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 72MB peak: 73MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Sun Oct 23 21:12:06 2022
+
+###########################################################]
+Synopsys Netlist Linker, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+@N: NF107 :"/home/tumo/fpga-workspace/serialtest/work/verilog/cu_top_0.v":7:7:7:14|Selected library: work cell: cu_top_0 view verilog as top level
+@N: NF107 :"/home/tumo/fpga-workspace/serialtest/work/verilog/cu_top_0.v":7:7:7:14|Selected library: work cell: cu_top_0 view verilog as top level
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Sun Oct 23 21:12:06 2022
+
+###########################################################]
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 3MB peak: 4MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Sun Oct 23 21:12:06 2022
+
+###########################################################]

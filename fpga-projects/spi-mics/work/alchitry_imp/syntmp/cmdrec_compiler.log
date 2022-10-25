@@ -1,0 +1,18 @@
+/home/tumo/lscc/iCEcube2.2020.12/synpbase/bin/c_hdl  -osyn  /home/tumo/fpga-workspace/serialtest/work/alchitry_imp/synwork/cu_top_0_comp.srs  -hdllog  /home/tumo/fpga-workspace/serialtest/work/alchitry_imp/synlog/cu_top_0_compiler.srr  -encrypt  -mp  4  -verification_mode 0  -verilog  -prodtype  synplify_pro  -primux -fixsmult -infer_seqShift -ice -sdff_counter -nram -divnmod -nostructver   -I /home/tumo/fpga-workspace/serialtest/work/  -I /home/tumo/lscc/iCEcube2.2020.12/synpbase/lib   -v2001  -devicelib  /home/tumo/lscc/iCEcube2.2020.12/synpbase/lib/generic/sb_ice40.v  -encrypt  -pro  -dmgen  /home/tumo/fpga-workspace/serialtest/work/alchitry_imp/dm  -ui -fid2 -ram -sharing on -ll 2000 -autosm  -lib work /home/tumo/fpga-workspace/serialtest/work/verilog/cu_top_0.v -lib work /home/tumo/fpga-workspace/serialtest/work/verilog/reset_conditioner_1.v -lib work /home/tumo/fpga-workspace/serialtest/work/verilog/button_conditioner_2.v -lib work /home/tumo/fpga-workspace/serialtest/work/verilog/edge_detector_3.v -lib work /home/tumo/fpga-workspace/serialtest/work/verilog/uart_tx_4.v -lib work /home/tumo/fpga-workspace/serialtest/work/verilog/clock_divider_5.v -lib work /home/tumo/fpga-workspace/serialtest/work/verilog/clock_divider_6.v -lib work /home/tumo/fpga-workspace/serialtest/work/verilog/fifo_7.v -lib work /home/tumo/fpga-workspace/serialtest/work/verilog/mcp3002array_8.v -lib work /home/tumo/fpga-workspace/serialtest/work/verilog/pipeline_9.v -lib work /home/tumo/fpga-workspace/serialtest/work/verilog/simple_dual_ram_10.v 
+rc:0 success:1 runtime:2
+file:/home/tumo/fpga-workspace/serialtest/work/alchitry_imp/synwork/cu_top_0_comp.srs|io:o|time:1666584726|size:18838|exec:0
+file:/home/tumo/fpga-workspace/serialtest/work/alchitry_imp/synlog/cu_top_0_compiler.srr|io:o|time:1666584726|size:8739|exec:0
+file:/home/tumo/lscc/iCEcube2.2020.12/synpbase/lib/generic/sb_ice40.v|io:i|time:1664816694|size:220434|exec:0
+file:/home/tumo/fpga-workspace/serialtest/work/verilog/cu_top_0.v|io:i|time:1666584725|size:5704|exec:0
+file:/home/tumo/fpga-workspace/serialtest/work/verilog/reset_conditioner_1.v|io:i|time:1666584725|size:717|exec:0
+file:/home/tumo/fpga-workspace/serialtest/work/verilog/button_conditioner_2.v|io:i|time:1666584725|size:972|exec:0
+file:/home/tumo/fpga-workspace/serialtest/work/verilog/edge_detector_3.v|io:i|time:1666584725|size:832|exec:0
+file:/home/tumo/fpga-workspace/serialtest/work/verilog/uart_tx_4.v|io:i|time:1666584725|size:2735|exec:0
+file:/home/tumo/fpga-workspace/serialtest/work/verilog/clock_divider_5.v|io:i|time:1666584725|size:1015|exec:0
+file:/home/tumo/fpga-workspace/serialtest/work/verilog/clock_divider_6.v|io:i|time:1666584725|size:1019|exec:0
+file:/home/tumo/fpga-workspace/serialtest/work/verilog/fifo_7.v|io:i|time:1666584725|size:2194|exec:0
+file:/home/tumo/fpga-workspace/serialtest/work/verilog/mcp3002array_8.v|io:i|time:1666584725|size:2459|exec:0
+file:/home/tumo/fpga-workspace/serialtest/work/verilog/pipeline_9.v|io:i|time:1666584725|size:738|exec:0
+file:/home/tumo/fpga-workspace/serialtest/work/verilog/simple_dual_ram_10.v|io:i|time:1666584725|size:3198|exec:0
+file:/home/tumo/lscc/iCEcube2.2020.12/synpbase/linux_a_64/c_hdl|io:i|time:1664816695|size:5690328|exec:1
+file:/home/tumo/lscc/iCEcube2.2020.12/synpbase/bin/c_hdl|io:i|time:1664984014|size:367|exec:1

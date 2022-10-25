@@ -1,0 +1,52 @@
+Selecting top level module cu_top_0
+@N: CG364 :"/home/tumo/fpga-workspace/serialtest/work/verilog/reset_conditioner_1.v":11:7:11:25|Synthesizing module reset_conditioner_1 in library work.
+
+@N: CG364 :"/home/tumo/fpga-workspace/serialtest/work/verilog/pipeline_9.v":11:7:11:16|Synthesizing module pipeline_9 in library work.
+
+@N: CG364 :"/home/tumo/fpga-workspace/serialtest/work/verilog/button_conditioner_2.v":13:7:13:26|Synthesizing module button_conditioner_2 in library work.
+
+@N: CG364 :"/home/tumo/fpga-workspace/serialtest/work/verilog/edge_detector_3.v":12:7:12:21|Synthesizing module edge_detector_3 in library work.
+
+@N: CG364 :"/home/tumo/fpga-workspace/serialtest/work/verilog/uart_tx_4.v":12:7:12:15|Synthesizing module uart_tx_4 in library work.
+
+@N: CG364 :"/home/tumo/fpga-workspace/serialtest/work/verilog/clock_divider_5.v":11:7:11:21|Synthesizing module clock_divider_5 in library work.
+
+@N: CG364 :"/home/tumo/fpga-workspace/serialtest/work/verilog/clock_divider_6.v":11:7:11:21|Synthesizing module clock_divider_6 in library work.
+
+@N: CG364 :"/home/tumo/fpga-workspace/serialtest/work/verilog/simple_dual_ram_10.v":48:7:48:24|Synthesizing module simple_dual_ram_10 in library work.
+
+	SIZE=5'b11000
+	DEPTH=3'b100
+   Generated name = simple_dual_ram_10_24_4
+
+@N: CL134 :"/home/tumo/fpga-workspace/serialtest/work/verilog/simple_dual_ram_10.v":67:2:67:7|Found RAM mem, depth=4, width=24
+@N: CG364 :"/home/tumo/fpga-workspace/serialtest/work/verilog/fifo_7.v":12:7:12:12|Synthesizing module fifo_7 in library work.
+
+@N: CG364 :"/home/tumo/fpga-workspace/serialtest/work/verilog/mcp3002array_8.v":13:7:13:20|Synthesizing module mcp3002array_8 in library work.
+
+@N: CG364 :"/home/tumo/fpga-workspace/serialtest/work/verilog/cu_top_0.v":7:7:7:14|Synthesizing module cu_top_0 in library work.
+
+@W: CG134 :"/home/tumo/fpga-workspace/serialtest/work/verilog/cu_top_0.v":10:21:10:23|No assignment to bit 2 of led
+@W: CG134 :"/home/tumo/fpga-workspace/serialtest/work/verilog/cu_top_0.v":10:21:10:23|No assignment to bit 3 of led
+@W: CG134 :"/home/tumo/fpga-workspace/serialtest/work/verilog/cu_top_0.v":10:21:10:23|No assignment to bit 4 of led
+@W: CG134 :"/home/tumo/fpga-workspace/serialtest/work/verilog/cu_top_0.v":10:21:10:23|No assignment to bit 5 of led
+@W: CG134 :"/home/tumo/fpga-workspace/serialtest/work/verilog/cu_top_0.v":10:21:10:23|No assignment to bit 6 of led
+@W: CL168 :"/home/tumo/fpga-workspace/serialtest/work/verilog/cu_top_0.v":43:18:43:34|Removing instance button_press_dtct because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"/home/tumo/fpga-workspace/serialtest/work/verilog/cu_top_0.v":37:23:37:30|Removing instance btn_cond because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL169 :"/home/tumo/fpga-workspace/serialtest/work/verilog/cu_top_0.v":171:2:171:7|Pruning unused register M_increment_counter_q[7:0]. Make sure that there are no unused intermediate registers.
+@N: CL189 :"/home/tumo/fpga-workspace/serialtest/work/verilog/cu_top_0.v":171:2:171:7|Register bit M_samples_until_sync_byte_q[7] is always 0.
+@N: CL189 :"/home/tumo/fpga-workspace/serialtest/work/verilog/cu_top_0.v":171:2:171:7|Register bit M_samples_to_send_q[2] is always 0.
+@W: CL260 :"/home/tumo/fpga-workspace/serialtest/work/verilog/cu_top_0.v":171:2:171:7|Pruning register bit 2 of M_samples_to_send_q[2:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"/home/tumo/fpga-workspace/serialtest/work/verilog/cu_top_0.v":171:2:171:7|Pruning register bit 7 of M_samples_until_sync_byte_q[7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@N: CL189 :"/home/tumo/fpga-workspace/serialtest/work/verilog/cu_top_0.v":171:2:171:7|Register bit M_samples_until_sync_byte_q[6] is always 0.
+@W: CL260 :"/home/tumo/fpga-workspace/serialtest/work/verilog/cu_top_0.v":171:2:171:7|Pruning register bit 6 of M_samples_until_sync_byte_q[6:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL157 :"/home/tumo/fpga-workspace/serialtest/work/verilog/cu_top_0.v":10:21:10:23|*Output led has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the output.
+@N: CL159 :"/home/tumo/fpga-workspace/serialtest/work/verilog/cu_top_0.v":12:10:12:20|Input inc_btn_raw is unused.
+@N: CL201 :"/home/tumo/fpga-workspace/serialtest/work/verilog/uart_tx_4.v":99:2:99:7|Trying to extract state machine for register M_state_q.
+Extracted state machine for register M_state_q
+State machine has 4 reachable states with original encodings of:
+   00
+   01
+   10
+   11
+@W: CL249 :"/home/tumo/fpga-workspace/serialtest/work/verilog/uart_tx_4.v":99:2:99:7|Initial value is not supported on state machine M_state_q

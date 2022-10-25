@@ -1,0 +1,136 @@
+module cu_top (
+    input clk,              // 100MHz clock
+    input rst_n,            // reset button (active low)
+    output led [8],         // 8 user controllable LEDs
+    output usb_tx,           // USB->Serial output
+    input inc_btn_raw,
+    input adc[3],
+    output adc_chip_select,
+    output adc_clock,
+    output adc_data_out
+  ) {
+  
+  sig rst;                  // reset signal
+  sig fifo_write_flag;
+  sig fifo_data[3 * 8];
+  sig fifo_read_flag;
+  
+  .clk(clk) {
+    // The reset conditioner is used to synchronize the reset signal to the FPGA
+    // clock. This ensures the entire FPGA comes out of reset at the same time.
+    reset_conditioner reset_cond;
+    button_conditioner btn_cond(.in(inc_btn_raw));
+    edge_detector button_press_dtct(#RISE(1), #FALL(0), .in(btn_cond.out));
+    
+    .rst(rst) {
+      uart_tx uart_tx(#BAUD(4000000), #CLK_FREQ(100000000));
+      
+      dff increment_counter[8];
+      clock_divider slow_clock(#DIVIDE_BY(5000000));
+      clock_divider slower_clock(#DIVIDE_BY(200000000));
+      
+      dff read_fifo_requested(#INIT(0));
+      dff samples_buffer[24](#INIT(0));
+      dff samples_to_send[3](#INIT(0));
+      dff samples_until_sync_byte[8](#INIT(0));
+      dff send_sync_byte(#INIT(0));
+      
+      fifo sample_fifo(#SIZE(24),
+                       #DEPTH(4),
+                       .din(fifo_data), 
+                       .wput(fifo_write_flag),
+                       .rget(fifo_read_flag));
+      
+      mcp3002array adcs(#NUM_ADCS(3), 
+                        #DIVIDE_BY(120),
+                        #ADC_RESOLUTION(8),
+                        .spi_din(adc),
+                        .fifo_full_flag(sample_fifo.full));
+    }
+  }
+  
+  always {
+    reset_cond.in = ~rst_n; // input raw inverted reset signal
+    rst = reset_cond.out;   // conditioned reset
+    adc_chip_select = adcs.chip_select;
+    
+    fifo_write_flag = adcs.fifo_write_flag;
+    fifo_data = adcs.fifo_data;
+    fifo_read_flag = read_fifo_requested.q;
+    
+    //adc_chip_select = 0;
+    adc_clock = 0;
+    adc_clock = adcs.spi_clock;
+    adc_data_out = adcs.spi_dout;
+    
+    if (button_press_dtct.out) 
+    {
+      increment_counter.d = increment_counter.q + 1;
+    }
+    
+    
+    //increment = btn_cond.out;
+    
+    //led[7:1] = 7h0;             // turn LEDs off
+    //led[0] = increment;
+    //led = increment_counter.q;
+    led[0] = slow_clock.out;
+    led[1] = slower_clock.out;
+    led[7] = 0;
+    usb_tx = uart_tx.tx;    // connect the output
+
+    
+    // TX Connections
+    uart_tx.block = 0;
+    uart_tx.new_data = 0;
+    uart_tx.data = 8b11111111;
+    samples_until_sync_byte.d = samples_until_sync_byte.q;
+    samples_to_send.d = samples_to_send.q;
+    read_fifo_requested.d = 0;
+    send_sync_byte.d = send_sync_byte.q;
+  
+    if (read_fifo_requested.q == 1) 
+    {
+      samples_buffer.d = sample_fifo.dout;
+      samples_to_send.d = 3;
+      
+      if (samples_until_sync_byte.q == 0)
+      {
+        samples_until_sync_byte.d = 32;
+        send_sync_byte.d = 1;
+      }
+      else
+      {
+        samples_until_sync_byte.d = samples_until_sync_byte.q - 1;  
+      }
+    }
+    
+ 
+    
+    if (uart_tx.busy == 0)
+    {
+      if (send_sync_byte.q == 1) 
+      {
+        uart_tx.new_data = 1;
+        uart_tx.data = 8b11111111;
+        send_sync_byte.d = 0;
+        //led[7] = 1;
+      }
+      else if (samples_to_send.q > 0)
+      {
+        uart_tx.new_data = 1;
+      
+        // Conveniently we limit the resolution of the 
+        // samples to eight bits which matches the uart's
+        // supported data size.
+        uart_tx.data = samples_buffer.q[7:0];//samples_to_send.q;
+        samples_buffer.d = samples_buffer.q >> 8;
+        samples_to_send.d = samples_to_send.q - 1;
+      }
+      else if (read_fifo_requested.q == 0 && samples_to_send.q == 0 && sample_fifo.empty == 0)
+      {
+        read_fifo_requested.d = 1;
+      }
+    }
+  }
+}

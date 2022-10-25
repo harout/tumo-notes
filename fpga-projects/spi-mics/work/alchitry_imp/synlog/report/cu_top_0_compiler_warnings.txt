@@ -1,0 +1,14 @@
+@W: CG134 :"/home/tumo/fpga-workspace/serialtest/work/verilog/cu_top_0.v":10:21:10:23|No assignment to bit 2 of led
+@W: CG134 :"/home/tumo/fpga-workspace/serialtest/work/verilog/cu_top_0.v":10:21:10:23|No assignment to bit 3 of led
+@W: CG134 :"/home/tumo/fpga-workspace/serialtest/work/verilog/cu_top_0.v":10:21:10:23|No assignment to bit 4 of led
+@W: CG134 :"/home/tumo/fpga-workspace/serialtest/work/verilog/cu_top_0.v":10:21:10:23|No assignment to bit 5 of led
+@W: CG134 :"/home/tumo/fpga-workspace/serialtest/work/verilog/cu_top_0.v":10:21:10:23|No assignment to bit 6 of led
+@W: CL168 :"/home/tumo/fpga-workspace/serialtest/work/verilog/cu_top_0.v":43:18:43:34|Removing instance button_press_dtct because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"/home/tumo/fpga-workspace/serialtest/work/verilog/cu_top_0.v":37:23:37:30|Removing instance btn_cond because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL169 :"/home/tumo/fpga-workspace/serialtest/work/verilog/cu_top_0.v":171:2:171:7|Pruning unused register M_increment_counter_q[7:0]. Make sure that there are no unused intermediate registers.
+@W: CL260 :"/home/tumo/fpga-workspace/serialtest/work/verilog/cu_top_0.v":171:2:171:7|Pruning register bit 2 of M_samples_to_send_q[2:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"/home/tumo/fpga-workspace/serialtest/work/verilog/cu_top_0.v":171:2:171:7|Pruning register bit 7 of M_samples_until_sync_byte_q[7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"/home/tumo/fpga-workspace/serialtest/work/verilog/cu_top_0.v":171:2:171:7|Pruning register bit 6 of M_samples_until_sync_byte_q[6:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL157 :"/home/tumo/fpga-workspace/serialtest/work/verilog/cu_top_0.v":10:21:10:23|*Output led has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL249 :"/home/tumo/fpga-workspace/serialtest/work/verilog/uart_tx_4.v":99:2:99:7|Initial value is not supported on state machine M_state_q
+

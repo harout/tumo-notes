@@ -1,0 +1,87 @@
+module mcp3002array 
+  #(
+    NUM_ADCS = 3: NUM_ADCS > 0,
+    DIVIDE_BY : DIVIDE_BY > 1,
+    ADC_RESOLUTION = 10 : ADC_RESOLUTION >= 1 && ADC_RESOLUTION <= 10
+  )
+  (
+    input clk,  // clock
+    input rst,  // reset
+    input spi_din[NUM_ADCS],
+    output spi_dout,
+    output chip_select,
+    output spi_clock,
+    output fifo_write_flag,
+    output fifo_data[NUM_ADCS * ADC_RESOLUTION],
+    input fifo_full_flag
+  ) {
+
+  .clk(clk)
+  {
+    .rst(rst)
+    {
+      // Specifies where we are in the SPI clock cycle
+      dff spi_cycle[5] (#INIT(5b0));
+      
+      // Count cycles of the main clock so that every
+      // DIVIDE_BY cycles we cycle the SPI clock
+      dff main_clock_count[$clog2(DIVIDE_BY)];
+      
+      dff samples[NUM_ADCS][ADC_RESOLUTION];
+    }
+  }
+  
+  var i;
+  
+  always 
+  {
+    //spi_dout = 0;
+    chip_select = 0;
+    fifo_write_flag = 0;
+    fifo_data = 0;
+    
+    main_clock_count.d = main_clock_count.q + 1;
+    if (main_clock_count.q == DIVIDE_BY)
+    {
+        main_clock_count.d = 0;      
+        spi_cycle.d = spi_cycle.q + 1;
+        if (spi_cycle.q == 31)
+        {
+          spi_cycle.d = 0;
+        }
+    }
+    
+    spi_clock = ~(spi_cycle.q[0]);
+    
+    // So long as we read channel 1 instead of channel 0
+    // we can conveniently send 1 to the spi_dout line
+    // to signify single ended, channel 1, MSB first
+    spi_dout = spi_cycle.q >= 1 && spi_cycle.q <= 8;
+    
+    chip_select = spi_cycle.q < 1 || spi_cycle.q >= 31;
+    
+    // cycles 12 through 30 produce ten bits of data. We only take the
+    // eight least significant bits
+    if (spi_cycle.q[0] == 0) 
+    {
+       if (spi_cycle.q >= 16 && spi_cycle.q <= 30)
+       {
+         for (i = 0; i < NUM_ADCS; i++) 
+         {
+           samples.d[i][(30 - spi_cycle.q) / 2] = spi_din[i];
+         }
+       }
+    }              
+    else if (spi_cycle.q == 31)
+    {    
+      if (fifo_full_flag == 0)
+      {
+        fifo_write_flag = 1;
+        fifo_data = c{&samples.q[0] ? 8b11111110 : samples.q[0],
+                      &samples.q[1] ? 8b11111110 : samples.q[1],
+                      &samples.q[2] ? 8b11111110 : samples.q[2]};
+        
+      }
+    }  
+  }
+}
