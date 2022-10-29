@@ -1,0 +1,1092 @@
+#Build: Synplify Pro L-2016.09L+ice40, Build 077R, Dec  2 2016
+#install: /home/tumo/lscc/iCEcube2.2020.12/synpbase
+#OS: Linux 
+#Hostname: tumo
+
+# Fri Oct 28 20:53:31 2022
+
+#Implementation: alchitry_imp
+
+Synopsys HDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys Verilog Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Running on host :tumo
+@I::"/home/tumo/lscc/iCEcube2.2020.12/synpbase/lib/generic/sb_ice40.v" (library work)
+@I::"/home/tumo/lscc/iCEcube2.2020.12/synpbase/lib/vlog/hypermods.v" (library __hyper__lib__)
+@I::"/home/tumo/lscc/iCEcube2.2020.12/synpbase/lib/vlog/umr_capim.v" (library snps_haps)
+@I::"/home/tumo/lscc/iCEcube2.2020.12/synpbase/lib/vlog/scemi_objects.v" (library snps_haps)
+@I::"/home/tumo/lscc/iCEcube2.2020.12/synpbase/lib/vlog/scemi_pipes.svh" (library snps_haps)
+@I::"/home/tumo/fpga-workspace/shift-register/work/verilog/cu_top_0.v" (library work)
+@I::"/home/tumo/fpga-workspace/shift-register/work/verilog/reset_conditioner_1.v" (library work)
+@I::"/home/tumo/fpga-workspace/shift-register/work/verilog/sr_chain_interface_2.v" (library work)
+Verilog syntax check successful!
+Selecting top level module cu_top_0
+@N: CG364 :"/home/tumo/fpga-workspace/shift-register/work/verilog/reset_conditioner_1.v":11:7:11:25|Synthesizing module reset_conditioner_1 in library work.
+
+@N: CG364 :"/home/tumo/fpga-workspace/shift-register/work/verilog/sr_chain_interface_2.v":12:7:12:26|Synthesizing module sr_chain_interface_2 in library work.
+
+@N: CG364 :"/home/tumo/fpga-workspace/shift-register/work/verilog/cu_top_0.v":7:7:7:14|Synthesizing module cu_top_0 in library work.
+
+@W: CG134 :"/home/tumo/fpga-workspace/shift-register/work/verilog/cu_top_0.v":13:21:13:24|No assignment to bit 3 of dout
+@W: CG134 :"/home/tumo/fpga-workspace/shift-register/work/verilog/cu_top_0.v":13:21:13:24|No assignment to bit 4 of dout
+@W: CG134 :"/home/tumo/fpga-workspace/shift-register/work/verilog/cu_top_0.v":13:21:13:24|No assignment to bit 5 of dout
+@W: CG134 :"/home/tumo/fpga-workspace/shift-register/work/verilog/cu_top_0.v":13:21:13:24|No assignment to bit 6 of dout
+@W: CL157 :"/home/tumo/fpga-workspace/shift-register/work/verilog/cu_top_0.v":13:21:13:24|*Output dout has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the output.
+@N: CL189 :"/home/tumo/fpga-workspace/shift-register/work/verilog/sr_chain_interface_2.v":85:2:85:7|Register bit M_sr_rest_cycles_q[26] is always 0.
+@W: CL260 :"/home/tumo/fpga-workspace/shift-register/work/verilog/sr_chain_interface_2.v":85:2:85:7|Pruning register bit 26 of M_sr_rest_cycles_q[26:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@N: CL189 :"/home/tumo/fpga-workspace/shift-register/work/verilog/sr_chain_interface_2.v":85:2:85:7|Register bit M_sr_rest_cycles_q[25] is always 0.
+@W: CL260 :"/home/tumo/fpga-workspace/shift-register/work/verilog/sr_chain_interface_2.v":85:2:85:7|Pruning register bit 25 of M_sr_rest_cycles_q[25:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+
+At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 72MB peak: 73MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Fri Oct 28 20:53:31 2022
+
+###########################################################]
+Synopsys Netlist Linker, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+@N: NF107 :"/home/tumo/fpga-workspace/shift-register/work/verilog/cu_top_0.v":7:7:7:14|Selected library: work cell: cu_top_0 view verilog as top level
+@N: NF107 :"/home/tumo/fpga-workspace/shift-register/work/verilog/cu_top_0.v":7:7:7:14|Selected library: work cell: cu_top_0 view verilog as top level
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Fri Oct 28 20:53:32 2022
+
+###########################################################]
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 3MB peak: 4MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Fri Oct 28 20:53:32 2022
+
+###########################################################]
+Synopsys Netlist Linker, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+@N: NF107 :"/home/tumo/fpga-workspace/shift-register/work/verilog/cu_top_0.v":7:7:7:14|Selected library: work cell: cu_top_0 view verilog as top level
+@N: NF107 :"/home/tumo/fpga-workspace/shift-register/work/verilog/cu_top_0.v":7:7:7:14|Selected library: work cell: cu_top_0 view verilog as top level
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Fri Oct 28 20:53:33 2022
+
+###########################################################]
+Pre-mapping Report
+
+# Fri Oct 28 20:53:33 2022
+
+Synopsys Lattice Technology Pre-mapping, Version maplat, Build 1612R, Built Dec  5 2016 09:30:53
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version L-2016.09L+ice40
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 98MB peak: 99MB)
+
+Reading constraint file: /home/tumo/fpga-workspace/shift-register/work/constraint/merged_constraint.sdc
+@L: /home/tumo/fpga-workspace/shift-register/work/alchitry_imp/cu_top_0_scck.rpt 
+Printing clock  summary report in "/home/tumo/fpga-workspace/shift-register/work/alchitry_imp/cu_top_0_scck.rpt" file 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 101MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 101MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 101MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 103MB)
+
+@N: MO111 :"/home/tumo/fpga-workspace/shift-register/work/verilog/cu_top_0.v":38:23:38:30|Tristate driver dout_1 (in view: work.cu_top_0(verilog)) on net dout[6] (in view: work.cu_top_0(verilog)) has its enable tied to GND.
+@N: MO111 :"/home/tumo/fpga-workspace/shift-register/work/verilog/cu_top_0.v":38:23:38:30|Tristate driver dout_2 (in view: work.cu_top_0(verilog)) on net dout[5] (in view: work.cu_top_0(verilog)) has its enable tied to GND.
+@N: MO111 :"/home/tumo/fpga-workspace/shift-register/work/verilog/cu_top_0.v":38:23:38:30|Tristate driver dout_3 (in view: work.cu_top_0(verilog)) on net dout[4] (in view: work.cu_top_0(verilog)) has its enable tied to GND.
+@N: MO111 :"/home/tumo/fpga-workspace/shift-register/work/verilog/cu_top_0.v":38:23:38:30|Tristate driver dout_4 (in view: work.cu_top_0(verilog)) on net dout[3] (in view: work.cu_top_0(verilog)) has its enable tied to GND.
+
+ICG Latch Removal Summary:
+Number of ICG latches removed:	0
+Number of ICG latches not removed:	0
+syn_allowed_resources : blockrams=32  set on top level netlist cu_top_0
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+
+
+Clock Summary
+*****************
+
+Start     Requested     Requested     Clock        Clock                Clock
+Clock     Frequency     Period        Type         Group                Load 
+-----------------------------------------------------------------------------
+clk_0     100.0 MHz     10.000        declared     default_clkgroup     69   
+=============================================================================
+
+Finished Pre Mapping Phase.
+@N: MO111 :"/home/tumo/fpga-workspace/shift-register/work/verilog/cu_top_0.v":38:23:38:30|Tristate driver dout_1 (in view: work.cu_top_0(verilog)) on net dout[6] (in view: work.cu_top_0(verilog)) has its enable tied to GND.
+@N: MO111 :"/home/tumo/fpga-workspace/shift-register/work/verilog/cu_top_0.v":38:23:38:30|Tristate driver dout_2 (in view: work.cu_top_0(verilog)) on net dout[5] (in view: work.cu_top_0(verilog)) has its enable tied to GND.
+@N: MO111 :"/home/tumo/fpga-workspace/shift-register/work/verilog/cu_top_0.v":38:23:38:30|Tristate driver dout_3 (in view: work.cu_top_0(verilog)) on net dout[4] (in view: work.cu_top_0(verilog)) has its enable tied to GND.
+@N: MO111 :"/home/tumo/fpga-workspace/shift-register/work/verilog/cu_top_0.v":38:23:38:30|Tristate driver dout_4 (in view: work.cu_top_0(verilog)) on net dout[3] (in view: work.cu_top_0(verilog)) has its enable tied to GND.
+@N: BN225 |Writing default property annotation file /home/tumo/fpga-workspace/shift-register/work/alchitry_imp/cu_top_0.sap.
+
+Starting constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+None
+None
+
+Finished constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 47MB peak: 133MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Fri Oct 28 20:53:33 2022
+
+###########################################################]
+Map & Optimize Report
+
+# Fri Oct 28 20:53:33 2022
+
+Synopsys Lattice Technology Mapper, Version maplat, Build 1612R, Built Dec  5 2016 09:30:53
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version L-2016.09L+ice40
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 98MB peak: 99MB)
+
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 98MB peak: 100MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 98MB peak: 100MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 102MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 130MB peak: 133MB)
+
+@N: MO111 :"/home/tumo/fpga-workspace/shift-register/work/verilog/cu_top_0.v":38:23:38:30|Tristate driver dout_1 (in view: work.cu_top_0(verilog)) on net dout[6] (in view: work.cu_top_0(verilog)) has its enable tied to GND.
+@N: MO111 :"/home/tumo/fpga-workspace/shift-register/work/verilog/cu_top_0.v":38:23:38:30|Tristate driver dout_2 (in view: work.cu_top_0(verilog)) on net dout[5] (in view: work.cu_top_0(verilog)) has its enable tied to GND.
+@N: MO111 :"/home/tumo/fpga-workspace/shift-register/work/verilog/cu_top_0.v":38:23:38:30|Tristate driver dout_3 (in view: work.cu_top_0(verilog)) on net dout[4] (in view: work.cu_top_0(verilog)) has its enable tied to GND.
+@N: MO111 :"/home/tumo/fpga-workspace/shift-register/work/verilog/cu_top_0.v":38:23:38:30|Tristate driver dout_4 (in view: work.cu_top_0(verilog)) on net dout[3] (in view: work.cu_top_0(verilog)) has its enable tied to GND.
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+@N: MT204 |Auto Constrain mode is disabled because clocks are defined in the SDC file
+
+            clk_0
+
+@W: FX1039 :"/home/tumo/fpga-workspace/shift-register/work/verilog/reset_conditioner_1.v":29:2:29:7|User-specified initial value defined for instance reset_cond.M_stage_q[3:0] is being ignored. 
+@W: FX1039 :"/home/tumo/fpga-workspace/shift-register/work/verilog/sr_chain_interface_2.v":85:2:85:7|User-specified initial value defined for instance sr_chain.M_main_clock_count_q[24:0] is being ignored. 
+@W: FX1039 :"/home/tumo/fpga-workspace/shift-register/work/verilog/sr_chain_interface_2.v":85:2:85:7|User-specified initial value defined for instance sr_chain.M_sr_rest_cycles_q[24:0] is being ignored. 
+@W: FX1039 :"/home/tumo/fpga-workspace/shift-register/work/verilog/sr_chain_interface_2.v":85:2:85:7|User-specified initial value defined for instance sr_chain.M_sr_bit_q is being ignored. 
+@W: FX1039 :"/home/tumo/fpga-workspace/shift-register/work/verilog/sr_chain_interface_2.v":85:2:85:7|User-specified initial value defined for instance sr_chain.M_sr_clock_count_q[4:0] is being ignored. 
+@W: FX1039 :"/home/tumo/fpga-workspace/shift-register/work/verilog/sr_chain_interface_2.v":85:2:85:7|User-specified initial value defined for instance sr_chain.M_sr_is_sending_q is being ignored. 
+@W: FX1039 :"/home/tumo/fpga-workspace/shift-register/work/verilog/sr_chain_interface_2.v":85:2:85:7|User-specified initial value defined for instance sr_chain.M_sr_data_buffer_q[7:0] is being ignored. 
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 130MB peak: 133MB)
+
+@W: BN132 :"/home/tumo/fpga-workspace/shift-register/work/verilog/sr_chain_interface_2.v":85:2:85:7|Removing instance sr_chain.M_sr_data_buffer_q[7] because it is equivalent to instance sr_chain.M_sr_data_buffer_q[5]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/tumo/fpga-workspace/shift-register/work/verilog/sr_chain_interface_2.v":85:2:85:7|Removing instance sr_chain.M_sr_data_buffer_q[5] because it is equivalent to instance sr_chain.M_sr_data_buffer_q[4]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/tumo/fpga-workspace/shift-register/work/verilog/sr_chain_interface_2.v":85:2:85:7|Removing instance sr_chain.M_sr_data_buffer_q[4] because it is equivalent to instance sr_chain.M_sr_data_buffer_q[3]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/tumo/fpga-workspace/shift-register/work/verilog/sr_chain_interface_2.v":85:2:85:7|Removing instance sr_chain.M_sr_data_buffer_q[6] because it is equivalent to instance sr_chain.M_sr_data_buffer_q[2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/tumo/fpga-workspace/shift-register/work/verilog/sr_chain_interface_2.v":85:2:85:7|Removing instance sr_chain.M_sr_data_buffer_q[2] because it is equivalent to instance sr_chain.M_sr_data_buffer_q[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/tumo/fpga-workspace/shift-register/work/verilog/sr_chain_interface_2.v":85:2:85:7|Removing instance sr_chain.M_sr_data_buffer_q[1] because it is equivalent to instance sr_chain.M_sr_data_buffer_q[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@N: BN362 :"/home/tumo/fpga-workspace/shift-register/work/verilog/sr_chain_interface_2.v":85:2:85:7|Removing sequential instance M_sr_data_buffer_q[0] (in view: work.sr_chain_interface_2(verilog)) because it does not drive other instances.
+
+Starting factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 133MB)
+
+
+Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 133MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 133MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 133MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:00s		     2.69ns		 110 /        62
+@N: FX1016 :"/home/tumo/fpga-workspace/shift-register/work/verilog/cu_top_0.v":8:10:8:12|SB_GB_IO inserted on the port clk.
+@N: FX1017 :|SB_GB inserted on the net N_36.
+@N: FX1017 :"/home/tumo/fpga-workspace/shift-register/work/verilog/sr_chain_interface_2.v":85:2:85:7|SB_GB inserted on the net N_100.
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+
+
+@S |Clock Optimization Summary
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+1 non-gated/non-generated clock tree(s) driving 62 clock pin(s) of sequential element(s)
+0 gated/generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+0 instances converted, 0 sequential instances remain driven by gated/generated clocks
+
+============================= Non-Gated/Non-Generated Clocks ==============================
+Clock Tree ID     Driving Element     Drive Element Type     Fanout     Sample Instance    
+-------------------------------------------------------------------------------------------
+@K:CKID0001       clk_ibuf_gb_io      SB_GB_IO               62         sr_chain.M_sr_bit_q
+===========================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 106MB peak: 133MB)
+
+Writing Analyst data base /home/tumo/fpga-workspace/shift-register/work/alchitry_imp/synwork/cu_top_0_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+Writing EDIF Netlist and constraint files
+@N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
+@N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
+@N: FX1056 |Writing EDF file: /home/tumo/fpga-workspace/shift-register/work/alchitry_imp/cu_top_0.edf
+L-2016.09L+ice40
+
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 134MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 134MB)
+
+@N: MT615 |Found clock clk_0 with period 10.00ns 
+
+
+##### START OF TIMING REPORT #####[
+# Timing Report written on Fri Oct 28 20:53:34 2022
+#
+
+
+Top view:               cu_top_0
+Requested Frequency:    100.0 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    /home/tumo/fpga-workspace/shift-register/work/constraint/merged_constraint.sdc
+                       
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: -1.863
+
+                   Requested     Estimated     Requested     Estimated                Clock        Clock           
+Starting Clock     Frequency     Frequency     Period        Period        Slack      Type         Group           
+-------------------------------------------------------------------------------------------------------------------
+clk_0              100.0 MHz     84.3 MHz      10.000        11.863        -1.863     declared     default_clkgroup
+===================================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks            |    rise  to  rise    |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+---------------------------------------------------------------------------------------------------------
+Starting  Ending  |  constraint  slack   |  constraint  slack  |  constraint  slack  |  constraint  slack
+---------------------------------------------------------------------------------------------------------
+clk_0     clk_0   |  10.000      -1.863  |  No paths    -      |  No paths    -      |  No paths    -    
+=========================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: clk_0
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                   Starting                                                     Arrival           
+Instance                           Reference     Type         Pin     Net                       Time        Slack 
+                                   Clock                                                                          
+------------------------------------------------------------------------------------------------------------------
+sr_chain.M_sr_rest_cycles_q[0]     clk_0         SB_DFFSR     Q       M_sr_rest_cycles_q[0]     0.540       -1.863
+sr_chain.M_sr_rest_cycles_q[1]     clk_0         SB_DFFSR     Q       M_sr_rest_cycles_q[1]     0.540       -1.814
+sr_chain.M_sr_rest_cycles_q[2]     clk_0         SB_DFFSR     Q       M_sr_rest_cycles_q[2]     0.540       -1.793
+sr_chain.M_sr_rest_cycles_q[3]     clk_0         SB_DFFSR     Q       M_sr_rest_cycles_q[3]     0.540       -1.730
+sr_chain.M_sr_rest_cycles_q[4]     clk_0         SB_DFFSR     Q       M_sr_rest_cycles_q[4]     0.540       -1.723
+sr_chain.M_sr_rest_cycles_q[5]     clk_0         SB_DFFSR     Q       M_sr_rest_cycles_q[5]     0.540       -1.673
+sr_chain.M_sr_rest_cycles_q[6]     clk_0         SB_DFFSR     Q       M_sr_rest_cycles_q[6]     0.540       -1.652
+sr_chain.M_sr_rest_cycles_q[7]     clk_0         SB_DFFSR     Q       M_sr_rest_cycles_q[7]     0.540       -1.589
+sr_chain.M_sr_rest_cycles_q[8]     clk_0         SB_DFFSR     Q       M_sr_rest_cycles_q[8]     0.540       -1.582
+sr_chain.M_sr_rest_cycles_q[9]     clk_0         SB_DFFSR     Q       M_sr_rest_cycles_q[9]     0.540       -1.533
+==================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                      Starting                                                            Required           
+Instance                              Reference     Type         Pin     Net                              Time         Slack 
+                                      Clock                                                                                  
+-----------------------------------------------------------------------------------------------------------------------------
+sr_chain.M_main_clock_count_q[24]     clk_0         SB_DFFSR     D       M_main_clock_count_q_RNO[24]     9.895        -1.863
+sr_chain.M_main_clock_count_q[23]     clk_0         SB_DFFSR     D       M_main_clock_count_q_RNO[23]     9.895        -1.723
+sr_chain.M_main_clock_count_q[22]     clk_0         SB_DFFSR     D       M_main_clock_count_q_RNO[22]     9.895        -1.582
+sr_chain.M_main_clock_count_q[21]     clk_0         SB_DFFSR     D       M_main_clock_count_q_RNO[21]     9.895        -1.442
+sr_chain.M_main_clock_count_q[20]     clk_0         SB_DFFSR     D       M_main_clock_count_q_RNO[20]     9.895        -1.302
+sr_chain.M_main_clock_count_q[19]     clk_0         SB_DFFSR     D       M_main_clock_count_q_RNO[19]     9.895        -1.162
+sr_chain.M_main_clock_count_q[18]     clk_0         SB_DFFSR     D       M_main_clock_count_q_RNO[18]     9.895        -1.022
+sr_chain.M_main_clock_count_q[17]     clk_0         SB_DFFSR     D       M_main_clock_count_q_RNO[17]     9.895        -0.881
+sr_chain.M_main_clock_count_q[16]     clk_0         SB_DFFSR     D       M_main_clock_count_q_RNO[16]     9.895        -0.741
+sr_chain.M_sr_clock_count_q[2]        clk_0         SB_DFF       D       M_sr_clock_count_q_1             9.895        -0.608
+=============================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.000
+    - Setup time:                            0.105
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.895
+
+    - Propagation time:                      11.758
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -1.863
+
+    Number of logic level(s):                34
+    Starting point:                          sr_chain.M_sr_rest_cycles_q[0] / Q
+    Ending point:                            sr_chain.M_main_clock_count_q[24] / D
+    The start point is clocked by            clk_0 [rising] on pin C
+    The end   point is clocked by            clk_0 [rising] on pin C
+
+Instance / Net                                                Pin      Pin               Arrival     No. of    
+Name                                             Type         Name     Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------------------------------
+sr_chain.M_sr_rest_cycles_q[0]                   SB_DFFSR     Q        Out     0.540     0.540       -         
+M_sr_rest_cycles_q[0]                            Net          -        -       1.599     -           3         
+sr_chain.un1_M_sr_rest_cycles_q_1_0_c_RNO        SB_LUT4      I0       In      -         2.139       -         
+sr_chain.un1_M_sr_rest_cycles_q_1_0_c_RNO        SB_LUT4      O        Out     0.449     2.588       -         
+un1_M_sr_rest_cycles_q_1_0_and                   Net          -        -       0.905     -           1         
+sr_chain.un1_M_sr_rest_cycles_q_1_0_c            SB_CARRY     I0       In      -         3.493       -         
+sr_chain.un1_M_sr_rest_cycles_q_1_0_c            SB_CARRY     CO       Out     0.258     3.750       -         
+un1_M_sr_rest_cycles_q_1_0                       Net          -        -       0.014     -           1         
+sr_chain.un1_M_sr_rest_cycles_q_1_1_c            SB_CARRY     CI       In      -         3.764       -         
+sr_chain.un1_M_sr_rest_cycles_q_1_1_c            SB_CARRY     CO       Out     0.126     3.891       -         
+un1_M_sr_rest_cycles_q_1_1                       Net          -        -       0.014     -           1         
+sr_chain.un1_M_sr_rest_cycles_q_1_2_c            SB_CARRY     CI       In      -         3.905       -         
+sr_chain.un1_M_sr_rest_cycles_q_1_2_c            SB_CARRY     CO       Out     0.126     4.031       -         
+un1_M_sr_rest_cycles_q_1_2                       Net          -        -       0.014     -           1         
+sr_chain.un1_M_sr_rest_cycles_q_1_3_c            SB_CARRY     CI       In      -         4.045       -         
+sr_chain.un1_M_sr_rest_cycles_q_1_3_c            SB_CARRY     CO       Out     0.126     4.171       -         
+un1_M_sr_rest_cycles_q_1_3                       Net          -        -       0.014     -           1         
+sr_chain.un1_M_sr_rest_cycles_q_1_4_c            SB_CARRY     CI       In      -         4.185       -         
+sr_chain.un1_M_sr_rest_cycles_q_1_4_c            SB_CARRY     CO       Out     0.126     4.311       -         
+un1_M_sr_rest_cycles_q_1_4                       Net          -        -       0.014     -           1         
+sr_chain.un1_M_sr_rest_cycles_q_1_5_c            SB_CARRY     CI       In      -         4.325       -         
+sr_chain.un1_M_sr_rest_cycles_q_1_5_c            SB_CARRY     CO       Out     0.126     4.451       -         
+un1_M_sr_rest_cycles_q_1_5                       Net          -        -       0.014     -           1         
+sr_chain.un1_M_sr_rest_cycles_q_1_6_c            SB_CARRY     CI       In      -         4.465       -         
+sr_chain.un1_M_sr_rest_cycles_q_1_6_c            SB_CARRY     CO       Out     0.126     4.591       -         
+un1_M_sr_rest_cycles_q_1_6                       Net          -        -       0.386     -           21        
+sr_chain.M_sr_is_sending_q_RNI73BG               SB_LUT4      I3       In      -         4.978       -         
+sr_chain.M_sr_is_sending_q_RNI73BG               SB_LUT4      O        Out     0.316     5.293       -         
+un1_M_sr_rest_cycles_q_3_0                       Net          -        -       0.905     -           2         
+sr_chain.un1_M_main_clock_count_q_1_cry_0_c      SB_CARRY     CI       In      -         6.198       -         
+sr_chain.un1_M_main_clock_count_q_1_cry_0_c      SB_CARRY     CO       Out     0.126     6.324       -         
+un1_M_main_clock_count_q_1_cry_0                 Net          -        -       0.014     -           2         
+sr_chain.un1_M_main_clock_count_q_1_cry_1_c      SB_CARRY     CI       In      -         6.338       -         
+sr_chain.un1_M_main_clock_count_q_1_cry_1_c      SB_CARRY     CO       Out     0.126     6.465       -         
+un1_M_main_clock_count_q_1_cry_1                 Net          -        -       0.014     -           2         
+sr_chain.un1_M_main_clock_count_q_1_cry_2_c      SB_CARRY     CI       In      -         6.479       -         
+sr_chain.un1_M_main_clock_count_q_1_cry_2_c      SB_CARRY     CO       Out     0.126     6.605       -         
+un1_M_main_clock_count_q_1_cry_2                 Net          -        -       0.014     -           2         
+sr_chain.un1_M_main_clock_count_q_1_cry_3_c      SB_CARRY     CI       In      -         6.619       -         
+sr_chain.un1_M_main_clock_count_q_1_cry_3_c      SB_CARRY     CO       Out     0.126     6.745       -         
+un1_M_main_clock_count_q_1_cry_3                 Net          -        -       0.014     -           2         
+sr_chain.un1_M_main_clock_count_q_1_cry_4_c      SB_CARRY     CI       In      -         6.759       -         
+sr_chain.un1_M_main_clock_count_q_1_cry_4_c      SB_CARRY     CO       Out     0.126     6.885       -         
+un1_M_main_clock_count_q_1_cry_4                 Net          -        -       0.014     -           2         
+sr_chain.un1_M_main_clock_count_q_1_cry_5_c      SB_CARRY     CI       In      -         6.899       -         
+sr_chain.un1_M_main_clock_count_q_1_cry_5_c      SB_CARRY     CO       Out     0.126     7.025       -         
+un1_M_main_clock_count_q_1_cry_5                 Net          -        -       0.014     -           2         
+sr_chain.un1_M_main_clock_count_q_1_cry_6_c      SB_CARRY     CI       In      -         7.039       -         
+sr_chain.un1_M_main_clock_count_q_1_cry_6_c      SB_CARRY     CO       Out     0.126     7.166       -         
+un1_M_main_clock_count_q_1_cry_6                 Net          -        -       0.014     -           2         
+sr_chain.un1_M_main_clock_count_q_1_cry_7_c      SB_CARRY     CI       In      -         7.179       -         
+sr_chain.un1_M_main_clock_count_q_1_cry_7_c      SB_CARRY     CO       Out     0.126     7.306       -         
+un1_M_main_clock_count_q_1_cry_7                 Net          -        -       0.014     -           2         
+sr_chain.un1_M_main_clock_count_q_1_cry_8_c      SB_CARRY     CI       In      -         7.320       -         
+sr_chain.un1_M_main_clock_count_q_1_cry_8_c      SB_CARRY     CO       Out     0.126     7.446       -         
+un1_M_main_clock_count_q_1_cry_8                 Net          -        -       0.014     -           2         
+sr_chain.un1_M_main_clock_count_q_1_cry_9_c      SB_CARRY     CI       In      -         7.460       -         
+sr_chain.un1_M_main_clock_count_q_1_cry_9_c      SB_CARRY     CO       Out     0.126     7.586       -         
+un1_M_main_clock_count_q_1_cry_9                 Net          -        -       0.014     -           2         
+sr_chain.un1_M_main_clock_count_q_1_cry_10_c     SB_CARRY     CI       In      -         7.600       -         
+sr_chain.un1_M_main_clock_count_q_1_cry_10_c     SB_CARRY     CO       Out     0.126     7.726       -         
+un1_M_main_clock_count_q_1_cry_10                Net          -        -       0.014     -           2         
+sr_chain.un1_M_main_clock_count_q_1_cry_11_c     SB_CARRY     CI       In      -         7.740       -         
+sr_chain.un1_M_main_clock_count_q_1_cry_11_c     SB_CARRY     CO       Out     0.126     7.867       -         
+un1_M_main_clock_count_q_1_cry_11                Net          -        -       0.014     -           2         
+sr_chain.un1_M_main_clock_count_q_1_cry_12_c     SB_CARRY     CI       In      -         7.881       -         
+sr_chain.un1_M_main_clock_count_q_1_cry_12_c     SB_CARRY     CO       Out     0.126     8.007       -         
+un1_M_main_clock_count_q_1_cry_12                Net          -        -       0.014     -           2         
+sr_chain.un1_M_main_clock_count_q_1_cry_13_c     SB_CARRY     CI       In      -         8.021       -         
+sr_chain.un1_M_main_clock_count_q_1_cry_13_c     SB_CARRY     CO       Out     0.126     8.147       -         
+un1_M_main_clock_count_q_1_cry_13                Net          -        -       0.014     -           2         
+sr_chain.un1_M_main_clock_count_q_1_cry_14_c     SB_CARRY     CI       In      -         8.161       -         
+sr_chain.un1_M_main_clock_count_q_1_cry_14_c     SB_CARRY     CO       Out     0.126     8.287       -         
+un1_M_main_clock_count_q_1_cry_14                Net          -        -       0.014     -           2         
+sr_chain.un1_M_main_clock_count_q_1_cry_15_c     SB_CARRY     CI       In      -         8.301       -         
+sr_chain.un1_M_main_clock_count_q_1_cry_15_c     SB_CARRY     CO       Out     0.126     8.427       -         
+un1_M_main_clock_count_q_1_cry_15                Net          -        -       0.014     -           2         
+sr_chain.un1_M_main_clock_count_q_1_cry_16_c     SB_CARRY     CI       In      -         8.441       -         
+sr_chain.un1_M_main_clock_count_q_1_cry_16_c     SB_CARRY     CO       Out     0.126     8.568       -         
+un1_M_main_clock_count_q_1_cry_16                Net          -        -       0.014     -           2         
+sr_chain.un1_M_main_clock_count_q_1_cry_17_c     SB_CARRY     CI       In      -         8.582       -         
+sr_chain.un1_M_main_clock_count_q_1_cry_17_c     SB_CARRY     CO       Out     0.126     8.708       -         
+un1_M_main_clock_count_q_1_cry_17                Net          -        -       0.014     -           2         
+sr_chain.un1_M_main_clock_count_q_1_cry_18_c     SB_CARRY     CI       In      -         8.722       -         
+sr_chain.un1_M_main_clock_count_q_1_cry_18_c     SB_CARRY     CO       Out     0.126     8.848       -         
+un1_M_main_clock_count_q_1_cry_18                Net          -        -       0.014     -           2         
+sr_chain.un1_M_main_clock_count_q_1_cry_19_c     SB_CARRY     CI       In      -         8.862       -         
+sr_chain.un1_M_main_clock_count_q_1_cry_19_c     SB_CARRY     CO       Out     0.126     8.988       -         
+un1_M_main_clock_count_q_1_cry_19                Net          -        -       0.014     -           2         
+sr_chain.un1_M_main_clock_count_q_1_cry_20_c     SB_CARRY     CI       In      -         9.002       -         
+sr_chain.un1_M_main_clock_count_q_1_cry_20_c     SB_CARRY     CO       Out     0.126     9.128       -         
+un1_M_main_clock_count_q_1_cry_20                Net          -        -       0.014     -           2         
+sr_chain.un1_M_main_clock_count_q_1_cry_21_c     SB_CARRY     CI       In      -         9.142       -         
+sr_chain.un1_M_main_clock_count_q_1_cry_21_c     SB_CARRY     CO       Out     0.126     9.269       -         
+un1_M_main_clock_count_q_1_cry_21                Net          -        -       0.014     -           2         
+sr_chain.un1_M_main_clock_count_q_1_cry_22_c     SB_CARRY     CI       In      -         9.283       -         
+sr_chain.un1_M_main_clock_count_q_1_cry_22_c     SB_CARRY     CO       Out     0.126     9.409       -         
+un1_M_main_clock_count_q_1_cry_22                Net          -        -       0.014     -           2         
+sr_chain.un1_M_main_clock_count_q_1_cry_23_c     SB_CARRY     CI       In      -         9.423       -         
+sr_chain.un1_M_main_clock_count_q_1_cry_23_c     SB_CARRY     CO       Out     0.126     9.549       -         
+un1_M_main_clock_count_q_1_cry_23                Net          -        -       0.386     -           1         
+sr_chain.M_main_clock_count_q_RNO[24]            SB_LUT4      I3       In      -         9.935       -         
+sr_chain.M_main_clock_count_q_RNO[24]            SB_LUT4      O        Out     0.316     10.251      -         
+M_main_clock_count_q_RNO[24]                     Net          -        -       1.507     -           1         
+sr_chain.M_main_clock_count_q[24]                SB_DFFSR     D        In      -         11.758      -         
+===============================================================================================================
+Total path delay (propagation time + setup) of 11.863 is 5.769(48.6%) logic and 6.094(51.4%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 2: 
+      Requested Period:                      10.000
+    - Setup time:                            0.105
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.895
+
+    - Propagation time:                      11.708
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -1.814
+
+    Number of logic level(s):                34
+    Starting point:                          sr_chain.M_sr_rest_cycles_q[1] / Q
+    Ending point:                            sr_chain.M_main_clock_count_q[24] / D
+    The start point is clocked by            clk_0 [rising] on pin C
+    The end   point is clocked by            clk_0 [rising] on pin C
+
+Instance / Net                                                Pin      Pin               Arrival     No. of    
+Name                                             Type         Name     Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------------------------------
+sr_chain.M_sr_rest_cycles_q[1]                   SB_DFFSR     Q        Out     0.540     0.540       -         
+M_sr_rest_cycles_q[1]                            Net          -        -       1.599     -           3         
+sr_chain.un1_M_sr_rest_cycles_q_1_0_c_RNO        SB_LUT4      I1       In      -         2.139       -         
+sr_chain.un1_M_sr_rest_cycles_q_1_0_c_RNO        SB_LUT4      O        Out     0.400     2.539       -         
+un1_M_sr_rest_cycles_q_1_0_and                   Net          -        -       0.905     -           1         
+sr_chain.un1_M_sr_rest_cycles_q_1_0_c            SB_CARRY     I0       In      -         3.444       -         
+sr_chain.un1_M_sr_rest_cycles_q_1_0_c            SB_CARRY     CO       Out     0.258     3.701       -         
+un1_M_sr_rest_cycles_q_1_0                       Net          -        -       0.014     -           1         
+sr_chain.un1_M_sr_rest_cycles_q_1_1_c            SB_CARRY     CI       In      -         3.715       -         
+sr_chain.un1_M_sr_rest_cycles_q_1_1_c            SB_CARRY     CO       Out     0.126     3.841       -         
+un1_M_sr_rest_cycles_q_1_1                       Net          -        -       0.014     -           1         
+sr_chain.un1_M_sr_rest_cycles_q_1_2_c            SB_CARRY     CI       In      -         3.855       -         
+sr_chain.un1_M_sr_rest_cycles_q_1_2_c            SB_CARRY     CO       Out     0.126     3.982       -         
+un1_M_sr_rest_cycles_q_1_2                       Net          -        -       0.014     -           1         
+sr_chain.un1_M_sr_rest_cycles_q_1_3_c            SB_CARRY     CI       In      -         3.996       -         
+sr_chain.un1_M_sr_rest_cycles_q_1_3_c            SB_CARRY     CO       Out     0.126     4.122       -         
+un1_M_sr_rest_cycles_q_1_3                       Net          -        -       0.014     -           1         
+sr_chain.un1_M_sr_rest_cycles_q_1_4_c            SB_CARRY     CI       In      -         4.136       -         
+sr_chain.un1_M_sr_rest_cycles_q_1_4_c            SB_CARRY     CO       Out     0.126     4.262       -         
+un1_M_sr_rest_cycles_q_1_4                       Net          -        -       0.014     -           1         
+sr_chain.un1_M_sr_rest_cycles_q_1_5_c            SB_CARRY     CI       In      -         4.276       -         
+sr_chain.un1_M_sr_rest_cycles_q_1_5_c            SB_CARRY     CO       Out     0.126     4.402       -         
+un1_M_sr_rest_cycles_q_1_5                       Net          -        -       0.014     -           1         
+sr_chain.un1_M_sr_rest_cycles_q_1_6_c            SB_CARRY     CI       In      -         4.416       -         
+sr_chain.un1_M_sr_rest_cycles_q_1_6_c            SB_CARRY     CO       Out     0.126     4.542       -         
+un1_M_sr_rest_cycles_q_1_6                       Net          -        -       0.386     -           21        
+sr_chain.M_sr_is_sending_q_RNI73BG               SB_LUT4      I3       In      -         4.928       -         
+sr_chain.M_sr_is_sending_q_RNI73BG               SB_LUT4      O        Out     0.316     5.244       -         
+un1_M_sr_rest_cycles_q_3_0                       Net          -        -       0.905     -           2         
+sr_chain.un1_M_main_clock_count_q_1_cry_0_c      SB_CARRY     CI       In      -         6.149       -         
+sr_chain.un1_M_main_clock_count_q_1_cry_0_c      SB_CARRY     CO       Out     0.126     6.275       -         
+un1_M_main_clock_count_q_1_cry_0                 Net          -        -       0.014     -           2         
+sr_chain.un1_M_main_clock_count_q_1_cry_1_c      SB_CARRY     CI       In      -         6.289       -         
+sr_chain.un1_M_main_clock_count_q_1_cry_1_c      SB_CARRY     CO       Out     0.126     6.415       -         
+un1_M_main_clock_count_q_1_cry_1                 Net          -        -       0.014     -           2         
+sr_chain.un1_M_main_clock_count_q_1_cry_2_c      SB_CARRY     CI       In      -         6.429       -         
+sr_chain.un1_M_main_clock_count_q_1_cry_2_c      SB_CARRY     CO       Out     0.126     6.556       -         
+un1_M_main_clock_count_q_1_cry_2                 Net          -        -       0.014     -           2         
+sr_chain.un1_M_main_clock_count_q_1_cry_3_c      SB_CARRY     CI       In      -         6.570       -         
+sr_chain.un1_M_main_clock_count_q_1_cry_3_c      SB_CARRY     CO       Out     0.126     6.696       -         
+un1_M_main_clock_count_q_1_cry_3                 Net          -        -       0.014     -           2         
+sr_chain.un1_M_main_clock_count_q_1_cry_4_c      SB_CARRY     CI       In      -         6.710       -         
+sr_chain.un1_M_main_clock_count_q_1_cry_4_c      SB_CARRY     CO       Out     0.126     6.836       -         
+un1_M_main_clock_count_q_1_cry_4                 Net          -        -       0.014     -           2         
+sr_chain.un1_M_main_clock_count_q_1_cry_5_c      SB_CARRY     CI       In      -         6.850       -         
+sr_chain.un1_M_main_clock_count_q_1_cry_5_c      SB_CARRY     CO       Out     0.126     6.976       -         
+un1_M_main_clock_count_q_1_cry_5                 Net          -        -       0.014     -           2         
+sr_chain.un1_M_main_clock_count_q_1_cry_6_c      SB_CARRY     CI       In      -         6.990       -         
+sr_chain.un1_M_main_clock_count_q_1_cry_6_c      SB_CARRY     CO       Out     0.126     7.116       -         
+un1_M_main_clock_count_q_1_cry_6                 Net          -        -       0.014     -           2         
+sr_chain.un1_M_main_clock_count_q_1_cry_7_c      SB_CARRY     CI       In      -         7.130       -         
+sr_chain.un1_M_main_clock_count_q_1_cry_7_c      SB_CARRY     CO       Out     0.126     7.257       -         
+un1_M_main_clock_count_q_1_cry_7                 Net          -        -       0.014     -           2         
+sr_chain.un1_M_main_clock_count_q_1_cry_8_c      SB_CARRY     CI       In      -         7.271       -         
+sr_chain.un1_M_main_clock_count_q_1_cry_8_c      SB_CARRY     CO       Out     0.126     7.397       -         
+un1_M_main_clock_count_q_1_cry_8                 Net          -        -       0.014     -           2         
+sr_chain.un1_M_main_clock_count_q_1_cry_9_c      SB_CARRY     CI       In      -         7.411       -         
+sr_chain.un1_M_main_clock_count_q_1_cry_9_c      SB_CARRY     CO       Out     0.126     7.537       -         
+un1_M_main_clock_count_q_1_cry_9                 Net          -        -       0.014     -           2         
+sr_chain.un1_M_main_clock_count_q_1_cry_10_c     SB_CARRY     CI       In      -         7.551       -         
+sr_chain.un1_M_main_clock_count_q_1_cry_10_c     SB_CARRY     CO       Out     0.126     7.677       -         
+un1_M_main_clock_count_q_1_cry_10                Net          -        -       0.014     -           2         
+sr_chain.un1_M_main_clock_count_q_1_cry_11_c     SB_CARRY     CI       In      -         7.691       -         
+sr_chain.un1_M_main_clock_count_q_1_cry_11_c     SB_CARRY     CO       Out     0.126     7.817       -         
+un1_M_main_clock_count_q_1_cry_11                Net          -        -       0.014     -           2         
+sr_chain.un1_M_main_clock_count_q_1_cry_12_c     SB_CARRY     CI       In      -         7.831       -         
+sr_chain.un1_M_main_clock_count_q_1_cry_12_c     SB_CARRY     CO       Out     0.126     7.958       -         
+un1_M_main_clock_count_q_1_cry_12                Net          -        -       0.014     -           2         
+sr_chain.un1_M_main_clock_count_q_1_cry_13_c     SB_CARRY     CI       In      -         7.972       -         
+sr_chain.un1_M_main_clock_count_q_1_cry_13_c     SB_CARRY     CO       Out     0.126     8.098       -         
+un1_M_main_clock_count_q_1_cry_13                Net          -        -       0.014     -           2         
+sr_chain.un1_M_main_clock_count_q_1_cry_14_c     SB_CARRY     CI       In      -         8.112       -         
+sr_chain.un1_M_main_clock_count_q_1_cry_14_c     SB_CARRY     CO       Out     0.126     8.238       -         
+un1_M_main_clock_count_q_1_cry_14                Net          -        -       0.014     -           2         
+sr_chain.un1_M_main_clock_count_q_1_cry_15_c     SB_CARRY     CI       In      -         8.252       -         
+sr_chain.un1_M_main_clock_count_q_1_cry_15_c     SB_CARRY     CO       Out     0.126     8.378       -         
+un1_M_main_clock_count_q_1_cry_15                Net          -        -       0.014     -           2         
+sr_chain.un1_M_main_clock_count_q_1_cry_16_c     SB_CARRY     CI       In      -         8.392       -         
+sr_chain.un1_M_main_clock_count_q_1_cry_16_c     SB_CARRY     CO       Out     0.126     8.518       -         
+un1_M_main_clock_count_q_1_cry_16                Net          -        -       0.014     -           2         
+sr_chain.un1_M_main_clock_count_q_1_cry_17_c     SB_CARRY     CI       In      -         8.532       -         
+sr_chain.un1_M_main_clock_count_q_1_cry_17_c     SB_CARRY     CO       Out     0.126     8.659       -         
+un1_M_main_clock_count_q_1_cry_17                Net          -        -       0.014     -           2         
+sr_chain.un1_M_main_clock_count_q_1_cry_18_c     SB_CARRY     CI       In      -         8.673       -         
+sr_chain.un1_M_main_clock_count_q_1_cry_18_c     SB_CARRY     CO       Out     0.126     8.799       -         
+un1_M_main_clock_count_q_1_cry_18                Net          -        -       0.014     -           2         
+sr_chain.un1_M_main_clock_count_q_1_cry_19_c     SB_CARRY     CI       In      -         8.813       -         
+sr_chain.un1_M_main_clock_count_q_1_cry_19_c     SB_CARRY     CO       Out     0.126     8.939       -         
+un1_M_main_clock_count_q_1_cry_19                Net          -        -       0.014     -           2         
+sr_chain.un1_M_main_clock_count_q_1_cry_20_c     SB_CARRY     CI       In      -         8.953       -         
+sr_chain.un1_M_main_clock_count_q_1_cry_20_c     SB_CARRY     CO       Out     0.126     9.079       -         
+un1_M_main_clock_count_q_1_cry_20                Net          -        -       0.014     -           2         
+sr_chain.un1_M_main_clock_count_q_1_cry_21_c     SB_CARRY     CI       In      -         9.093       -         
+sr_chain.un1_M_main_clock_count_q_1_cry_21_c     SB_CARRY     CO       Out     0.126     9.219       -         
+un1_M_main_clock_count_q_1_cry_21                Net          -        -       0.014     -           2         
+sr_chain.un1_M_main_clock_count_q_1_cry_22_c     SB_CARRY     CI       In      -         9.233       -         
+sr_chain.un1_M_main_clock_count_q_1_cry_22_c     SB_CARRY     CO       Out     0.126     9.360       -         
+un1_M_main_clock_count_q_1_cry_22                Net          -        -       0.014     -           2         
+sr_chain.un1_M_main_clock_count_q_1_cry_23_c     SB_CARRY     CI       In      -         9.374       -         
+sr_chain.un1_M_main_clock_count_q_1_cry_23_c     SB_CARRY     CO       Out     0.126     9.500       -         
+un1_M_main_clock_count_q_1_cry_23                Net          -        -       0.386     -           1         
+sr_chain.M_main_clock_count_q_RNO[24]            SB_LUT4      I3       In      -         9.886       -         
+sr_chain.M_main_clock_count_q_RNO[24]            SB_LUT4      O        Out     0.316     10.201      -         
+M_main_clock_count_q_RNO[24]                     Net          -        -       1.507     -           1         
+sr_chain.M_main_clock_count_q[24]                SB_DFFSR     D        In      -         11.708      -         
+===============================================================================================================
+Total path delay (propagation time + setup) of 11.814 is 5.720(48.4%) logic and 6.094(51.6%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 3: 
+      Requested Period:                      10.000
+    - Setup time:                            0.105
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.895
+
+    - Propagation time:                      11.687
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -1.793
+
+    Number of logic level(s):                34
+    Starting point:                          sr_chain.M_sr_rest_cycles_q[2] / Q
+    Ending point:                            sr_chain.M_main_clock_count_q[24] / D
+    The start point is clocked by            clk_0 [rising] on pin C
+    The end   point is clocked by            clk_0 [rising] on pin C
+
+Instance / Net                                                Pin      Pin               Arrival     No. of    
+Name                                             Type         Name     Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------------------------------
+sr_chain.M_sr_rest_cycles_q[2]                   SB_DFFSR     Q        Out     0.540     0.540       -         
+M_sr_rest_cycles_q[2]                            Net          -        -       1.599     -           3         
+sr_chain.un1_M_sr_rest_cycles_q_1_0_c_RNO        SB_LUT4      I2       In      -         2.139       -         
+sr_chain.un1_M_sr_rest_cycles_q_1_0_c_RNO        SB_LUT4      O        Out     0.379     2.518       -         
+un1_M_sr_rest_cycles_q_1_0_and                   Net          -        -       0.905     -           1         
+sr_chain.un1_M_sr_rest_cycles_q_1_0_c            SB_CARRY     I0       In      -         3.423       -         
+sr_chain.un1_M_sr_rest_cycles_q_1_0_c            SB_CARRY     CO       Out     0.258     3.680       -         
+un1_M_sr_rest_cycles_q_1_0                       Net          -        -       0.014     -           1         
+sr_chain.un1_M_sr_rest_cycles_q_1_1_c            SB_CARRY     CI       In      -         3.694       -         
+sr_chain.un1_M_sr_rest_cycles_q_1_1_c            SB_CARRY     CO       Out     0.126     3.820       -         
+un1_M_sr_rest_cycles_q_1_1                       Net          -        -       0.014     -           1         
+sr_chain.un1_M_sr_rest_cycles_q_1_2_c            SB_CARRY     CI       In      -         3.834       -         
+sr_chain.un1_M_sr_rest_cycles_q_1_2_c            SB_CARRY     CO       Out     0.126     3.961       -         
+un1_M_sr_rest_cycles_q_1_2                       Net          -        -       0.014     -           1         
+sr_chain.un1_M_sr_rest_cycles_q_1_3_c            SB_CARRY     CI       In      -         3.975       -         
+sr_chain.un1_M_sr_rest_cycles_q_1_3_c            SB_CARRY     CO       Out     0.126     4.101       -         
+un1_M_sr_rest_cycles_q_1_3                       Net          -        -       0.014     -           1         
+sr_chain.un1_M_sr_rest_cycles_q_1_4_c            SB_CARRY     CI       In      -         4.115       -         
+sr_chain.un1_M_sr_rest_cycles_q_1_4_c            SB_CARRY     CO       Out     0.126     4.241       -         
+un1_M_sr_rest_cycles_q_1_4                       Net          -        -       0.014     -           1         
+sr_chain.un1_M_sr_rest_cycles_q_1_5_c            SB_CARRY     CI       In      -         4.255       -         
+sr_chain.un1_M_sr_rest_cycles_q_1_5_c            SB_CARRY     CO       Out     0.126     4.381       -         
+un1_M_sr_rest_cycles_q_1_5                       Net          -        -       0.014     -           1         
+sr_chain.un1_M_sr_rest_cycles_q_1_6_c            SB_CARRY     CI       In      -         4.395       -         
+sr_chain.un1_M_sr_rest_cycles_q_1_6_c            SB_CARRY     CO       Out     0.126     4.521       -         
+un1_M_sr_rest_cycles_q_1_6                       Net          -        -       0.386     -           21        
+sr_chain.M_sr_is_sending_q_RNI73BG               SB_LUT4      I3       In      -         4.907       -         
+sr_chain.M_sr_is_sending_q_RNI73BG               SB_LUT4      O        Out     0.316     5.223       -         
+un1_M_sr_rest_cycles_q_3_0                       Net          -        -       0.905     -           2         
+sr_chain.un1_M_main_clock_count_q_1_cry_0_c      SB_CARRY     CI       In      -         6.128       -         
+sr_chain.un1_M_main_clock_count_q_1_cry_0_c      SB_CARRY     CO       Out     0.126     6.254       -         
+un1_M_main_clock_count_q_1_cry_0                 Net          -        -       0.014     -           2         
+sr_chain.un1_M_main_clock_count_q_1_cry_1_c      SB_CARRY     CI       In      -         6.268       -         
+sr_chain.un1_M_main_clock_count_q_1_cry_1_c      SB_CARRY     CO       Out     0.126     6.394       -         
+un1_M_main_clock_count_q_1_cry_1                 Net          -        -       0.014     -           2         
+sr_chain.un1_M_main_clock_count_q_1_cry_2_c      SB_CARRY     CI       In      -         6.408       -         
+sr_chain.un1_M_main_clock_count_q_1_cry_2_c      SB_CARRY     CO       Out     0.126     6.535       -         
+un1_M_main_clock_count_q_1_cry_2                 Net          -        -       0.014     -           2         
+sr_chain.un1_M_main_clock_count_q_1_cry_3_c      SB_CARRY     CI       In      -         6.549       -         
+sr_chain.un1_M_main_clock_count_q_1_cry_3_c      SB_CARRY     CO       Out     0.126     6.675       -         
+un1_M_main_clock_count_q_1_cry_3                 Net          -        -       0.014     -           2         
+sr_chain.un1_M_main_clock_count_q_1_cry_4_c      SB_CARRY     CI       In      -         6.689       -         
+sr_chain.un1_M_main_clock_count_q_1_cry_4_c      SB_CARRY     CO       Out     0.126     6.815       -         
+un1_M_main_clock_count_q_1_cry_4                 Net          -        -       0.014     -           2         
+sr_chain.un1_M_main_clock_count_q_1_cry_5_c      SB_CARRY     CI       In      -         6.829       -         
+sr_chain.un1_M_main_clock_count_q_1_cry_5_c      SB_CARRY     CO       Out     0.126     6.955       -         
+un1_M_main_clock_count_q_1_cry_5                 Net          -        -       0.014     -           2         
+sr_chain.un1_M_main_clock_count_q_1_cry_6_c      SB_CARRY     CI       In      -         6.969       -         
+sr_chain.un1_M_main_clock_count_q_1_cry_6_c      SB_CARRY     CO       Out     0.126     7.095       -         
+un1_M_main_clock_count_q_1_cry_6                 Net          -        -       0.014     -           2         
+sr_chain.un1_M_main_clock_count_q_1_cry_7_c      SB_CARRY     CI       In      -         7.109       -         
+sr_chain.un1_M_main_clock_count_q_1_cry_7_c      SB_CARRY     CO       Out     0.126     7.236       -         
+un1_M_main_clock_count_q_1_cry_7                 Net          -        -       0.014     -           2         
+sr_chain.un1_M_main_clock_count_q_1_cry_8_c      SB_CARRY     CI       In      -         7.250       -         
+sr_chain.un1_M_main_clock_count_q_1_cry_8_c      SB_CARRY     CO       Out     0.126     7.376       -         
+un1_M_main_clock_count_q_1_cry_8                 Net          -        -       0.014     -           2         
+sr_chain.un1_M_main_clock_count_q_1_cry_9_c      SB_CARRY     CI       In      -         7.390       -         
+sr_chain.un1_M_main_clock_count_q_1_cry_9_c      SB_CARRY     CO       Out     0.126     7.516       -         
+un1_M_main_clock_count_q_1_cry_9                 Net          -        -       0.014     -           2         
+sr_chain.un1_M_main_clock_count_q_1_cry_10_c     SB_CARRY     CI       In      -         7.530       -         
+sr_chain.un1_M_main_clock_count_q_1_cry_10_c     SB_CARRY     CO       Out     0.126     7.656       -         
+un1_M_main_clock_count_q_1_cry_10                Net          -        -       0.014     -           2         
+sr_chain.un1_M_main_clock_count_q_1_cry_11_c     SB_CARRY     CI       In      -         7.670       -         
+sr_chain.un1_M_main_clock_count_q_1_cry_11_c     SB_CARRY     CO       Out     0.126     7.796       -         
+un1_M_main_clock_count_q_1_cry_11                Net          -        -       0.014     -           2         
+sr_chain.un1_M_main_clock_count_q_1_cry_12_c     SB_CARRY     CI       In      -         7.810       -         
+sr_chain.un1_M_main_clock_count_q_1_cry_12_c     SB_CARRY     CO       Out     0.126     7.937       -         
+un1_M_main_clock_count_q_1_cry_12                Net          -        -       0.014     -           2         
+sr_chain.un1_M_main_clock_count_q_1_cry_13_c     SB_CARRY     CI       In      -         7.951       -         
+sr_chain.un1_M_main_clock_count_q_1_cry_13_c     SB_CARRY     CO       Out     0.126     8.077       -         
+un1_M_main_clock_count_q_1_cry_13                Net          -        -       0.014     -           2         
+sr_chain.un1_M_main_clock_count_q_1_cry_14_c     SB_CARRY     CI       In      -         8.091       -         
+sr_chain.un1_M_main_clock_count_q_1_cry_14_c     SB_CARRY     CO       Out     0.126     8.217       -         
+un1_M_main_clock_count_q_1_cry_14                Net          -        -       0.014     -           2         
+sr_chain.un1_M_main_clock_count_q_1_cry_15_c     SB_CARRY     CI       In      -         8.231       -         
+sr_chain.un1_M_main_clock_count_q_1_cry_15_c     SB_CARRY     CO       Out     0.126     8.357       -         
+un1_M_main_clock_count_q_1_cry_15                Net          -        -       0.014     -           2         
+sr_chain.un1_M_main_clock_count_q_1_cry_16_c     SB_CARRY     CI       In      -         8.371       -         
+sr_chain.un1_M_main_clock_count_q_1_cry_16_c     SB_CARRY     CO       Out     0.126     8.497       -         
+un1_M_main_clock_count_q_1_cry_16                Net          -        -       0.014     -           2         
+sr_chain.un1_M_main_clock_count_q_1_cry_17_c     SB_CARRY     CI       In      -         8.511       -         
+sr_chain.un1_M_main_clock_count_q_1_cry_17_c     SB_CARRY     CO       Out     0.126     8.638       -         
+un1_M_main_clock_count_q_1_cry_17                Net          -        -       0.014     -           2         
+sr_chain.un1_M_main_clock_count_q_1_cry_18_c     SB_CARRY     CI       In      -         8.652       -         
+sr_chain.un1_M_main_clock_count_q_1_cry_18_c     SB_CARRY     CO       Out     0.126     8.778       -         
+un1_M_main_clock_count_q_1_cry_18                Net          -        -       0.014     -           2         
+sr_chain.un1_M_main_clock_count_q_1_cry_19_c     SB_CARRY     CI       In      -         8.792       -         
+sr_chain.un1_M_main_clock_count_q_1_cry_19_c     SB_CARRY     CO       Out     0.126     8.918       -         
+un1_M_main_clock_count_q_1_cry_19                Net          -        -       0.014     -           2         
+sr_chain.un1_M_main_clock_count_q_1_cry_20_c     SB_CARRY     CI       In      -         8.932       -         
+sr_chain.un1_M_main_clock_count_q_1_cry_20_c     SB_CARRY     CO       Out     0.126     9.058       -         
+un1_M_main_clock_count_q_1_cry_20                Net          -        -       0.014     -           2         
+sr_chain.un1_M_main_clock_count_q_1_cry_21_c     SB_CARRY     CI       In      -         9.072       -         
+sr_chain.un1_M_main_clock_count_q_1_cry_21_c     SB_CARRY     CO       Out     0.126     9.198       -         
+un1_M_main_clock_count_q_1_cry_21                Net          -        -       0.014     -           2         
+sr_chain.un1_M_main_clock_count_q_1_cry_22_c     SB_CARRY     CI       In      -         9.212       -         
+sr_chain.un1_M_main_clock_count_q_1_cry_22_c     SB_CARRY     CO       Out     0.126     9.339       -         
+un1_M_main_clock_count_q_1_cry_22                Net          -        -       0.014     -           2         
+sr_chain.un1_M_main_clock_count_q_1_cry_23_c     SB_CARRY     CI       In      -         9.353       -         
+sr_chain.un1_M_main_clock_count_q_1_cry_23_c     SB_CARRY     CO       Out     0.126     9.479       -         
+un1_M_main_clock_count_q_1_cry_23                Net          -        -       0.386     -           1         
+sr_chain.M_main_clock_count_q_RNO[24]            SB_LUT4      I3       In      -         9.865       -         
+sr_chain.M_main_clock_count_q_RNO[24]            SB_LUT4      O        Out     0.316     10.180      -         
+M_main_clock_count_q_RNO[24]                     Net          -        -       1.507     -           1         
+sr_chain.M_main_clock_count_q[24]                SB_DFFSR     D        In      -         11.687      -         
+===============================================================================================================
+Total path delay (propagation time + setup) of 11.793 is 5.699(48.3%) logic and 6.094(51.7%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 4: 
+      Requested Period:                      10.000
+    - Setup time:                            0.105
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.895
+
+    - Propagation time:                      11.624
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -1.729
+
+    Number of logic level(s):                34
+    Starting point:                          sr_chain.M_sr_rest_cycles_q[3] / Q
+    Ending point:                            sr_chain.M_main_clock_count_q[24] / D
+    The start point is clocked by            clk_0 [rising] on pin C
+    The end   point is clocked by            clk_0 [rising] on pin C
+
+Instance / Net                                                Pin      Pin               Arrival     No. of    
+Name                                             Type         Name     Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------------------------------
+sr_chain.M_sr_rest_cycles_q[3]                   SB_DFFSR     Q        Out     0.540     0.540       -         
+M_sr_rest_cycles_q[3]                            Net          -        -       1.599     -           3         
+sr_chain.un1_M_sr_rest_cycles_q_1_0_c_RNO        SB_LUT4      I3       In      -         2.139       -         
+sr_chain.un1_M_sr_rest_cycles_q_1_0_c_RNO        SB_LUT4      O        Out     0.316     2.455       -         
+un1_M_sr_rest_cycles_q_1_0_and                   Net          -        -       0.905     -           1         
+sr_chain.un1_M_sr_rest_cycles_q_1_0_c            SB_CARRY     I0       In      -         3.360       -         
+sr_chain.un1_M_sr_rest_cycles_q_1_0_c            SB_CARRY     CO       Out     0.258     3.617       -         
+un1_M_sr_rest_cycles_q_1_0                       Net          -        -       0.014     -           1         
+sr_chain.un1_M_sr_rest_cycles_q_1_1_c            SB_CARRY     CI       In      -         3.631       -         
+sr_chain.un1_M_sr_rest_cycles_q_1_1_c            SB_CARRY     CO       Out     0.126     3.757       -         
+un1_M_sr_rest_cycles_q_1_1                       Net          -        -       0.014     -           1         
+sr_chain.un1_M_sr_rest_cycles_q_1_2_c            SB_CARRY     CI       In      -         3.771       -         
+sr_chain.un1_M_sr_rest_cycles_q_1_2_c            SB_CARRY     CO       Out     0.126     3.898       -         
+un1_M_sr_rest_cycles_q_1_2                       Net          -        -       0.014     -           1         
+sr_chain.un1_M_sr_rest_cycles_q_1_3_c            SB_CARRY     CI       In      -         3.912       -         
+sr_chain.un1_M_sr_rest_cycles_q_1_3_c            SB_CARRY     CO       Out     0.126     4.038       -         
+un1_M_sr_rest_cycles_q_1_3                       Net          -        -       0.014     -           1         
+sr_chain.un1_M_sr_rest_cycles_q_1_4_c            SB_CARRY     CI       In      -         4.052       -         
+sr_chain.un1_M_sr_rest_cycles_q_1_4_c            SB_CARRY     CO       Out     0.126     4.178       -         
+un1_M_sr_rest_cycles_q_1_4                       Net          -        -       0.014     -           1         
+sr_chain.un1_M_sr_rest_cycles_q_1_5_c            SB_CARRY     CI       In      -         4.192       -         
+sr_chain.un1_M_sr_rest_cycles_q_1_5_c            SB_CARRY     CO       Out     0.126     4.318       -         
+un1_M_sr_rest_cycles_q_1_5                       Net          -        -       0.014     -           1         
+sr_chain.un1_M_sr_rest_cycles_q_1_6_c            SB_CARRY     CI       In      -         4.332       -         
+sr_chain.un1_M_sr_rest_cycles_q_1_6_c            SB_CARRY     CO       Out     0.126     4.458       -         
+un1_M_sr_rest_cycles_q_1_6                       Net          -        -       0.386     -           21        
+sr_chain.M_sr_is_sending_q_RNI73BG               SB_LUT4      I3       In      -         4.844       -         
+sr_chain.M_sr_is_sending_q_RNI73BG               SB_LUT4      O        Out     0.316     5.160       -         
+un1_M_sr_rest_cycles_q_3_0                       Net          -        -       0.905     -           2         
+sr_chain.un1_M_main_clock_count_q_1_cry_0_c      SB_CARRY     CI       In      -         6.065       -         
+sr_chain.un1_M_main_clock_count_q_1_cry_0_c      SB_CARRY     CO       Out     0.126     6.191       -         
+un1_M_main_clock_count_q_1_cry_0                 Net          -        -       0.014     -           2         
+sr_chain.un1_M_main_clock_count_q_1_cry_1_c      SB_CARRY     CI       In      -         6.205       -         
+sr_chain.un1_M_main_clock_count_q_1_cry_1_c      SB_CARRY     CO       Out     0.126     6.331       -         
+un1_M_main_clock_count_q_1_cry_1                 Net          -        -       0.014     -           2         
+sr_chain.un1_M_main_clock_count_q_1_cry_2_c      SB_CARRY     CI       In      -         6.345       -         
+sr_chain.un1_M_main_clock_count_q_1_cry_2_c      SB_CARRY     CO       Out     0.126     6.472       -         
+un1_M_main_clock_count_q_1_cry_2                 Net          -        -       0.014     -           2         
+sr_chain.un1_M_main_clock_count_q_1_cry_3_c      SB_CARRY     CI       In      -         6.486       -         
+sr_chain.un1_M_main_clock_count_q_1_cry_3_c      SB_CARRY     CO       Out     0.126     6.612       -         
+un1_M_main_clock_count_q_1_cry_3                 Net          -        -       0.014     -           2         
+sr_chain.un1_M_main_clock_count_q_1_cry_4_c      SB_CARRY     CI       In      -         6.626       -         
+sr_chain.un1_M_main_clock_count_q_1_cry_4_c      SB_CARRY     CO       Out     0.126     6.752       -         
+un1_M_main_clock_count_q_1_cry_4                 Net          -        -       0.014     -           2         
+sr_chain.un1_M_main_clock_count_q_1_cry_5_c      SB_CARRY     CI       In      -         6.766       -         
+sr_chain.un1_M_main_clock_count_q_1_cry_5_c      SB_CARRY     CO       Out     0.126     6.892       -         
+un1_M_main_clock_count_q_1_cry_5                 Net          -        -       0.014     -           2         
+sr_chain.un1_M_main_clock_count_q_1_cry_6_c      SB_CARRY     CI       In      -         6.906       -         
+sr_chain.un1_M_main_clock_count_q_1_cry_6_c      SB_CARRY     CO       Out     0.126     7.032       -         
+un1_M_main_clock_count_q_1_cry_6                 Net          -        -       0.014     -           2         
+sr_chain.un1_M_main_clock_count_q_1_cry_7_c      SB_CARRY     CI       In      -         7.046       -         
+sr_chain.un1_M_main_clock_count_q_1_cry_7_c      SB_CARRY     CO       Out     0.126     7.173       -         
+un1_M_main_clock_count_q_1_cry_7                 Net          -        -       0.014     -           2         
+sr_chain.un1_M_main_clock_count_q_1_cry_8_c      SB_CARRY     CI       In      -         7.187       -         
+sr_chain.un1_M_main_clock_count_q_1_cry_8_c      SB_CARRY     CO       Out     0.126     7.313       -         
+un1_M_main_clock_count_q_1_cry_8                 Net          -        -       0.014     -           2         
+sr_chain.un1_M_main_clock_count_q_1_cry_9_c      SB_CARRY     CI       In      -         7.327       -         
+sr_chain.un1_M_main_clock_count_q_1_cry_9_c      SB_CARRY     CO       Out     0.126     7.453       -         
+un1_M_main_clock_count_q_1_cry_9                 Net          -        -       0.014     -           2         
+sr_chain.un1_M_main_clock_count_q_1_cry_10_c     SB_CARRY     CI       In      -         7.467       -         
+sr_chain.un1_M_main_clock_count_q_1_cry_10_c     SB_CARRY     CO       Out     0.126     7.593       -         
+un1_M_main_clock_count_q_1_cry_10                Net          -        -       0.014     -           2         
+sr_chain.un1_M_main_clock_count_q_1_cry_11_c     SB_CARRY     CI       In      -         7.607       -         
+sr_chain.un1_M_main_clock_count_q_1_cry_11_c     SB_CARRY     CO       Out     0.126     7.733       -         
+un1_M_main_clock_count_q_1_cry_11                Net          -        -       0.014     -           2         
+sr_chain.un1_M_main_clock_count_q_1_cry_12_c     SB_CARRY     CI       In      -         7.747       -         
+sr_chain.un1_M_main_clock_count_q_1_cry_12_c     SB_CARRY     CO       Out     0.126     7.873       -         
+un1_M_main_clock_count_q_1_cry_12                Net          -        -       0.014     -           2         
+sr_chain.un1_M_main_clock_count_q_1_cry_13_c     SB_CARRY     CI       In      -         7.888       -         
+sr_chain.un1_M_main_clock_count_q_1_cry_13_c     SB_CARRY     CO       Out     0.126     8.014       -         
+un1_M_main_clock_count_q_1_cry_13                Net          -        -       0.014     -           2         
+sr_chain.un1_M_main_clock_count_q_1_cry_14_c     SB_CARRY     CI       In      -         8.028       -         
+sr_chain.un1_M_main_clock_count_q_1_cry_14_c     SB_CARRY     CO       Out     0.126     8.154       -         
+un1_M_main_clock_count_q_1_cry_14                Net          -        -       0.014     -           2         
+sr_chain.un1_M_main_clock_count_q_1_cry_15_c     SB_CARRY     CI       In      -         8.168       -         
+sr_chain.un1_M_main_clock_count_q_1_cry_15_c     SB_CARRY     CO       Out     0.126     8.294       -         
+un1_M_main_clock_count_q_1_cry_15                Net          -        -       0.014     -           2         
+sr_chain.un1_M_main_clock_count_q_1_cry_16_c     SB_CARRY     CI       In      -         8.308       -         
+sr_chain.un1_M_main_clock_count_q_1_cry_16_c     SB_CARRY     CO       Out     0.126     8.434       -         
+un1_M_main_clock_count_q_1_cry_16                Net          -        -       0.014     -           2         
+sr_chain.un1_M_main_clock_count_q_1_cry_17_c     SB_CARRY     CI       In      -         8.448       -         
+sr_chain.un1_M_main_clock_count_q_1_cry_17_c     SB_CARRY     CO       Out     0.126     8.575       -         
+un1_M_main_clock_count_q_1_cry_17                Net          -        -       0.014     -           2         
+sr_chain.un1_M_main_clock_count_q_1_cry_18_c     SB_CARRY     CI       In      -         8.588       -         
+sr_chain.un1_M_main_clock_count_q_1_cry_18_c     SB_CARRY     CO       Out     0.126     8.715       -         
+un1_M_main_clock_count_q_1_cry_18                Net          -        -       0.014     -           2         
+sr_chain.un1_M_main_clock_count_q_1_cry_19_c     SB_CARRY     CI       In      -         8.729       -         
+sr_chain.un1_M_main_clock_count_q_1_cry_19_c     SB_CARRY     CO       Out     0.126     8.855       -         
+un1_M_main_clock_count_q_1_cry_19                Net          -        -       0.014     -           2         
+sr_chain.un1_M_main_clock_count_q_1_cry_20_c     SB_CARRY     CI       In      -         8.869       -         
+sr_chain.un1_M_main_clock_count_q_1_cry_20_c     SB_CARRY     CO       Out     0.126     8.995       -         
+un1_M_main_clock_count_q_1_cry_20                Net          -        -       0.014     -           2         
+sr_chain.un1_M_main_clock_count_q_1_cry_21_c     SB_CARRY     CI       In      -         9.009       -         
+sr_chain.un1_M_main_clock_count_q_1_cry_21_c     SB_CARRY     CO       Out     0.126     9.135       -         
+un1_M_main_clock_count_q_1_cry_21                Net          -        -       0.014     -           2         
+sr_chain.un1_M_main_clock_count_q_1_cry_22_c     SB_CARRY     CI       In      -         9.149       -         
+sr_chain.un1_M_main_clock_count_q_1_cry_22_c     SB_CARRY     CO       Out     0.126     9.276       -         
+un1_M_main_clock_count_q_1_cry_22                Net          -        -       0.014     -           2         
+sr_chain.un1_M_main_clock_count_q_1_cry_23_c     SB_CARRY     CI       In      -         9.290       -         
+sr_chain.un1_M_main_clock_count_q_1_cry_23_c     SB_CARRY     CO       Out     0.126     9.416       -         
+un1_M_main_clock_count_q_1_cry_23                Net          -        -       0.386     -           1         
+sr_chain.M_main_clock_count_q_RNO[24]            SB_LUT4      I3       In      -         9.802       -         
+sr_chain.M_main_clock_count_q_RNO[24]            SB_LUT4      O        Out     0.316     10.117      -         
+M_main_clock_count_q_RNO[24]                     Net          -        -       1.507     -           1         
+sr_chain.M_main_clock_count_q[24]                SB_DFFSR     D        In      -         11.624      -         
+===============================================================================================================
+Total path delay (propagation time + setup) of 11.729 is 5.635(48.0%) logic and 6.094(52.0%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 5: 
+      Requested Period:                      10.000
+    - Setup time:                            0.105
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.895
+
+    - Propagation time:                      11.617
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -1.723
+
+    Number of logic level(s):                33
+    Starting point:                          sr_chain.M_sr_rest_cycles_q[4] / Q
+    Ending point:                            sr_chain.M_main_clock_count_q[24] / D
+    The start point is clocked by            clk_0 [rising] on pin C
+    The end   point is clocked by            clk_0 [rising] on pin C
+
+Instance / Net                                                Pin      Pin               Arrival     No. of    
+Name                                             Type         Name     Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------------------------------
+sr_chain.M_sr_rest_cycles_q[4]                   SB_DFFSR     Q        Out     0.540     0.540       -         
+M_sr_rest_cycles_q[4]                            Net          -        -       1.599     -           3         
+sr_chain.un1_M_sr_rest_cycles_q_1_1_c_RNO        SB_LUT4      I0       In      -         2.139       -         
+sr_chain.un1_M_sr_rest_cycles_q_1_1_c_RNO        SB_LUT4      O        Out     0.449     2.588       -         
+un1_M_sr_rest_cycles_q_1_1_and                   Net          -        -       0.905     -           1         
+sr_chain.un1_M_sr_rest_cycles_q_1_1_c            SB_CARRY     I0       In      -         3.493       -         
+sr_chain.un1_M_sr_rest_cycles_q_1_1_c            SB_CARRY     CO       Out     0.258     3.750       -         
+un1_M_sr_rest_cycles_q_1_1                       Net          -        -       0.014     -           1         
+sr_chain.un1_M_sr_rest_cycles_q_1_2_c            SB_CARRY     CI       In      -         3.764       -         
+sr_chain.un1_M_sr_rest_cycles_q_1_2_c            SB_CARRY     CO       Out     0.126     3.891       -         
+un1_M_sr_rest_cycles_q_1_2                       Net          -        -       0.014     -           1         
+sr_chain.un1_M_sr_rest_cycles_q_1_3_c            SB_CARRY     CI       In      -         3.905       -         
+sr_chain.un1_M_sr_rest_cycles_q_1_3_c            SB_CARRY     CO       Out     0.126     4.031       -         
+un1_M_sr_rest_cycles_q_1_3                       Net          -        -       0.014     -           1         
+sr_chain.un1_M_sr_rest_cycles_q_1_4_c            SB_CARRY     CI       In      -         4.045       -         
+sr_chain.un1_M_sr_rest_cycles_q_1_4_c            SB_CARRY     CO       Out     0.126     4.171       -         
+un1_M_sr_rest_cycles_q_1_4                       Net          -        -       0.014     -           1         
+sr_chain.un1_M_sr_rest_cycles_q_1_5_c            SB_CARRY     CI       In      -         4.185       -         
+sr_chain.un1_M_sr_rest_cycles_q_1_5_c            SB_CARRY     CO       Out     0.126     4.311       -         
+un1_M_sr_rest_cycles_q_1_5                       Net          -        -       0.014     -           1         
+sr_chain.un1_M_sr_rest_cycles_q_1_6_c            SB_CARRY     CI       In      -         4.325       -         
+sr_chain.un1_M_sr_rest_cycles_q_1_6_c            SB_CARRY     CO       Out     0.126     4.451       -         
+un1_M_sr_rest_cycles_q_1_6                       Net          -        -       0.386     -           21        
+sr_chain.M_sr_is_sending_q_RNI73BG               SB_LUT4      I3       In      -         4.837       -         
+sr_chain.M_sr_is_sending_q_RNI73BG               SB_LUT4      O        Out     0.316     5.153       -         
+un1_M_sr_rest_cycles_q_3_0                       Net          -        -       0.905     -           2         
+sr_chain.un1_M_main_clock_count_q_1_cry_0_c      SB_CARRY     CI       In      -         6.058       -         
+sr_chain.un1_M_main_clock_count_q_1_cry_0_c      SB_CARRY     CO       Out     0.126     6.184       -         
+un1_M_main_clock_count_q_1_cry_0                 Net          -        -       0.014     -           2         
+sr_chain.un1_M_main_clock_count_q_1_cry_1_c      SB_CARRY     CI       In      -         6.198       -         
+sr_chain.un1_M_main_clock_count_q_1_cry_1_c      SB_CARRY     CO       Out     0.126     6.324       -         
+un1_M_main_clock_count_q_1_cry_1                 Net          -        -       0.014     -           2         
+sr_chain.un1_M_main_clock_count_q_1_cry_2_c      SB_CARRY     CI       In      -         6.338       -         
+sr_chain.un1_M_main_clock_count_q_1_cry_2_c      SB_CARRY     CO       Out     0.126     6.465       -         
+un1_M_main_clock_count_q_1_cry_2                 Net          -        -       0.014     -           2         
+sr_chain.un1_M_main_clock_count_q_1_cry_3_c      SB_CARRY     CI       In      -         6.479       -         
+sr_chain.un1_M_main_clock_count_q_1_cry_3_c      SB_CARRY     CO       Out     0.126     6.605       -         
+un1_M_main_clock_count_q_1_cry_3                 Net          -        -       0.014     -           2         
+sr_chain.un1_M_main_clock_count_q_1_cry_4_c      SB_CARRY     CI       In      -         6.619       -         
+sr_chain.un1_M_main_clock_count_q_1_cry_4_c      SB_CARRY     CO       Out     0.126     6.745       -         
+un1_M_main_clock_count_q_1_cry_4                 Net          -        -       0.014     -           2         
+sr_chain.un1_M_main_clock_count_q_1_cry_5_c      SB_CARRY     CI       In      -         6.759       -         
+sr_chain.un1_M_main_clock_count_q_1_cry_5_c      SB_CARRY     CO       Out     0.126     6.885       -         
+un1_M_main_clock_count_q_1_cry_5                 Net          -        -       0.014     -           2         
+sr_chain.un1_M_main_clock_count_q_1_cry_6_c      SB_CARRY     CI       In      -         6.899       -         
+sr_chain.un1_M_main_clock_count_q_1_cry_6_c      SB_CARRY     CO       Out     0.126     7.025       -         
+un1_M_main_clock_count_q_1_cry_6                 Net          -        -       0.014     -           2         
+sr_chain.un1_M_main_clock_count_q_1_cry_7_c      SB_CARRY     CI       In      -         7.039       -         
+sr_chain.un1_M_main_clock_count_q_1_cry_7_c      SB_CARRY     CO       Out     0.126     7.166       -         
+un1_M_main_clock_count_q_1_cry_7                 Net          -        -       0.014     -           2         
+sr_chain.un1_M_main_clock_count_q_1_cry_8_c      SB_CARRY     CI       In      -         7.179       -         
+sr_chain.un1_M_main_clock_count_q_1_cry_8_c      SB_CARRY     CO       Out     0.126     7.306       -         
+un1_M_main_clock_count_q_1_cry_8                 Net          -        -       0.014     -           2         
+sr_chain.un1_M_main_clock_count_q_1_cry_9_c      SB_CARRY     CI       In      -         7.320       -         
+sr_chain.un1_M_main_clock_count_q_1_cry_9_c      SB_CARRY     CO       Out     0.126     7.446       -         
+un1_M_main_clock_count_q_1_cry_9                 Net          -        -       0.014     -           2         
+sr_chain.un1_M_main_clock_count_q_1_cry_10_c     SB_CARRY     CI       In      -         7.460       -         
+sr_chain.un1_M_main_clock_count_q_1_cry_10_c     SB_CARRY     CO       Out     0.126     7.586       -         
+un1_M_main_clock_count_q_1_cry_10                Net          -        -       0.014     -           2         
+sr_chain.un1_M_main_clock_count_q_1_cry_11_c     SB_CARRY     CI       In      -         7.600       -         
+sr_chain.un1_M_main_clock_count_q_1_cry_11_c     SB_CARRY     CO       Out     0.126     7.726       -         
+un1_M_main_clock_count_q_1_cry_11                Net          -        -       0.014     -           2         
+sr_chain.un1_M_main_clock_count_q_1_cry_12_c     SB_CARRY     CI       In      -         7.740       -         
+sr_chain.un1_M_main_clock_count_q_1_cry_12_c     SB_CARRY     CO       Out     0.126     7.867       -         
+un1_M_main_clock_count_q_1_cry_12                Net          -        -       0.014     -           2         
+sr_chain.un1_M_main_clock_count_q_1_cry_13_c     SB_CARRY     CI       In      -         7.881       -         
+sr_chain.un1_M_main_clock_count_q_1_cry_13_c     SB_CARRY     CO       Out     0.126     8.007       -         
+un1_M_main_clock_count_q_1_cry_13                Net          -        -       0.014     -           2         
+sr_chain.un1_M_main_clock_count_q_1_cry_14_c     SB_CARRY     CI       In      -         8.021       -         
+sr_chain.un1_M_main_clock_count_q_1_cry_14_c     SB_CARRY     CO       Out     0.126     8.147       -         
+un1_M_main_clock_count_q_1_cry_14                Net          -        -       0.014     -           2         
+sr_chain.un1_M_main_clock_count_q_1_cry_15_c     SB_CARRY     CI       In      -         8.161       -         
+sr_chain.un1_M_main_clock_count_q_1_cry_15_c     SB_CARRY     CO       Out     0.126     8.287       -         
+un1_M_main_clock_count_q_1_cry_15                Net          -        -       0.014     -           2         
+sr_chain.un1_M_main_clock_count_q_1_cry_16_c     SB_CARRY     CI       In      -         8.301       -         
+sr_chain.un1_M_main_clock_count_q_1_cry_16_c     SB_CARRY     CO       Out     0.126     8.427       -         
+un1_M_main_clock_count_q_1_cry_16                Net          -        -       0.014     -           2         
+sr_chain.un1_M_main_clock_count_q_1_cry_17_c     SB_CARRY     CI       In      -         8.441       -         
+sr_chain.un1_M_main_clock_count_q_1_cry_17_c     SB_CARRY     CO       Out     0.126     8.568       -         
+un1_M_main_clock_count_q_1_cry_17                Net          -        -       0.014     -           2         
+sr_chain.un1_M_main_clock_count_q_1_cry_18_c     SB_CARRY     CI       In      -         8.582       -         
+sr_chain.un1_M_main_clock_count_q_1_cry_18_c     SB_CARRY     CO       Out     0.126     8.708       -         
+un1_M_main_clock_count_q_1_cry_18                Net          -        -       0.014     -           2         
+sr_chain.un1_M_main_clock_count_q_1_cry_19_c     SB_CARRY     CI       In      -         8.722       -         
+sr_chain.un1_M_main_clock_count_q_1_cry_19_c     SB_CARRY     CO       Out     0.126     8.848       -         
+un1_M_main_clock_count_q_1_cry_19                Net          -        -       0.014     -           2         
+sr_chain.un1_M_main_clock_count_q_1_cry_20_c     SB_CARRY     CI       In      -         8.862       -         
+sr_chain.un1_M_main_clock_count_q_1_cry_20_c     SB_CARRY     CO       Out     0.126     8.988       -         
+un1_M_main_clock_count_q_1_cry_20                Net          -        -       0.014     -           2         
+sr_chain.un1_M_main_clock_count_q_1_cry_21_c     SB_CARRY     CI       In      -         9.002       -         
+sr_chain.un1_M_main_clock_count_q_1_cry_21_c     SB_CARRY     CO       Out     0.126     9.128       -         
+un1_M_main_clock_count_q_1_cry_21                Net          -        -       0.014     -           2         
+sr_chain.un1_M_main_clock_count_q_1_cry_22_c     SB_CARRY     CI       In      -         9.142       -         
+sr_chain.un1_M_main_clock_count_q_1_cry_22_c     SB_CARRY     CO       Out     0.126     9.269       -         
+un1_M_main_clock_count_q_1_cry_22                Net          -        -       0.014     -           2         
+sr_chain.un1_M_main_clock_count_q_1_cry_23_c     SB_CARRY     CI       In      -         9.283       -         
+sr_chain.un1_M_main_clock_count_q_1_cry_23_c     SB_CARRY     CO       Out     0.126     9.409       -         
+un1_M_main_clock_count_q_1_cry_23                Net          -        -       0.386     -           1         
+sr_chain.M_main_clock_count_q_RNO[24]            SB_LUT4      I3       In      -         9.795       -         
+sr_chain.M_main_clock_count_q_RNO[24]            SB_LUT4      O        Out     0.316     10.110      -         
+M_main_clock_count_q_RNO[24]                     Net          -        -       1.507     -           1         
+sr_chain.M_main_clock_count_q[24]                SB_DFFSR     D        In      -         11.617      -         
+===============================================================================================================
+Total path delay (propagation time + setup) of 11.723 is 5.642(48.1%) logic and 6.080(51.9%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+None
+
+Finished final timing analysis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 134MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 134MB)
+
+---------------------------------------
+Resource Usage Report for cu_top_0 
+
+Mapping to part: ice40hx8kcb132
+Cell usage:
+GND             2 uses
+SB_CARRY        62 uses
+SB_DFF          10 uses
+SB_DFFSR        52 uses
+SB_GB           2 uses
+VCC             2 uses
+SB_LUT4         93 uses
+
+I/O ports: 15
+I/O primitives: 15
+SB_GB_IO       1 use
+SB_IO          14 uses
+
+I/O Register bits:                  0
+Register bits not including I/Os:   62 (0%)
+Total load per clock:
+   clk_0: 1
+
+@S |Mapping Summary:
+Total  LUTs: 93 (1%)
+
+Distribution of All Consumed LUTs = LUT4 
+Distribution of All Consumed Luts 93 = 93 
+
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 27MB peak: 134MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Fri Oct 28 20:53:34 2022
+
+###########################################################]

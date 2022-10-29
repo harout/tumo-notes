@@ -1,0 +1,74 @@
+module sr_chain_interface 
+  #(WIDTH : WIDTH > 1,
+    DIVIDE_BY : DIVIDE_BY > 1)
+  (
+    input clk,  // clock
+    input rst,  // reset
+    input valid_input,
+    input in_data[WIDTH],
+    output data,
+    output latch,
+    output clock,
+    output is_sending
+  ) {
+
+  .clk(clk){
+    .rst(rst){
+      dff sr_data_buffer[WIDTH](#INIT(0));
+      
+      // Keeps count of how many times the main clock
+      // has ticked.
+      dff main_clock_count[$clog2(DIVIDE_BY)];
+      
+      dff sr_clock_count[$clog2(WIDTH * 2) + 1](#INIT(0));
+      
+      dff sr_is_sending;
+      dff sr_bit;
+      dff sr_rest_cycles[$clog2(DIVIDE_BY * 4)];
+    }  
+  }
+  
+  always {
+    data = sr_bit.q;
+    latch = 1;
+    clock = 1;
+    is_sending = sr_is_sending.q;
+    
+    if (sr_rest_cycles.q != 0) {
+      latch = 1;
+      clock = 1;
+      is_sending = 1;
+      sr_rest_cycles.d = sr_rest_cycles.q - 1;
+    }else if (valid_input == 1 && sr_is_sending.q == 0) {
+      latch = 0;
+      clock = 0;
+      sr_clock_count.d = 0;
+      main_clock_count.d = 0;
+      sr_data_buffer.d = in_data;
+      sr_is_sending.d = 1;
+      sr_bit.d = sr_data_buffer.q[WIDTH - 1];  
+    } else if (sr_is_sending.q == 1) {
+      clock = sr_clock_count.q[0];
+      latch = 0;
+      
+      if (main_clock_count.q == DIVIDE_BY) {
+        main_clock_count.d = 0;
+        if (sr_clock_count.q[0] == 1) {
+          sr_bit.d = sr_data_buffer.q[WIDTH - 1 - ((sr_clock_count.q + 1) / 2)];   
+        }
+        
+        sr_clock_count.d = sr_clock_count.q + 1;
+        
+        if (sr_clock_count.q >= (WIDTH * 2) - 1) {
+          clock = 1;
+          latch = 1;
+          sr_bit.d = 1;
+          sr_is_sending.d = 0;
+          sr_rest_cycles.d = DIVIDE_BY;
+        }
+      } else {
+        main_clock_count.d = main_clock_count.q + 1;  
+      }      
+    }     
+  }
+}

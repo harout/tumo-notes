@@ -1,0 +1,98 @@
+module sn74hc595 
+  #(DIVIDE_BY : DIVIDE_BY >= 4)
+  (
+    input clk,  // clock
+    input rst,  // reset
+    input input_valid,
+    input data_to_send[8],
+    output is_busy,
+    output sr_latch,
+    output sr_data,
+    output sr_clk
+  ) {
+
+  .clk(clk){
+    
+    
+    .rst(rst){
+      dff sr_dout_buffer[8](#INIT(0));
+      
+      // Keeps count of how many times the main clock
+      // has ticked.
+      dff main_clock_count[$clog2(DIVIDE_BY)];
+      
+      dff sr_clk_count[5](#INIT(0));
+      dff is_sending(#INIT(0)); 
+    }
+  }
+
+  always {   
+    is_busy = is_sending.q;
+    sr_latch = 1;
+    sr_clk = 0;
+    sr_data = sr_dout_buffer.q[7];
+    
+    // If we aren't busy and we are given data to
+    // send, then mark ourselves as busy and start
+    // the process of sending the data
+    if (is_sending.q == 0 && input_valid == 1) {
+      sr_clk_count.d = 0;
+      main_clock_count.d = 0;
+      
+      // We mark ourselves as busy until the data has been clocked
+      // out and the latch pin has been enabled
+      is_sending.d = 1;
+      
+      // Copy the data we are going to clock out
+      sr_dout_buffer.d = 8b11100011;
+      
+      // The latch is held low while we are clocking out
+      // data
+      sr_latch = 0;
+    }
+    
+    if (is_sending.q) {
+      sr_latch = 0;
+      
+      if (main_clock_count.q == DIVIDE_BY) {
+        main_clock_count.d = 0;
+        if (sr_clk_count.q[0] == 1) {
+          sr_dout_buffer.d = sr_dout_buffer.q << 1;
+        }
+        sr_clk_count.d = sr_clk_count.q + 1;
+      } else {
+        main_clock_count.d = main_clock_count.q + 1;  
+      }
+      
+
+      if (sr_clk_count.q >= 16){
+        sr_latch = 1;
+        sr_dout_buffer.d = 8b0;
+      }else if (sr_clk_count.q == 18){
+        sr_latch = 1;
+        is_sending.d = 0;
+        //sr_dout_buffer.d = 8b0;
+      }
+      // We set the data pin on the even clock edges
+      else if (sr_clk_count.q[0] == 0 && sr_clk_count.q < 16) {
+        // works
+        //current_data_bit.d = sr_dout_buffer.q[sr_clk_count.q / 2];
+        
+        sr_dout_buffer.d = sr_dout_buffer.q << 1;
+        
+        // doesn't work
+        //sr_dout_buffer.d = c{1b0, sr_dout_buffer.q[7:1]};
+        //current_data_bit.d = sr_dout_buffer.q[0];
+        
+        // doesn't work
+        //sr_dout_buffer.d = sr_dout_buffer.q >> 1;
+        //current_data_bit.d = sr_dout_buffer.q[0];
+        sr_clk = 0;
+      }
+      else
+      {
+        sr_clk = 1;  
+      }
+    }
+  }
+}

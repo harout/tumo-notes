@@ -1,0 +1,92 @@
+#### START OF AREA REPORT #####[
+
+Part:			ICE40HX8KCB132 (Lattice)
+
+------------------------------------------------------------------------
+########   Utilization report for  Top level view:   cu_top_0   ########
+========================================================================
+
+SEQUENTIAL ELEMENTS
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+FLOPS     62                 100 %                
+==================================================
+Total SEQUENTIAL ELEMENTS in the block cu_top_0:	62 (25.83 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+LUTS       93                 100 %                
+CARRYS     62                 100 %                
+===================================================
+Total COMBINATIONAL LOGIC in the block cu_top_0:	155 (64.58 % Utilization)
+
+
+IO PADS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+PADS     17                 100 %                
+=================================================
+Total IO PADS in the block cu_top_0:	17 (7.08 % Utilization)
+
+-------------------------------------------------------------------------
+########   Utilization report for  cell:   reset_conditioner_1   ########
+Instance path:   cu_top_0.reset_conditioner_1                            
+=========================================================================
+
+SEQUENTIAL ELEMENTS
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+FLOPS     4                  6.45 %               
+==================================================
+Total SEQUENTIAL ELEMENTS in the block cu_top_0.reset_conditioner_1:	4 (1.67 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+LUTS     4                  4.3 %                
+=================================================
+Total COMBINATIONAL LOGIC in the block cu_top_0.reset_conditioner_1:	4 (1.67 % Utilization)
+
+
+IO PADS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+PADS     1                  5.88 %               
+=================================================
+Total IO PADS in the block cu_top_0.reset_conditioner_1:	1 (0.42 % Utilization)
+
+--------------------------------------------------------------------------
+########   Utilization report for  cell:   sr_chain_interface_2   ########
+Instance path:   cu_top_0.sr_chain_interface_2                            
+==========================================================================
+
+SEQUENTIAL ELEMENTS
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+FLOPS     58                 93.5 %               
+==================================================
+Total SEQUENTIAL ELEMENTS in the block cu_top_0.sr_chain_interface_2:	58 (24.17 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+LUTS       89                 95.7 %               
+CARRYS     62                 100 %                
+===================================================
+Total COMBINATIONAL LOGIC in the block cu_top_0.sr_chain_interface_2:	151 (62.92 % Utilization)
+
+
+IO PADS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+PADS     1                  5.88 %               
+=================================================
+Total IO PADS in the block cu_top_0.sr_chain_interface_2:	1 (0.42 % Utilization)
+
+
+##### END OF AREA REPORT #####]
+

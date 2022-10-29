@@ -1,0 +1,10 @@
+/home/tumo/lscc/iCEcube2.2020.12/synpbase/bin/c_hdl  -osyn  /home/tumo/fpga-workspace/shift-register/work/alchitry_imp/synwork/cu_top_0_comp.srs  -hdllog  /home/tumo/fpga-workspace/shift-register/work/alchitry_imp/synlog/cu_top_0_compiler.srr  -encrypt  -mp  4  -verification_mode 0  -verilog  -prodtype  synplify_pro  -primux -fixsmult -infer_seqShift -ice -sdff_counter -nram -divnmod -nostructver   -I /home/tumo/fpga-workspace/shift-register/work/  -I /home/tumo/lscc/iCEcube2.2020.12/synpbase/lib   -v2001  -devicelib  /home/tumo/lscc/iCEcube2.2020.12/synpbase/lib/generic/sb_ice40.v  -encrypt  -pro  -dmgen  /home/tumo/fpga-workspace/shift-register/work/alchitry_imp/dm  -ui -fid2 -ram -sharing on -ll 2000 -autosm  -lib work /home/tumo/fpga-workspace/shift-register/work/verilog/cu_top_0.v -lib work /home/tumo/fpga-workspace/shift-register/work/verilog/reset_conditioner_1.v -lib work /home/tumo/fpga-workspace/shift-register/work/verilog/sr_chain_interface_2.v 
+rc:0 success:1 runtime:2
+file:/home/tumo/fpga-workspace/shift-register/work/alchitry_imp/synwork/cu_top_0_comp.srs|io:o|time:1667015612|size:7205|exec:0
+file:/home/tumo/fpga-workspace/shift-register/work/alchitry_imp/synlog/cu_top_0_compiler.srr|io:o|time:1667015612|size:5078|exec:0
+file:/home/tumo/lscc/iCEcube2.2020.12/synpbase/lib/generic/sb_ice40.v|io:i|time:1664816694|size:220434|exec:0
+file:/home/tumo/fpga-workspace/shift-register/work/verilog/cu_top_0.v|io:i|time:1667015611|size:1452|exec:0
+file:/home/tumo/fpga-workspace/shift-register/work/verilog/reset_conditioner_1.v|io:i|time:1667015611|size:717|exec:0
+file:/home/tumo/fpga-workspace/shift-register/work/verilog/sr_chain_interface_2.v|io:i|time:1667015611|size:3189|exec:0
+file:/home/tumo/lscc/iCEcube2.2020.12/synpbase/linux_a_64/c_hdl|io:i|time:1664816695|size:5690328|exec:1
+file:/home/tumo/lscc/iCEcube2.2020.12/synpbase/bin/c_hdl|io:i|time:1664984014|size:367|exec:1

@@ -1,0 +1,45 @@
+module sr_interface 
+  #(DIVIDE_BY : DIVIDE_BY >= 4)
+  (
+    input clk,  // clock
+    input rst,  // reset
+    output out,
+    output sr_clk
+  ) {
+
+  
+  .clk(clk){
+    .rst(rst){
+      dff sr_dout_buffer[8](#INIT(0));
+      
+      // Keeps count of how many times the main clock
+      // has ticked.
+      dff main_clock_count[$clog2(DIVIDE_BY)];
+      
+      dff sr_clk_count[5](#INIT(0));
+    }  
+  }
+  
+  always {
+    out = sr_dout_buffer.q[7];
+    sr_clk = sr_clk_count.q[0];
+    
+    if (sr_clk_count.q >= 16 && sr_clk_count.q <= 20) {
+      //sr_clk_count.d = 0;
+      sr_dout_buffer.d = 8b10101010;
+      sr_clk = 1b0;
+      out = 1b0;  
+    }
+    
+    if (main_clock_count.q == DIVIDE_BY) {
+      main_clock_count.d = 0;
+      if (sr_clk_count.q[0] == 1) {
+        sr_dout_buffer.d = sr_dout_buffer.q << 1;
+      }
+      //sr_dout_buffer.d = sr_dout_buffer.q << 1;
+      sr_clk_count.d = sr_clk_count.q + 1;
+    } else {
+      main_clock_count.d = main_clock_count.q + 1;  
+    }
+  }
+}

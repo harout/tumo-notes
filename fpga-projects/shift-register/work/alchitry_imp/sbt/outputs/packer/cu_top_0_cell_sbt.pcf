@@ -1,0 +1,196 @@
+ble_pack reset_cond.M_stage_q_1_LC_17_17_0 { reset_cond.M_stage_q_RNO[1], reset_cond.M_stage_q[1] }
+ble_pack reset_cond.M_stage_q_2_LC_17_17_3 { reset_cond.M_stage_q_RNO[2], reset_cond.M_stage_q[2] }
+ble_pack reset_cond.M_stage_q_0_LC_17_17_4 { reset_cond.M_stage_q_RNO[0], reset_cond.M_stage_q[0] }
+ble_pack reset_cond.M_stage_q_3_LC_17_17_7 { reset_cond.M_stage_q_RNO[3], reset_cond.M_stage_q[3] }
+clb_pack LT_17_17 { reset_cond.M_stage_q_1_LC_17_17_0, reset_cond.M_stage_q_2_LC_17_17_3, reset_cond.M_stage_q_0_LC_17_17_4, reset_cond.M_stage_q_3_LC_17_17_7 }
+set_location LT_17_17 17 17
+ble_pack CONSTANT_ONE_LUT4_LC_27_20_6 { CONSTANT_ONE_LUT4 }
+clb_pack LT_27_20 { CONSTANT_ONE_LUT4_LC_27_20_6 }
+set_location LT_27_20 27 20
+ble_pack sr_chain.un1_M_sr_rest_cycles_q_1_6_c_RNIH9O82_LC_27_21_7 { sr_chain.un1_M_sr_rest_cycles_q_1_6_c_RNIH9O82 }
+clb_pack LT_27_21 { sr_chain.un1_M_sr_rest_cycles_q_1_6_c_RNIH9O82_LC_27_21_7 }
+set_location LT_27_21 27 21
+ble_pack sr_chain.M_sr_rest_cycles_q_0_LC_28_18_0 { sr_chain.M_sr_rest_cycles_q_RNO[0], sr_chain.M_sr_rest_cycles_q[0], sr_chain.un1_M_sr_rest_cycles_q_9_cry_0_s1_c }
+ble_pack sr_chain.un1_M_sr_rest_cycles_q_9_cry_0_s1_THRU_LUT4_0_LC_28_18_1 { sr_chain.un1_M_sr_rest_cycles_q_9_cry_0_s1_THRU_LUT4_0, sr_chain.un1_M_sr_rest_cycles_q_9_cry_1_s1_c }
+ble_pack sr_chain.un1_M_sr_rest_cycles_q_9_cry_1_s1_THRU_LUT4_0_LC_28_18_2 { sr_chain.un1_M_sr_rest_cycles_q_9_cry_1_s1_THRU_LUT4_0, sr_chain.un1_M_sr_rest_cycles_q_9_cry_2_s1_c }
+ble_pack sr_chain.un1_M_sr_rest_cycles_q_9_cry_2_s1_THRU_LUT4_0_LC_28_18_3 { sr_chain.un1_M_sr_rest_cycles_q_9_cry_2_s1_THRU_LUT4_0, sr_chain.un1_M_sr_rest_cycles_q_9_cry_3_s1_c }
+ble_pack sr_chain.un1_M_sr_rest_cycles_q_9_cry_3_s1_THRU_LUT4_0_LC_28_18_4 { sr_chain.un1_M_sr_rest_cycles_q_9_cry_3_s1_THRU_LUT4_0, sr_chain.un1_M_sr_rest_cycles_q_9_cry_4_s1_c }
+ble_pack sr_chain.un1_M_sr_rest_cycles_q_9_cry_4_s1_THRU_LUT4_0_LC_28_18_5 { sr_chain.un1_M_sr_rest_cycles_q_9_cry_4_s1_THRU_LUT4_0, sr_chain.un1_M_sr_rest_cycles_q_9_cry_5_s1_c }
+ble_pack sr_chain.un1_M_sr_rest_cycles_q_9_cry_5_s1_THRU_LUT4_0_LC_28_18_6 { sr_chain.un1_M_sr_rest_cycles_q_9_cry_5_s1_THRU_LUT4_0, sr_chain.un1_M_sr_rest_cycles_q_9_cry_6_s1_c }
+ble_pack sr_chain.un1_M_sr_rest_cycles_q_9_cry_6_s1_THRU_LUT4_0_LC_28_18_7 { sr_chain.un1_M_sr_rest_cycles_q_9_cry_6_s1_THRU_LUT4_0, sr_chain.un1_M_sr_rest_cycles_q_9_cry_7_s1_c }
+clb_pack LT_28_18 { sr_chain.M_sr_rest_cycles_q_0_LC_28_18_0, sr_chain.un1_M_sr_rest_cycles_q_9_cry_0_s1_THRU_LUT4_0_LC_28_18_1, sr_chain.un1_M_sr_rest_cycles_q_9_cry_1_s1_THRU_LUT4_0_LC_28_18_2, sr_chain.un1_M_sr_rest_cycles_q_9_cry_2_s1_THRU_LUT4_0_LC_28_18_3, sr_chain.un1_M_sr_rest_cycles_q_9_cry_3_s1_THRU_LUT4_0_LC_28_18_4, sr_chain.un1_M_sr_rest_cycles_q_9_cry_4_s1_THRU_LUT4_0_LC_28_18_5, sr_chain.un1_M_sr_rest_cycles_q_9_cry_5_s1_THRU_LUT4_0_LC_28_18_6, sr_chain.un1_M_sr_rest_cycles_q_9_cry_6_s1_THRU_LUT4_0_LC_28_18_7 }
+set_location LT_28_18 28 18
+ble_pack sr_chain.un1_M_sr_rest_cycles_q_9_cry_7_s1_THRU_LUT4_0_LC_28_19_0 { sr_chain.un1_M_sr_rest_cycles_q_9_cry_7_s1_THRU_LUT4_0, sr_chain.un1_M_sr_rest_cycles_q_9_cry_8_s1_c }
+ble_pack sr_chain.un1_M_sr_rest_cycles_q_9_cry_8_s1_THRU_LUT4_0_LC_28_19_1 { sr_chain.un1_M_sr_rest_cycles_q_9_cry_8_s1_THRU_LUT4_0, sr_chain.un1_M_sr_rest_cycles_q_9_cry_9_s1_c }
+ble_pack sr_chain.un1_M_sr_rest_cycles_q_9_cry_9_s1_THRU_LUT4_0_LC_28_19_2 { sr_chain.un1_M_sr_rest_cycles_q_9_cry_9_s1_THRU_LUT4_0, sr_chain.un1_M_sr_rest_cycles_q_9_cry_10_s1_c }
+ble_pack sr_chain.un1_M_sr_rest_cycles_q_9_cry_10_s1_THRU_LUT4_0_LC_28_19_3 { sr_chain.un1_M_sr_rest_cycles_q_9_cry_10_s1_THRU_LUT4_0, sr_chain.un1_M_sr_rest_cycles_q_9_cry_11_s1_c }
+ble_pack sr_chain.un1_M_sr_rest_cycles_q_9_cry_11_s1_THRU_LUT4_0_LC_28_19_4 { sr_chain.un1_M_sr_rest_cycles_q_9_cry_11_s1_THRU_LUT4_0, sr_chain.un1_M_sr_rest_cycles_q_9_cry_12_s1_c }
+ble_pack sr_chain.un1_M_sr_rest_cycles_q_9_cry_12_s1_THRU_LUT4_0_LC_28_19_5 { sr_chain.un1_M_sr_rest_cycles_q_9_cry_12_s1_THRU_LUT4_0, sr_chain.un1_M_sr_rest_cycles_q_9_cry_13_s1_c }
+ble_pack sr_chain.un1_M_sr_rest_cycles_q_9_cry_13_s1_THRU_LUT4_0_LC_28_19_6 { sr_chain.un1_M_sr_rest_cycles_q_9_cry_13_s1_THRU_LUT4_0, sr_chain.un1_M_sr_rest_cycles_q_9_cry_14_s1_c }
+ble_pack sr_chain.un1_M_sr_rest_cycles_q_9_cry_14_s1_THRU_LUT4_0_LC_28_19_7 { sr_chain.un1_M_sr_rest_cycles_q_9_cry_14_s1_THRU_LUT4_0, sr_chain.un1_M_sr_rest_cycles_q_9_cry_15_s1_c }
+clb_pack LT_28_19 { sr_chain.un1_M_sr_rest_cycles_q_9_cry_7_s1_THRU_LUT4_0_LC_28_19_0, sr_chain.un1_M_sr_rest_cycles_q_9_cry_8_s1_THRU_LUT4_0_LC_28_19_1, sr_chain.un1_M_sr_rest_cycles_q_9_cry_9_s1_THRU_LUT4_0_LC_28_19_2, sr_chain.un1_M_sr_rest_cycles_q_9_cry_10_s1_THRU_LUT4_0_LC_28_19_3, sr_chain.un1_M_sr_rest_cycles_q_9_cry_11_s1_THRU_LUT4_0_LC_28_19_4, sr_chain.un1_M_sr_rest_cycles_q_9_cry_12_s1_THRU_LUT4_0_LC_28_19_5, sr_chain.un1_M_sr_rest_cycles_q_9_cry_13_s1_THRU_LUT4_0_LC_28_19_6, sr_chain.un1_M_sr_rest_cycles_q_9_cry_14_s1_THRU_LUT4_0_LC_28_19_7 }
+set_location LT_28_19 28 19
+ble_pack sr_chain.un1_M_sr_rest_cycles_q_9_cry_15_s1_THRU_LUT4_0_LC_28_20_0 { sr_chain.un1_M_sr_rest_cycles_q_9_cry_15_s1_THRU_LUT4_0, sr_chain.un1_M_sr_rest_cycles_q_9_cry_16_s1_c }
+ble_pack sr_chain.un1_M_sr_rest_cycles_q_9_cry_16_s1_THRU_LUT4_0_LC_28_20_1 { sr_chain.un1_M_sr_rest_cycles_q_9_cry_16_s1_THRU_LUT4_0, sr_chain.un1_M_sr_rest_cycles_q_9_cry_17_s1_c }
+ble_pack sr_chain.un1_M_sr_rest_cycles_q_9_cry_17_s1_THRU_LUT4_0_LC_28_20_2 { sr_chain.un1_M_sr_rest_cycles_q_9_cry_17_s1_THRU_LUT4_0, sr_chain.un1_M_sr_rest_cycles_q_9_cry_18_s1_c }
+ble_pack sr_chain.un1_M_sr_rest_cycles_q_9_cry_18_s1_THRU_LUT4_0_LC_28_20_3 { sr_chain.un1_M_sr_rest_cycles_q_9_cry_18_s1_THRU_LUT4_0, sr_chain.un1_M_sr_rest_cycles_q_9_cry_19_s1_c }
+ble_pack sr_chain.un1_M_sr_rest_cycles_q_9_cry_19_s1_THRU_LUT4_0_LC_28_20_4 { sr_chain.un1_M_sr_rest_cycles_q_9_cry_19_s1_THRU_LUT4_0, sr_chain.un1_M_sr_rest_cycles_q_9_cry_20_s1_c }
+ble_pack sr_chain.un1_M_sr_rest_cycles_q_9_cry_20_s1_THRU_LUT4_0_LC_28_20_5 { sr_chain.un1_M_sr_rest_cycles_q_9_cry_20_s1_THRU_LUT4_0, sr_chain.un1_M_sr_rest_cycles_q_9_cry_21_s1_c }
+ble_pack sr_chain.un1_M_sr_rest_cycles_q_9_cry_21_s1_THRU_LUT4_0_LC_28_20_6 { sr_chain.un1_M_sr_rest_cycles_q_9_cry_21_s1_THRU_LUT4_0, sr_chain.un1_M_sr_rest_cycles_q_9_cry_22_s1_c }
+ble_pack sr_chain.un1_M_sr_rest_cycles_q_9_cry_22_s1_THRU_LUT4_0_LC_28_20_7 { sr_chain.un1_M_sr_rest_cycles_q_9_cry_22_s1_THRU_LUT4_0, sr_chain.un1_M_sr_rest_cycles_q_9_cry_23_s1_c }
+clb_pack LT_28_20 { sr_chain.un1_M_sr_rest_cycles_q_9_cry_15_s1_THRU_LUT4_0_LC_28_20_0, sr_chain.un1_M_sr_rest_cycles_q_9_cry_16_s1_THRU_LUT4_0_LC_28_20_1, sr_chain.un1_M_sr_rest_cycles_q_9_cry_17_s1_THRU_LUT4_0_LC_28_20_2, sr_chain.un1_M_sr_rest_cycles_q_9_cry_18_s1_THRU_LUT4_0_LC_28_20_3, sr_chain.un1_M_sr_rest_cycles_q_9_cry_19_s1_THRU_LUT4_0_LC_28_20_4, sr_chain.un1_M_sr_rest_cycles_q_9_cry_20_s1_THRU_LUT4_0_LC_28_20_5, sr_chain.un1_M_sr_rest_cycles_q_9_cry_21_s1_THRU_LUT4_0_LC_28_20_6, sr_chain.un1_M_sr_rest_cycles_q_9_cry_22_s1_THRU_LUT4_0_LC_28_20_7 }
+set_location LT_28_20 28 20
+ble_pack sr_chain.M_sr_rest_cycles_q_24_LC_28_21_0 { sr_chain.M_sr_rest_cycles_q_RNO[24], sr_chain.M_sr_rest_cycles_q[24] }
+ble_pack sr_chain.un1_M_sr_rest_cycles_q_1_6_c_RNIFAS5_LC_28_21_2 { sr_chain.un1_M_sr_rest_cycles_q_1_6_c_RNIFAS5 }
+ble_pack sr_chain.M_sr_rest_cycles_q_23_LC_28_21_3 { sr_chain.M_sr_rest_cycles_q_RNO[23], sr_chain.M_sr_rest_cycles_q[23] }
+clb_pack LT_28_21 { sr_chain.M_sr_rest_cycles_q_24_LC_28_21_0, sr_chain.un1_M_sr_rest_cycles_q_1_6_c_RNIFAS5_LC_28_21_2, sr_chain.M_sr_rest_cycles_q_23_LC_28_21_3 }
+set_location LT_28_21 28 21
+ble_pack sr_chain.M_sr_clock_count_q_4_LC_29_17_0 { sr_chain.M_sr_clock_count_q_RNO[4], sr_chain.M_sr_clock_count_q[4] }
+ble_pack sr_chain.M_sr_clock_count_q_3_LC_29_17_2 { sr_chain.M_sr_clock_count_q_RNO[3], sr_chain.M_sr_clock_count_q[3] }
+clb_pack LT_29_17 { sr_chain.M_sr_clock_count_q_4_LC_29_17_0, sr_chain.M_sr_clock_count_q_3_LC_29_17_2 }
+set_location LT_29_17 29 17
+ble_pack sr_chain.M_main_clock_count_d8_6_c_RNI2VR22_LC_29_18_3 { sr_chain.M_main_clock_count_d8_6_c_RNI2VR22 }
+ble_pack sr_chain.M_sr_rest_cycles_q_11_LC_29_18_4 { sr_chain.M_sr_rest_cycles_q_RNO[11], sr_chain.M_sr_rest_cycles_q[11] }
+ble_pack sr_chain.un1_M_sr_rest_cycles_q_1_2_c_RNO_LC_29_18_5 { sr_chain.un1_M_sr_rest_cycles_q_1_2_c_RNO }
+ble_pack sr_chain.M_sr_rest_cycles_q_8_LC_29_18_6 { sr_chain.M_sr_rest_cycles_q_RNO[8], sr_chain.M_sr_rest_cycles_q[8] }
+ble_pack sr_chain.M_sr_rest_cycles_q_9_LC_29_18_7 { sr_chain.M_sr_rest_cycles_q_RNO[9], sr_chain.M_sr_rest_cycles_q[9] }
+clb_pack LT_29_18 { sr_chain.M_main_clock_count_d8_6_c_RNI2VR22_LC_29_18_3, sr_chain.M_sr_rest_cycles_q_11_LC_29_18_4, sr_chain.un1_M_sr_rest_cycles_q_1_2_c_RNO_LC_29_18_5, sr_chain.M_sr_rest_cycles_q_8_LC_29_18_6, sr_chain.M_sr_rest_cycles_q_9_LC_29_18_7 }
+set_location LT_29_18 29 18
+ble_pack sr_chain.un1_M_sr_rest_cycles_q_1_0_c_RNO_LC_29_19_0 { sr_chain.un1_M_sr_rest_cycles_q_1_0_c_RNO }
+ble_pack sr_chain.M_sr_rest_cycles_q_1_LC_29_19_1 { sr_chain.M_sr_rest_cycles_q_RNO[1], sr_chain.M_sr_rest_cycles_q[1] }
+ble_pack sr_chain.M_sr_rest_cycles_q_3_LC_29_19_3 { sr_chain.M_sr_rest_cycles_q_RNO[3], sr_chain.M_sr_rest_cycles_q[3] }
+ble_pack sr_chain.M_sr_rest_cycles_q_10_LC_29_19_4 { sr_chain.M_sr_rest_cycles_q_RNO[10], sr_chain.M_sr_rest_cycles_q[10] }
+ble_pack sr_chain.M_sr_rest_cycles_q_15_LC_29_19_5 { sr_chain.M_sr_rest_cycles_q_RNO[15], sr_chain.M_sr_rest_cycles_q[15] }
+ble_pack sr_chain.un1_M_sr_rest_cycles_q_1_3_c_RNO_LC_29_19_6 { sr_chain.un1_M_sr_rest_cycles_q_1_3_c_RNO }
+ble_pack sr_chain.M_sr_rest_cycles_q_12_LC_29_19_7 { sr_chain.M_sr_rest_cycles_q_RNO[12], sr_chain.M_sr_rest_cycles_q[12] }
+clb_pack LT_29_19 { sr_chain.un1_M_sr_rest_cycles_q_1_0_c_RNO_LC_29_19_0, sr_chain.M_sr_rest_cycles_q_1_LC_29_19_1, sr_chain.M_sr_rest_cycles_q_3_LC_29_19_3, sr_chain.M_sr_rest_cycles_q_10_LC_29_19_4, sr_chain.M_sr_rest_cycles_q_15_LC_29_19_5, sr_chain.un1_M_sr_rest_cycles_q_1_3_c_RNO_LC_29_19_6, sr_chain.M_sr_rest_cycles_q_12_LC_29_19_7 }
+set_location LT_29_19 29 19
+ble_pack sr_chain.M_sr_rest_cycles_q_2_LC_29_20_0 { sr_chain.M_sr_rest_cycles_q_RNO[2], sr_chain.M_sr_rest_cycles_q[2] }
+ble_pack sr_chain.M_sr_rest_cycles_q_17_LC_29_20_1 { sr_chain.M_sr_rest_cycles_q_RNO[17], sr_chain.M_sr_rest_cycles_q[17] }
+ble_pack sr_chain.M_sr_rest_cycles_q_19_LC_29_20_2 { sr_chain.M_sr_rest_cycles_q_RNO[19], sr_chain.M_sr_rest_cycles_q[19] }
+ble_pack sr_chain.M_sr_rest_cycles_q_4_LC_29_20_3 { sr_chain.M_sr_rest_cycles_q_RNO[4], sr_chain.M_sr_rest_cycles_q[4] }
+ble_pack sr_chain.M_sr_rest_cycles_q_16_LC_29_20_4 { sr_chain.M_sr_rest_cycles_q_RNO[16], sr_chain.M_sr_rest_cycles_q[16] }
+ble_pack sr_chain.M_sr_rest_cycles_q_13_LC_29_20_5 { sr_chain.M_sr_rest_cycles_q_RNO[13], sr_chain.M_sr_rest_cycles_q[13] }
+ble_pack sr_chain.M_sr_rest_cycles_q_14_LC_29_20_6 { sr_chain.M_sr_rest_cycles_q_RNO[14], sr_chain.M_sr_rest_cycles_q[14] }
+ble_pack sr_chain.M_sr_rest_cycles_q_5_LC_29_20_7 { sr_chain.M_sr_rest_cycles_q_RNO[5], sr_chain.M_sr_rest_cycles_q[5] }
+clb_pack LT_29_20 { sr_chain.M_sr_rest_cycles_q_2_LC_29_20_0, sr_chain.M_sr_rest_cycles_q_17_LC_29_20_1, sr_chain.M_sr_rest_cycles_q_19_LC_29_20_2, sr_chain.M_sr_rest_cycles_q_4_LC_29_20_3, sr_chain.M_sr_rest_cycles_q_16_LC_29_20_4, sr_chain.M_sr_rest_cycles_q_13_LC_29_20_5, sr_chain.M_sr_rest_cycles_q_14_LC_29_20_6, sr_chain.M_sr_rest_cycles_q_5_LC_29_20_7 }
+set_location LT_29_20 29 20
+ble_pack sr_chain.M_sr_rest_cycles_q_18_LC_29_21_2 { sr_chain.M_sr_rest_cycles_q_RNO[18], sr_chain.M_sr_rest_cycles_q[18] }
+ble_pack sr_chain.M_sr_rest_cycles_q_20_LC_29_21_4 { sr_chain.M_sr_rest_cycles_q_RNO[20], sr_chain.M_sr_rest_cycles_q[20] }
+ble_pack sr_chain.un1_M_sr_rest_cycles_q_1_5_c_RNO_LC_29_21_5 { sr_chain.un1_M_sr_rest_cycles_q_1_5_c_RNO }
+ble_pack sr_chain.M_sr_rest_cycles_q_21_LC_29_21_6 { sr_chain.M_sr_rest_cycles_q_RNO[21], sr_chain.M_sr_rest_cycles_q[21] }
+ble_pack sr_chain.M_sr_rest_cycles_q_22_LC_29_21_7 { sr_chain.M_sr_rest_cycles_q_RNO[22], sr_chain.M_sr_rest_cycles_q[22] }
+clb_pack LT_29_21 { sr_chain.M_sr_rest_cycles_q_18_LC_29_21_2, sr_chain.M_sr_rest_cycles_q_20_LC_29_21_4, sr_chain.un1_M_sr_rest_cycles_q_1_5_c_RNO_LC_29_21_5, sr_chain.M_sr_rest_cycles_q_21_LC_29_21_6, sr_chain.M_sr_rest_cycles_q_22_LC_29_21_7 }
+set_location LT_29_21 29 21
+ble_pack sr_chain.M_sr_clock_count_q_RNI63IL_1_LC_30_17_0 { sr_chain.M_sr_clock_count_q_RNI63IL[1] }
+ble_pack sr_chain.M_sr_clock_count_q_RNIV7TL1_4_LC_30_17_1 { sr_chain.M_sr_clock_count_q_RNIV7TL1[4] }
+ble_pack sr_chain.M_sr_is_sending_q_RNI73BG_0_LC_30_17_2 { sr_chain.M_sr_is_sending_q_RNI73BG_0 }
+ble_pack sr_chain.M_sr_is_sending_q_RNIMJKT_LC_30_17_3 { sr_chain.M_sr_is_sending_q_RNIMJKT }
+ble_pack sr_chain.M_sr_clock_count_q_RNIL1D81_1_LC_30_17_4 { sr_chain.M_sr_clock_count_q_RNIL1D81[1] }
+ble_pack sr_chain.M_sr_clock_count_q_2_LC_30_17_5 { sr_chain.M_sr_clock_count_q_RNO[2], sr_chain.M_sr_clock_count_q[2] }
+ble_pack sr_chain.M_sr_bit_q_RNO_2_LC_30_17_6 { sr_chain.M_sr_bit_q_RNO_2 }
+ble_pack sr_chain.M_sr_clock_count_q_1_LC_30_17_7 { sr_chain.M_sr_clock_count_q_RNO[1], sr_chain.M_sr_clock_count_q[1] }
+clb_pack LT_30_17 { sr_chain.M_sr_clock_count_q_RNI63IL_1_LC_30_17_0, sr_chain.M_sr_clock_count_q_RNIV7TL1_4_LC_30_17_1, sr_chain.M_sr_is_sending_q_RNI73BG_0_LC_30_17_2, sr_chain.M_sr_is_sending_q_RNIMJKT_LC_30_17_3, sr_chain.M_sr_clock_count_q_RNIL1D81_1_LC_30_17_4, sr_chain.M_sr_clock_count_q_2_LC_30_17_5, sr_chain.M_sr_bit_q_RNO_2_LC_30_17_6, sr_chain.M_sr_clock_count_q_1_LC_30_17_7 }
+set_location LT_30_17 30 17
+ble_pack sr_chain.M_main_clock_count_d8_0_c_LC_30_18_0 { sr_chain.M_main_clock_count_d8_0_c }
+ble_pack sr_chain.M_main_clock_count_d8_1_c_LC_30_18_1 { sr_chain.M_main_clock_count_d8_1_c }
+ble_pack sr_chain.M_main_clock_count_d8_2_c_LC_30_18_2 { sr_chain.M_main_clock_count_d8_2_c }
+ble_pack sr_chain.M_main_clock_count_d8_3_c_LC_30_18_3 { sr_chain.M_main_clock_count_d8_3_c }
+ble_pack sr_chain.M_main_clock_count_d8_4_c_LC_30_18_4 { sr_chain.M_main_clock_count_d8_4_c }
+ble_pack sr_chain.M_main_clock_count_d8_5_c_LC_30_18_5 { sr_chain.M_main_clock_count_d8_5_c }
+ble_pack sr_chain.M_main_clock_count_d8_6_c_inv_LC_30_18_6 { sr_chain.M_main_clock_count_d8_6_c_inv, sr_chain.M_main_clock_count_d8_6_c }
+ble_pack sr_chain.M_main_clock_count_d8_THRU_LUT4_0_LC_30_18_7 { sr_chain.M_main_clock_count_d8_THRU_LUT4_0 }
+clb_pack LT_30_18 { sr_chain.M_main_clock_count_d8_0_c_LC_30_18_0, sr_chain.M_main_clock_count_d8_1_c_LC_30_18_1, sr_chain.M_main_clock_count_d8_2_c_LC_30_18_2, sr_chain.M_main_clock_count_d8_3_c_LC_30_18_3, sr_chain.M_main_clock_count_d8_4_c_LC_30_18_4, sr_chain.M_main_clock_count_d8_5_c_LC_30_18_5, sr_chain.M_main_clock_count_d8_6_c_inv_LC_30_18_6, sr_chain.M_main_clock_count_d8_THRU_LUT4_0_LC_30_18_7 }
+set_location LT_30_18 30 18
+ble_pack sr_chain.un1_M_sr_rest_cycles_q_1_0_c_LC_30_19_0 { sr_chain.un1_M_sr_rest_cycles_q_1_0_c }
+ble_pack sr_chain.un1_M_sr_rest_cycles_q_1_1_c_LC_30_19_1 { sr_chain.un1_M_sr_rest_cycles_q_1_1_c }
+ble_pack sr_chain.un1_M_sr_rest_cycles_q_1_2_c_LC_30_19_2 { sr_chain.un1_M_sr_rest_cycles_q_1_2_c }
+ble_pack sr_chain.un1_M_sr_rest_cycles_q_1_3_c_LC_30_19_3 { sr_chain.un1_M_sr_rest_cycles_q_1_3_c }
+ble_pack sr_chain.un1_M_sr_rest_cycles_q_1_4_c_LC_30_19_4 { sr_chain.un1_M_sr_rest_cycles_q_1_4_c }
+ble_pack sr_chain.un1_M_sr_rest_cycles_q_1_5_c_LC_30_19_5 { sr_chain.un1_M_sr_rest_cycles_q_1_5_c }
+ble_pack sr_chain.un1_M_sr_rest_cycles_q_1_6_c_inv_LC_30_19_6 { sr_chain.un1_M_sr_rest_cycles_q_1_6_c_inv, sr_chain.un1_M_sr_rest_cycles_q_1_6_c }
+ble_pack sr_chain.un1_M_sr_rest_cycles_q_1_6_THRU_LUT4_0_LC_30_19_7 { sr_chain.un1_M_sr_rest_cycles_q_1_6_THRU_LUT4_0 }
+clb_pack LT_30_19 { sr_chain.un1_M_sr_rest_cycles_q_1_0_c_LC_30_19_0, sr_chain.un1_M_sr_rest_cycles_q_1_1_c_LC_30_19_1, sr_chain.un1_M_sr_rest_cycles_q_1_2_c_LC_30_19_2, sr_chain.un1_M_sr_rest_cycles_q_1_3_c_LC_30_19_3, sr_chain.un1_M_sr_rest_cycles_q_1_4_c_LC_30_19_4, sr_chain.un1_M_sr_rest_cycles_q_1_5_c_LC_30_19_5, sr_chain.un1_M_sr_rest_cycles_q_1_6_c_inv_LC_30_19_6, sr_chain.un1_M_sr_rest_cycles_q_1_6_THRU_LUT4_0_LC_30_19_7 }
+set_location LT_30_19 30 19
+ble_pack sr_chain.un1_M_sr_rest_cycles_q_1_1_c_RNO_LC_30_20_0 { sr_chain.un1_M_sr_rest_cycles_q_1_1_c_RNO }
+ble_pack sr_chain.M_sr_bit_q_RNO_0_LC_30_20_2 { sr_chain.M_sr_bit_q_RNO_0 }
+ble_pack sr_chain.M_sr_bit_q_RNO_3_LC_30_20_3 { sr_chain.M_sr_bit_q_RNO_3 }
+ble_pack sr_chain.M_sr_bit_q_RNO_1_LC_30_20_4 { sr_chain.M_sr_bit_q_RNO_1 }
+ble_pack sr_chain.M_sr_bit_q_LC_30_20_5 { sr_chain.M_sr_bit_q_RNO, sr_chain.M_sr_bit_q }
+ble_pack sr_chain.un1_M_sr_rest_cycles_q_1_4_c_RNO_LC_30_20_6 { sr_chain.un1_M_sr_rest_cycles_q_1_4_c_RNO }
+clb_pack LT_30_20 { sr_chain.un1_M_sr_rest_cycles_q_1_1_c_RNO_LC_30_20_0, sr_chain.M_sr_bit_q_RNO_0_LC_30_20_2, sr_chain.M_sr_bit_q_RNO_3_LC_30_20_3, sr_chain.M_sr_bit_q_RNO_1_LC_30_20_4, sr_chain.M_sr_bit_q_LC_30_20_5, sr_chain.un1_M_sr_rest_cycles_q_1_4_c_RNO_LC_30_20_6 }
+set_location LT_30_20 30 20
+ble_pack sr_chain.M_sr_rest_cycles_q_6_LC_30_21_0 { sr_chain.M_sr_rest_cycles_q_RNO[6], sr_chain.M_sr_rest_cycles_q[6] }
+ble_pack sr_chain.M_sr_rest_cycles_q_7_LC_30_21_3 { sr_chain.M_sr_rest_cycles_q_RNO[7], sr_chain.M_sr_rest_cycles_q[7] }
+clb_pack LT_30_21 { sr_chain.M_sr_rest_cycles_q_6_LC_30_21_0, sr_chain.M_sr_rest_cycles_q_7_LC_30_21_3 }
+set_location LT_30_21 30 21
+ble_pack sr_chain.M_main_clock_count_d8_3_c_RNO_LC_31_17_0 { sr_chain.M_main_clock_count_d8_3_c_RNO }
+ble_pack sr_chain.M_main_clock_count_d8_4_c_RNO_LC_31_17_1 { sr_chain.M_main_clock_count_d8_4_c_RNO }
+ble_pack sr_chain.M_sr_clock_count_q_0_LC_31_17_2 { sr_chain.M_sr_clock_count_q_RNO[0], sr_chain.M_sr_clock_count_q[0] }
+ble_pack sr_chain.M_sr_data_buffer_q_3_LC_31_17_3 { sr_chain.M_sr_data_buffer_q_RNO[3], sr_chain.M_sr_data_buffer_q[3] }
+ble_pack sr_chain.M_main_clock_count_d8_6_c_RNII1RI_LC_31_17_4 { sr_chain.M_main_clock_count_d8_6_c_RNII1RI }
+ble_pack sr_chain.M_main_clock_count_d8_6_c_RNI1I401_LC_31_17_5 { sr_chain.M_main_clock_count_d8_6_c_RNI1I401 }
+clb_pack LT_31_17 { sr_chain.M_main_clock_count_d8_3_c_RNO_LC_31_17_0, sr_chain.M_main_clock_count_d8_4_c_RNO_LC_31_17_1, sr_chain.M_sr_clock_count_q_0_LC_31_17_2, sr_chain.M_sr_data_buffer_q_3_LC_31_17_3, sr_chain.M_main_clock_count_d8_6_c_RNII1RI_LC_31_17_4, sr_chain.M_main_clock_count_d8_6_c_RNI1I401_LC_31_17_5 }
+set_location LT_31_17 31 17
+ble_pack sr_chain.M_main_clock_count_d8_1_c_RNO_LC_31_18_1 { sr_chain.M_main_clock_count_d8_1_c_RNO }
+ble_pack sr_chain.M_main_clock_count_d8_6_c_RNIA6DO1_LC_31_18_2 { sr_chain.M_main_clock_count_d8_6_c_RNIA6DO1 }
+ble_pack sr_chain.M_sr_is_sending_q_LC_31_18_3 { sr_chain.M_sr_is_sending_q_RNO, sr_chain.M_sr_is_sending_q }
+ble_pack sr_chain.M_main_clock_count_d8_0_c_RNO_LC_31_18_4 { sr_chain.M_main_clock_count_d8_0_c_RNO }
+ble_pack sr_chain.M_sr_is_sending_q_RNI73BG_LC_31_18_6 { sr_chain.M_sr_is_sending_q_RNI73BG }
+ble_pack sr_chain.M_main_clock_count_d8_5_c_RNO_LC_31_18_7 { sr_chain.M_main_clock_count_d8_5_c_RNO }
+clb_pack LT_31_18 { sr_chain.M_main_clock_count_d8_1_c_RNO_LC_31_18_1, sr_chain.M_main_clock_count_d8_6_c_RNIA6DO1_LC_31_18_2, sr_chain.M_sr_is_sending_q_LC_31_18_3, sr_chain.M_main_clock_count_d8_0_c_RNO_LC_31_18_4, sr_chain.M_sr_is_sending_q_RNI73BG_LC_31_18_6, sr_chain.M_main_clock_count_d8_5_c_RNO_LC_31_18_7 }
+set_location LT_31_18 31 18
+ble_pack sr_chain.M_main_clock_count_d8_2_c_RNO_LC_31_19_3 { sr_chain.M_main_clock_count_d8_2_c_RNO }
+ble_pack sr_chain.M_sr_clock_count_q_RNI29HJ2_0_LC_31_19_5 { sr_chain.M_sr_clock_count_q_RNI29HJ2[0] }
+clb_pack LT_31_19 { sr_chain.M_main_clock_count_d8_2_c_RNO_LC_31_19_3, sr_chain.M_sr_clock_count_q_RNI29HJ2_0_LC_31_19_5 }
+set_location LT_31_19 31 19
+ble_pack sr_chain.M_main_clock_count_q_0_LC_32_17_0 { sr_chain.M_main_clock_count_q_RNO[0], sr_chain.M_main_clock_count_q[0], sr_chain.un1_M_main_clock_count_q_1_cry_0_c }
+ble_pack sr_chain.M_main_clock_count_q_1_LC_32_17_1 { sr_chain.M_main_clock_count_q_RNO[1], sr_chain.M_main_clock_count_q[1], sr_chain.un1_M_main_clock_count_q_1_cry_1_c }
+ble_pack sr_chain.M_main_clock_count_q_2_LC_32_17_2 { sr_chain.M_main_clock_count_q_RNO[2], sr_chain.M_main_clock_count_q[2], sr_chain.un1_M_main_clock_count_q_1_cry_2_c }
+ble_pack sr_chain.M_main_clock_count_q_3_LC_32_17_3 { sr_chain.M_main_clock_count_q_RNO[3], sr_chain.M_main_clock_count_q[3], sr_chain.un1_M_main_clock_count_q_1_cry_3_c }
+ble_pack sr_chain.M_main_clock_count_q_4_LC_32_17_4 { sr_chain.M_main_clock_count_q_RNO[4], sr_chain.M_main_clock_count_q[4], sr_chain.un1_M_main_clock_count_q_1_cry_4_c }
+ble_pack sr_chain.M_main_clock_count_q_5_LC_32_17_5 { sr_chain.M_main_clock_count_q_RNO[5], sr_chain.M_main_clock_count_q[5], sr_chain.un1_M_main_clock_count_q_1_cry_5_c }
+ble_pack sr_chain.M_main_clock_count_q_6_LC_32_17_6 { sr_chain.M_main_clock_count_q_RNO[6], sr_chain.M_main_clock_count_q[6], sr_chain.un1_M_main_clock_count_q_1_cry_6_c }
+ble_pack sr_chain.M_main_clock_count_q_7_LC_32_17_7 { sr_chain.M_main_clock_count_q_RNO[7], sr_chain.M_main_clock_count_q[7], sr_chain.un1_M_main_clock_count_q_1_cry_7_c }
+clb_pack LT_32_17 { sr_chain.M_main_clock_count_q_0_LC_32_17_0, sr_chain.M_main_clock_count_q_1_LC_32_17_1, sr_chain.M_main_clock_count_q_2_LC_32_17_2, sr_chain.M_main_clock_count_q_3_LC_32_17_3, sr_chain.M_main_clock_count_q_4_LC_32_17_4, sr_chain.M_main_clock_count_q_5_LC_32_17_5, sr_chain.M_main_clock_count_q_6_LC_32_17_6, sr_chain.M_main_clock_count_q_7_LC_32_17_7 }
+set_location LT_32_17 32 17
+ble_pack sr_chain.M_main_clock_count_q_8_LC_32_18_0 { sr_chain.M_main_clock_count_q_RNO[8], sr_chain.M_main_clock_count_q[8], sr_chain.un1_M_main_clock_count_q_1_cry_8_c }
+ble_pack sr_chain.M_main_clock_count_q_9_LC_32_18_1 { sr_chain.M_main_clock_count_q_RNO[9], sr_chain.M_main_clock_count_q[9], sr_chain.un1_M_main_clock_count_q_1_cry_9_c }
+ble_pack sr_chain.M_main_clock_count_q_10_LC_32_18_2 { sr_chain.M_main_clock_count_q_RNO[10], sr_chain.M_main_clock_count_q[10], sr_chain.un1_M_main_clock_count_q_1_cry_10_c }
+ble_pack sr_chain.M_main_clock_count_q_11_LC_32_18_3 { sr_chain.M_main_clock_count_q_RNO[11], sr_chain.M_main_clock_count_q[11], sr_chain.un1_M_main_clock_count_q_1_cry_11_c }
+ble_pack sr_chain.M_main_clock_count_q_12_LC_32_18_4 { sr_chain.M_main_clock_count_q_RNO[12], sr_chain.M_main_clock_count_q[12], sr_chain.un1_M_main_clock_count_q_1_cry_12_c }
+ble_pack sr_chain.M_main_clock_count_q_13_LC_32_18_5 { sr_chain.M_main_clock_count_q_RNO[13], sr_chain.M_main_clock_count_q[13], sr_chain.un1_M_main_clock_count_q_1_cry_13_c }
+ble_pack sr_chain.M_main_clock_count_q_14_LC_32_18_6 { sr_chain.M_main_clock_count_q_RNO[14], sr_chain.M_main_clock_count_q[14], sr_chain.un1_M_main_clock_count_q_1_cry_14_c }
+ble_pack sr_chain.M_main_clock_count_q_15_LC_32_18_7 { sr_chain.M_main_clock_count_q_RNO[15], sr_chain.M_main_clock_count_q[15], sr_chain.un1_M_main_clock_count_q_1_cry_15_c }
+clb_pack LT_32_18 { sr_chain.M_main_clock_count_q_8_LC_32_18_0, sr_chain.M_main_clock_count_q_9_LC_32_18_1, sr_chain.M_main_clock_count_q_10_LC_32_18_2, sr_chain.M_main_clock_count_q_11_LC_32_18_3, sr_chain.M_main_clock_count_q_12_LC_32_18_4, sr_chain.M_main_clock_count_q_13_LC_32_18_5, sr_chain.M_main_clock_count_q_14_LC_32_18_6, sr_chain.M_main_clock_count_q_15_LC_32_18_7 }
+set_location LT_32_18 32 18
+ble_pack sr_chain.M_main_clock_count_q_16_LC_32_19_0 { sr_chain.M_main_clock_count_q_RNO[16], sr_chain.M_main_clock_count_q[16], sr_chain.un1_M_main_clock_count_q_1_cry_16_c }
+ble_pack sr_chain.M_main_clock_count_q_17_LC_32_19_1 { sr_chain.M_main_clock_count_q_RNO[17], sr_chain.M_main_clock_count_q[17], sr_chain.un1_M_main_clock_count_q_1_cry_17_c }
+ble_pack sr_chain.M_main_clock_count_q_18_LC_32_19_2 { sr_chain.M_main_clock_count_q_RNO[18], sr_chain.M_main_clock_count_q[18], sr_chain.un1_M_main_clock_count_q_1_cry_18_c }
+ble_pack sr_chain.M_main_clock_count_q_19_LC_32_19_3 { sr_chain.M_main_clock_count_q_RNO[19], sr_chain.M_main_clock_count_q[19], sr_chain.un1_M_main_clock_count_q_1_cry_19_c }
+ble_pack sr_chain.M_main_clock_count_q_20_LC_32_19_4 { sr_chain.M_main_clock_count_q_RNO[20], sr_chain.M_main_clock_count_q[20], sr_chain.un1_M_main_clock_count_q_1_cry_20_c }
+ble_pack sr_chain.M_main_clock_count_q_21_LC_32_19_5 { sr_chain.M_main_clock_count_q_RNO[21], sr_chain.M_main_clock_count_q[21], sr_chain.un1_M_main_clock_count_q_1_cry_21_c }
+ble_pack sr_chain.M_main_clock_count_q_22_LC_32_19_6 { sr_chain.M_main_clock_count_q_RNO[22], sr_chain.M_main_clock_count_q[22], sr_chain.un1_M_main_clock_count_q_1_cry_22_c }
+ble_pack sr_chain.M_main_clock_count_q_23_LC_32_19_7 { sr_chain.M_main_clock_count_q_RNO[23], sr_chain.M_main_clock_count_q[23], sr_chain.un1_M_main_clock_count_q_1_cry_23_c }
+clb_pack LT_32_19 { sr_chain.M_main_clock_count_q_16_LC_32_19_0, sr_chain.M_main_clock_count_q_17_LC_32_19_1, sr_chain.M_main_clock_count_q_18_LC_32_19_2, sr_chain.M_main_clock_count_q_19_LC_32_19_3, sr_chain.M_main_clock_count_q_20_LC_32_19_4, sr_chain.M_main_clock_count_q_21_LC_32_19_5, sr_chain.M_main_clock_count_q_22_LC_32_19_6, sr_chain.M_main_clock_count_q_23_LC_32_19_7 }
+set_location LT_32_19 32 19
+ble_pack sr_chain.M_main_clock_count_q_24_LC_32_20_0 { sr_chain.M_main_clock_count_q_RNO[24], sr_chain.M_main_clock_count_q[24] }
+clb_pack LT_32_20 { sr_chain.M_main_clock_count_q_24_LC_32_20_0 }
+set_location LT_32_20 32 20
+set_location sr_chain.M_main_clock_count_d8_6_c_RNI1I401_0 33 17
+set_location reset_cond.M_stage_q_RNIFG9D[3] 16 33
+set_io usb_tx M9
+set_io usb_rx P14
+set_io sr_latch H1
+set_io sr_data H3
+set_io sr_clk G3
+set_io rst_n P8
+set_io last C1
+set_io dout[6] B1
+set_io dout[5] F3
+set_io dout[4] F4
+set_io dout[3] E1
+set_io dout[2] D1
+set_io dout[1] G4
+set_io dout[0] D4
+set_io clk P7

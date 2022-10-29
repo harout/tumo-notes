@@ -1,0 +1,31 @@
+module foo (
+    input clk,  // clock
+    input rst,  // reset
+    output out[7],
+    output last
+  ) {
+
+  .clk(clk){
+     .rst(rst){
+        dff outbfr[7](#INIT(3b001));
+        dff main_clock_count[$clog2(50000000)];
+      } 
+  }
+  
+  
+  always {
+    out = outbfr.q;
+    main_clock_count.d = main_clock_count.q + 1;
+    last = outbfr.q[6];
+    
+    if (main_clock_count.q == 50000000) {
+      //outbfr.d = outbfr.q + 2; // works
+      outbfr.d = outbfr.q << 1;
+      main_clock_count.d = 0;
+    }
+    
+    if (outbfr.q == 0){
+      outbfr.d = 7b00000001;  
+    }
+  }
+}

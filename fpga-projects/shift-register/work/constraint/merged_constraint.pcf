@@ -1,0 +1,16 @@
+set_io clk P7
+set_io rst_n P8
+set_io sr_latch H1
+set_io sr_data H3
+set_io sr_clk G3
+set_io dout[0] D4
+set_io dout[1] G4
+set_io dout[2] D1
+set_io dout[3] E1
+set_io dout[4] F4
+set_io dout[5] F3
+set_io dout[6] B1
+set_io last C1
+set_io usb_rx P14
+set_io usb_tx M9
+
