@@ -23,22 +23,15 @@ Selecting top level module cu_top_0
 
 @N: CG364 :"/home/tumo/fpga-workspace/shift-register/work/verilog/cu_top_0.v":7:7:7:14|Synthesizing module cu_top_0 in library work.
 
-@W: CG134 :"/home/tumo/fpga-workspace/shift-register/work/verilog/cu_top_0.v":13:21:13:24|No assignment to bit 3 of dout
-@W: CG134 :"/home/tumo/fpga-workspace/shift-register/work/verilog/cu_top_0.v":13:21:13:24|No assignment to bit 4 of dout
-@W: CG134 :"/home/tumo/fpga-workspace/shift-register/work/verilog/cu_top_0.v":13:21:13:24|No assignment to bit 5 of dout
-@W: CG134 :"/home/tumo/fpga-workspace/shift-register/work/verilog/cu_top_0.v":13:21:13:24|No assignment to bit 6 of dout
-@W: CL157 :"/home/tumo/fpga-workspace/shift-register/work/verilog/cu_top_0.v":13:21:13:24|*Output dout has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the output.
-@N: CL189 :"/home/tumo/fpga-workspace/shift-register/work/verilog/sr_chain_interface_2.v":85:2:85:7|Register bit M_sr_rest_cycles_q[26] is always 0.
-@W: CL260 :"/home/tumo/fpga-workspace/shift-register/work/verilog/sr_chain_interface_2.v":85:2:85:7|Pruning register bit 26 of M_sr_rest_cycles_q[26:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
-@N: CL189 :"/home/tumo/fpga-workspace/shift-register/work/verilog/sr_chain_interface_2.v":85:2:85:7|Register bit M_sr_rest_cycles_q[25] is always 0.
-@W: CL260 :"/home/tumo/fpga-workspace/shift-register/work/verilog/sr_chain_interface_2.v":85:2:85:7|Pruning register bit 25 of M_sr_rest_cycles_q[25:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL207 :"/home/tumo/fpga-workspace/shift-register/work/verilog/cu_top_0.v":52:4:52:5|All reachable assignments to sr_input_valid assign 1, register removed by optimization.
+@W: CL118 :"/home/tumo/fpga-workspace/shift-register/work/verilog/cu_top_0.v":52:4:52:5|Latch generated from always block for signal sr_data_to_send[7:0]; possible missing assignment in an if or case statement.
 
 At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 72MB peak: 73MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Fri Oct 28 20:53:31 2022
+# Sun Oct 30 12:28:49 2022
 
 ###########################################################]
 Synopsys Netlist Linker, version comp2016q3p1, Build 141R, built Dec  5 2016
@@ -51,7 +44,7 @@ At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Fri Oct 28 20:53:32 2022
+# Sun Oct 30 12:28:49 2022
 
 ###########################################################]
 @END
@@ -61,6 +54,6 @@ At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Fri Oct 28 20:53:32 2022
+# Sun Oct 30 12:28:49 2022
 
 ###########################################################]

@@ -12,7 +12,7 @@ pin led[5] LED5;
 pin led[6] LED6;
 pin led[7] LED7;
 
-pin trigger A48;
+pin trigger A42;
 
 // flip the Tx/Rx lines
 pin usb_tx USB_RX;

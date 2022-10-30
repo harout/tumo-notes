@@ -1,7 +1,7 @@
 /home/tumo/lscc/iCEcube2.2020.12/synpbase/bin/syn_nfilter  -link  -multisrs  /home/tumo/fpga-workspace/button-to-serial/work/alchitry_imp/synwork/cu_top_0_comp.srs  -osyn  /home/tumo/fpga-workspace/button-to-serial/work/alchitry_imp/synwork/cu_top_0_mult.srs  -log  /home/tumo/fpga-workspace/button-to-serial/work/alchitry_imp/synlog/cu_top_0_multi_srs_gen.srr 
-rc:0 success:1 runtime:1
-file:/home/tumo/fpga-workspace/button-to-serial/work/alchitry_imp/synwork/cu_top_0_comp.srs|io:i|time:1666574109|size:7983|exec:0
-file:/home/tumo/fpga-workspace/button-to-serial/work/alchitry_imp/synwork/cu_top_0_mult.srs|io:o|time:1666574111|size:3398|exec:0
-file:/home/tumo/fpga-workspace/button-to-serial/work/alchitry_imp/synlog/cu_top_0_multi_srs_gen.srr|io:o|time:1666574111|size:704|exec:0
+rc:0 success:1 runtime:0
+file:/home/tumo/fpga-workspace/button-to-serial/work/alchitry_imp/synwork/cu_top_0_comp.srs|io:i|time:1667163070|size:7965|exec:0
+file:/home/tumo/fpga-workspace/button-to-serial/work/alchitry_imp/synwork/cu_top_0_mult.srs|io:o|time:1667163071|size:3401|exec:0
+file:/home/tumo/fpga-workspace/button-to-serial/work/alchitry_imp/synlog/cu_top_0_multi_srs_gen.srr|io:o|time:1667163071|size:704|exec:0
 file:/home/tumo/lscc/iCEcube2.2020.12/synpbase/linux_a_64/syn_nfilter|io:i|time:1664816697|size:11473624|exec:1
 file:/home/tumo/lscc/iCEcube2.2020.12/synpbase/bin/syn_nfilter|io:i|time:1664984014|size:368|exec:1

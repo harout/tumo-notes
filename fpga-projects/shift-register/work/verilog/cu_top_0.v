@@ -9,11 +9,7 @@ module cu_top_0 (
     input rst_n,
     output reg sr_latch,
     output reg sr_data,
-    output reg sr_clk,
-    output reg [6:0] dout,
-    output reg last,
-    input usb_rx,
-    output reg usb_tx
+    output reg sr_clk
   );
   
   
@@ -45,19 +41,29 @@ module cu_top_0 (
     .clock(M_sr_chain_clock),
     .is_sending(M_sr_chain_is_sending)
   );
+  reg [7:0] M_count_d, M_count_q = 1'h0;
   
   always @* begin
-    sr_data = 1'h0;
-    sr_latch = 1'h0;
-    sr_clk = 1'h0;
-    last = 1'h0;
-    dout[0+0-:1] = M_sr_chain_clock;
-    dout[1+0-:1] = M_sr_chain_data;
-    dout[2+0-:1] = M_sr_chain_latch;
-    sr_input_valid = 1'h1;
-    sr_data_to_send = 8'hb8;
+    M_count_d = M_count_q;
+    
+    sr_clk = M_sr_chain_clock;
+    sr_data = M_sr_chain_data;
+    sr_latch = M_sr_chain_latch;
+    if (M_sr_chain_is_sending == 1'h0) begin
+      sr_input_valid = 1'h1;
+      sr_data_to_send = M_count_q;
+      M_count_d = M_count_q + 1'h1;
+    end
     M_reset_cond_in = ~rst_n;
     rst = M_reset_cond_out;
-    usb_tx = usb_rx;
   end
+  
+  always @(posedge clk) begin
+    if (rst == 1'b1) begin
+      M_count_q <= 1'h0;
+    end else begin
+      M_count_q <= M_count_d;
+    end
+  end
+  
 endmodule

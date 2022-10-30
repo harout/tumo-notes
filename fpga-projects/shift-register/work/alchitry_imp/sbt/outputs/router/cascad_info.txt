@@ -1,9 +1,9 @@
 [VIC]
 sr_chain.M_main_clock_count_d_0_sqmuxa_cascade_=ltout:in1
-sr_chain.M_sr_bit_d_0_sqmuxa_cascade_=ltout:in1
-sr_chain.M_sr_bit_d_1_sqmuxa_cascade_=ltout:in1
-sr_chain.latch_0_sqmuxa_1_0_cascade_=ltout:in2
-sr_chain.latch_0_sqmuxa_cascade_=ltout:in2
-sr_chain.un1_M_sr_clock_count_q_1_c2_cascade_=ltout:in0
+sr_chain.M_sr_bit_d12_m_0_cascade_=ltout:in0
+sr_chain.un1_M_sr_clock_count_q_1_c2_cascade_=ltout:in2
 sr_chain.un1_M_sr_clock_count_qlto3_0_cascade_=ltout:in3
-sr_chain.un1_M_sr_rest_cycles_q_7_0_cascade_=ltout:in3
+sr_chain_is_sending_0_clk_cascade_=ltout:in0
+un1_M_count_q_axbxc7_m4_0_a2_2_cascade_=ltout:in3
+un1_M_count_q_c2_cascade_=ltout:in3
+un1_M_count_q_c5_cascade_=ltout:in2

@@ -6,7 +6,7 @@
 
 * Build Date:         Dec 10 2020 17:24:17
 
-* File Generated:     Oct 28 2022 20:54:10
+* File Generated:     Oct 30 2022 12:29:23
 
 * Purpose:            Detailed IO and package pin info
 
@@ -33,9 +33,9 @@ A11, PIO, not used, , , , , , topBank
 A12, PIO, not used, , , , , , topBank
 A13, VPP_DIRECT, not used, , , , , , UnknownBank
 A14, VPP_PUMP, not used, , , , , , UnknownBank
-B1, PIO, dout[6], Output, , SB_LVCMOS, No Pull Up, Output Tristatable by Enable, leftBank
+B1, PIO, not used, , , , , , leftBank
 B14, PIO, not used, , , , , , rightBank
-C1, PIO, last, Output, , SB_LVCMOS, No Pull Up, Simple Output, leftBank
+C1, PIO, not used, , , , , , leftBank
 C3, PIO, not used, , , , , , leftBank
 C4, PIO, not used, , , , , , topBank
 C5, PIO, not used, , , , , , topBank
@@ -47,9 +47,9 @@ C10, PIO, not used, , , , , , topBank
 C11, PIO, not used, , , , , , topBank
 C12, PIO, not used, , , , , , topBank
 C14, PIO, not used, , , , , , rightBank
-D1, PIO, dout[2], Output, , SB_LVCMOS, No Pull Up, Simple Output, leftBank
+D1, PIO, sr_clk, Output, , SB_LVCMOS, No Pull Up, Simple Output, leftBank
 D3, PIO, not used, , , , , , leftBank
-D4, PIO, dout[0], Output, , SB_LVCMOS, No Pull Up, Simple Output, leftBank
+D4, PIO, sr_latch, Output, , SB_LVCMOS, No Pull Up, Simple Output, leftBank
 D5, PIO, not used, , , , , , topBank
 D6, PIO, not used, , , , , , topBank
 D7, PIO, not used, , , , , , topBank
@@ -59,15 +59,15 @@ D10, PIO, not used, , , , , , topBank
 D11, PIO, not used, , , , , , topBank
 D12, PIO, not used, , , , , , rightBank
 D14, PIO, not used, , , , , , rightBank
-E1, PIO, dout[3], Output, , SB_LVCMOS, No Pull Up, Output Tristatable by Enable, leftBank
+E1, PIO, not used, , , , , , leftBank
 E3, VCCIO_3, not used, , , , , , leftBank
 E4, PIO, not used, , , , , , leftBank
 E11, PIO, not used, , , , , , rightBank
 E12, PIO, not used, , , , , , rightBank
 E14, PIO, not used, , , , , , rightBank
 F1, GND, not used, , , , , , UnknownBank
-F3, PIO, dout[5], Output, , SB_LVCMOS, No Pull Up, Output Tristatable by Enable, leftBank
-F4, PIO, dout[4], Output, , SB_LVCMOS, No Pull Up, Output Tristatable by Enable, leftBank
+F3, PIO, not used, , , , , , leftBank
+F4, PIO, not used, , , , , , leftBank
 F6, VCCIO_0, not used, , , , , , topBank
 F7, GND, not used, , , , , , UnknownBank
 F8, VCC, not used, , , , , , UnknownBank
@@ -76,8 +76,8 @@ F11, PIO, not used, , , , , , rightBank
 F12, PIO, not used, , , , , , rightBank
 F14, PIO_GBIN, not used, , , , , , rightBank
 G1, PIO_GBIN, not used, , , , , , leftBank
-G3, PIO, sr_clk, Output, , SB_LVCMOS, No Pull Up, Simple Output, leftBank
-G4, PIO, dout[1], Output, , SB_LVCMOS, No Pull Up, Simple Output, leftBank
+G3, PIO, not used, , , , , , leftBank
+G4, PIO, sr_data, Output, , SB_LVCMOS, No Pull Up, Simple Output, leftBank
 G6, VCC, not used, , , , , , UnknownBank
 G7, GND, not used, , , , , , UnknownBank
 G8, GND, not used, , , , , , UnknownBank
@@ -85,8 +85,8 @@ G9, GND, not used, , , , , , UnknownBank
 G11, PIO, not used, , , , , , rightBank
 G12, PIO, not used, , , , , , rightBank
 G14, PIO_GBIN, not used, , , , , , rightBank
-H1, PIO_GBIN, sr_latch, Output, , SB_LVCMOS, No Pull Up, Simple Output, leftBank
-H3, PIO, sr_data, Output, , SB_LVCMOS, No Pull Up, Simple Output, leftBank
+H1, PIO_GBIN, not used, , , , , , leftBank
+H3, PIO, not used, , , , , , leftBank
 H4, PIO, not used, , , , , , leftBank
 H6, GND, not used, , , , , , UnknownBank
 H7, GND, not used, , , , , , UnknownBank
@@ -130,7 +130,7 @@ M5, VCCIO_2, not used, , , , , , bottomBank
 M6, PIO, not used, , , , , , bottomBank
 M7, PIO, not used, , , , , , bottomBank
 M8, AVDD_BOT, not used, , , , , , UnknownBank
-M9, PIO, usb_tx, Output, , SB_LVCMOS, No Pull Up, Simple Output, bottomBank
+M9, PIO, not used, , , , , , bottomBank
 M10, CDONE, not used, , , , , , bottomBank
 M11, SPI_SO, not used, , , , , , bottomBank
 M12, PIO, not used, , , , , , rightBank
@@ -150,5 +150,5 @@ P10, PIO, not used, , , , , , bottomBank
 P11, SPI_SI, not used, , , , , , bottomBank
 P12, SPI_SCK, not used, , , , , , bottomBank
 P13, SPI_SS_B, not used, , , , , , bottomBank
-P14, PIO, usb_rx, Input, , SB_LVCMOS, No Pull Up, Simple Input, rightBank
-Total Number of Used Pins, 15
+P14, PIO, not used, , , , , , rightBank
+Total Number of Used Pins, 5

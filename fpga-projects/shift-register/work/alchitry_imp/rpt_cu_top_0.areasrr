@@ -9,26 +9,26 @@ Part:			ICE40HX8KCB132 (Lattice)
 SEQUENTIAL ELEMENTS
 Name      Total elements     Utilization     Notes
 --------------------------------------------------
-FLOPS     62                 100 %                
+FLOPS     77                 100 %                
 ==================================================
-Total SEQUENTIAL ELEMENTS in the block cu_top_0:	62 (25.83 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block cu_top_0:	77 (28.31 % Utilization)
 
 
 COMBINATIONAL LOGIC
 Name       Total elements     Utilization     Notes
 ---------------------------------------------------
-LUTS       93                 100 %                
+LUTS       120                100 %                
 CARRYS     62                 100 %                
 ===================================================
-Total COMBINATIONAL LOGIC in the block cu_top_0:	155 (64.58 % Utilization)
+Total COMBINATIONAL LOGIC in the block cu_top_0:	182 (66.91 % Utilization)
 
 
 IO PADS
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-PADS     17                 100 %                
+PADS     7                  100 %                
 =================================================
-Total IO PADS in the block cu_top_0:	17 (7.08 % Utilization)
+Total IO PADS in the block cu_top_0:	7 (2.57 % Utilization)
 
 -------------------------------------------------------------------------
 ########   Utilization report for  cell:   reset_conditioner_1   ########
@@ -38,25 +38,25 @@ Instance path:   cu_top_0.reset_conditioner_1
 SEQUENTIAL ELEMENTS
 Name      Total elements     Utilization     Notes
 --------------------------------------------------
-FLOPS     4                  6.45 %               
+FLOPS     4                  5.19 %               
 ==================================================
-Total SEQUENTIAL ELEMENTS in the block cu_top_0.reset_conditioner_1:	4 (1.67 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block cu_top_0.reset_conditioner_1:	4 (1.47 % Utilization)
 
 
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-LUTS     4                  4.3 %                
+LUTS     4                  3.33 %               
 =================================================
-Total COMBINATIONAL LOGIC in the block cu_top_0.reset_conditioner_1:	4 (1.67 % Utilization)
+Total COMBINATIONAL LOGIC in the block cu_top_0.reset_conditioner_1:	4 (1.47 % Utilization)
 
 
 IO PADS
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-PADS     1                  5.88 %               
+PADS     1                  14.3 %               
 =================================================
-Total IO PADS in the block cu_top_0.reset_conditioner_1:	1 (0.42 % Utilization)
+Total IO PADS in the block cu_top_0.reset_conditioner_1:	1 (0.37 % Utilization)
 
 --------------------------------------------------------------------------
 ########   Utilization report for  cell:   sr_chain_interface_2   ########
@@ -66,26 +66,26 @@ Instance path:   cu_top_0.sr_chain_interface_2
 SEQUENTIAL ELEMENTS
 Name      Total elements     Utilization     Notes
 --------------------------------------------------
-FLOPS     58                 93.5 %               
+FLOPS     65                 84.4 %               
 ==================================================
-Total SEQUENTIAL ELEMENTS in the block cu_top_0.sr_chain_interface_2:	58 (24.17 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block cu_top_0.sr_chain_interface_2:	65 (23.90 % Utilization)
 
 
 COMBINATIONAL LOGIC
 Name       Total elements     Utilization     Notes
 ---------------------------------------------------
-LUTS       89                 95.7 %               
+LUTS       96                 80 %                 
 CARRYS     62                 100 %                
 ===================================================
-Total COMBINATIONAL LOGIC in the block cu_top_0.sr_chain_interface_2:	151 (62.92 % Utilization)
+Total COMBINATIONAL LOGIC in the block cu_top_0.sr_chain_interface_2:	158 (58.09 % Utilization)
 
 
 IO PADS
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-PADS     1                  5.88 %               
+PADS     1                  14.3 %               
 =================================================
-Total IO PADS in the block cu_top_0.sr_chain_interface_2:	1 (0.42 % Utilization)
+Total IO PADS in the block cu_top_0.sr_chain_interface_2:	1 (0.37 % Utilization)
 
 
 ##### END OF AREA REPORT #####]

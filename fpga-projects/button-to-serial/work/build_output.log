@@ -4,8 +4,8 @@ Running in Lattice mode
 
 Starting:    /home/tumo/lscc/iCEcube2.2020.12/synpbase/linux_a_64/mbin/synbatch
 Install:     /home/tumo/lscc/iCEcube2.2020.12/synpbase
-Hostname:    tumo-VivoBook-ASUSLaptop-E410KA-E410KA
-Date:        Sun Oct 23 18:15:09 2022
+Hostname:    tumo
+Date:        Sun Oct 30 13:51:09 2022
 Version:     L-2016.09L+ice40
 
 Arguments:   -product synplify_pro -batch /home/tumo/fpga-workspace/button-to-serial/work/alchitry_syn.prj
@@ -21,55 +21,55 @@ Running: alchitry_imp in foreground
 Running alchitry_syn|alchitry_imp
 
 Running: compile (Compile) on alchitry_syn|alchitry_imp
-# Sun Oct 23 18:15:09 2022
+# Sun Oct 30 13:51:09 2022
 
 Running: compile_flow (Compile Process) on alchitry_syn|alchitry_imp
-# Sun Oct 23 18:15:09 2022
+# Sun Oct 30 13:51:09 2022
 
 Running: compiler (Compile Input) on alchitry_syn|alchitry_imp
-# Sun Oct 23 18:15:09 2022
+# Sun Oct 30 13:51:09 2022
 Copied /home/tumo/fpga-workspace/button-to-serial/work/alchitry_imp/synwork/cu_top_0_comp.srs to /home/tumo/fpga-workspace/button-to-serial/work/alchitry_imp/cu_top_0.srs
 
 compiler completed
-# Sun Oct 23 18:15:10 2022
+# Sun Oct 30 13:51:11 2022
 
 Return Code: 0
-Run Time:00h:00m:01s
+Run Time:00h:00m:02s
 
 Running: multi_srs_gen (Multi-srs Generator) on alchitry_syn|alchitry_imp
-# Sun Oct 23 18:15:10 2022
+# Sun Oct 30 13:51:11 2022
 
 multi_srs_gen completed
-# Sun Oct 23 18:15:11 2022
+# Sun Oct 30 13:51:11 2022
 
 Return Code: 0
-Run Time:00h:00m:01s
+Run Time:00h:00m:00s
 Copied /home/tumo/fpga-workspace/button-to-serial/work/alchitry_imp/synwork/cu_top_0_mult.srs to /home/tumo/fpga-workspace/button-to-serial/work/alchitry_imp/cu_top_0.srs
 Complete: Compile Process on alchitry_syn|alchitry_imp
 
 Running: premap (Pre-mapping) on alchitry_syn|alchitry_imp
-# Sun Oct 23 18:15:11 2022
+# Sun Oct 30 13:51:11 2022
 
 premap completed
-# Sun Oct 23 18:15:11 2022
+# Sun Oct 30 13:51:11 2022
 
 Return Code: 0
 Run Time:00h:00m:00s
 Complete: Compile on alchitry_syn|alchitry_imp
 
 Running: map (Map) on alchitry_syn|alchitry_imp
-# Sun Oct 23 18:15:11 2022
+# Sun Oct 30 13:51:11 2022
 License granted for 4 parallel jobs
 
 Running: fpga_mapper (Map & Optimize) on alchitry_syn|alchitry_imp
-# Sun Oct 23 18:15:11 2022
+# Sun Oct 30 13:51:11 2022
 Copied /home/tumo/fpga-workspace/button-to-serial/work/alchitry_imp/synwork/cu_top_0_m.srm to /home/tumo/fpga-workspace/button-to-serial/work/alchitry_imp/cu_top_0.srm
 
 fpga_mapper completed with warnings
-# Sun Oct 23 18:15:12 2022
+# Sun Oct 30 13:51:13 2022
 
 Return Code: 1
-Run Time:00h:00m:01s
+Run Time:00h:00m:02s
 Complete: Map on alchitry_syn|alchitry_imp
 Complete: Logic Synthesis on alchitry_syn|alchitry_imp
 
@@ -98,7 +98,7 @@ write Timing Constraint to /home/tumo/fpga-workspace/button-to-serial/work/alchi
 EDIF Parser succeeded
 Top module is: cu_top_0
 
-EDF Parser run-time: 1 (sec)
+EDF Parser run-time: 0 (sec)
 /home/tumo/lscc/iCEcube2.2020.12/sbt_backend/bin/linux/opt/oaFSLockD: error while loading shared libraries: libelf.so.1: cannot open shared object file: No such file or directory
 
 Run sbtplacer ...
@@ -188,16 +188,16 @@ Device Utilization Summary after Packing
     PLLs                        :	0/2
 
 
-I2088: Phase 3, elapsed time : 0.2 (sec)
+I2088: Phase 3, elapsed time : 0.3 (sec)
 
 Phase 4
 I2088: Phase 4, elapsed time : 0.2 (sec)
 
 Phase 5
-I2088: Phase 5, elapsed time : 0.1 (sec)
+I2088: Phase 5, elapsed time : 0.2 (sec)
 
 Phase 6
-I2088: Phase 6, elapsed time : 36.9 (sec)
+I2088: Phase 6, elapsed time : 24.4 (sec)
 
 Final Design Statistics
     Number of LUTs      	:	100
@@ -214,7 +214,7 @@ Final Design Statistics
 
 Device Utilization Summary
     LogicCells                  :	100/7680
-    PLBs                        :	23/960
+    PLBs                        :	21/960
     BRAMs                       :	0/32
     IOs and GBIOs               :	12/95
     PLLs                        :	0/2
@@ -241,7 +241,7 @@ Clock: clk_0 | Frequency: 132.64 MHz | Target: 100.00 MHz
 
 I2054: Placement of design completed successfully
 
-I2076: Placer run-time: 37.7 sec.
+I2076: Placer run-time: 25.4 sec.
 
 /home/tumo/lscc/iCEcube2.2020.12/sbt_backend/bin/linux/opt/oaFSLockD: error while loading shared libraries: libelf.so.1: cannot open shared object file: No such file or directory
 
@@ -253,13 +253,13 @@ Build Date:     Dec 10 2020 17:24:46
 
 Begin Packing...
 initializing finish
-Total HPWL cost is 259
+Total HPWL cost is 518
 used logic cells: 100
 Translating sdc file /home/tumo/fpga-workspace/button-to-serial/work/alchitry_imp/sbt/outputs/placer/cu_top_0_pl.sdc...
 Translated sdc file is /home/tumo/fpga-workspace/button-to-serial/work/alchitry_imp/cu_top_0_pk.sdc
 Packer succeeded
 
-Packer run-time: 1 (sec)
+Packer run-time: 0 (sec)
 /home/tumo/lscc/iCEcube2.2020.12/sbt_backend/bin/linux/opt/oaFSLockD: error while loading shared libraries: libelf.so.1: cannot open shared object file: No such file or directory
 Ignore not existing derating file /home/tumo/fpga-workspace/button-to-serial/work/work_Impl/work_init.tcl
 
@@ -274,21 +274,21 @@ Build Date:     Dec 10 2020 17:31:26
 I1203: Reading Design cu_top_0
 Read design time: 0
 I1202: Reading Architecture of device iCE40HX8K
-Read device time: 13
+Read device time: 14
 I1209: Started routing
-I1223: Total Nets : 138 
-I1212: Iteration  1 :    33 unrouted : 0 seconds
-I1212: Iteration  2 :     2 unrouted : 0 seconds
-I1212: Iteration  3 :     0 unrouted : 0 seconds
+I1223: Total Nets : 139 
+I1212: Iteration  1 :    36 unrouted : 0 seconds
+I1212: Iteration  2 :     4 unrouted : 0 seconds
+I1212: Iteration  3 :     0 unrouted : 1 seconds
 I1215: Routing is successful
-Routing time: 1
+Routing time: 2
 I1206: Completed routing
 I1204: Writing Design cu_top_0
 Lib Closed
 I1210: Writing routes
 I1218: Exiting the router
-I1224: Router run-time : 14 seconds
- total           326292K
+I1224: Router run-time : 16 seconds
+ total           326268K
 /home/tumo/lscc/iCEcube2.2020.12/sbt_backend/bin/linux/opt/oaFSLockD: error while loading shared libraries: libelf.so.1: cannot open shared object file: No such file or directory
 
 Run bitmap ...
@@ -300,7 +300,7 @@ Build Date:     Dec 10 2020 17:45:52
 Bit Stream File Size: 1080760 (1M 31K 440 Bits)
 Bit Stream Generator succeeded
 
-Bitmap run-time: 2 (sec)
+Bitmap run-time: 1 (sec)
 /home/tumo/lscc/iCEcube2.2020.12/sbt_backend/bin/linux/opt/oaFSLockD: error while loading shared libraries: libelf.so.1: cannot open shared object file: No such file or directory
 
 Run netlister ...

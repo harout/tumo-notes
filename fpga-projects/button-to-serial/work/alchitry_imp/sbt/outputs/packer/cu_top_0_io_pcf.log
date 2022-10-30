@@ -1,5 +1,5 @@
 OUTPUT usb_tx 	 location (22, 0, 1) 	 M9 	 
-INPUT  trigger 	 location (0, 4, 1) 	 N1 	 
+INPUT  trigger 	 location (0, 16, 1) 	 H1 	 
 INPUT  rst_n 	 location (17, 0, 0) 	 P8 	 
 OUTPUT led[7] 	 location (33, 2, 1) 	 N14 	 
 OUTPUT led[6] 	 location (33, 1, 0) 	 M12 	 

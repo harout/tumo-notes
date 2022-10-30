@@ -3,11 +3,7 @@ module cu_top (
     input rst_n,            // reset button (active low)
     output sr_latch,
     output sr_data,
-    output sr_clk,
-    output dout[7],
-    output last,
-    input usb_rx,           // USB->Serial input
-    output usb_tx           // USB->Serial output
+    output sr_clk
   ) {
   
   sig rst;                  // reset signal
@@ -24,89 +20,26 @@ module cu_top (
                                   #WIDTH(8),
                                   .valid_input(sr_input_valid),
                                   .in_data(sr_data_to_send));
-      /*
-      sn74hc595 shift_register(#DIVIDE_BY(50000000),
-                              .input_valid(sr_input_valid),
-                              .data_to_send(data_out)); */
+      dff count[8](#INIT(0));
       
-      //sr_interface sr(#DIVIDE_BY(50000000));
-
-      //foo testfoo;
-    //dff lights[8](#INIT(1));
-    //dff counter[$clog2(50000000)](#INIT(0));
    }
     
 
   }
   
   always {
-    sr_data = 0;
-    sr_latch = 0;
-    sr_clk = 0;
-    last = 0;
+    sr_clk = sr_chain.clock;
+    sr_data = sr_chain.data;
+    sr_latch = sr_chain.latch;
     
-    dout[0] = sr_chain.clock;
-    dout[1] = sr_chain.data;
-    dout[2] = sr_chain.latch;
-    
-    sr_input_valid = 1;
-    sr_data_to_send = 8b10111000;
-    /*
-    dout = 7x{sr.out};
-    last = sr.sr_clk;
-    sr_latch = 0;//shift_register.sr_latch;
-    sr_clk = 0;//shift_register.sr_clk;
-    sr_data = 0;//shift_register.sr_data;
-    */    
-    
-        /*
-    if (reset_cond.out) {
-      lights.d = 1;
-    }*/
-
-    
-    /*
-    if (shift_register.is_busy == 0)
-    {
+    if (sr_chain.is_sending == 0) {
       sr_input_valid = 1;
-      data_out = 8b11011111;
-    } else {
-      sr_input_valid = 0;  
-    }*/
-    
-    
-    //sr_input_valid = 1;
-    //data_out = 8b10101010;
-    //led = testfoo.out;
-    //led = 8b11111111;
-    //led[0] = shift_register.sr_clk;
-    //led[1] = shift_register.sr_data;
-    /*
-    led = lights.q;
-    
-    //counter.d = counter.q + 1;
-    if (counter.q == 50000000) {
-      counter.d = 0;
-      
-      // Works
-      //lights.d = lights.q + 1;
-      
-      // Works with reset
-      //lights.d = lights.q + lights.q;
-      if (lights.q == 8b10000000) {
-        lights.d = 1;
-      }else{
-        lights.d = lights.q << 1;
-      }
-      
-      
+      //sr_data_to_send = 8b10101011;
+      sr_data_to_send = count.q;
+      count.d = count.q + 1;
     }
-    */   
+          
     reset_cond.in = ~rst_n; // input raw inverted reset signal
     rst = reset_cond.out;   // conditioned reset
-    
-    //led = 8h00;             // turn LEDs off
-
-    usb_tx = usb_rx;        // echo the serial data
   }
 }

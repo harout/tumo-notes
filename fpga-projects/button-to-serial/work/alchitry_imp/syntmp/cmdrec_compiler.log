@@ -1,13 +1,13 @@
 /home/tumo/lscc/iCEcube2.2020.12/synpbase/bin/c_hdl  -osyn  /home/tumo/fpga-workspace/button-to-serial/work/alchitry_imp/synwork/cu_top_0_comp.srs  -hdllog  /home/tumo/fpga-workspace/button-to-serial/work/alchitry_imp/synlog/cu_top_0_compiler.srr  -encrypt  -mp  4  -verification_mode 0  -verilog  -prodtype  synplify_pro  -primux -fixsmult -infer_seqShift -ice -sdff_counter -nram -divnmod -nostructver   -I /home/tumo/fpga-workspace/button-to-serial/work/  -I /home/tumo/lscc/iCEcube2.2020.12/synpbase/lib   -v2001  -devicelib  /home/tumo/lscc/iCEcube2.2020.12/synpbase/lib/generic/sb_ice40.v  -encrypt  -pro  -dmgen  /home/tumo/fpga-workspace/button-to-serial/work/alchitry_imp/dm  -ui -fid2 -ram -sharing on -ll 2000 -autosm  -lib work /home/tumo/fpga-workspace/button-to-serial/work/verilog/cu_top_0.v -lib work /home/tumo/fpga-workspace/button-to-serial/work/verilog/reset_conditioner_1.v -lib work /home/tumo/fpga-workspace/button-to-serial/work/verilog/button_conditioner_2.v -lib work /home/tumo/fpga-workspace/button-to-serial/work/verilog/edge_detector_3.v -lib work /home/tumo/fpga-workspace/button-to-serial/work/verilog/uart_tx_4.v -lib work /home/tumo/fpga-workspace/button-to-serial/work/verilog/pipeline_5.v 
-rc:0 success:1 runtime:1
-file:/home/tumo/fpga-workspace/button-to-serial/work/alchitry_imp/synwork/cu_top_0_comp.srs|io:o|time:1666574109|size:7983|exec:0
-file:/home/tumo/fpga-workspace/button-to-serial/work/alchitry_imp/synlog/cu_top_0_compiler.srr|io:o|time:1666574109|size:4756|exec:0
+rc:0 success:1 runtime:2
+file:/home/tumo/fpga-workspace/button-to-serial/work/alchitry_imp/synwork/cu_top_0_comp.srs|io:o|time:1667163070|size:7965|exec:0
+file:/home/tumo/fpga-workspace/button-to-serial/work/alchitry_imp/synlog/cu_top_0_compiler.srr|io:o|time:1667163070|size:4722|exec:0
 file:/home/tumo/lscc/iCEcube2.2020.12/synpbase/lib/generic/sb_ice40.v|io:i|time:1664816694|size:220434|exec:0
-file:/home/tumo/fpga-workspace/button-to-serial/work/verilog/cu_top_0.v|io:i|time:1666574109|size:1907|exec:0
-file:/home/tumo/fpga-workspace/button-to-serial/work/verilog/reset_conditioner_1.v|io:i|time:1666574109|size:717|exec:0
-file:/home/tumo/fpga-workspace/button-to-serial/work/verilog/button_conditioner_2.v|io:i|time:1666574109|size:972|exec:0
-file:/home/tumo/fpga-workspace/button-to-serial/work/verilog/edge_detector_3.v|io:i|time:1666574109|size:832|exec:0
-file:/home/tumo/fpga-workspace/button-to-serial/work/verilog/uart_tx_4.v|io:i|time:1666574109|size:2734|exec:0
-file:/home/tumo/fpga-workspace/button-to-serial/work/verilog/pipeline_5.v|io:i|time:1666574109|size:738|exec:0
+file:/home/tumo/fpga-workspace/button-to-serial/work/verilog/cu_top_0.v|io:i|time:1667163069|size:1911|exec:0
+file:/home/tumo/fpga-workspace/button-to-serial/work/verilog/reset_conditioner_1.v|io:i|time:1667163069|size:717|exec:0
+file:/home/tumo/fpga-workspace/button-to-serial/work/verilog/button_conditioner_2.v|io:i|time:1667163069|size:972|exec:0
+file:/home/tumo/fpga-workspace/button-to-serial/work/verilog/edge_detector_3.v|io:i|time:1667163069|size:832|exec:0
+file:/home/tumo/fpga-workspace/button-to-serial/work/verilog/uart_tx_4.v|io:i|time:1667163069|size:2734|exec:0
+file:/home/tumo/fpga-workspace/button-to-serial/work/verilog/pipeline_5.v|io:i|time:1667163069|size:738|exec:0
 file:/home/tumo/lscc/iCEcube2.2020.12/synpbase/linux_a_64/c_hdl|io:i|time:1664816695|size:5690328|exec:1
 file:/home/tumo/lscc/iCEcube2.2020.12/synpbase/bin/c_hdl|io:i|time:1664984014|size:367|exec:1

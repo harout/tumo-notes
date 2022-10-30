@@ -1,4 +1,4 @@
-# Sun Oct 23 18:15:11 2022
+# Sun Oct 30 13:51:11 2022
 
 Synopsys Lattice Technology Mapper, Version maplat, Build 1612R, Built Dec  5 2016 09:30:53
 Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
@@ -127,13 +127,13 @@ L-2016.09L+ice40
 Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 134MB)
 
 
-Start final timing analysis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:01s; Memory used current: 132MB peak: 134MB)
+Start final timing analysis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 132MB peak: 134MB)
 
 @N: MT615 |Found clock clk_0 with period 10.00ns 
 
 
 ##### START OF TIMING REPORT #####[
-# Timing Report written on Sun Oct 23 18:15:12 2022
+# Timing Report written on Sun Oct 30 13:51:12 2022
 #
 
 
@@ -225,10 +225,10 @@ btn_cond.M_ctr_q[17]     clk_0         SB_DFFSR     D       M_ctr_q_RNO[17]     
 btn_cond.M_ctr_q[16]     clk_0         SB_DFFSR     D       M_ctr_q_RNO[16]      9.895        -1.472
 btn_cond.M_ctr_q[15]     clk_0         SB_DFFSR     D       M_ctr_q_RNO[15]      9.895        -1.332
 uart_tx.M_state_q[0]     clk_0         SB_DFF       D       M_state_q_nss[0]     9.895        -1.297
-M_count_q[2]             clk_0         SB_DFFSR     D       M_count_q_RNO[2]     9.895        -1.269
-M_count_q[5]             clk_0         SB_DFFSR     D       M_count_q_RNO[5]     9.895        -1.269
-M_count_q[7]             clk_0         SB_DFFSR     D       M_count_q_RNO[7]     9.895        -1.269
-M_count_q[3]             clk_0         SB_DFFSR     D       M_count_q_RNO[3]     9.895        -1.206
+M_count_q[2]             clk_0         SB_DFFSR     D       M_count_q_RNO[2]     9.895        -1.290
+M_count_q[5]             clk_0         SB_DFFSR     D       M_count_q_RNO[5]     9.895        -1.290
+M_count_q[7]             clk_0         SB_DFFSR     D       M_count_q_RNO[7]     9.895        -1.290
+M_count_q[3]             clk_0         SB_DFFSR     D       M_count_q_RNO[3]     9.895        -1.227
 ====================================================================================================
 
 
@@ -764,6 +764,6 @@ Mapper successful!
 At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 26MB peak: 134MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
-# Sun Oct 23 18:15:12 2022
+# Sun Oct 30 13:51:12 2022
 
 ###########################################################]

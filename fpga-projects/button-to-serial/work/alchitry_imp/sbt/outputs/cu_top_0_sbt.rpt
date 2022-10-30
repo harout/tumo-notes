@@ -6,7 +6,7 @@
 
 * Build Date:         Dec 10 2020 17:24:17
 
-* File Generated:     Oct 23 2022 18:15:51
+* File Generated:     Oct 30 2022 13:51:39
 
 * Purpose:            General info of design implementation
 
@@ -17,7 +17,7 @@
 Synthesis/Placement Summary:
 ----------------------------
     Status:  Successful
-    Runtime: 1 seconds
+    Runtime: 0 seconds
 
 Device Info:
 ------------
@@ -40,7 +40,7 @@ Logic Resource Utilization:
     Total Logic Cells: 100/7680
         Combinational Logic Cells: 44       out of   7680      0.572917%
         Sequential Logic Cells:    56       out of   7680      0.729167%
-        Logic Tiles:               23       out of   960       2.39583%
+        Logic Tiles:               21       out of   960       2.1875%
     Registers: 
         Logic Registers:           56       out of   7680      0.729167%
         IO Registers:              0        out of   1280      0
@@ -65,7 +65,7 @@ Detailed I/O Info:
     Input Pins: 
     Pin Number  Direction  IO Standard  Pull Up  IO Bank  IO Function    Signal Name
     ----------  ---------  -----------  -------  -------  -----------    -----------
-    N1          Input      SB_LVCMOS    No       3        Simple Input   trigger  
+    H1          Input      SB_LVCMOS    No       3        Simple Input   trigger  
     P7          Input      SB_LVCMOS    No       2        Simple Input   clk      
     P8          Input      SB_LVCMOS    No       2        Simple Input   rst_n    
 
@@ -93,14 +93,14 @@ Detailed Global Buffer Info:
 Router Summary:
 ---------------
     Status:  Successful
-    Runtime: 14 seconds
+    Runtime: 16 seconds
 
 Routing Resource Utilization:
 -----------------------------
-              Local line of tile      674 out of 146184      0.461063%
-                          Span 4       46 out of  29696      0.154903%
-                         Span 12       11 out of   5632      0.195312%
+              Local line of tile      690 out of 146184      0.472008%
+                          Span 4       63 out of  29696      0.21215%
+                         Span 12       39 out of   5632      0.692472%
                   Global network        2 out of      8      25%
-      Vertical Inter-LUT Connect       21 out of   6720      0.3125%
+      Vertical Inter-LUT Connect       20 out of   6720      0.297619%
 
 

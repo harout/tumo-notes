@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project name="shift-register" board="Alchitry Cu" language="Lucid" version="3">
   <files>
-    <src>sn74hc595.luc</src>
     <src top="true">cu_top.luc</src>
     <component>uart_tx.luc</component>
     <component>reset_conditioner.luc</component>
-    <src>foo.luc</src>
-    <src>sr_interface.luc</src>
     <src>sr_chain_interface.luc</src>
     <constraint>alchitry.acf</constraint>
   </files>

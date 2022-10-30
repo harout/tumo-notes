@@ -6,7 +6,7 @@
 
 * Build Date:         Dec 10 2020 17:24:17
 
-* File Generated:     Oct 28 2022 20:54:10
+* File Generated:     Oct 30 2022 12:29:24
 
 * Purpose:            General info of design implementation
 
@@ -27,68 +27,58 @@ Device Info:
 
 Design statistics:
 ------------------
-    FFs:                  62
-    LUTs:                 119
+    FFs:                  77
+    LUTs:                 147
     RAMs:                 0
-    IOBs:                 15
+    IOBs:                 5
     GBs:                  3
     PLLs:                 0
     Warm Boots:           0
 
 Logic Resource Utilization:
 ---------------------------
-    Total Logic Cells: 131/7680
-        Combinational Logic Cells: 69       out of   7680      0.898438%
-        Sequential Logic Cells:    62       out of   7680      0.807292%
-        Logic Tiles:               24       out of   960       2.5%
+    Total Logic Cells: 159/7680
+        Combinational Logic Cells: 82       out of   7680      1.06771%
+        Sequential Logic Cells:    77       out of   7680      1.0026%
+        Logic Tiles:               34       out of   960       3.54167%
     Registers: 
-        Logic Registers:           62       out of   7680      0.807292%
+        Logic Registers:           77       out of   7680      1.0026%
         IO Registers:              0        out of   1280      0
     Block RAMs:                    0        out of   32        0%
     Warm Boots:                    0        out of   1         0%
     Pins:
-        Input Pins:                3        out of   95        3.15789%
-        Output Pins:               12       out of   95        12.6316%
+        Input Pins:                2        out of   95        2.10526%
+        Output Pins:               3        out of   95        3.15789%
         InOut Pins:                0        out of   95        0%
     Global Buffers:                3        out of   8         37.5%
     PLLs:                          0        out of   2         0%
 
 IO Bank Utilization:
 --------------------
-    Bank 3: 11       out of   24        45.8333%
-    Bank 1: 1        out of   25        4%
+    Bank 3: 3        out of   24        12.5%
+    Bank 1: 0        out of   25        0%
     Bank 0: 0        out of   24        0%
-    Bank 2: 3        out of   22        13.6364%
+    Bank 2: 2        out of   22        9.09091%
 
 Detailed I/O Info:
 ------------------
     Input Pins: 
-    Pin Number  Direction  IO Standard  Pull Up  IO Bank  IO Function                   Signal Name
-    ----------  ---------  -----------  -------  -------  -----------                   -----------
-    P7          Input      SB_LVCMOS    No       2        Simple Input                  clk       
-    P8          Input      SB_LVCMOS    No       2        Simple Input                  rst_n     
-    P14         Input      SB_LVCMOS    No       1        Simple Input                  usb_rx    
+    Pin Number  Direction  IO Standard  Pull Up  IO Bank  IO Function    Signal Name
+    ----------  ---------  -----------  -------  -------  -----------    -----------
+    P7          Input      SB_LVCMOS    No       2        Simple Input   clk       
+    P8          Input      SB_LVCMOS    No       2        Simple Input   rst_n     
 
     Output Pins: 
-    Pin Number  Direction  IO Standard  Pull Up  IO Bank  IO Function                   Signal Name
-    ----------  ---------  -----------  -------  -------  -----------                   -----------
-    B1          Output     SB_LVCMOS    No       3        Output Tristatable by Enable  dout[6]   
-    C1          Output     SB_LVCMOS    No       3        Simple Output                 last      
-    D1          Output     SB_LVCMOS    No       3        Simple Output                 dout[2]   
-    D4          Output     SB_LVCMOS    No       3        Simple Output                 dout[0]   
-    E1          Output     SB_LVCMOS    No       3        Output Tristatable by Enable  dout[3]   
-    F3          Output     SB_LVCMOS    No       3        Output Tristatable by Enable  dout[5]   
-    F4          Output     SB_LVCMOS    No       3        Output Tristatable by Enable  dout[4]   
-    G3          Output     SB_LVCMOS    No       3        Simple Output                 sr_clk    
-    G4          Output     SB_LVCMOS    No       3        Simple Output                 dout[1]   
-    H1          Output     SB_LVCMOS    No       3        Simple Output                 sr_latch  
-    H3          Output     SB_LVCMOS    No       3        Simple Output                 sr_data   
-    M9          Output     SB_LVCMOS    No       2        Simple Output                 usb_tx    
+    Pin Number  Direction  IO Standard  Pull Up  IO Bank  IO Function    Signal Name
+    ----------  ---------  -----------  -------  -------  -----------    -----------
+    D1          Output     SB_LVCMOS    No       3        Simple Output  sr_clk    
+    D4          Output     SB_LVCMOS    No       3        Simple Output  sr_latch  
+    G4          Output     SB_LVCMOS    No       3        Simple Output  sr_data   
 
 Detailed Global Buffer Info:
 ----------------------------
     Buffer Number  IO Bank  Driven By  Fanout  Signal Name      
     -------------  -------  ---------  ------  -----------      
-    6              2        IO         62      clk_c_g          
-    2              1                   25      sr_chain.N_36_g  
-    4              0                   25      N_100_g          
+    6              2        IO         77      clk_c_g          
+    2              1                   25      sr_chain.N_44_g  
+    4              0                   25      N_108_g          

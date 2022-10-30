@@ -6,7 +6,7 @@
 
 * Build Date:         Dec 10 2020 17:35:50
 
-* File Generated:     Oct 23 2022 18:15:13
+* File Generated:     Oct 30 2022 13:51:13
 
 * Purpose:            
 
@@ -95,16 +95,16 @@ Device Utilization Summary after Packing
     PLLs                        :	0/2
 
 
-I2088: Phase 3, elapsed time : 0.2 (sec)
+I2088: Phase 3, elapsed time : 0.3 (sec)
 
 Phase 4
 I2088: Phase 4, elapsed time : 0.2 (sec)
 
 Phase 5
-I2088: Phase 5, elapsed time : 0.1 (sec)
+I2088: Phase 5, elapsed time : 0.2 (sec)
 
 Phase 6
-I2088: Phase 6, elapsed time : 36.9 (sec)
+I2088: Phase 6, elapsed time : 24.4 (sec)
 
 Final Design Statistics
     Number of LUTs      	:	100
@@ -121,7 +121,7 @@ Final Design Statistics
 
 Device Utilization Summary
     LogicCells                  :	100/7680
-    PLBs                        :	23/960
+    PLBs                        :	21/960
     BRAMs                       :	0/32
     IOs and GBIOs               :	12/95
     PLLs                        :	0/2
@@ -148,5 +148,5 @@ Clock: clk_0 | Frequency: 132.64 MHz | Target: 100.00 MHz
 
 I2054: Placement of design completed successfully
 
-I2076: Placer run-time: 37.7 sec.
+I2076: Placer run-time: 25.4 sec.
 
