@@ -1,8 +1,12 @@
+#define LATCH_PIN 2
+#define CLOCK_PIN 3
+#define DATA_PIN 4
+
 void setup() {
   // set segment pins as OUTPUT
-  pinMode(2, OUTPUT);
-  pinMode(3, OUTPUT);
-  pinMode(4, OUTPUT);
+  pinMode(LATCH_PIN, OUTPUT);
+  pinMode(CLOCK_PIN, OUTPUT);
+  pinMode(DATA_PIN, OUTPUT);
   Serial.begin(9600);
 }
 
@@ -16,11 +20,22 @@ char segments[] = {0b11111110,
                    0b01111111};
 char toWrite = 0;
 void loop() {
-  digitalWrite(2, LOW);
-  shiftOut(4, 3, LSBFIRST, segments[toWrite]);
-  digitalWrite(2, HIGH);
+  int segmentToLight = Serial.read();
+  if (segmentToLight == -1) {
+    return;
+  }
+
+  if (segmentToLight < 48 || segmentToLight > 56) {
+    Serial.println("Use numbers between 0 and 8.");
+    return;
+  }
+
+  segmentToLight -= 48;
+  Serial.print("Will ligh segment ");
+  Serial.println(segmentToLight, DEC);
+
+  digitalWrite(LATCH_PIN, LOW);
+  shiftOut(DATA_PIN, CLOCK_PIN, LSBFIRST, segments[segmentToLight]);
+  digitalWrite(LATCH_PIN, HIGH);
   delay(25);
-  toWrite += 1;
-  toWrite %= 8;
-  Serial.println(toWrite, DEC);
 }
