@@ -3,7 +3,7 @@
 #OS: Linux 
 #Hostname: tumo
 
-# Fri Oct 28 20:53:31 2022
+# Sun Oct 30 12:28:49 2022
 
 #Implementation: alchitry_imp
 
@@ -32,22 +32,15 @@ Selecting top level module cu_top_0
 
 @N: CG364 :"/home/tumo/fpga-workspace/shift-register/work/verilog/cu_top_0.v":7:7:7:14|Synthesizing module cu_top_0 in library work.
 
-@W: CG134 :"/home/tumo/fpga-workspace/shift-register/work/verilog/cu_top_0.v":13:21:13:24|No assignment to bit 3 of dout
-@W: CG134 :"/home/tumo/fpga-workspace/shift-register/work/verilog/cu_top_0.v":13:21:13:24|No assignment to bit 4 of dout
-@W: CG134 :"/home/tumo/fpga-workspace/shift-register/work/verilog/cu_top_0.v":13:21:13:24|No assignment to bit 5 of dout
-@W: CG134 :"/home/tumo/fpga-workspace/shift-register/work/verilog/cu_top_0.v":13:21:13:24|No assignment to bit 6 of dout
-@W: CL157 :"/home/tumo/fpga-workspace/shift-register/work/verilog/cu_top_0.v":13:21:13:24|*Output dout has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the output.
-@N: CL189 :"/home/tumo/fpga-workspace/shift-register/work/verilog/sr_chain_interface_2.v":85:2:85:7|Register bit M_sr_rest_cycles_q[26] is always 0.
-@W: CL260 :"/home/tumo/fpga-workspace/shift-register/work/verilog/sr_chain_interface_2.v":85:2:85:7|Pruning register bit 26 of M_sr_rest_cycles_q[26:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
-@N: CL189 :"/home/tumo/fpga-workspace/shift-register/work/verilog/sr_chain_interface_2.v":85:2:85:7|Register bit M_sr_rest_cycles_q[25] is always 0.
-@W: CL260 :"/home/tumo/fpga-workspace/shift-register/work/verilog/sr_chain_interface_2.v":85:2:85:7|Pruning register bit 25 of M_sr_rest_cycles_q[25:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL207 :"/home/tumo/fpga-workspace/shift-register/work/verilog/cu_top_0.v":52:4:52:5|All reachable assignments to sr_input_valid assign 1, register removed by optimization.
+@W: CL118 :"/home/tumo/fpga-workspace/shift-register/work/verilog/cu_top_0.v":52:4:52:5|Latch generated from always block for signal sr_data_to_send[7:0]; possible missing assignment in an if or case statement.
 
 At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 72MB peak: 73MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Fri Oct 28 20:53:31 2022
+# Sun Oct 30 12:28:49 2022
 
 ###########################################################]
 Synopsys Netlist Linker, version comp2016q3p1, Build 141R, built Dec  5 2016
@@ -60,7 +53,7 @@ At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Fri Oct 28 20:53:32 2022
+# Sun Oct 30 12:28:49 2022
 
 ###########################################################]
 @END
@@ -70,7 +63,7 @@ At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Fri Oct 28 20:53:32 2022
+# Sun Oct 30 12:28:49 2022
 
 ###########################################################]
 Synopsys Netlist Linker, version comp2016q3p1, Build 141R, built Dec  5 2016
@@ -83,12 +76,12 @@ At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Fri Oct 28 20:53:33 2022
+# Sun Oct 30 12:28:50 2022
 
 ###########################################################]
 Pre-mapping Report
 
-# Fri Oct 28 20:53:33 2022
+# Sun Oct 30 12:28:51 2022
 
 Synopsys Lattice Technology Pre-mapping, Version maplat, Build 1612R, Built Dec  5 2016 09:30:53
 Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
@@ -113,10 +106,6 @@ Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00
 
 Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 103MB)
 
-@N: MO111 :"/home/tumo/fpga-workspace/shift-register/work/verilog/cu_top_0.v":38:23:38:30|Tristate driver dout_1 (in view: work.cu_top_0(verilog)) on net dout[6] (in view: work.cu_top_0(verilog)) has its enable tied to GND.
-@N: MO111 :"/home/tumo/fpga-workspace/shift-register/work/verilog/cu_top_0.v":38:23:38:30|Tristate driver dout_2 (in view: work.cu_top_0(verilog)) on net dout[5] (in view: work.cu_top_0(verilog)) has its enable tied to GND.
-@N: MO111 :"/home/tumo/fpga-workspace/shift-register/work/verilog/cu_top_0.v":38:23:38:30|Tristate driver dout_3 (in view: work.cu_top_0(verilog)) on net dout[4] (in view: work.cu_top_0(verilog)) has its enable tied to GND.
-@N: MO111 :"/home/tumo/fpga-workspace/shift-register/work/verilog/cu_top_0.v":38:23:38:30|Tristate driver dout_4 (in view: work.cu_top_0(verilog)) on net dout[3] (in view: work.cu_top_0(verilog)) has its enable tied to GND.
 
 ICG Latch Removal Summary:
 Number of ICG latches removed:	0
@@ -130,17 +119,16 @@ Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0
 Clock Summary
 *****************
 
-Start     Requested     Requested     Clock        Clock                Clock
-Clock     Frequency     Period        Type         Group                Load 
------------------------------------------------------------------------------
-clk_0     100.0 MHz     10.000        declared     default_clkgroup     69   
-=============================================================================
+Start      Requested     Requested     Clock        Clock                Clock
+Clock      Frequency     Period        Type         Group                Load 
+------------------------------------------------------------------------------
+System     1.0 MHz       1000.000      system       system_clkgroup      8    
+clk_0      100.0 MHz     10.000        declared     default_clkgroup     77   
+==============================================================================
+
+@W: MT531 :"/home/tumo/fpga-workspace/shift-register/work/verilog/cu_top_0.v":52:4:52:5|Found signal identified as System clock which controls 8 sequential elements including sr_data_to_send[7:0].  Using this clock, which has no specified timing constraint, can prevent conversion of gated or generated clocks and can adversely impact design performance. 
 
 Finished Pre Mapping Phase.
-@N: MO111 :"/home/tumo/fpga-workspace/shift-register/work/verilog/cu_top_0.v":38:23:38:30|Tristate driver dout_1 (in view: work.cu_top_0(verilog)) on net dout[6] (in view: work.cu_top_0(verilog)) has its enable tied to GND.
-@N: MO111 :"/home/tumo/fpga-workspace/shift-register/work/verilog/cu_top_0.v":38:23:38:30|Tristate driver dout_2 (in view: work.cu_top_0(verilog)) on net dout[5] (in view: work.cu_top_0(verilog)) has its enable tied to GND.
-@N: MO111 :"/home/tumo/fpga-workspace/shift-register/work/verilog/cu_top_0.v":38:23:38:30|Tristate driver dout_3 (in view: work.cu_top_0(verilog)) on net dout[4] (in view: work.cu_top_0(verilog)) has its enable tied to GND.
-@N: MO111 :"/home/tumo/fpga-workspace/shift-register/work/verilog/cu_top_0.v":38:23:38:30|Tristate driver dout_4 (in view: work.cu_top_0(verilog)) on net dout[3] (in view: work.cu_top_0(verilog)) has its enable tied to GND.
 @N: BN225 |Writing default property annotation file /home/tumo/fpga-workspace/shift-register/work/alchitry_imp/cu_top_0.sap.
 
 Starting constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
@@ -155,12 +143,12 @@ Pre-mapping successful!
 At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 47MB peak: 133MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
-# Fri Oct 28 20:53:33 2022
+# Sun Oct 30 12:28:51 2022
 
 ###########################################################]
 Map & Optimize Report
 
-# Fri Oct 28 20:53:33 2022
+# Sun Oct 30 12:28:51 2022
 
 Synopsys Lattice Technology Mapper, Version maplat, Build 1612R, Built Dec  5 2016 09:30:53
 Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
@@ -186,10 +174,6 @@ Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h
 
 Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 130MB peak: 133MB)
 
-@N: MO111 :"/home/tumo/fpga-workspace/shift-register/work/verilog/cu_top_0.v":38:23:38:30|Tristate driver dout_1 (in view: work.cu_top_0(verilog)) on net dout[6] (in view: work.cu_top_0(verilog)) has its enable tied to GND.
-@N: MO111 :"/home/tumo/fpga-workspace/shift-register/work/verilog/cu_top_0.v":38:23:38:30|Tristate driver dout_2 (in view: work.cu_top_0(verilog)) on net dout[5] (in view: work.cu_top_0(verilog)) has its enable tied to GND.
-@N: MO111 :"/home/tumo/fpga-workspace/shift-register/work/verilog/cu_top_0.v":38:23:38:30|Tristate driver dout_3 (in view: work.cu_top_0(verilog)) on net dout[4] (in view: work.cu_top_0(verilog)) has its enable tied to GND.
-@N: MO111 :"/home/tumo/fpga-workspace/shift-register/work/verilog/cu_top_0.v":38:23:38:30|Tristate driver dout_4 (in view: work.cu_top_0(verilog)) on net dout[3] (in view: work.cu_top_0(verilog)) has its enable tied to GND.
 
 Available hyper_sources - for debug and ip models
 	None Found
@@ -199,22 +183,16 @@ Available hyper_sources - for debug and ip models
             clk_0
 
 @W: FX1039 :"/home/tumo/fpga-workspace/shift-register/work/verilog/reset_conditioner_1.v":29:2:29:7|User-specified initial value defined for instance reset_cond.M_stage_q[3:0] is being ignored. 
-@W: FX1039 :"/home/tumo/fpga-workspace/shift-register/work/verilog/sr_chain_interface_2.v":85:2:85:7|User-specified initial value defined for instance sr_chain.M_main_clock_count_q[24:0] is being ignored. 
-@W: FX1039 :"/home/tumo/fpga-workspace/shift-register/work/verilog/sr_chain_interface_2.v":85:2:85:7|User-specified initial value defined for instance sr_chain.M_sr_rest_cycles_q[24:0] is being ignored. 
-@W: FX1039 :"/home/tumo/fpga-workspace/shift-register/work/verilog/sr_chain_interface_2.v":85:2:85:7|User-specified initial value defined for instance sr_chain.M_sr_bit_q is being ignored. 
-@W: FX1039 :"/home/tumo/fpga-workspace/shift-register/work/verilog/sr_chain_interface_2.v":85:2:85:7|User-specified initial value defined for instance sr_chain.M_sr_clock_count_q[4:0] is being ignored. 
-@W: FX1039 :"/home/tumo/fpga-workspace/shift-register/work/verilog/sr_chain_interface_2.v":85:2:85:7|User-specified initial value defined for instance sr_chain.M_sr_is_sending_q is being ignored. 
-@W: FX1039 :"/home/tumo/fpga-workspace/shift-register/work/verilog/sr_chain_interface_2.v":85:2:85:7|User-specified initial value defined for instance sr_chain.M_sr_data_buffer_q[7:0] is being ignored. 
+@W: FX1039 :"/home/tumo/fpga-workspace/shift-register/work/verilog/sr_chain_interface_2.v":86:2:86:7|User-specified initial value defined for instance sr_chain.M_main_clock_count_q[24:0] is being ignored. 
+@W: FX1039 :"/home/tumo/fpga-workspace/shift-register/work/verilog/sr_chain_interface_2.v":86:2:86:7|User-specified initial value defined for instance sr_chain.M_sr_rest_cycles_q[24:0] is being ignored. 
+@W: FX1039 :"/home/tumo/fpga-workspace/shift-register/work/verilog/sr_chain_interface_2.v":86:2:86:7|User-specified initial value defined for instance sr_chain.M_sr_clock_count_q[4:0] is being ignored. 
+@W: FX1039 :"/home/tumo/fpga-workspace/shift-register/work/verilog/sr_chain_interface_2.v":86:2:86:7|User-specified initial value defined for instance sr_chain.M_sr_bit_q is being ignored. 
+@W: FX1039 :"/home/tumo/fpga-workspace/shift-register/work/verilog/sr_chain_interface_2.v":86:2:86:7|User-specified initial value defined for instance sr_chain.M_sr_is_sending_q is being ignored. 
+@W: FX1039 :"/home/tumo/fpga-workspace/shift-register/work/verilog/sr_chain_interface_2.v":86:2:86:7|User-specified initial value defined for instance sr_chain.M_sr_data_buffer_q[7:0] is being ignored. 
+@W: FX1039 :"/home/tumo/fpga-workspace/shift-register/work/verilog/cu_top_0.v":61:2:61:7|User-specified initial value defined for instance M_count_q[7:0] is being ignored. 
 
 Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 130MB peak: 133MB)
 
-@W: BN132 :"/home/tumo/fpga-workspace/shift-register/work/verilog/sr_chain_interface_2.v":85:2:85:7|Removing instance sr_chain.M_sr_data_buffer_q[7] because it is equivalent to instance sr_chain.M_sr_data_buffer_q[5]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/tumo/fpga-workspace/shift-register/work/verilog/sr_chain_interface_2.v":85:2:85:7|Removing instance sr_chain.M_sr_data_buffer_q[5] because it is equivalent to instance sr_chain.M_sr_data_buffer_q[4]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/tumo/fpga-workspace/shift-register/work/verilog/sr_chain_interface_2.v":85:2:85:7|Removing instance sr_chain.M_sr_data_buffer_q[4] because it is equivalent to instance sr_chain.M_sr_data_buffer_q[3]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/tumo/fpga-workspace/shift-register/work/verilog/sr_chain_interface_2.v":85:2:85:7|Removing instance sr_chain.M_sr_data_buffer_q[6] because it is equivalent to instance sr_chain.M_sr_data_buffer_q[2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/tumo/fpga-workspace/shift-register/work/verilog/sr_chain_interface_2.v":85:2:85:7|Removing instance sr_chain.M_sr_data_buffer_q[2] because it is equivalent to instance sr_chain.M_sr_data_buffer_q[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/tumo/fpga-workspace/shift-register/work/verilog/sr_chain_interface_2.v":85:2:85:7|Removing instance sr_chain.M_sr_data_buffer_q[1] because it is equivalent to instance sr_chain.M_sr_data_buffer_q[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@N: BN362 :"/home/tumo/fpga-workspace/shift-register/work/verilog/sr_chain_interface_2.v":85:2:85:7|Removing sequential instance M_sr_data_buffer_q[0] (in view: work.sr_chain_interface_2(verilog)) because it does not drive other instances.
 
 Starting factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
 
@@ -234,7 +212,7 @@ Starting Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elaps
 Finished Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 133MB)
 
 
-Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 133MB)
 
 
 Finished preparing to map (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 133MB)
@@ -244,13 +222,72 @@ Finished technology mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:0
 
 Pass		 CPU time		Worst Slack		Luts / Registers
 ------------------------------------------------------------
-   1		0h:00m:00s		     2.69ns		 110 /        62
+   1		0h:00m:00s		     2.69ns		 124 /        77
 @N: FX1016 :"/home/tumo/fpga-workspace/shift-register/work/verilog/cu_top_0.v":8:10:8:12|SB_GB_IO inserted on the port clk.
-@N: FX1017 :|SB_GB inserted on the net N_36.
-@N: FX1017 :"/home/tumo/fpga-workspace/shift-register/work/verilog/sr_chain_interface_2.v":85:2:85:7|SB_GB inserted on the net N_100.
+@N: FX1017 :|SB_GB inserted on the net N_44.
+@N: FX1017 :"/home/tumo/fpga-workspace/shift-register/work/verilog/sr_chain_interface_2.v":86:2:86:7|SB_GB inserted on the net N_108.
+@W: FX1015 :|Unable to insert global buffer on net M_reset_cond_out[0] in view:work.cu_top_0(verilog) -- SB_GB already present on net.
 
 Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
 
+Warning: Found 8 combinational loops!
+@W: BN137 :|Found combinational loop during mapping at net sr_data_to_send[7]
+1) instance sr_data_to_send_latch[7] (in view: work.cu_top_0(verilog)), output net sr_data_to_send[7] (in view: work.cu_top_0(verilog))
+    net        sr_data_to_send[7]
+    input  pin sr_data_to_send_latch[7]/I1
+    instance   sr_data_to_send_latch[7] (cell SB_LUT4)
+    output pin sr_data_to_send_latch[7]/O
+    net        sr_data_to_send[7]
+@W: BN137 :|Found combinational loop during mapping at net sr_data_to_send[1]
+2) instance sr_data_to_send_latch[1] (in view: work.cu_top_0(verilog)), output net sr_data_to_send[1] (in view: work.cu_top_0(verilog))
+    net        sr_data_to_send[1]
+    input  pin sr_data_to_send_latch[1]/I1
+    instance   sr_data_to_send_latch[1] (cell SB_LUT4)
+    output pin sr_data_to_send_latch[1]/O
+    net        sr_data_to_send[1]
+@W: BN137 :|Found combinational loop during mapping at net sr_data_to_send[2]
+3) instance sr_data_to_send_latch[2] (in view: work.cu_top_0(verilog)), output net sr_data_to_send[2] (in view: work.cu_top_0(verilog))
+    net        sr_data_to_send[2]
+    input  pin sr_data_to_send_latch[2]/I1
+    instance   sr_data_to_send_latch[2] (cell SB_LUT4)
+    output pin sr_data_to_send_latch[2]/O
+    net        sr_data_to_send[2]
+@W: BN137 :|Found combinational loop during mapping at net sr_data_to_send[3]
+4) instance sr_data_to_send_latch[3] (in view: work.cu_top_0(verilog)), output net sr_data_to_send[3] (in view: work.cu_top_0(verilog))
+    net        sr_data_to_send[3]
+    input  pin sr_data_to_send_latch[3]/I1
+    instance   sr_data_to_send_latch[3] (cell SB_LUT4)
+    output pin sr_data_to_send_latch[3]/O
+    net        sr_data_to_send[3]
+@W: BN137 :|Found combinational loop during mapping at net sr_data_to_send[4]
+5) instance sr_data_to_send_latch[4] (in view: work.cu_top_0(verilog)), output net sr_data_to_send[4] (in view: work.cu_top_0(verilog))
+    net        sr_data_to_send[4]
+    input  pin sr_data_to_send_latch[4]/I1
+    instance   sr_data_to_send_latch[4] (cell SB_LUT4)
+    output pin sr_data_to_send_latch[4]/O
+    net        sr_data_to_send[4]
+@W: BN137 :|Found combinational loop during mapping at net sr_data_to_send[5]
+6) instance sr_data_to_send_latch[5] (in view: work.cu_top_0(verilog)), output net sr_data_to_send[5] (in view: work.cu_top_0(verilog))
+    net        sr_data_to_send[5]
+    input  pin sr_data_to_send_latch[5]/I1
+    instance   sr_data_to_send_latch[5] (cell SB_LUT4)
+    output pin sr_data_to_send_latch[5]/O
+    net        sr_data_to_send[5]
+@W: BN137 :|Found combinational loop during mapping at net sr_data_to_send[6]
+7) instance sr_data_to_send_latch[6] (in view: work.cu_top_0(verilog)), output net sr_data_to_send[6] (in view: work.cu_top_0(verilog))
+    net        sr_data_to_send[6]
+    input  pin sr_data_to_send_latch[6]/I1
+    instance   sr_data_to_send_latch[6] (cell SB_LUT4)
+    output pin sr_data_to_send_latch[6]/O
+    net        sr_data_to_send[6]
+@W: BN137 :|Found combinational loop during mapping at net sr_data_to_send[0]
+8) instance sr_data_to_send_latch[0] (in view: work.cu_top_0(verilog)), output net sr_data_to_send[0] (in view: work.cu_top_0(verilog))
+    net        sr_data_to_send[0]
+    input  pin sr_data_to_send_latch[0]/I1
+    instance   sr_data_to_send_latch[0] (cell SB_LUT4)
+    output pin sr_data_to_send_latch[0]/O
+    net        sr_data_to_send[0]
+End of loops
 
 Finished restoring hierarchy (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
 
@@ -261,15 +298,15 @@ Finished restoring hierarchy (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:
 
 #### START OF CLOCK OPTIMIZATION REPORT #####[
 
-1 non-gated/non-generated clock tree(s) driving 62 clock pin(s) of sequential element(s)
+1 non-gated/non-generated clock tree(s) driving 77 clock pin(s) of sequential element(s)
 0 gated/generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
 0 instances converted, 0 sequential instances remain driven by gated/generated clocks
 
-============================= Non-Gated/Non-Generated Clocks ==============================
-Clock Tree ID     Driving Element     Drive Element Type     Fanout     Sample Instance    
--------------------------------------------------------------------------------------------
-@K:CKID0001       clk_ibuf_gb_io      SB_GB_IO               62         sr_chain.M_sr_bit_q
-===========================================================================================
+=========================== Non-Gated/Non-Generated Clocks ============================
+Clock Tree ID     Driving Element     Drive Element Type     Fanout     Sample Instance
+---------------------------------------------------------------------------------------
+@K:CKID0001       clk_ibuf_gb_io      SB_GB_IO               77         M_count_q[0]   
+=======================================================================================
 
 
 ##### END OF CLOCK OPTIMIZATION REPORT ######]
@@ -292,11 +329,69 @@ Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:00s
 
 Start final timing analysis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 134MB)
 
+Warning: Found 8 combinational loops!
+@W: BN137 :|Found combinational loop during mapping at net sr_data_to_send[1]
+1) instance M_count_q_RNIL03U[1] (in view: work.cu_top_0(verilog)), output net sr_data_to_send[1] (in view: work.cu_top_0(verilog))
+    net        sr_data_to_send[1]
+    input  pin M_count_q_RNIL03U[1]/I1
+    instance   M_count_q_RNIL03U[1] (cell SB_LUT4)
+    output pin M_count_q_RNIL03U[1]/O
+    net        sr_chain.M_count_q_RNIL03U_0[1]
+@W: BN137 :|Found combinational loop during mapping at net sr_data_to_send[2]
+2) instance M_count_q_RNIM13U[2] (in view: work.cu_top_0(verilog)), output net sr_data_to_send[2] (in view: work.cu_top_0(verilog))
+    net        sr_data_to_send[2]
+    input  pin M_count_q_RNIM13U[2]/I1
+    instance   M_count_q_RNIM13U[2] (cell SB_LUT4)
+    output pin M_count_q_RNIM13U[2]/O
+    net        sr_chain.M_count_q_RNIM13U_0[2]
+@W: BN137 :|Found combinational loop during mapping at net sr_data_to_send[3]
+3) instance M_count_q_RNIN23U[3] (in view: work.cu_top_0(verilog)), output net sr_data_to_send[3] (in view: work.cu_top_0(verilog))
+    net        sr_data_to_send[3]
+    input  pin M_count_q_RNIN23U[3]/I1
+    instance   M_count_q_RNIN23U[3] (cell SB_LUT4)
+    output pin M_count_q_RNIN23U[3]/O
+    net        sr_chain.M_count_q_RNIN23U_0[3]
+@W: BN137 :|Found combinational loop during mapping at net sr_data_to_send[4]
+4) instance M_count_q_RNIO33U[4] (in view: work.cu_top_0(verilog)), output net sr_data_to_send[4] (in view: work.cu_top_0(verilog))
+    net        sr_data_to_send[4]
+    input  pin M_count_q_RNIO33U[4]/I1
+    instance   M_count_q_RNIO33U[4] (cell SB_LUT4)
+    output pin M_count_q_RNIO33U[4]/O
+    net        sr_chain.M_count_q_RNIO33U_0[4]
+@W: BN137 :|Found combinational loop during mapping at net sr_data_to_send[5]
+5) instance M_count_q_RNIP43U[5] (in view: work.cu_top_0(verilog)), output net sr_data_to_send[5] (in view: work.cu_top_0(verilog))
+    net        sr_data_to_send[5]
+    input  pin M_count_q_RNIP43U[5]/I1
+    instance   M_count_q_RNIP43U[5] (cell SB_LUT4)
+    output pin M_count_q_RNIP43U[5]/O
+    net        sr_chain.M_count_q_RNIP43U_0[5]
+@W: BN137 :|Found combinational loop during mapping at net sr_data_to_send[6]
+6) instance M_count_q_RNIQ53U[6] (in view: work.cu_top_0(verilog)), output net sr_data_to_send[6] (in view: work.cu_top_0(verilog))
+    net        sr_data_to_send[6]
+    input  pin M_count_q_RNIQ53U[6]/I1
+    instance   M_count_q_RNIQ53U[6] (cell SB_LUT4)
+    output pin M_count_q_RNIQ53U[6]/O
+    net        sr_chain.M_count_q_RNIQ53U_0[6]
+@W: BN137 :|Found combinational loop during mapping at net sr_data_to_send[7]
+7) instance M_count_q_RNIR63U[7] (in view: work.cu_top_0(verilog)), output net sr_data_to_send[7] (in view: work.cu_top_0(verilog))
+    net        sr_data_to_send[7]
+    input  pin M_count_q_RNIR63U[7]/I1
+    instance   M_count_q_RNIR63U[7] (cell SB_LUT4)
+    output pin M_count_q_RNIR63U[7]/O
+    net        sr_chain.M_count_q_RNIR63U_0[7]
+@W: BN137 :|Found combinational loop during mapping at net sr_data_to_send[0]
+8) instance M_count_q_RNIKV2U[0] (in view: work.cu_top_0(verilog)), output net sr_data_to_send[0] (in view: work.cu_top_0(verilog))
+    net        sr_data_to_send[0]
+    input  pin M_count_q_RNIKV2U[0]/I1
+    instance   M_count_q_RNIKV2U[0] (cell SB_LUT4)
+    output pin M_count_q_RNIKV2U[0]/O
+    net        sr_data_to_send[0]
+End of loops
 @N: MT615 |Found clock clk_0 with period 10.00ns 
 
 
 ##### START OF TIMING REPORT #####[
-# Timing Report written on Fri Oct 28 20:53:34 2022
+# Timing Report written on Sun Oct 30 12:28:52 2022
 #
 
 
@@ -391,7 +486,7 @@ sr_chain.M_main_clock_count_q[19]     clk_0         SB_DFFSR     D       M_main_
 sr_chain.M_main_clock_count_q[18]     clk_0         SB_DFFSR     D       M_main_clock_count_q_RNO[18]     9.895        -1.022
 sr_chain.M_main_clock_count_q[17]     clk_0         SB_DFFSR     D       M_main_clock_count_q_RNO[17]     9.895        -0.881
 sr_chain.M_main_clock_count_q[16]     clk_0         SB_DFFSR     D       M_main_clock_count_q_RNO[16]     9.895        -0.741
-sr_chain.M_sr_clock_count_q[2]        clk_0         SB_DFF       D       M_sr_clock_count_q_1             9.895        -0.608
+sr_chain.M_main_clock_count_q[15]     clk_0         SB_DFFSR     D       M_main_clock_count_q_RNO[15]     9.895        -0.601
 =============================================================================================================================
 
 
@@ -444,7 +539,7 @@ sr_chain.un1_M_sr_rest_cycles_q_1_5_c            SB_CARRY     CO       Out     0
 un1_M_sr_rest_cycles_q_1_5                       Net          -        -       0.014     -           1         
 sr_chain.un1_M_sr_rest_cycles_q_1_6_c            SB_CARRY     CI       In      -         4.465       -         
 sr_chain.un1_M_sr_rest_cycles_q_1_6_c            SB_CARRY     CO       Out     0.126     4.591       -         
-un1_M_sr_rest_cycles_q_1_6                       Net          -        -       0.386     -           21        
+un1_M_sr_rest_cycles_q_1_6                       Net          -        -       0.386     -           28        
 sr_chain.M_sr_is_sending_q_RNI73BG               SB_LUT4      I3       In      -         4.978       -         
 sr_chain.M_sr_is_sending_q_RNI73BG               SB_LUT4      O        Out     0.316     5.293       -         
 un1_M_sr_rest_cycles_q_3_0                       Net          -        -       0.905     -           2         
@@ -573,7 +668,7 @@ sr_chain.un1_M_sr_rest_cycles_q_1_5_c            SB_CARRY     CO       Out     0
 un1_M_sr_rest_cycles_q_1_5                       Net          -        -       0.014     -           1         
 sr_chain.un1_M_sr_rest_cycles_q_1_6_c            SB_CARRY     CI       In      -         4.416       -         
 sr_chain.un1_M_sr_rest_cycles_q_1_6_c            SB_CARRY     CO       Out     0.126     4.542       -         
-un1_M_sr_rest_cycles_q_1_6                       Net          -        -       0.386     -           21        
+un1_M_sr_rest_cycles_q_1_6                       Net          -        -       0.386     -           28        
 sr_chain.M_sr_is_sending_q_RNI73BG               SB_LUT4      I3       In      -         4.928       -         
 sr_chain.M_sr_is_sending_q_RNI73BG               SB_LUT4      O        Out     0.316     5.244       -         
 un1_M_sr_rest_cycles_q_3_0                       Net          -        -       0.905     -           2         
@@ -702,7 +797,7 @@ sr_chain.un1_M_sr_rest_cycles_q_1_5_c            SB_CARRY     CO       Out     0
 un1_M_sr_rest_cycles_q_1_5                       Net          -        -       0.014     -           1         
 sr_chain.un1_M_sr_rest_cycles_q_1_6_c            SB_CARRY     CI       In      -         4.395       -         
 sr_chain.un1_M_sr_rest_cycles_q_1_6_c            SB_CARRY     CO       Out     0.126     4.521       -         
-un1_M_sr_rest_cycles_q_1_6                       Net          -        -       0.386     -           21        
+un1_M_sr_rest_cycles_q_1_6                       Net          -        -       0.386     -           28        
 sr_chain.M_sr_is_sending_q_RNI73BG               SB_LUT4      I3       In      -         4.907       -         
 sr_chain.M_sr_is_sending_q_RNI73BG               SB_LUT4      O        Out     0.316     5.223       -         
 un1_M_sr_rest_cycles_q_3_0                       Net          -        -       0.905     -           2         
@@ -831,7 +926,7 @@ sr_chain.un1_M_sr_rest_cycles_q_1_5_c            SB_CARRY     CO       Out     0
 un1_M_sr_rest_cycles_q_1_5                       Net          -        -       0.014     -           1         
 sr_chain.un1_M_sr_rest_cycles_q_1_6_c            SB_CARRY     CI       In      -         4.332       -         
 sr_chain.un1_M_sr_rest_cycles_q_1_6_c            SB_CARRY     CO       Out     0.126     4.458       -         
-un1_M_sr_rest_cycles_q_1_6                       Net          -        -       0.386     -           21        
+un1_M_sr_rest_cycles_q_1_6                       Net          -        -       0.386     -           28        
 sr_chain.M_sr_is_sending_q_RNI73BG               SB_LUT4      I3       In      -         4.844       -         
 sr_chain.M_sr_is_sending_q_RNI73BG               SB_LUT4      O        Out     0.316     5.160       -         
 un1_M_sr_rest_cycles_q_3_0                       Net          -        -       0.905     -           2         
@@ -957,7 +1052,7 @@ sr_chain.un1_M_sr_rest_cycles_q_1_5_c            SB_CARRY     CO       Out     0
 un1_M_sr_rest_cycles_q_1_5                       Net          -        -       0.014     -           1         
 sr_chain.un1_M_sr_rest_cycles_q_1_6_c            SB_CARRY     CI       In      -         4.325       -         
 sr_chain.un1_M_sr_rest_cycles_q_1_6_c            SB_CARRY     CO       Out     0.126     4.451       -         
-un1_M_sr_rest_cycles_q_1_6                       Net          -        -       0.386     -           21        
+un1_M_sr_rest_cycles_q_1_6                       Net          -        -       0.386     -           28        
 sr_chain.M_sr_is_sending_q_RNI73BG               SB_LUT4      I3       In      -         4.837       -         
 sr_chain.M_sr_is_sending_q_RNI73BG               SB_LUT4      O        Out     0.316     5.153       -         
 un1_M_sr_rest_cycles_q_3_0                       Net          -        -       0.905     -           2         
@@ -1048,10 +1143,10 @@ Path delay compensated for clock skew. Clock skew is added to clock-to-out value
 Timing exceptions that could not be applied
 None
 
-Finished final timing analysis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 134MB)
+Finished final timing analysis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 133MB peak: 134MB)
 
 
-Finished timing report (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 134MB)
+Finished timing report (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 133MB peak: 134MB)
 
 ---------------------------------------
 Resource Usage Report for cu_top_0 
@@ -1060,33 +1155,34 @@ Mapping to part: ice40hx8kcb132
 Cell usage:
 GND             2 uses
 SB_CARRY        62 uses
-SB_DFF          10 uses
-SB_DFFSR        52 uses
+SB_DFF          7 uses
+SB_DFFESR       7 uses
+SB_DFFSR        63 uses
 SB_GB           2 uses
 VCC             2 uses
-SB_LUT4         93 uses
+SB_LUT4         120 uses
 
-I/O ports: 15
-I/O primitives: 15
+I/O ports: 5
+I/O primitives: 5
 SB_GB_IO       1 use
-SB_IO          14 uses
+SB_IO          4 uses
 
 I/O Register bits:                  0
-Register bits not including I/Os:   62 (0%)
+Register bits not including I/Os:   77 (1%)
 Total load per clock:
    clk_0: 1
 
 @S |Mapping Summary:
-Total  LUTs: 93 (1%)
+Total  LUTs: 120 (1%)
 
 Distribution of All Consumed LUTs = LUT4 
-Distribution of All Consumed Luts 93 = 93 
+Distribution of All Consumed Luts 120 = 120 
 
 Mapper successful!
 
-At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 27MB peak: 134MB)
+At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 27MB peak: 134MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
-# Fri Oct 28 20:53:34 2022
+# Sun Oct 30 12:28:52 2022
 
 ###########################################################]

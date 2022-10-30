@@ -1,12 +1,12 @@
 module sr_chain_interface 
-  #(WIDTH : WIDTH > 1,
+  #(WIDTH : WIDTH > 2,
     DIVIDE_BY : DIVIDE_BY > 1)
   (
     input clk,  // clock
     input rst,  // reset
-    input valid_input,
+    input valid_input, // flag from data supplier
     input in_data[WIDTH],
-    output data,
+    output data, 
     output latch,
     output clock,
     output is_sending
@@ -21,10 +21,9 @@ module sr_chain_interface
       dff main_clock_count[$clog2(DIVIDE_BY)];
       
       dff sr_clock_count[$clog2(WIDTH * 2) + 1](#INIT(0));
-      
       dff sr_is_sending;
       dff sr_bit;
-      dff sr_rest_cycles[$clog2(DIVIDE_BY * 4)];
+      dff sr_rest_cycles[$clog2(DIVIDE_BY)];
     }  
   }
   
@@ -54,7 +53,16 @@ module sr_chain_interface
       if (main_clock_count.q == DIVIDE_BY) {
         main_clock_count.d = 0;
         if (sr_clock_count.q[0] == 1) {
-          sr_bit.d = sr_data_buffer.q[WIDTH - 1 - ((sr_clock_count.q + 1) / 2)];   
+          // Calculated indexing
+          //sr_bit.d = sr_data_buffer.q[WIDTH - 1 - ((sr_clock_count.q + 1) / 2)]; 
+          
+          // Left shift
+          //sr_bit.d = sr_data_buffer.q[WIDTH - 2];
+          //sr_data_buffer.d = sr_data_buffer.q << 1;
+          
+          // Concatenation
+          sr_bit.d = sr_data_buffer.q[WIDTH - 2];
+          sr_data_buffer.d = c{sr_data_buffer.q[WIDTH - 2:0], 0};  
         }
         
         sr_clock_count.d = sr_clock_count.q + 1;

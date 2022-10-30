@@ -29,7 +29,7 @@ module sr_chain_interface_2 (
   reg [4:0] M_sr_clock_count_d, M_sr_clock_count_q = 1'h0;
   reg M_sr_is_sending_d, M_sr_is_sending_q = 1'h0;
   reg M_sr_bit_d, M_sr_bit_q = 1'h0;
-  reg [26:0] M_sr_rest_cycles_d, M_sr_rest_cycles_q = 1'h0;
+  reg [24:0] M_sr_rest_cycles_d, M_sr_rest_cycles_q = 1'h0;
   
   always @* begin
     M_main_clock_count_d = M_main_clock_count_q;
@@ -64,7 +64,8 @@ module sr_chain_interface_2 (
           if (M_main_clock_count_q == 25'h17d7840) begin
             M_main_clock_count_d = 1'h0;
             if (M_sr_clock_count_q[0+0-:1] == 1'h1) begin
-              M_sr_bit_d = M_sr_data_buffer_q[(5'h07 - ((M_sr_clock_count_q + 1'h1) / 2'h2))*1+0-:1];
+              M_sr_bit_d = M_sr_data_buffer_q[6+0-:1];
+              M_sr_data_buffer_d = {M_sr_data_buffer_q[0+6-:7], 1'h0};
             end
             M_sr_clock_count_d = M_sr_clock_count_q + 1'h1;
             if (M_sr_clock_count_q >= 7'h0f) begin

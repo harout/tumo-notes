@@ -4,19 +4,15 @@ clock clk 100MHz;
 pin rst_n RESET;
 
 
-pin sr_latch = A42;
-pin sr_data = A43;
-pin sr_clk = A9;
+pin sr_latch = A33;
+pin sr_data = A40;
+pin sr_clk = A12;
 
-pin dout[0] = A33;
-pin dout[1] = A40;
-pin dout[2] = A12;
-pin dout[3] = A11;
-pin dout[4] = A36;
-pin dout[5] = A37;
-pin dout[6] = A15;
-pin last = A14;
 
-// flip the Tx/Rx lines
-pin usb_rx USB_TX;
-pin usb_tx USB_RX;
+//pin dout[0] = A33;
+//pin dout[1] = A40;
+//pin dout[2] = A12;
+//pin dout[3] = A11;
+//pin dout[4] = A36;
+//pin dout[5] = A37;
+//pin dout[6] = A15;
