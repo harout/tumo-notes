@@ -6,7 +6,7 @@ Synopsys Verilog Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
 @N|Running in 64-bit mode
 Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
 
-Running on host :tumo-VivoBook-ASUSLaptop-E410KA-E410KA
+Running on host :tumo
 @I::"/home/tumo/lscc/iCEcube2.2020.12/synpbase/lib/generic/sb_ice40.v" (library work)
 @I::"/home/tumo/lscc/iCEcube2.2020.12/synpbase/lib/vlog/hypermods.v" (library __hyper__lib__)
 @I::"/home/tumo/lscc/iCEcube2.2020.12/synpbase/lib/vlog/umr_capim.v" (library snps_haps)
@@ -46,7 +46,7 @@ At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Sun Oct 23 18:15:09 2022
+# Sun Oct 30 13:51:10 2022
 
 ###########################################################]
 Synopsys Netlist Linker, version comp2016q3p1, Build 141R, built Dec  5 2016
@@ -59,7 +59,7 @@ At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Sun Oct 23 18:15:09 2022
+# Sun Oct 30 13:51:10 2022
 
 ###########################################################]
 @END
@@ -69,6 +69,6 @@ At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Sun Oct 23 18:15:09 2022
+# Sun Oct 30 13:51:10 2022
 
 ###########################################################]

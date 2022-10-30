@@ -60,7 +60,7 @@ module cu_top_0 (
     rst = M_reset_cond_out;
     M_btn_cond_in = trigger;
     M_click_dtct_in = M_btn_cond_out;
-    led = 8'h00;
+    led = M_count_q;
     usb_tx = M_uart_tx_tx;
     M_uart_tx_data = 1'h0;
     M_uart_tx_new_data = 1'h0;

@@ -1,7 +1,7 @@
 module cu_top (
     input clk,              // 100MHz clock
     input rst_n,            // reset button (active low)
-    output led [8],         // 8 user controllable LEDs
+    output led[8],         // 8 user controllable LEDs
     output usb_tx,           // USB->Serial output
     input trigger
   ) {
@@ -28,7 +28,7 @@ module cu_top (
     btn_cond.in = trigger;
     click_dtct.in = btn_cond.out;
     
-    led = 8h00;
+    led = count.q;
     usb_tx = uart_tx.tx;
     uart_tx.data = 0;
     uart_tx.new_data = 0;
@@ -38,7 +38,6 @@ module cu_top (
       count.d = count.q + 1;
       uart_tx.new_data = 1;
       uart_tx.data = count.q;
-      led = count.q;
     }   
   }
 }

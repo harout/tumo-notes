@@ -6,7 +6,7 @@
 
 * Build Date:         Dec 10 2020 17:24:17
 
-* File Generated:     Oct 23 2022 18:15:51
+* File Generated:     Oct 30 2022 13:51:39
 
 * Purpose:            Detailed IO and package pin info
 
@@ -85,7 +85,7 @@ G9, GND, not used, , , , , , UnknownBank
 G11, PIO, not used, , , , , , rightBank
 G12, PIO, not used, , , , , , rightBank
 G14, PIO_GBIN, not used, , , , , , rightBank
-H1, PIO_GBIN, not used, , , , , , leftBank
+H1, PIO_GBIN, trigger, Input, , SB_LVCMOS, No Pull Up, Simple Input, leftBank
 H3, PIO, not used, , , , , , leftBank
 H4, PIO, not used, , , , , , leftBank
 H6, GND, not used, , , , , , UnknownBank
@@ -135,7 +135,7 @@ M10, CDONE, not used, , , , , , bottomBank
 M11, SPI_SO, not used, , , , , , bottomBank
 M12, PIO, led[6], Output, , SB_LVCMOS, No Pull Up, Simple Output, rightBank
 M14, TRST_B, not used, , , , , , rightBank
-N1, PIO, trigger, Input, , SB_LVCMOS, No Pull Up, Simple Input, leftBank
+N1, PIO, not used, , , , , , leftBank
 N14, PIO, led[7], Output, , SB_LVCMOS, No Pull Up, Simple Output, rightBank
 P1, PIO, not used, , , , , , leftBank
 P2, PIO, not used, , , , , , bottomBank

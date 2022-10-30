@@ -1,7 +1,7 @@
 #--  Synopsys, Inc.
 #--  Version L-2016.09L+ice40
 #--  Project file /home/tumo/fpga-workspace/button-to-serial/work/alchitry_imp/run_options.txt
-#--  Written on Sun Oct 23 18:15:09 2022
+#--  Written on Sun Oct 30 13:51:09 2022
 
 
 #project files
